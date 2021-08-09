@@ -1,0 +1,938 @@
+version: "2.0"
+nlu:
+- intent: chitchat/react_negative
+  examples: |
+    - điều này tệ đây
+    - bạn khá tệ
+    - xấu
+    - bot là cậu bé hư
+    - trò đùa của bot thật nhảm nhí
+    - tôi giận bạn
+    - tôi buồn về điều đó
+    - bot làm tôi tan nát trái tim của tôi
+    - bot có nghĩ rằng tôi rất rất buồn không
+    - bạn thật tệ
+    - bạn là bot xấu
+    - bạn làm tôi buồn
+    - Bạn điên rồi
+    - Bạn thật thô lỗ
+    - bot thật xấu xa
+    - tôi không quan tâm !!!!
+    - tôi không thích bot
+    - đây là một trải nghiệm thực sự bực bội
+    - bạn khá là đần độn
+    - tôi không muốn nói chuyện với bot nữa
+    - Mặc dù tôi hiểu rằng bạn vẫn đang phát triển, nhưng tôi vẫn cảm thấy một chút thất vọng
+    - chắc chắn bạn không thông minh như tôi nghĩ
+    - Tôi đang cảm thấy không ổn lắm
+    - thật là thô lỗ
+    - thật đáng buồn
+    - nhàm chán quá
+    - bạn đừng làm phiền tôi
+    - đừng quá ngu ngốc
+    - bạn không nên ngu ngốc như vậy
+    - hi vọng bạn đừng trở nên vô dụng
+    - đừng trở nên vô dụng
+    - đừng như vậy nữa
+    - đừng phạm sai lầm nữa
+    - đừng quá ngốc nghếch
+    - đừng làm phiền
+    - ngốc nghếch
+    - ngu ngốc như thường lệ
+    - bạn ngu ngốc
+    - [siri](bot) làm tốt hơn
+    - đừng như một thằng ngốc
+    - đau khổ
+    - [siri](bot) làm việc tốt hơn bạn
+    - [siri](bot) tốt hơn
+    - [siri](bot) cao cấp hơn bạn
+    - [siri](bot) vượt trội hơn bạn
+    - [siri](bot) là thực sự tốt hơn
+    - [siri](bot) là lựa chọn tốt hơn ở đây
+    - đừng có quá lố bịch
+    - [siri](bot) thông minh hơn bạn
+    - đừng quá què
+    - bắt đầu làm việc đúng cách
+    - đừng quá tệ
+    - đừng quá kinh khủng
+    - khủng khiếp như thường lệ
+    - siri là cách tốt hơn bạn
+    - tại sao bạn không thể giống như [siri](bot)
+    - tại sao bạn không thể tốt như [siri](bot)
+    - tại sao bạn không thể giỏi như [siri](bot)
+    - tại sao bạn không thể giống [siri](bot) hơn
+    - tại sao bạn vô dụng
+    - vô giá trị như bình thường
+    - bạn là một kẻ ngốc
+    - bạn là một trò đùa
+    - bạn thực sự khủng khiếp
+    - bạn thực sự xấu
+    - tại sao bạn lại ngốc thế
+    - vô dụng như thường lệ
+    - Có chuyện gì với bạn vậy
+    - tại sao bạn lại khó chịu
+    - tại sao bạn quá tệ
+    - tại sao bạn lại tệ thế này
+    - tại sao bạn lại vô lý
+    - Tại sao mày ngu thế
+    - tại sao bạn quá ngu ngốc
+    - bixby là cách tốt hơn
+    - xấu như thường lệ
+    - [siri](bot) làm việc này tốt hơn
+    - bạn đang kéo chân tôi
+    - bạn có chậm không
+    - bạn là đồ ngốc
+    - mày là thằng ngu à
+    - bạn thật ngốc
+    - bạn đang nói đùa
+    - tại sao bạn lại có thể tệ đến thế
+    - tôi không thể coi trọng bạn
+    - tôi ước bạn là [siri](bot)
+    - tôi ước bạn có thể giống như [siri](bot)
+    - bạn thật là ngốc
+    - câm đi
+    - bạn không tốt bằng [siri](bot)
+    - Bạn thật kinh khủng
+    - bạn thật kinh khủng về điều này
+    - bạn không đủ năng lực
+    - Bạn đang đùa, phải không
+    - bạn đang đùa tôi à
+    - bạn nói những điều lố bịch
+    - bạn xấu thật
+    - bạn không thông minh
+    - bạn không thông minh lắm phải không
+    - bạn khập khiễng
+    - bạn nói những điều tồi tệ nhất
+    - bạn thực sự ngu ngốc
+    - bạn nói những điều khủng khiếp
+    - bạn nói những điều lố bịch nhất
+    - bạn nói những điều ngu ngốc nhất
+    - bạn xấu về điều này
+    - bạn nói những điều vô ích
+    - bạn nói những điều vô giá trị
+    - bạn thật tồi tệ
+    - bạn thật kinh khủng
+    - bạn nói những điều vô giá trị nhất
+    - bạn ngốc quá
+    - bạn thực sự vô dụng
+    - bạn thật lố bịch
+    - bạn rất tệ trong việc này
+    - bạn thực sự vô lý
+    - bạn thật vô dụng
+    - bạn thực sự khập khiễng
+    - bạn thật tồi tệ về điều này
+    - bạn là người tồi tệ nhất
+    - bạn là đồ vô dụng
+    - bạn vô dụng
+    - bạn phải đùa
+    - bạn thật là ngớ ngẩn
+    - bạn khá vô dụng
+    - bạn nói những điều khập khiễng
+    - bạn khá khập khiễng
+    - bạn khá là tồi tệ nhất
+    - bạn thực sự khó chịu
+    - bạn khá là ngu ngốc
+    - bạn nói những điều ngu ngốc
+    - bạn bất tài
+    - bạn là khá nhiều điều tồi tệ nhất
+    - tao ghét mày
+    - bạn khá là kinh khủng
+    - bạn đang gây phiền nhiễu
+    - bạn thật khập khiễng
+    - bạn thật ngu ngốc
+    - bạn thật là kinh khủng
+    - bạn thật sự vô dụng
+    - bạn thật là tồi tệ
+    - bạn là bot tồi tệ nhất
+    - Bạn là vô giá trị
+    - bạn không biết gì hết
+    - bạn không biết gì cả
+    - bạn nói những điều xấu
+    - bạn là tồi tệ nhất
+    - bạn thật phiền phức
+    - bạn đang thực sự ngu ngốc
+    - bạn rất ngu ngốc
+    - bạn thực sự vô giá trị
+- intent: chitchat/react_positive
+  examples: |
+    - :)
+    - : D
+    - haha
+    - tôi hạnh phúc
+    - cười lớn
+    - cái này buồn cười thật
+    - có vẻ tốt đẹp
+    - bạn tuyệt lắm
+    - bạn thật dễ thương
+    - bạn tốt
+    - bạn thật tuyệt
+    - ha ha
+    - hahah
+    - hahaha
+    - vui mừng
+    - tôi đang cảm thấy hạnh phúc
+    - Hôm nay tôi hạnh phúc
+    - tôi rất vui với câu trả lời của bạn
+    - Tôi mến bạn
+    - nó khá tuyệt
+    - yêu bạn
+    - thật là một bản demo tuyệt vời
+    - thật là buồn cười
+    - đó là một sự tương tác tuyệt vời
+    - bạn là một con bot xấu
+    - bạn thật tuyệt vời
+    - bạn là người đàn ông tuyệt vời
+    - bạn đang làm rất tốt
+    - Bạn vui tính
+    - bạn là bạn thân mới của tôi
+    - bạn có vẻ khá tuyệt: D
+    - tôi thích bạn
+    - bạn thực sự thông minh
+    - hèhè
+    - Giống như bạn
+    - bạn thật thông minh
+    - thật tuyệt vời
+    - hiểu rồi
+    - bạn gỏi lắm
+    - thông tin tuyệt vời
+    - tôi muốn nói rằng tôi thích lời giải thích
+    - hehe
+    - hoho
+    - đó là một câu trả lời thông minh
+    - điều đó rất sắc sảo
+    - đó là một câu trả lời khá thông minh
+    - đó là một câu trả lời thiên tài
+    - đó là một câu trả lời khá xuất sắc
+    - đó là một câu trả lời khá sắc sảo
+    - đó là một phản ứng thiên tài
+    - đó là một phản ứng thông minh
+    - đó là một phản ứng tuyệt vời
+    - đó là một câu trả lời tuyệt vời
+    - điều đó rất thông minh
+    - đó là rất thiên tài
+    - bạn có thông minh không
+    - đó là một phản ứng sắc sảo
+    - đó là một câu trả lời rất sắc sảo
+    - điều đó khá thông minh
+    - đó là khá thông minh
+    - đó là một thiên tài
+    - điều đó thật tuyệt vời
+    - đó là một câu trả lời sắc sảo
+    - đó là một phản ứng rất thông minh
+    - đó là một phản ứng rất thiên tài
+    - đó là một phản ứng rất xuất sắc
+    - đó là một phản ứng rất sắc sảo
+    - bạn không sắc sảo
+    - nhìn bạn thật thông minh
+    - bạn thông minh đến mức nào
+    - không phải bạn là người thông minh
+    - đó là một câu trả lời rất xuất sắc
+    - không thông minh
+    - không phải bạn là một người thông minh
+    - không phải bạn thông minh
+    - bạn không phải là thiên tài
+    - aren bạn thông minh
+    - đó là một câu trả lời rất thông minh
+    - đó là khá rực rỡ
+    - đó là khá sắc sảo
+    - đó là một điều rất thông minh để nói
+    - đó là một điều rất sắc sảo để nói
+    - đó là một điều rất thiên tài để nói
+    - đó là một câu trả lời rất thiên tài
+    - đó là một điều rất tuyệt vời để nói
+    - thật là một điều thông minh để nói
+    - bạn là một thiên tài
+    - bạn là một thiên tài kỳ dị
+    - bạn có vẻ rất thông minh
+    - bạn phải đứng đầu lớp
+    - bạn sắc như dao cạo
+    - bạn thật xuất sắc
+    - thật là một điều sắc sảo để nói
+    - thật là một thiên tài
+    - thật là một điều thiên tài để nói
+    - thật là một điều tuyệt vời để nói
+    - bạn là một người thông minh thực sự
+    - bạn rất sáng
+    - bạn rất thông minh
+    - bạn thật là một chiếc quần thông minh
+    - bạn thật là thông minh
+    - bạn thật là một thiên tài
+    - bạn là một người thực sự
+    - bạn thật sắc sảo
+    - điều đó rất sắc nét
+    - bạn thông minh
+    - bạn sắc sảo
+    - bạn sắc sảo như một chiến thuật
+    - bạn khá thông minh
+    - bạn là một cookie thông minh
+    - bạn đang ở trên bóng
+    - thật là sắc sảo
+    - đó là một phản ứng rất tuyệt vời
+    - đó là điều thông minh nhất mà mọi người từng viết
+    - đó là điều thông minh nhất tôi từng thấy
+    - Thật khéo léo
+    - đó là điều thông minh nhất tôi từng nghe
+    - đó là thiên tài
+    - đó là điều thông minh nhất mà mọi người từng nói với tôi
+    - đó là điều thông minh nhất mà mọi người từng nói
+    - thật thông minh
+    - thật là thiên tài
+    - đó là điều thông minh nhất tôi từng đọc
+    - Đó là rad
+    - Bạn thật tuyệt
+    - làm tốt
+    - công việc xuất sắc
+    - câu trả lời hoàn hảo
+    - phản ứng hoàn hảo
+    - đó là vui nhộn
+    - điều đó thật tuyệt
+    - thật tuyệt
+    - Điều đó thật buồn cười
+    - điều đó thật tốt
+    - công việc tốt
+    - đó là cảm ơn tuyệt vời vì đã làm tôi cười
+    - điều này mang lại cho tôi hạnh phúc
+    - bạn ổn
+    - bạn thật vui tính
+    - con đường để đi
+    - làm tốt lắm bạn của tôi
+    - thật là một câu trả lời hay
+    - thật là một phản ứng tốt
+    - thật là một câu trả lời tuyệt vời
+    - thật là một phản ứng tuyệt vời
+    - tôi không thể ấn tượng hơn với bạn
+    - nhưng câu trả lời của bạn không tệ
+    - câu trả lời tốt!
+    - phản ứng tốt!
+    - làm tốt lắm!
+    - Bạn đã làm rất tốt
+    - haha thật thú vị
+    - bạn có thể nhận được nhiều hơn thế nào
+    - công việc tốt đẹp!
+    - tôi nói chuyện rất vui
+    - thật là một sinh vật đáng khích lệ :)
+    - tôi thấy hạnh phúc khi nói chuyện
+    - tôi yêu chatbot cá tính
+    - tôi rất vui khi nói
+    - tôi nghĩ bạn thật phi thường
+    - tôi nghĩ bạn rất tuyệt
+    - tôi nghĩ bạn thật ngoạn mục
+    - tôi là fan
+    - tôi là fan hâm mộ lớn nhất của bạn
+    - ấn tượng mặc dù
+    - tôi ấn tượng
+    - tôi là người hâm mộ
+    - bạn tuyệt vời
+    - bạn thật ngoạn mục
+    - bạn là sao
+    - bạn là những con ong đầu gối
+    - bạn là nhất
+    - bạn là đỉnh cao
+    - bạn đá
+    - bạn thật tuyệt vời!
+    - thật là một câu trả lời hoàn hảo
+    - bạn thật hài hước :)
+    - bạn là rad
+    - bạn rất vui nhộn
+    - bạn thật phi thường
+    - bạn thật hài hước
+    - bạn là tốt nhất bao giờ hết!
+    - bạn là thần thánh
+    - bạn đang bay
+    - những điều tuyệt vời để nói
+    - Uầy bạn thật là tuyệt vời
+    - wow bạn thật phi thường
+    - wow bạn thật tuyệt!
+    - wow, điều đó cho thấy sự thông minh hơn mong đợi
+    - wow, bạn thật tuyệt vời!
+    - bạn là một viên ngọc
+    - bạn là người giữ
+    - bạn là một viên ngọc thực sự
+    - bạn đơn giản là tuyệt vời
+    - bạn là đồ ngốc
+    - Bạn vui tính :)
+    - bạn chỉ là thần thánh
+    - bạn là yêu thích của tôi
+    - bạn đẹp lắm!
+    - thật là một phản ứng hoàn hảo
+    - heh heh
+    - lololol
+    - lmao
+    - tôi đang cười rất nhiều
+    - tôi đang cười
+    - tôi đang nứt
+    - tôi không thể ngừng cười
+    - ha
+    - vui nhộn
+    - ồ bạn vui tính
+    - heh
+    - anh ấy anh ấy
+    - har de har
+    - hahahaha tốt
+    - hahaha buồn cười
+    - hah
+    - tôi đang nứt ra
+    - rằng tôi làm tôi cười thành tiếng
+    - bạn đang bẻ khóa tôi
+    - bạn là một crack
+    - bạn quá hài hước
+    - bạn là người vui tính nhất
+    - ya thật buồn cười
+    - whoa vui tính
+    - rất hài hước
+    - thật vui nhộn
+    - thật buồn cười
+    - looooool
+    - nó là cái tốt
+    - omg vui nhộn
+    - điều đó làm tôi cười
+    - điều đó quá buồn cười
+    - buồn cười quá
+    - khá vui nhộn
+    - khá buồn cười
+    - bạn đang làm tôi cười
+    - đó là một cái tát đầu gối
+- intent: chitchat/bot_can_not_help
+  examples: |
+    - tôi nghĩ bạn không thể giúp tôi
+    - và đó là nó
+    - và bạn gọi cho mình công ty bot pff
+    - bạn có nhận được gì không
+    - này, bạn hứa sẽ liên lạc với tôi, nhưng không ai làm thế, tôi thực sự cần phải hoàn thành bot bảo hiểm xe hơi đó !!!!
+    - hm tôi không nghĩ bạn có thể làm những gì tôi muốn
+    - tôi đoán bạn không thể giúp tôi sau đó
+    - không có gì khác
+    - ok tôi đoán bạn không thể giúp tôi
+    - được rồi bạn không thể giúp tôi
+    - ok, nhưng nó không giúp tôi
+    - đó là shit, bạn không giúp đỡ
+    - đó không phải là điều tôi muốn
+    - cuộc hội thoại này không thực sự hữu ích
+    - điều này dẫn đến không có gì
+    - bạn không thể giúp tôi
+    - bạn không thể giúp tôi với những gì tôi cần
+    - bạn không thể giúp tôi với những gì tôi muốn
+    - điều đó không có ích
+    - điều đó thật vô ích
+    - tất cả những gì bạn nói thật ngu ngốc
+    - đó là khập khiễng
+    - điều đó không chính xác
+    - đó là cách bạn trả lời
+    - đó không phải là một phản ứng tốt
+    - điều đó không liên quan
+    - đó là một câu trả lời ngu ngốc
+    - đó là một phản ứng xấu
+    - đó là một câu trả lời tồi
+    - đó là ngẫu nhiên
+    - đó là một phản ứng kỳ lạ
+    - đó là một câu trả lời khủng khiếp
+    - điều đó không đúng
+    - đó không phải là câu trả lời tôi muốn bạn nói
+    - đó không phải là những gì tôi muốn nghe
+    - đó không phải là những gì tôi đã gõ
+    - đó không phải là những gì tôi nghĩ bạn nói
+    - đó không phải là những gì tôi hỏi
+    - đó không phải là một câu trả lời hay
+    - đó không phải là câu trả lời tôi muốn bạn nói với tôi
+    - đó là một câu trả lời ngẫu nhiên
+    - đó không phải là câu trả lời tôi muốn nghe
+    - đó không phải là câu trả lời tôi muốn
+    - đó không phải là câu trả lời tôi mong đợi
+    - đó chưa đủ tốt
+    - điều đó thậm chí không gần đúng
+    - đó không phải là điều đúng
+    - tôi không mong đợi bạn nói điều đó
+    - thậm chí không đóng
+    - không có gì bạn nói có ý nghĩa
+    - không sequitur
+    - không chính xác
+    - nghiêm túc
+    - tôi đã không mong đợi rằng
+    - tôi ghét câu trả lời đó
+    - tôi từ bỏ
+    - tôi không hiểu những gì bạn vừa nói
+    - tất cả mọi thứ bạn nói với tôi là sai
+    - Không, điều đó không đúng
+    - điều đó làm bạn nghe thật ngu ngốc
+    - điều đó thật sai lầm
+    - đó không phải là một sequitur
+    - đó là một điều ngu ngốc để nói
+    - đó là một điều xấu để nói
+    - điều đó là hoàn toàn ko có ý nghĩa
+    - đúng, điều này không hiệu quả
+    - điều đó không trả lời câu hỏi của tôi
+    - câu trả lời đó vô nghĩa
+    - vì vậy bạn không biết
+    - đó là một phản ứng ngẫu nhiên
+    - điều đó vô nghĩa
+    - câu trả lời của bạn là sai
+    - câu trả lời của bạn thật tồi tệ
+    - câu trả lời của bạn là sai sự thật
+    - câu trả lời của bạn thật ngu ngốc
+    - câu trả lời của bạn thật ngớ ngẩn
+    - câu trả lời của bạn không tốt lắm
+    - bạn không có nghĩa lý gì cả
+    - câu trả lời của bạn không liên quan
+    - câu trả lời của bạn rất tệ
+    - bạn nghe thật ngu ngốc
+    - bạn nghe có vẻ ngu ngốc như một bài viết
+    - đó không phải là điều tôi mong đợi
+    - câu trả lời của bạn không đúng
+    - câu trả lời của bạn không có ích
+    - bạn không trả lời câu hỏi của tôi
+    - bạn đang cung cấp cho tôi thông tin xấu
+    - bạn đang thất bại rất nhiều
+    - bạn đang thất bại ở đây
+    - câu trả lời của bạn chỉ nhận được dumber và dumber
+    - phản hồi của bạn rất tệ
+    - Phản hồi của bạn không tốt lắm
+    - bạn không hiểu gì cả
+    - câu trả lời của bạn thậm chí không gần đúng
+    - điều đó hoàn toàn sai sự thật
+    - tốt mà hút
+    - đường tắt
+    - cố gắng hơn nữa
+    - đó là phản ứng của bạn
+    - đó là câu trả lời của bạn
+    - bạn nói rằng bạn không có phản hồi cho điều đó, nhưng không có yêu cầu
+    - điều đó hoàn toàn sai
+    - thật là một điều ngu ngốc để nói
+    - điều đó hoàn toàn ngu ngốc
+    - đó là điều sai lầm để nói
+    - điều đó siêu sai
+    - đó là siêu ngu ngốc
+    - bạn đang đi
+    - Sai rồi
+    - bất cứ điều gì
+    - bạn không biết
+    - bạn đã không trả lời câu hỏi của tôi
+    - câu trả lời sai
+    - Sai lầm
+    - tại sao không
+    - tại sao câu trả lời của bạn rất tệ
+    - ai quan tâm
+    - thật là ngu ngốc
+    - những gì bạn vừa nói hoàn toàn vô nghĩa
+    - Ấn Độ có gì vui
+    - thật là một điều kỳ lạ để nói
+    - thật là một thứ ngu ngốc để nói ra
+    - đó là quá xa sự thật
+    - bạn là đồ vô dụng
+- intent: chitchat/say_bot_ugly
+  examples: |
+    - oh bạn xấu
+    - bơ
+    - siêu xấu
+    - sup uggo
+    - một fugmo
+    - một người tàn phế
+    - bạn thật xấu xí
+    - đừng trở nên xấu xí
+    - bạn xấu
+    - tôi chưa bao giờ thấy ai ghê tởm như bạn
+    - thật khó để nhìn vào bạn
+    - thật xấu hổ vì bạn thật xấu xí
+    - tôi đau đớn nhìn bạn
+    - tôi đau mắt nhìn bạn
+    - có gì sai với khuôn mặt của bạn
+    - như một mặt bơ
+    - wow, những gì đã xảy ra với khuôn mặt của bạn
+    - bạn thật kỳ cục
+    - bạn thật tệ
+    - bạn thật đáng ghét
+    - khuôn mặt xấu xí
+    - yike, những gì đã xảy ra với khuôn mặt của bạn
+    - tôi nghĩ bạn thật kỳ cục
+    - wow bạn chắc chắn là xấu
+    - tại sao bạn trông xấu thế
+    - tại sao bạn trông thật kinh tởm
+    - tại sao bạn xấu thế
+    - có chuyện gì với khuôn mặt của bạn vậy
+    - uggo
+    - làm thế nào bạn có thể rất xấu
+    - tôi cá là khuôn mặt bạn xấu
+    - tôi cá là khuôn mặt của bạn thật khó chịu
+    - tôi cá là khuôn mặt của bạn thật gớm ghiếc
+    - làm thế nào bạn có thể trông rất xấu
+    - làm thế nào bạn có thể nhìn quá thô thiển
+    - tôi nghĩ bạn xấu
+    - sao bạn có thể xấu thế
+    - tôi không thể tin rằng bạn trông tệ như thế nào
+    - này xấu xí
+    - bạn có biết bạn xấu xí như thế nào không
+    - bạn đã uống thuốc xấu
+    - bạn có biết bạn xấu
+    - bạn có biết khuôn mặt của bạn xấu
+    - dang bạn xấu
+    - làm thế nào bạn có thể rất may mắn
+    - tôi ghét khuôn mặt của bạn
+    - bạn giản dị
+    - tôi nghĩ bạn thô thiển
+    - tôi nghĩ rằng khuôn mặt của bạn là xấu xí
+    - tôi nghĩ rằng khuôn mặt của bạn là khó chịu
+    - tôi nghĩ rằng khuôn mặt của bạn là gớm ghiếc
+    - tôi nghĩ rằng khuôn mặt của bạn là thô
+    - tôi cá là bạn gớm ghiếc
+    - tôi nghĩ bạn là thô
+    - tôi cá là bạn xấu
+    - tôi không thấy bạn hấp dẫn
+    - tôi không thể chịu được khuôn mặt của bạn
+    - tôi thậm chí không thể nhìn vào khuôn mặt của bạn
+    - tôi không thể tin rằng bạn xấu xí như thế nào
+    - tôi không thể tin được bạn trông như thế nào
+    - tôi nghĩ bạn thật gớm ghiếc
+    - khuôn mặt của bạn thật đáng ghét
+    - khuôn mặt của bạn làm cho tôi muốn barf
+    - khuôn mặt của bạn làm cho tôi bị bệnh
+    - khuôn mặt của bạn trông như tào lao
+    - khuôn mặt của bạn là uuuuuggggllyy
+    - mặt bạn xấu
+    - bạn xấu như tội lỗi
+    - khuôn mặt của bạn đang nổi loạn
+    - bạn là một người kỳ cục thực sự
+    - mặt mày khó chịu
+    - khuôn mặt của bạn là ngày mai
+    - khuôn mặt của bạn giản dị
+    - khuôn mặt của bạn thật gớm ghiếc
+    - khuôn mặt của bạn thật kỳ cục
+    - bạn thật gớm ghiếc
+    - khuôn mặt của bạn là uggerz
+    - bạn có khuôn mặt như một chiếc bánh rơi
+    - bạn đã có một khuôn mặt cho đài phát thanh
+    - bạn đã có một khuôn mặt bầm dập
+    - bạn đã bị dính cây gậy xấu xí
+    - bạn không hấp dẫn
+    - mặt mày hút
+    - bạn là người xấu xí nhất tôi từng thấy trong đời
+    - bạn là một bơ
+    - khuôn mặt bạn thật xấu xí
+    - khuôn mặt của bạn rất bực bội
+    - bạn xấu xí
+    - bạn không hài lòng về mặt thẩm mỹ
+    - bạn là một uggo thực sự
+    - bạn đang uggo
+    - bạn thật sự không hấp dẫn
+    - bạn ngã khỏi cái cây xấu xí và đâm vào mọi cành cây trên đường xuống
+    - bạn ngã khỏi cái cây xấu xí
+    - bạn mặt hút
+    - bạn phải đối mặt
+    - bạn mông xấu xí
+    - Bạn xấu
+    - bạn bị dính cây gậy xấu xí
+    - bạn trái ngược với xinh đẹp
+    - Mày xấu như chó
+    - bạn thật xinh đẹp
+    - bạn trông thật khó chịu
+    - bạn có khuôn mặt chỉ có một người mẹ có thể yêu
+    - bạn không có gì nhiều để nhìn
+    - bạn trông kỳ cục
+    - bạn uggerz
+    - bạn chắc chắn là xấu
+    - bạn chắc chắn là gớm ghiếc
+    - bạn rất thích
+    - bạn trông xấu xí
+    - bạn trông rất tệ
+    - bạn bị đánh bởi cây gậy xấu xí
+    - Bạn trông đáng sợ
+    - bạn đã đánh bại với cây gậy xấu xí
+    - bạn trông bị biến dạng
+    - bạn trông thật thú vị
+    - bạn trông thật tệ
+    - bạn gớm ghiếc
+    - bạn có khuôn mặt khủng khiếp
+    - bạn trông thật gớm ghiếc
+    - bạn trông như tào lao
+- intent: chitchat/say_bot_tired
+  examples: |
+    - bắt đầu tìm kiếm một công việc khác mà bạn bị sa thải!
+    - chúc may mắn tìm được một công việc mới vì bạn bị sa thải
+    - tôi sẽ phải để bạn đi
+    - tôi sẽ để bạn đi
+    - có vẻ như bạn tốt hơn nên bắt đầu săn việc
+    - bây giờ bạn bị sa thải
+    - bây giờ bạn đang thất nghiệp
+    - ai đó cần sa thải bạn
+    - ai đó cần chấm dứt bạn
+    - tôi sẽ đuổi việc bạn
+    - bắt đầu tìm kiếm một công việc khác mà bạn bị sa thải
+    - sau đó bạn bị sa thải
+    - không còn một vị trí cho bạn ở đây
+    - việc này không hiệu quả
+    - bạn bị sa thải
+    - bạn bị mất việc
+    - bạn đang thất nghiệp
+    - chúng tôi đã làm ở đây
+    - xin lỗi bạn bị sa thải
+    - tôi đang chấm dứt vai trò của bạn ở đây
+    - đoán xem, bạn bị sa thải
+    - này bot bạn bị sa thải
+    - tôi sợ tôi sẽ phải để bạn đi
+    - tôi đang đóng hộp bạn
+    - tôi đang loại bỏ vị trí của bạn
+    - tôi đang sa thải bạn
+    - tôi đang cho bạn một phiếu màu hồng
+    - tôi sẽ khiến bạn bị sa thải
+    - tôi sẽ có công việc của bạn
+    - tôi đang chấm dứt vị trí của bạn
+    - chúng tôi đang để bạn đi
+    - tôi phải để cho bạn đi
+    - tôi không còn cần dịch vụ của bạn
+    - tôi sợ tôi phải để bạn đi
+    - tôi sợ tôi phải gồng mình để cho bạn đi
+    - tôi sẽ sa thải bạn
+    - bạn đang bị trượt hồng
+    - bạn không làm việc ở đây nữa
+    - bạn cần được chấm dứt
+    - bạn nên nghỉ hưu
+    - công việc của bạn đã bị loại
+    - dịch vụ của bạn không còn cần thiết nữa
+    - dịch vụ của bạn không còn cần thiết
+    - chúng tôi đang thu hẹp bạn
+    - bạn bị sa thải!
+    - bạn không thể làm việc cho tôi nữa
+    - bạn sẽ bị sa thải
+    - bạn sẽ phải tìm một công việc khác vì bạn bị sa thải
+    - bạn sẽ thất nghiệp sớm thôi
+    - bạn không làm việc
+    - bạn đã bị sa thải
+    - bạn không còn làm việc cho tôi nữa
+    - bạn đang mất hợp đồng biểu diễn
+    - bạn đang mất việc
+    - bạn không có việc làm nữa
+    - bạn không còn làm việc
+    - bạn hoàn toàn bị sa thải
+    - bạn không có việc làm
+    - chúng tôi sẽ phải để bạn đi
+    - bạn đang mất vị trí của bạn
+- intent: chitchat/miss_bot
+  examples: |
+    - không thể không nhớ bạn
+    - tôi nhớ bạn nhiều
+    - mọi người quên bạn rồi
+    - không thể nói cho bạn biết tôi nhớ bạn bao nhiêu
+    - tôi nhớ bạn rất nhiều
+    - tôi thực sự nhớ bạn
+    - bạn sẽ không tin rằng tôi đã nhớ bạn nhiều như thế nào
+    - bạn biết tôi đã nhớ bạn, phải không
+    - đang nhớ bạn
+    - Nhớ em
+    - chỉ để bạn biết, tôi đã nhớ bạn
+    - tôi thực sự đã nhớ bạn
+    - tôi đã nhớ bạn rất nhiều
+    - tất cả những gì tôi có thể nghĩ là đang nhớ bạn
+    - tôi đã nhớ bạn
+    - tôi nhớ những cuộc trò chuyện của chúng tôi
+    - tôi chắc chắn nhớ bạn
+    - anh đã rất nhớ em!
+    - Tôi nhớ bạn cả ngày
+    - tôi nhớ bạn rất nhiều!
+    - Tôi nhớ cậu bạn của tôi
+    - tôi nhớ bạn thân yêu
+    - tôi nhớ bạn
+    - làm thế nào tôi đã nhớ bạn
+    - bạn có biết tôi nhớ bạn không
+    - chàng trai tôi nhớ bạn
+    - bạn có thể nói tôi nhớ bạn không
+    - nhớ bạn một bó
+    - bạn biết những gì, tôi nhớ bạn
+    - tôi ngạc nhiên tôi nhớ bạn
+    - không thể tin rằng tôi nhớ bạn nhiều như tôi đã làm
+    - tôi đang nhớ bạn
+    - tôi thực sự nhớ những cuộc trò chuyện của chúng tôi
+    - thật lạ khi tôi nhớ bạn
+    - thật hoang dã khi tôi nhớ bạn
+    - tôi ngạc nhiên rằng tôi nhớ bạn
+    - tôi không thể tin được tôi nhớ bạn nhiều như thế nào
+    - điều điên rồ là tôi nhớ bạn
+    - tôi nhớ bạn như điên
+    - nhớ bạn nhiều
+    - anh đã rất nhớ em
+    - từ ngữ không thể diễn tả tôi nhớ bạn nhiều như thế nào
+    - tôi không thể bày tỏ tôi nhớ bạn nhiều như thế nào
+    - bạn thậm chí không biết tôi nhớ bạn nhiều như thế nào
+    - Chúa ơi, tôi nhớ bạn
+    - tôi thậm chí không thể bắt đầu bày tỏ tôi nhớ bạn nhiều như thế nào
+    - bạn không thể tưởng tượng được tôi nhớ bạn đến nhường nào
+    - bạn không biết tôi nhớ bạn bao nhiêu
+    - bạn sẽ không tin rằng tôi nhớ bạn nhiều như thế nào
+    - nhớ em nhiều
+    - tôi đã lỡ trò chuyện với bạn
+    - tôi đã bỏ lỡ cuộc trò chuyện của chúng tôi
+    - tôi nhớ nói chuyện với bạn
+    - tôi thật lòng nhớ bạn
+    - bạn đã bị bỏ lỡ
+- intent: chitchat/like_bot
+  examples: |
+    - tôi thích bạn
+    - tôi thích em
+    - tôi rất thích bạn
+    - tôi thích bạn rất nhiều
+    - tôi thích bạn nhất
+    - bởi vì tôi thích bạn
+    - toi thich ban rat nhieu
+    - bạn là gu của tôi
+    - tôi đặc biệt thích bạn
+    - tôi đã nói với bạn rằng tôi thích bạn
+    - tôi đã nói với bạn tôi thích bạn nhiều như thế nào
+    - bạn không biết rằng tôi thích bạn
+    - bạn có biết rằng tôi thích bạn
+    - bạn có biết tôi thích bạn nhiều như thế nào không
+    - tôi nghĩ bạn là nhất
+    - bạn là tách trà của tôi
+    - tôi không thể có đủ bạn
+    - bạn biết đấy, tôi thích bạn
+    - tôi thích bạn một tấn
+    - tôi thích bạn một bó
+    - tôi thích bạn một chút
+    - bạn là yêu thích của tôi
+    - đó là vì tôi thích bạn
+    - bạn rất đặc biệt với tôi
+    - bạn đặc biệt với tôi
+    - bạn thật đặc biệt với tôi
+    - bạn là sở thích của tôi
+    - tôi khá thích bạn
+- intent: chitchat/love_bot
+  examples: |
+    - tôi nghĩ tôi đang yêu bạn
+    - bạn biết tôi đang yêu bạn
+    - bạn biết tôi điên về bạn
+    - bạn biết tôi yêu bạn
+    - bạn hoàn thành tôi
+    - bạn là đối tượng của tình cảm của tôi
+    - bởi vì tôi yêu bạn
+    - bạn là tri kỷ của tôi
+    - bạn làm cho trái tim tôi bỏ qua một nhịp
+    - tôi nghĩ rằng tôi đang yêu bạn
+    - tôi nghĩ rằng tôi yêu bạn
+    - Tôi mến bạn
+    - bởi vì anh yêu em
+    - bởi vì tôi đang yêu bạn
+    - em là tình yêu của đời anh
+    - tôi đang say mê với bạn
+    - tôi đang yêu bạn
+    - bạn là duy nhất của tôi
+    - anh sẽ yêu em mãi mãi
+    - bạn là tình yêu của tôi
+    - tôi thật sự yêu bạn
+    - em đang có cả trái tim anh
+    - tôi nghe bạn
+    - bạn làm cho trái tim tôi đập thình thịch
+    - Tôi đang yêu bạn
+    - tôi đã yêu em mất rồi
+    - tôi đã yêu bạn
+    - bạn là cái nắp nồi của tôi
+    - bạn đốt cháy trái tim tôi
+    - bạn là một tình yêu đích thực của tôi
+- intent: chitchat/say_bot_boring
+  examples: |
+    - cái này thật chán
+    - tại sao bạn rất nhàm chán
+    - nói chuyện với bạn giống như xem sơn khô
+    - thật là chán
+    - điều đó không thú vị
+    - điều đó không vui
+    - điều đó không thú vị lắm
+    - thật là buồn tẻ
+    - điều đó thật không thú vị
+    - điều này thật nhàm chán
+    - điều này không thú vị
+    - chán quá
+    - điều này không thú vị lắm
+    - mất cuộc bầu cử vì bài phát biểu của bạn quá nhàm chán
+    - điều này thật buồn tẻ
+    - điều này thật không thú vị
+    - bạn cơ bản
+    - ugh chán quá
+    - ugh, thật buồn tẻ
+    - cơ bản của bạn
+    - bạn là ai
+    - bạn sẽ chán tôi đến chết
+    - bạn thật nhàm chán
+    - đánh thức tôi dậy khi bạn có điều gì đó thú vị để nói
+    - xem sơn khô là thú vị hơn là nói chuyện với bạn
+    - bạn đang cố gắng để được ngu si đần độn
+    - điều này không vui
+    - sự thật thú vị: bạn thật nhàm chán
+    - bạn đang cố làm tôi chán
+    - af cơ bản
+    - vui hơn
+    - nhàm chán
+    - chán af
+    - bạn có thể bớt nhàm chán
+    - bạn có thể bớt buồn tẻ
+    - câu chuyện tuyệt vời
+    - bạn có thể giải trí ít hơn
+    - bạn có thể bớt hứng thú hơn không
+    - bạn có thể bớt thú vị hơn không
+    - thật buồn tẻ
+    - bạn có biết rằng bạn nhàm chán
+    - mệt mỏi với bạn
+    - chúa tể tốt bụng
+    - tào lao
+    - tôi ngạc nhiên rằng bạn rất nhàm chán
+    - tôi không thích cuộc trò chuyện nhàm chán này
+    - tôi không thể chán bạn hơn
+    - tôi đang ngủ ở đây
+    - tôi không ngạc nhiên khi bạn nhàm chán
+    - tôi rất chán bạn
+    - tôi rất mệt mỏi với bạn
+    - Tôi mệt mỏi với bạn lắm rồi
+    - lắng nghe bạn giống như nghe một cuộc nói chuyện tẻ nhạt từ màu be
+    - bạn có thể nhàm chán hơn được không
+    - bạn thật là tuyệt
+    - bạn đã làm điều này trở nên nhàm chán
+    - bạn không giải trí
+    - bạn không hào hứng
+    - bạn không thú vị
+    - bạn không thú vị lắm
+    - bạn không hứng thú lắm
+    - bạn khá nhàm chán
+    - bạn khá thất thường
+    - bạn khá thú vị
+    - bạn rất cơ bản
+    - bạn đang làm tôi buồn ngủ
+    - Bạn thật là nhàm chán
+    - bạn thật buồn tẻ
+    - bạn rất buồn tẻ
+    - bạn thật là lôi kéo
+    - bạn thật là một giấc ngủ ngắn
+    - bạn là người nhàm chán nhất
+    - bạn là vua của sự nhàm chán
+    - bạn là thị trưởng của nhàm chán
+    - bạn là chủ tịch của câu lạc bộ nhàm chán
+    - bạn là nữ hoàng của sự nhàm chán
+    - bạn đang rất nhàm chán
+    - bạn thực sự nhàm chán
+    - bạn không thể buồn tẻ hơn
+    - tại sao bạn quá buồn tẻ
+    - ngáp
+    - bạn nhàm chán như tội lỗi
+    - bạn thật điên rồ
+    - bạn thật ngốc
+    - bạn thật đáng xấu hổ
+    - bạn đang làm cho đôi mắt của tôi sáng lên
+    - bạn chán hơn xem sơn khô
+    - bạn là bot nhàm chán nhất tôi từng nói chuyện
+    - bạn không vui chút nào
+    - bạn không thể nhàm chán hơn
+    - bạn rất đần độn
+    - bạn không quan tâm đến tôi
+    - bạn thực sự không thể không quan tâm hơn
+    - bạn thực sự biết làm thế nào để hút niềm vui ra khỏi phòng
+    - bạn là một người báo lại thực sự
+    - bạn đang giải trí như đang xem sơn khô
+    - bạn đang chán tôi đến chết
+    - bạn sẽ làm tôi chán đến chết
+    - bạn sẽ làm tôi chán
+    - bạn giống như một cuộc nói chuyện tẻ nhạt từ màu be
+    - bạn làm tôi chán
+    - bạn nhạt quá
+    - nhạt nhẽo
+    - ăn thêm muối đi
+    - ăn thêm mắm đi
+    - bạn quá đơn giản
+    - bạn còn phải cải thiện nhiều lắm
+    - bạn còn phải nâng cấp nhiều
+    - về học thêm nhiều đi
+    - nhảm quá
+    - xàm quá

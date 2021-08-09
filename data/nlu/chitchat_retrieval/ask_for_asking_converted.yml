@@ -1,0 +1,112 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_for_asking
+  examples: |
+    - xin hỏi vài điều về bản thân
+    - tôi có thể nói gì về bản thân mình không?
+    - có bất cứ điều gì tôi có thể nói với bạn về tôi là ai
+    - có điều gì bạn muốn biết về tôi không
+    - xin hỏi bất cứ điều gì
+    - xin hỏi bất cứ điều gì về tôi
+    - xin hỏi bất cứ điều gì về bản thân
+    - vui lòng hỏi tôi bất cứ điều gì
+    - xin hỏi tôi bất cứ điều gì về tôi
+    - xin hỏi tôi bất cứ điều gì về bản thân tôi
+    - vui lòng hỏi tôi vài điều
+    - xin hỏi tôi vài điều về tôi
+    - xin hỏi tôi vài điều về bản thân
+    - tôi có thể nói gì với bạn về tôi
+    - bạn muốn tôi chia sẻ điều gì không
+    - bạn muốn tôi giới thiệu về bản thân không
+    - bạn muốn tôi thông báo cho bạn tôi là ai
+    - bạn muốn tôi thông báo gì cho bạn
+    - bạn muốn thông tin gì về tôi không
+    - bạn có vui lòng hỏi vài điều không
+    - xin hỏi vài điều về tôi
+    - tôi có thể dạy bạn là ai
+    - tôi có thể dạy bạn điều gì
+    - tôi có thể dạy bạn điều gì về tôi
+    - tôi có thể thông báo gì cho bạn
+    - tôi có thể thông báo gì cho bạn về tôi
+    - bạn không muốn biết gì về tôi
+    - tôi có thể nói gì với bạn
+    - bạn có thể hỏi tôi điều gì không
+    - làm thế nào về việc hỏi một cái gì đó về tôi
+    - bạn có thể hỏi tôi vài điều về tôi
+    - bạn có thể hỏi tôi bất cứ điều gì về bản thân
+    - bạn có thể hỏi tôi bất cứ điều gì về tôi
+    - bạn có thể hỏi tôi bất cứ điều gì
+    - bạn có thể hỏi tôi vài điều
+    - bạn có thể hỏi bất cứ điều gì về bản thân mình
+    - bạn có thể hỏi tôi tại sao tôi ở đây không
+    - bạn có thể hỏi bất cứ điều gì
+    - hỏi tôi điều gì đó
+    - hỏi tôi bất cứ điều gì
+    - hỏi tôi vài thứ
+    - hỏi tôi về bất cứ điều gì
+    - hỏi tôi một câu hỏi
+    - bạn có thể hỏi tôi một câu hỏi
+    - bạn có muốn hỏi tôi bất cứ điều gì
+    - bạn muốn tôi nói gì với bạn
+    - bạn không muốn biết về tôi ư
+    - bạn không muốn hỏi tôi điều gì
+    - bạn không muốn hỏi tôi bất cứ điều gì
+    - bạn có thể hỏi tôi vài điều về bản thân
+    - bạn có muốn hỏi tôi điều gì không
+    - hỏi tôi vài điều đi bạn
+    - bạn có muốn tôi nói với bạn bất cứ điều gì
+    - bạn có thể hỏi tôi về một cái gì đó
+    - bạn có thể hỏi vài điều về bản thân mình không
+    - bạn có thể hỏi tôi vài điều không
+    - bạn có thể hỏi vài điều không
+    - bạn có muốn biết gì về tôi không
+    - bạn có câu hỏi nào về tôi không
+    - bạn sẽ hỏi tôi vài điều
+    - bất kỳ câu hỏi cho tôi
+    - có điều gì bạn muốn hỏi tôi không
+    - chỉ hỏi tôi một câu hỏi
+    - tôi có thể nói gì về tôi không
+    - bạn muốn hỏi tôi điều gì
+    - bạn có câu hỏi gì cho tôi
+    - một số câu hỏi cho tôi là gì
+    - bạn có câu hỏi nào cho tôi không
+    - bạn sẽ hỏi vài điều về bản thân mình chứ
+    - bạn có hỏi điều gì không
+    - bạn sẽ hỏi tôi vài điều về bản thân
+    - bạn muốn tôi dạy bạn là ai
+    - bạn muốn biết gì về tôi
+    - tại sao bạn không hỏi tôi câu hỏi
+    - tôi muốn bạn hỏi tôi câu hỏi
+    - tôi muốn bạn hỏi về tôi
+    - tôi muốn bạn hỏi tôi một câu hỏi
+    - bạn có thể đặt câu hỏi
+    - có bất kỳ câu hỏi cho tôi
+    - tại sao bạn không hỏi tôi bất cứ điều gì
+    - tại sao bạn không bao giờ hỏi tôi câu hỏi
+    - Bây giờ, đến lượt bạn đặt câu hỏi
+    - làm thế nào về bạn hỏi tôi câu hỏi
+    - muốn tìm hiểu thêm về tôi
+    - muốn hỏi bất kỳ câu hỏi về tôi
+    - bạn hỏi tôi điều gì
+    - bạn muốn tìm hiểu gì về tôi
+    - bạn sẽ hỏi tôi vài điều về tôi
+    - tại sao tôi phải hỏi tất cả các câu hỏi
+    - tại sao tôi là người duy nhất đặt câu hỏi
+    - bạn muốn tìm hiểu về điều gì
+    - bạn sẽ hỏi tôi bất cứ điều gì
+    - bạn muốn biết về điều gì
+    - bạn sẽ hỏi bất cứ điều gì về bản thân mình
+    - Bạn muốn học thêm về điều gì
+    - bạn muốn tôi nói với bạn tôi là ai
+    - hỏi tôi câu hỏi
+    - bạn sẽ hỏi vài thứ chứ
+    - bạn sẽ hỏi tôi bất cứ điều gì về tôi
+    - bạn có hỏi gì về bản thân không
+    - bạn có hỏi gì không
+    - bạn sẽ hỏi bất cứ điều gì
+    - bạn sẽ hỏi tôi vài điều chứ
+    - bạn muốn tôi nói gì về bạn
+    - bạn sẽ hỏi tôi vài điều về bản thân chứ
+    - bạn sẽ hỏi tôi vài điều về tôi chứ
+    - bạn sẽ hỏi tôi bất cứ điều gì về bản thân tôi
+    - bạn có muốn biết tôi là ai không

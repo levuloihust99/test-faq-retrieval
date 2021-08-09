@@ -1,0 +1,64 @@
+version: "2.0"
+nlu:
+- intent: chitchat/miss_bot
+  examples: |
+    - mình nhớ bạn
+    - nhớ bot quá đi
+    - nhớ bot
+    - không thể không nhớ bạn
+    - tôi nhớ bạn nhiều
+    - tôi nhớ bạn
+    - nhớ bot quá
+    - mình rất nhớ bot
+    - tôi thấy nhớ bạn
+    - hình như tôi nhớ bạn
+    - tôi nhớ bạn nhiều quá
+- intent: chitchat/like_bot
+  examples: |
+    - mình thích bạn cực kỳ
+    - mình thích bạn
+    - mình thích bạn lắm
+    - tôi thích em
+    - tôi rất thích bạn
+    - tôi thích bạn rất nhiều
+    - mình thích bạn nhất
+    - bởi vì mình thích bạn
+    - tôi đặc biệt thích bạn
+    - tôi đã nói với bạn rằng tôi thích bạn chưa
+    - tôi đã nói với bạn tôi thích bạn nhiều như thế nào
+    - bạn không biết rằng tôi thích bạn
+    - bạn có biết rằng tôi thích bạn
+    - bạn có biết tôi thích bạn nhiều như thế nào không
+    - tôi nghĩ bạn là nhất
+    - bạn biết đấy, tôi thích bạn
+    - mình thích bạn một tấn
+    - mình thích bạn 3000
+    - đó là vì tôi thích bạn
+    - bạn đặc biệt với tôi
+    - bạn rất đặc biệt với mình
+    - bạn thật đặc biệt với tôi
+    - mình khá thích bạn
+- intent: chitchat/love_bot
+  examples: |
+    - mình yêu bạn
+    - tôi nghĩ tôi đang yêu bạn
+    - bạn biết tôi yêu bạn
+    - bởi vì tôi yêu bạn
+    - bạn là tri kỷ của tôi
+    - bạn làm cho trái tim tôi lỡ nhịp
+    - tôi nghĩ rằng tôi đang yêu bạn
+    - tôi nghĩ rằng tôi yêu bạn
+    - bởi vì mình yêu bạn
+    - bởi vì tôi đang yêu bạn
+    - em là tình yêu của đời anh
+    - tôi đang say mê với bạn
+    - tôi đang yêu bạn
+    - anh sẽ yêu em mãi mãi
+    - bạn là tình yêu của tôi
+    - tôi thật sự yêu bạn
+    - bạn biết tôi đang yêu bạn
+    - bạn làm cho trái tim tôi đập thình thịch
+    - mình đang yêu bạn
+    - tôi đã yêu em mất rồi
+    - tôi đã yêu bạn
+    - bạn là một tình yêu đích thực của tôi

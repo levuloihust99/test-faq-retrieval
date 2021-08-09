@@ -1,0 +1,189 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Larry Nassar](PER) bị bắt vào tháng 12/2016, sau khi hàng loạt đơn tố cáo được gửi tới các cơ quan điều tra [Mỹ](LOC) từ tháng 9/2016 với cáo buộc cựu bác sĩ này lạm dụng tình dục, dưới hình thức cung cấp “điều trị y khoa cần thiết"
+    - [Cyborg](PER) đã chinh phục gần như mọi đối thủ của làng MMA nữ thế giới và kể cả [Ronda Rousey](PER) có trở lại cũng sẽ không địch nổi cô
+    - [Cyborg](PER) sẽ đến một lúc nào đó sẽ càn quét hết mọi kẻ thách đấu để bảo vệ đai vô địch của mình và [UFC](ORG) hẳn sẽ lo ngại hạng cân của [Cyborg](PER) sẽ trở nên nhàm chán vì sự thống trị của cô
+    - [Holly Holm](PER) đã trở nên nổi tiếng sau khi kết thúc chuỗi bất bại của [Ronda Rousey](PER) và đoạt đai vô địch [UFC](ORG)
+    - [UFC 219](MIS) chứng kiến sức mạnh hủy diệt của "Người máy" và "độc cô cầu bại"
+    - [Cris Cyborg](PER) chưa từng đánh bại [Ronda Rousey](PER), nhưng đó là vì [Rousey](PER) đã, theo cách nghĩ của [Cyborg](PER), bỏ trốn khỏi cô vì không muốn thua thêm một trận đấu nữa
+    - [Rousey](PER) thậm chí đang định chuyển sang đấu vật chuyên nghiệp với công ty [WWE](ORG), và [Cyborg](PER) đã đánh tiếng sẵn sàng sang tận đó để trị [Rousey](PER)
+    - [Cyborg](PER) thường xuyên tập luyện với các HLV nam và thậm chí có lúc đấu thử với họ
+    - [Cyborg](PER) không ngán phải thượng đài với đàn ông
+    - [Cris Cyborg](PER) đã quật ngã [Holly Holm](PER) và cô gần như bất khả chiến bại trước các nữ võ sĩ [UFC](ORG)? Nhưng còn đánh với đàn ông?
+    - [Vinales](PER) đã cán đích ở vị trí thứ 3 chung cuộc và đã có một mùa giải thành công, đó đã là một bước tiến lớn trong sự nghiệp của tay lái [Tây Ban Nha](LOC) so với khi anh ở [Suzuki](ORG)
+    - [Sam Lowes](PER) bị đội đua [Aprillia](ORG) “sa thải” dù vẫn còn 1 năm hợp đồng, anh sẽ quay trở lại Moto2
+    - [Cal](PER) mong muốn [Honda](ORG) sẽ có thể mang đến một chiếc xe tương tự như những gì nhà đương kim vô địch [Marc Marquez](PER) nhận được, một chiếc RC213V phiên bản 2018 tự nhiên hơn
+    - [Hector Barbera](PER) sau 8 mùa giải tại MotoGP, với vị trí thứ 10 năm 2016 là thứ hạng chung cuộc cao nhất giành được, sẽ trở lại Moto2, nơi mang lại cho anh vị trí á quân năm 2009
+    - [Ducati](PER) mất chức vô địch 2017 một cách đầy tiếc nuổi, nhưng họ biết phải thay đổi điều gì
+    - [Thomas Luthi](PER) sẽ lần đầu tiên ra mắt tại MotoGP, đầu quân cho [Marc VDS](ORG) sau 11 mùa giải chạy ở hạng trung của giải đấu
+    - [Loris Baz](PER) rời khỏi MotoGP và trở lại giải đấu Superbike World Championship
+    - [Jack Miller](PER) thay thế [Scott Redding](PER) tại [Pramac Racing](ORG) sau khi rời [Marc VDS](ORG)
+    - [Tony](PER) cho rằng phía [UFC](ORG) nên cứng rắn hơn với quyết định có tước đai vô địch Lightweight của gã điên hay không
+    - [Tony](PER) chia sẻ: “Điều này làm tôi cảm thấy bực mình và khó chịu đến phát điên
+    - [Khabib Nurmagomedov](PER) đã nói rõ rằng [Conor McGregor](PER) nếu muốn tranh đai thì phải xếp hàng
+    - [Diaz](PER) chính là đối thủ lớn nhất của [McGregor](PER) tại [UFC](ORG)
+    - [Artest](PER) có nhổm dậy nhưng được những người gần đó kéo trở lại
+    - [Wallace](PER) đã giải thích rằng trước đó, [Artest](PER) đã có cảnh báo sẽ vỗ vào đầu anh trong pha bóng kế tiếp
+    - [Wallace](PER) nhấn mạnh đây chính là lí do khiến anh phẫn nộ bởi [Artest](PER) rõ ràng đã chơi xấu một cách có chủ định
+    - [Ben Wallace](PER), người mở đầu cho tất cả, cũng thừa nhận anh hết sức hoảng sợ trong bầu không khí nóng như lửa
+    - [William Paulson](PER), một khán giả khác của [Pistons](ORG) dành cho [Artest](PER) cú ném nước thứ hai vào đầu nhưng không tính tới việc 2 đồng đội [Jermaine O’Neal](PER) và [Stephen Jackson](PER) của [Artest](PER) cũng đã lao lên khán đài
+    - [Jackson](PER) tung cú đấm mạnh thẳng vào mặt của [Paulson](PER)
+    - [Pistons](ORG) với tư cách là đương kim vô địch tiếp tục giữ nguyên lối đánh chú trọng về phòng thủ, chơi máu lửa và không ngại va chạm
+    - [Artest](PER) đấm thẳng vào mặt [Shackleford](PER) và hất ngã [Haddad](PER)
+    - [Haddad](PER) thực ra đã chủ động lao xuống sân đòi đánh nhau với các cầu thủ [NBA](ORG) để mong có được một khoản tiền bồi thường
+    - [Dana White](PER) cho biết trước mắt chỉ muốn [McGregor](PER) tái xuất tại [UFC](ORG)
+    - [McGregor](PER) đã không thi đấu bất kỳ trận nào trong lồng đấu bát giác kể từ sau chiến thắng trước [Eddie Alvarez](PER)
+    - [Dana White](PER) bàn về khả năng tái đấu giữa [Mayweather](PER) và [McGregor](PER)
+    - [MCGregor](PER) vẫn đang bực mình sau thất bại trước [Mayweather](PER)
+    - [Khánh Triều](PER) - Tinthethao.com.vn - [TTVN](ORG) | 16:06 24/01/2018
+    - [Conor McGregor](PER) chưa vội tái đấu với [Mayweather](PER)
+    - [Golovkin](PER) đã hoàn toàn áp đảo tay đấm trẻ tuổi [Canelo](PER) nhưng chung cuộc trận đấu lại mang về kết quả hòa
+    - [Daniel Cormier](PER) bảo vệ đai vô địch trong khi [Jon Jones](PER) vừa mới thoát khỏi án phạt cấm thi đấu do hàng loạt bê bối như dùng Doping và gây tai nạn giao thông
+    - [Yi Long](PER) gần như không thể phản kháng trước những đòn tấn công từ kickboxer số 1 thế giới [Sitthichai](PER)
+    - [Yi Long](PER) nằm sàn và buộc trọng tài phải đếm
+    - [Reigns](PER) chính là người đã đánh bại Cena tại sự kiện No Mercy hồi tháng trước
+    - [Johnson](PER) trở thành huyền thoại mới của [UFC](ORG) với 11 lần bảo vệ đai thành công
+    - [Marseille](ORG) đá đểu bằng cách đăng tấm ảnh chụp hai cầu thủ và viết: “Va chạm ở [OM](ORG)
+    - [PSG](ORG) lập tức đáp trả với bức ảnh cũng chụp 2 cầu thủ và viết:
+    - [Enes Unal](PER) sở hữu thể hình cao to, khỏe, nhưng cũng sở hữu kỹ thuật cá nhân điêu luyện, khả năng chạy chỗ cực kỳ thông minh cùng với những cú dứt điểm hiệu quả bằng cả hai chân lẫn đầu
+    - [Andre Onana](PER): Kế thừa truyền thống [Ajax](ORG) (Thủ môn)
+    - [Nadiem Amiri](PER): "Bộ óc" thiên tài của ngựa ô (Tiền vệ công)
+    - [Moise Kean](PER), sinh ngày 28/2/2000, trở thành cầu thủ đầu tiên sinh trong thế kỷ 21 ra sân tại 1 trong 5 giải VĐQG hàng đầu [châu Âu](LOC) và cầu thủ đầu tiên sinh trong thế kỷ 21 ra sân tại Champions League
+    - [Manchester City](ORG) đã chèn điều khoản mua lại trị giá 17.5 triệu bảng sau khi bán cầu thủ cho [Villarreal](ORG) với giá 12.6 triệu bảng Hè này
+    - [Moise Kean](PER) - ngôi sao gây tranh cãi của [Juventus](ORG) (tiền đạo)
+    - [Enes Unal](PER): Thần đồng [đất Thổ](LOC) (tiền đạo)
+    - [Châu Tuyết Vân](PER) (ngoài cùng bên trái) sinh năm 1990
+    - [Paulinho](PER) khiến người ta liên tưởng đến hình ảnh của [Cesc Fabregas](PER) dưới thời của [Pep Guardiola](PER)
+    - [Paulinho](PER) liệu có phải [Cesc Fabregas](PER) mới của [Valverde](PER)?
+    - [Paulinho](PER) chỉ xuất hiện lần lượt 6 và 18 phút trong 2 trận đấu với [Alaves](ORG) và [Espanyol](ORG), [Barca](ORG) toàn thắng cả 2 trận đấu đó
+    - [Karim Benzema](PER) thì vật lộn với chấn thương, trong khi đó [Gareth Bale](PER) thì xuống phong độ
+    - [Zidane](PER) vẫn hoàn toàn tự tin với lực lượng ông đang có trong tay và chỉ bổ sung hai cầu thủ trẻ [Dani Ceballos](PER) và [Theo Hernandez](PER)
+    - [Zidane](PER) là HLV có khởi đầu ấn tượng nhất trong lịch sử
+    - [Zidane](PER) đã rất xuất sắc trong hai mùa giải qua
+    - [Xavi Hernandez](PER) từng chia sẽ: “Đạt đến vinh quang không khó, duy trì được trên đỉnh vinh quang mới là khó.”
+    - [Real](ORG) khủng hoảng: Đá làm gì khi đã no nê danh hiệu
+    - [Zidane](PER) đã rất tài trong việc giúp các học trò của ông chơi với sự tự tin và phong độ cao nhất
+    - [Cristiano Ronaldo](PER) dù có khởi đầu tệ như thế nào nhưng với màn trình diễn chói sáng ở mùa giải năm ngoái, danh hiệu Quả bóng vàng 2017 khó thoát khỏi tay anh
+    - [Quảng Nam](ORG) trên sân nhà đã tận dụng tốt lợi thế để đánh bại [Hải Phòng](ORG) 2-1, qua đó lần đầu tiên ở mùa giải năm nay vươn lên ngôi đầu bảng
+    - [Timor Leste](LOC): 4 điểm (thắng 1, hòa 1, thua 2 tại vòng loại [AFF Cup 2014](MIS); thắng 1, hòa 0, thua 2 tại vòng loại [AFF Cup 2016](MIS))
+    - [Brunei](LOC): 2 điểm (thắng 0, hòa 0, thua 4 tại Vòng loại [AFF Cup 2014](MIS); thắng 0, hòa 0, thua 3 tại vòng loại [AFF Cup 2016](MIS))
+    - [AFF Cup 2018](MIS) có nhiều thay đổi so với trước
+    - [Lào](LOC): 7 điểm (thắng 0, hòa 0, thua 3 tại vòng bảng [AFF Cup 2014](MIS); thắng 2, hòa 0, thua 1 tại vòng loại [AFF Cup 2016](MIS))
+    - [Philippines](LOC): 15 điểm (hạng Ba [AFF 2014](MIS); Thắng 0, hòa 2, thua 1 tại vòng bảng [AFF Cup 2016](MIS))
+    - [Thái Lan](LOC): 22 điểm (vô địch [AFF Cup 2014](MIS), 2016)
+    - [Myanmar](LOC): 14 điểm (thắng 0, hòa 1, thua 2 tại vòng bảng [AFF Cup 2014](MIS); hạng Ba [AFF Cup 2016](MIS))
+    - [Việt Nam](LOC): 18 điểm (hạng Ba [AFF Cup 2014](MIS), 2016)
+    - [Indonesia](LOC): 17 điểm (thắng 1, hòa 1, thua 1 tại vòng bảng [AFF Cup 2014](MIS); Á quân 2016)
+    - [Campuchia](LOC): 7 điểm (thắng 2, hòa 0, thua 2 tại vòng loại [AFF Cup 2014](MIS); thắng 0, hòa 0, thua 3 tại vòng bảng [AFF Cup 2016](MIS))
+    - [Malaysia](LOC): 17 điểm (Á quân [AFF Cup 2014](MIS); Thắng 1, hòa 0, thua 2 tại vòng bảng [AFF Cup 2016](MIS))
+    - [Singapore](LOC): 11 điểm (thắng 1, hòa 0, thua 2 tại vòng bảng [AFF Cup 2014](MIS); thắng 0, hòa 1, thua 2 tại vòng bảng [AFF Cup 2016](MIS))
+    - [Ánh Viên](PER) đoạt HCV, phá kỷ lục AIMAG5
+    - [Pierre-Emerick Aubameyang](PER) cũng tiết lộ, cả [PSG](ORG), [Chelsea](ORG) và [AC Milan](ORG) đều đã đưa ra lời đề nghị chuyển nhượng đến [Dortmund](ORG) nhưng vì nhiều lý do, [Aubameyang](PER) vẫn không thể có được bến đỗ mới trong sự nghiệp
+    - [Ánh Viên](PER) phá kỷ lục [châu Á](LOC), đoàn [Việt Nam](LOC) có HCV thứ 6
+    - [Bình Dương](ORG) cùng “hành trang” là hàng ngàn NHM luôn cháy hết mình trên khán đài
+    - [Việt Nam](LOC) không cùng bảng [Thái Lan](LOC) ở [AFF Cup 2018](MIS)
+    - [Việt Nam](LOC) chắc chắn không cùng bảng [Thái Lan](LOC) ở [AFF Cup 2018](MIS)
+    - [Đông Timor](LOC) và [Brunei](LOC) là 2 đội phải thi đấu 2 trận tranh vé vớt, dự kiến diễn ra vào tháng 10/2018
+    - [Balague](PER) đã vui vẻ giải đáp những thắc mắc của NHM về bóng đá [Tây Ban Nha](LOC), đặc biệt xoay quanh chủ đề phong độ tuyệt đối của [Barcelona](ORG) hay [Real](ORG) sẩy chân gần đây
+    - [Suarez](PER) đã không phục hồi tốt sau chấn thương, cậu ấy đã buộc phải quay lại thi đấu cho [Uruguay](LOC) và giờ phải trả giá cho điều đó
+    - [Soler](PER) thi đấu thường xuyên ở ĐTQG, cậu ấy chơi ở phạm vi khá rộng vì [Marcelino](PER) không củng cố đội hình một cách chắn chắn và rõ ràng
+    - [Soler](PER) nên thi đấu bó vào trong nhiều hơn
+    - [Đoàn Chí Bảo](PER) ghi bàn thứ 3 sau khi hiệp 2 bắt đầu được 4 phút và hoàn tất cú poker ở các phút 61, 65 và 88
+    - [Cao Ngọc Hùng](PER) - [Nguyễn Thị Hải](PER) là cặp vợ chồng hiếm hoi cùng thi đấu và cùng nhau giành tới 4 HCV, 1 HCB cho đoàn [Việt Nam](LOC) tại Đại hội Thể thao người khuyết tật [Đông Nam Á](LOC) (Para Games) 2017 đang diễn ra tại [Malaysia](LOC)
+    - [Hải](PER) (sinh năm 1985) thuộc lứa đàn chị vì nhiều hơn cậu em [Cao Ngọc Hùng](PER) tới 5 tuổi
+    - [Bình Dương](ORG) và [SLNA](ORG) hòa nhạt hơn 'nước ốc'
+    - [Bình Dương](ORG) và [SLNA](ORG) ở vòng 19 Toyota V.League 2017 diễn ra quá nhạt nhẽo
+    - [Thạch Kim Tuấn](PER), [Trịnh Văn Vinh](PER) (cử tạ), [Nguyễn Tiến Trọng](PER) (điền kinh), [Trần Thị Thanh Thủy](PER) (kurash), [Bùi Yến Ly](PER) ([muay Thái](MIS))
+    - [Ánh Viên](PER) giành HCV và phá kỷ lục giải [châu Á](LOC) 2017
+    - [AFP](ORG) dẫn nguồn tin từ truyền thông địa phương cho hay [Cvitanovic](PER) bị 2 tên côn đồ bịt mặt dùng gậy bóng chày đánh đập ngay trước căn hộ của mình tại [thủ đô Zagreb](LOC) vào đêm 20.9
+    - [Messi](PER) hay [Cavani](PER) cũng đá hỏng
+    - [Messi](PER) châm chọc phong độ tệ hại của [Real](ORG), [Anthony Martial](PER) đi thi thể hình
+    - [Nadal](PER) kết hợp cùng [Berdych](PER) so tài với [Sock](PER) và [Kyrgios](PER)
+    - [Zverev](PER) và [Shapovalov](PER) giằng co từng điểm một và cả 2 set đấu đều phải phân định bởi loạt tie-break
+    - [Ánh Viên](PER) thi đấu thành công ngay trong ngày đầu xuất trận
+    - [Ánh Viên](PER) giành HCV, phá kỷ lục tại AIMAG 5
+    - [Châu Tuyết Vân](PER) cùng 2 đồng đội giành HCV nội dung quyền
+    - [Bình Dương](ORG): [Tấn Trường](PER), [Michal Nguyễn](PER), [Xuân Luân](PER), [Xuân Thành](PER), [Huỳnh Phú](PER), [Tấn Tài](PER), [Hoài Nam](PER), [Anh Đức](PER), [Tiến Linh](PER), [D.Junior](PER), [Đinh Hoàng Max](PER)
+    - [Conte](PER): 'Tôi và [Chelsea](ORG) sẽ không bao giờ quên những gì [Costa](PER) đã làm'
+    - [Nguyên Hoàng](PER) 13', [Thanh Trung](PER) 24', [Chí Bảo](PER) 50' 61' 65' 88', [Minh Đan](PER) 53', [Quốc Hoàng](PER) 57', [Thanh Hậu](PER) 76'
+    - [Trí Bảo](PER) bắt volley đẹp mắt nâng tỷ số lên 3-0 ở phút đầu tiên
+    - [Công Vinh](PER) không chỉ khiến người xem bất ngờ từ việc tham dự giải đấu mà khả năng đánh golf xuất sắc của anh cũng làm cho tất cả phải trầm trồ
+    - [Zidane](PER) nhiều khả năng sẽ phải gọi thêm những cái tên từ đội B
+    - [Ronaldo](PER) cũng đang gặp vấn đề ở khâu dứt điểm, điều rất dễ thấy trong trận thua [Betis](ORG)
+    - [Asensio](PER) thì có lúc bùng nổ, có lúc lại lặn mất tăm
+    - [Isco](PER) là cái tên đáng tin cậy duy nhất còn có thể nghĩ đến, bởi [Kovacic](PER) cũng đã chấn thương
+    - [Nguyễn Trãi](PER) là đội bóng phong trào mà [Hồng Việt](PER) và những người bạn từ thời học cấp 2 thành lập, duy trì đến tận bây giờ
+    - [Hữu Bằng](ORG) 1-4 [Từ Sơn](ORG) +
+    - [Carli Lloyd](PER) lúc này đang chơi cho [Manchester City](ORG) theo dạng cho mượn
+    - [Deyna Castellanos](PER) là ngôi sao sinh năm 1999 của bóng đá [Venezuela](LOC)
+    - [Carli Lloyd](PER) năm nay 35 tuổi, là đội trưởng đội tuyển bóng đá nữ [Mỹ](LOC), tác giả cú hat-trick mang về chiến thắng 5-2 trong trận chung kết World Cup 2015 với tuyển [Nhật Bản](LOC)
+    - [Bầu Đức](PER) nói gì về việc mời [Kiatisak](PER) thay [Hữu Thắng](PER)?
+    - [Kiatisak](PER) từng thi đấu cho [HAGL](ORG) và góp công lớn giúp đội bóng phố Núi giành 2 danh hiệu vô địch V-League
+    - [Bầu Đức](PER) cho biết ông chưa hề có ý định mời HLV [Kiatisak](PER) sang [Việt Nam](LOC) dẫn dắt ĐTQG
+    - [Dyachenko](PER) đã chơi rất nỗ lực nhưng không đem lại hiệu quả
+    - [Đỗ Merlo](PER) cũng tỏ ra vô duyên trong các pha dứt điểm
+    - [Xuân Tú](PER) tiếc nuối sau khi bỏ lỡ quả phạt đền
+    - [Than.QN](ORG): [Tuấn Linh](PER), [Văn Khoa](PER), [Thanh Hào](PER), [Minh Tùng](PER), [Xuân Hùng](PER), [Đức Thắng](PER), [Trung Hiếu](PER), [Nguyên Sa](PER), [Xuân Tú](PER), [Dyachenko](PER), [Mạc Hồng Quân](PER)
+    - [Ánh Viên](PER) giành HCV, phá kỷ lục của chính mình tại AIMAG 2017
+    - [Ánh Viên](PER) phá kỷ lục của chính mình tại AIMAG 2017
+    - [Ánh Viên](PER) đoạt HCV 200 m hỗn hợp tại AIMAG 2017
+    - [Ánh Viên](PER) còn thi 100 m hỗn hợp và 200 m tự do
+    - [Ánh Viên](PER) đã về nhất ở nội dung 200 m hỗn hợp, với thành tích 2 phút 09 giây 78 phá kỷ lục cũ của chính [Ánh Viên](PER) lập tại [Incheon](LOC) năm 2013 là 2 phút 10 giây 05
+    - [Ánh Viên](PER) đã bỏ xa người về nhì là [Zhan Chenyao](PER) ([Trung Quốc](LOC)) đến 2 giây 89
+    - [Ánh Viên](PER) và chiếc HCV đầu tiên tại AIMAG 2017
+    - [Ánh Viên](PER) cho biết: “Tôi rất vui khi giành HCV lần thứ 2 liên tiếp cự ly 200 m hỗn hợp tại AIMAG, Đây sẽ là động lực để tôi hướng đến ASIAD sang năm với quyết tâm cao hơn”
+    - [Ánh Viên](PER) bỏ xa các đối thủ
+    - [Deulofeu](PER) khi còn trẻ đã đá như [Messi](PER)
+    - [Bình Dương](ORG): TM [Bùi Tấn Trường](PER), [Michal Nguyễn](PER), [Xuân Luân](PER), [Xuân Thành](PER), [Huỳnh Phú](PER), [Tấn Tài](PER), [Hoài Nam](PER), [Anh Đức](PER), [Tiến Linh](PER), [Pereira Junior](PER), [Hoàng Max](PER)
+    - [Phi Sơn](PER) chơi tả xung hữu đột giữa rừng cầu thủ đối phương
+    - [Võ Văn Tùng](PER) đã bước vào thi đấu ném đĩa hạng thương tật F34
+    - [Võ Văn Tùng](PER) giành cú đúp HCV ném lao [ASEAN](ORG) Para Games 2017
+    - [Văn Mạnh](PER) hạng thương tật T37 đã thành công ở nội dung chạy 200m
+    - [VFF](ORG) để ngỏ khả năng mời [Kiatisak](PER) dẫn dắt đội tuyển [Việt Nam](LOC)
+    - [Kiatisak](PER) đang là ứng viên đầy tiềm năng cho vị trí dẫn dắt đội tuyển [Việt Nam](LOC)
+    - [Văn Hậu](PER) đang là ứng viên số một cho danh hiệu Cầu thủ trẻ hay nhất [Đông Nam Á](LOC) 2017./
+    - [VFF](ORG) chọn [sân Mỹ Đình](LOC) tổ chức trận [Việt Nam](LOC)- [Campuchia](LOC)
+    - [VFF](ORG) hi vọng trận đấu giữa tuyển [Việt Nam](LOC) với [Campuchia](LOC) được tổ chức trên [sân Mỹ Đình](LOC) sẽ cống hiến những pha bóng hay, những bàn thắng đẹp, góp phần tạo không khí vui tưới, phấn khởi và phục vụ tốt nhu cầu thưởng thức bóng đá của khán giả hâm mộ cả nước nói chung và khán giả hâm mộ thủ đô nói riêng
+    - [Hughie Fury](PER) - chính là em họ của nhà cựu vô địch [Tyson Fury](PER) - sẽ có trận tranh đai WBO hạng nặng với [Joseph Parker](PER) cuối tuần này
+    - [Fury](PER) khẳng định, anh đến tham quan [Manchester](LOC) để chuẩn bị cho trận tranh đai vô địch với [Joseph Parker](PER)
+    - [Ánh Viên](PER) hoàn thành nội dung bơi 200m hỗn hợp với thành tích 2 phút 09 giây 78, giành HCV, đồng thời phá kỷ lục 2 phút 10 giây 05 do bản thân thiết lập năm 2013
+    - [Kiatisak](PER) từng thi đấu cho [HAGL](ORG) từ 2002 đến 2006
+    - [VFF](ORG) lên tiếng về kế hoạch gặp HLV [Kiatisuk](PER) vào ngày 23/9
+    - [Thái Lan](LOC) trong khi đó cử HLV [Kiatisuk](PER) tham dự, bên cạnh các quan chức Liên đoàn bóng đá nước này ([FAT](ORG))
+    - [Báo Tiền phong](ORG) đưa tin, một lãnh đạo [VFF](ORG) khẳng định, [VFF](ORG) chưa có kế hoạch tiếp xúc nào với HLV [Kiatisuk](PER) để bàn về vấn đề hợp đồng liên quan đến ‘ghế nóng’ của tuyển [Việt Nam](LOC)
+    - [Ronaldo](PER) đánh giá: "Mùa trước [Real](ORG) cũng trải qua những giai đoạn khó khăn tương tự nhưng rồi họ kết thúc mùa giải với cú đúp La Liga và Champions League
+    - [Real](ORG) đang thi đấu kém cỏi kể từ đầu mùa giải
+    - [Rô béo](PER) sẵn sàng giảm mỡ để trở lại cứu giúp [Real](ORG)
+    - [Cristiano Ronaldo](PER) cũng vậy, và mùa giải mới chỉ khởi tranh
+    - [Singapore](LOC) (Thắng 1 hòa 0 thua 2 tại vòng bảng [AFF Cup 2014](MIS), Thắng 0 hòa 1 thua 2 tại vòng bảng [AFF Cup 2016](MIS)) đạt tổng điểm 11
+    - [Indonesia](LOC) (Thắng 1 hòa 1 thua 1 tại Vòng bảng [AFF Cup 2014](MIS), Á quân 2016) đạt tổng điểm 17
+    - [Lào](LOC) (Thắng 0 hòa 0 thua 3 tại vòng bảng [AFF Cup 2014](MIS), Thắng 2 hòa 0 thua 1 tại vòng loại [AFF Cup 2016](MIS)) đạt tổng điểm 7
+    - [Việt Nam](LOC) (Đồng hạng Ba [AFF Cup](MIS) 2014, 2016) đạt tổng điểm 18
+    - [Timor Leste](LOC) (Thắng 1 hòa 1 thua 2 tại Vòng loại [AFF Cup 2014](MIS), Thắng 1 hòa 0 thua 2 tại vòng loại [AFF Cup 2016](MIS)) đạt tổng điểm 4
+    - [AFF](ORG) Cup 2018 thay đổi thể thức, ĐT [Việt Nam](LOC) đá 2 trận sân khách ở vòng bảng
+    - [Brunei](LOC) (Thắng 0 hòa 0 thua 4 tại Vòng loại [AFF Cup 2014](MIS), Thắng 0 hòa 0 thua 3 tại vòng loại [AFF Cup 2016](MIS)) đạt tổng điểm 2
+    - [Malaysia](LOC) (Á quân [AFF Cup 2014](MIS), Thắng 1 hòa 0 thua 2 tại vòng bảng [AFF Cup 2016](MIS)) đạt tổng điểm 17
+    - [Campuchia](LOC) (Thắng 2 hòa 0 thua 2 tại vòng loại [AFF Cup 2014](MIS), Thắng 0 hòa 0 thua 3 tại vòng bảng [AFF Cup 2016](MIS) đạt tổng điểm 7
+    - [Thái Lan](LOC) (vô địch [AFF Cup](MIS) 2014, 2016) đạt tổng điểm 22
+    - [Timor Leste](LOC) và [Brunei](LOC) sẽ cạnh tranh suất vé thứ 10 tham dự [AFF Cup 2018](MIS) tại vòng play-off, thi đấu theo thể thức lượt đi – lượt về trên sân nhà và sân đối phương
+    - [Myanmar](LOC) (Thắng 0 hòa 1 thua 2 tại vòng bảng [AFF Cup 2014](MIS), Đồng hạng Ba [AFF Cup 2016](MIS)) đạt tổng điểm 14
+    - [Philippines](LOC) (Đồng hạng Ba [AFF Cup 2014](MIS), Thắng 0 hòa 2 thua 1 tại vòng bảng [AFF Cup 2016](MIS)) đạt tổng điểm 15
+    - [Joerg Heinrich](PER) là một trong những siêu sao bóng đá hàng đầu nước [Đức](LOC)
+    - [Stoke City](ORG) vs [Chelsea](ORG) (21h00 ngày 23/9): Đi dễ khó về
+    - [Bình Dương](ORG) thực hiện nhiều pha xuống biên nhưng không có nhiều cú tạt bóng thuận lợi trước lối chơi lăn xả của [Phạm Mạnh Hùng](PER) và [Phạm Xuân Mạnh](PER)
+    - [SLNA](ORG) chặn đứng chuỗi trận toàn thắng của [Bình Dương](ORG)
+    - [Bình Dương](ORG) vs [SLNA](ORG) là 1 trong 3 trận đấu diễn ra sớm của vòng 19 V.League
+    - [Bình Dương](ORG) có lợi thế thi đấu trên sân nhà, tuy nhiên số lượng khán giả của đội khách áp đảo
+    - [Bình Dương](ORG) có 2 trận thắng liên tiếp trước [Hải Phòng](ORG), [Hà Nội](ORG) khi tiếp đón đội bóng [xứ Nghệ](LOC)
+    - [Klopp](PER): 'Ai đọc báo thì cứ nghĩ chúng tôi là đội tệ nhất Premier League vậy'
+    - [Liverpool](ORG) đang trải qua một cơn khủng hoảng nhỏ trong thời gian qua
+    - [Liverpool](ORG) đã không thể giành chiến thắng trong 4 trận gần nhất và sẽ chạm trán [Leicester City](ORG) vào thứ Bảy tới tại Premier League
+    - [Alex Oxlade Chamberlain](PER) đã có trận đá chính đầu tiên khi [Liverpool](ORG) thất thủ 0-2 trước [Leicester](ORG) tại Carabao Cup hồi giữa tuần
+    - [Quyền Anh](MIS) được xem là một môn khốc liệt và bạo lực bậc nhất trong giới thể thao, thế nhưng có một điều khá thú vị là hiện nay có nhiều cô gái trẻ chọn để theo nghiệp
+    - [Thùy Linh](PER) chưa có một thành tích thật sự nổi bật nào, chính vì thế đây là cơ hội để khẳng định tên tuổi của mình
+    - [MU](ORG) sẽ gặp nhiều khó khăn với chấn thương của [Pogba](PER)
+    - [MU](ORG) sẽ phải đối phó với vấn đề này”
+    - [Pogba](PER) luôn muốn có bóng và cậu ấy luôn tin tưởng vào bản thân
+    - [Neville](PER): '[MU](ORG) vẫn sống khỏe mà không cần [Pogba](PER)'

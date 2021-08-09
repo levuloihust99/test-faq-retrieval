@@ -1,0 +1,15 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_time
+  examples: |
+    - mấy giờ rồi
+    - mấy giờ rồi vậy bot
+    - bạn cho mình hỏi mấy giờ rồi
+    - bạn có biết bây giờ là mấy giờ không
+    - mấy giờ rồi nhỉ
+    - bạn ơi mấy giờ rồi
+    - thời gian bây giờ là mấy giờ
+    - bạn cho mình hỏi mấy giờ rồi ạ
+    - bây giờ là mấy giờ
+    - đồng hồ đang chỉ mấy giờ
+    - bạn có đồng hồ không, xem hộ mình mấy giờ với

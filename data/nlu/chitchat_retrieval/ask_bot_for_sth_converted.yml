@@ -1,0 +1,875 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_for_joke
+  examples: |
+    - bạn có thể pha trò không
+    - bạn có thể kể chuyện cười không
+    - đưa ra một truyện cười bạn thấy buồn cười
+    - kể cho tôi một câu chuyện hài hước đi
+    - bạn có thể nói với tôi một trò đùa
+    - bạn có biết chọc cười không
+    - bạn có biết tấu hài không
+    - bạn có biết làm trò gì vui vui không
+    - gửi cho tôi cái gì vui vui đi
+    - gửi tôi cái gì vui vui đi
+    - nhắn tôi cái gì vui vui đi
+    - kể tao cái gì vui vui xem nào
+    - tôi cần một trò đùa mặn
+    - tôi cần một màn troll bá đạo
+    - tôi muốn nghe một cái gì đó hài hước
+    - làm tôi cười đi
+    - làm tôi buồn cười đi
+    - chọc tôi cười đi
+    - kể cho tôi một câu chuyện tiếu lâm
+    - kể cho tôi một câu chuyện cười bể bụng
+    - trò đùa này xưa rồi
+    - có trò đùa nào mới hơn không
+    - xin vui lòng cho tôi kể cho tôi một trò đùa
+    - nói một cái gì đó tếu táo đi
+    - nghĩ ra một trò đùa mà bạn nghĩ tôi sẽ thấy buồn cười
+    - bạn có thể vui lòng chia sẻ một trò đùa với tôi
+    - bạn có đùa không
+    - Bạn có biết bất cứ chuyện cười nào không
+    - làm tôi vui với một câu chuyện cười của bạn
+    - gửi tôi một trò đùa vui
+    - cho tôi một trò đùa
+    - cho tôi một chút nhẹ nhõm
+    - tôi cần một trò đùa hay ho
+    - tôi muốn nghe một cái gì đó buồn cười
+    - biết bất kỳ câu chuyện cười
+    - hãy để tôi nghe một câu nói đùa từ bạn
+    - khiến tôi cười
+    - xin vui lòng cho tôi biết một trò đùa
+    - nói một cái gì đó buồn cười
+    - chia sẻ một trò đùa với tôi
+    - nói đùa
+    - nói với tôi điều gì đó vui
+    - nói với tôi điều gì đó hài hước!
+    - nói với tôi điều gì đó mà bạn nghĩ sẽ làm tôi cười
+    - nói với tôi trò đùa hay nhất mà bạn biết
+    - thật là một trò đùa
+    - bạn sẽ nói với tôi một trò đùa
+    - bạn sẽ chia sẻ một trò đùa với tôi chứ
+    - cho tôi một trò đùa tốt
+    - làm tôi cười với một câu chuyện dở khóc dở cười
+    - làm tôi cười với một trò đùa
+    - nói một câu đùa vui
+    - nói một câu đùa thật buồn cười
+    - nói một câu đùa thật tệ
+    - nói với tôi một trò đùa
+    - nói với tôi một trò đùa ngắn
+    - kể cho tôi một câu chuyện cười
+    - nói với tôi điều gì đó buồn cười, như một trò đùa
+    - bạn có thể nói một điều gì hài hước không
+    - nói đùa đi mày
+    - sao bạn chỉ có một trò đùa
+    - tôi sẽ thích một trò đùa khác
+    - có một trò đùa khác
+    - có một trò đùa mới
+    - có một trò đùa thứ hai
+    - có bất kỳ câu chuyện cười khác không
+    - có bất kỳ trò đùa nào khác
+    - đánh tôi với một trò đùa mới
+    - nối tôi với một trò đùa khác
+    - một trò đùa khác
+    - một trò đùa mới
+    - một trò đùa thứ hai
+    - bạn không biết những trò đùa khác
+    - tại sao không thử một trò khác
+    - bạn không có trò đùa nào khác
+    - bạn không có trò đùa khác à
+    - bạn nhạt quá
+    - tôi biết nó rồi
+    - chuyện này xưa quá rồi
+    - tôi cần một trò đùa vui hơn
+    - tôi cần một kiểu đùa mới mẻ hơn
+    - thử trò mới đi
+    - sao bạn chỉ biết một trò đùa
+    - tôi đã nghe chuyện đó rồi
+    - tôi đã nghe điều đó trước đây
+    - tôi cần một trò đùa tốt hơn
+    - tôi cần một trò đùa khác
+    - tôi cần một trò đùa hài hước
+    - tôi cần một kiểu pha trò khác
+    - tôi cần một trò đùa mới
+    - tôi muốn một trò đùa tốt hơn
+    - tôi muốn một trò đùa hoàn toàn mới
+    - tôi muốn một trò đùa khác
+    - tôi muốn một kiểu đùa khác
+    - trò đùa khác
+    - thử một trò đùa mới thì thế nào nhỉ
+    - bạn có thể nói cho tôi một trò đùa khác không
+    - vui lòng thay thế
+    - một trò đùa khác, làm ơn
+    - bất kỳ câu chuyện cười khác nhau
+    - bất kỳ câu chuyện cười mới
+    - bất kỳ trò đùa nào khác
+    - có những trò đùa khác mà bạn biết
+    - có những trò đùa khác
+    - đùa tốt hơn
+    - vui lòng nói đùa
+    - bot tôi cần một trò đùa mới
+    - cho tôi một trò đùa khác
+    - bạn có thể kể cho tôi một trò đùa thứ hai không
+    - tôi muốn một trò đùa mới
+    - bạn có thể kể cho tôi nghe những câu chuyện cười khác không
+    - cố lên bạn có một trò đùa khác
+    - trò đùa khác nhau
+    - trò đùa khác nhau, làm ơn
+    - bạn có nhiều trò đùa không
+    - bạn có một kho truyện cười không
+    - bạn có biết một loạt các câu chuyện cười hay không
+    - bạn có biết một trò đùa khác không
+    - bạn có biết nhiều câu chuyện cười không
+    - bạn có biết những câu chuyện cười mới không
+    - bạn có biết những câu chuyện cười khác không
+    - bạn không có trò đùa mới
+    - bạn có thể kể cho tôi một trò đùa mới không
+    - bạn có trò đùa gì khác
+    - tôi muốn một trò đùa hài hước
+    - bạn biết bất kỳ câu chuyện cười nào khác
+    - muốn chia sẻ một trò đùa khác
+    - muốn chia sẻ một trò đùa mới
+    - muốn chia sẻ thêm một trò đùa nữa
+    - bạn biết những câu chuyện cười khác nhau
+    - một trò đùa khác là gì nhỉ
+    - một trò đùa khác là gì
+    - có những trò đùa nào khác ở đó
+    - bạn biết một trò đùa thứ hai
+    - bạn có thể kể những câu chuyện cười nào khác
+    - bạn biết một trò đùa mới
+    - bạn có những trò đùa nào khác
+    - bạn biết những trò đùa nào khác
+    - bạn biết những trò đùa nào khác không
+    - thật là một trò đùa khác
+    - bạn biết trò đùa gì nữa
+    - tại sao bạn nói với tôi cùng một trò đùa
+    - bạn sẽ kể cho tôi một trò đùa thứ hai chứ
+    - bạn sẽ nói với tôi một trò đùa khác
+    - bạn sẽ kể cho tôi một trò đùa mới chứ
+    - bạn đã kể chuyện đó với tôi rồi
+    - bạn đã kể điều đó với tôi rồi
+    - bạn từng kể rồi
+    - kể rồi
+    - biết chuyện này rồi
+    - bạn có vài câu chuyện cười mà bạn chưa nói với tôi
+    - bạn có thể nói những câu chuyện cười nào khác
+    - kể một câu chuyện cười khác
+    - tôi thực sự muốn nghe một trò đùa mới
+    - đã đến lúc cho một trò đùa hoàn toàn mới
+    - đã đến lúc cho một trò đùa mới
+    - tôi đã từng nghe điều đó trước đây
+    - trò đùa mới
+    - làm ơn đùa mới
+    - trò đùa tiếp theo
+    - xin vui lòng cho tôi biết một trò đùa khác
+    - nói một trò đùa khác
+    - nói một trò đùa mới
+    - kể một trò đùa khác
+    - kể một trò đùa mới
+    - đã đến lúc làm tôi buồn cười
+    - bạn có thể hài hước không
+    - bạn có khiếu hài hước không
+    - bạn có thể thi thách thức danh hài không
+    - nói với tôi một trò đùa hay hơn
+    - nói với tôi một kiểu đùa khác đi
+    - nói với tôi một hài tục
+    - bạn biết một trò đùa khác
+    - chia sẻ một trò đùa khác với tôi
+    - bạn phải có những trò đùa khác nhau
+    - kể một câu chuyện cười mới
+    - kể chuyện cười khác
+    - nói với tôi một trò đùa tốt hơn
+    - nói với tôi một trò đùa khác
+    - nói với tôi một kiểu đùa khác
+    - nói với tôi một trò đùa bậy
+    - nói với tôi một trò đùa hài hước
+    - kể cho tôi một trò đùa mới
+    - nói với tôi một trò đùa cướp biển
+    - nói với tôi một trò đùa khoa học
+    - nói với tôi một trò đùa thứ ba
+    - chia sẻ một trò đùa khác
+    - làm một cái gì đó buồn cười
+    - tôi muốn bạn nói với tôi điều gì đó vui
+    - thôi nào, nói gì đó vui đi
+    - tôi muốn một cái gì đó hài hước
+    - làm cho tôi vui với một cái gì đó buồn cười
+    - thử vui vẻ xem nào
+    - thử vui vẻ ngay bây giờ xem nào
+    - làm một điều buồn cười
+    - bạn có thể làm điều gì đó vui không
+    - bạn có thể làm tôi cười không
+    - bạn có thể nói điều gì đó vui không
+    - làm một điều vô lý
+    - bạn có thể vô lý
+    - bạn có thể nói điều gì đó vô lý
+    - bạn có thể nói cho tôi điều gì đó vui không
+    - đã đến lúc làm tôi cười
+    - bạn có thể vui tính không
+    - bạn sẽ làm tôi cười chứ
+    - cố gắng làm tôi cười bể bụng
+    - cố gắng làm tôi cười
+    - bạn có thể nói gì sẽ làm tôi cười
+    - bạn sẽ vui chứ
+    - bạn sẽ làm điều gì đó vui không
+    - nói điều gì đó sẽ làm tôi đau khổ
+    - bạn sẽ nói điều gì đó vui không
+    - bạn sẽ nói điều gì đó vô lý
+    - bạn sẽ làm điều gì đó thú vị phải không
+    - bạn sẽ làm điều gì đó khôi hài phải không
+    - bạn sễ nói điều gì đó buồn cười phải không
+    - làm tôi cười đi nào
+    - làm tôi cười thật to xem nào
+    - nói một câu nói vui
+    - nói một điều buồn cười
+    - nói điều gì đó hài hước
+    - làm điều gì đó sẽ làm tôi cười
+    - bạn sẽ làm tôi cười như thế nào
+    - giải trí cho tôi
+    - làm một cái gì đó vô lý
+    - thật lố bịch
+    - làm gì đó vượt qua giới hạn của bạn đi
+    - nói với tôi một cái gì đó ngoài giới hạn của bạn đi
+    - nói gì đó ngoài giới hạn của bạn đi
+    - nói điều gì đó vô lý
+    - bạn sẽ không nói điều gì đó hài hước
+    - nói một điều vô lý
+    - làm một cái gì đó thú vị
+    - làm tôi cười khúc khích
+    - cho tôi một tiếng cười
+    - tôi cần nghe một trò đùa
+    - có bất kỳ câu chuyện cười để chia sẻ
+    - có bất kỳ câu chuyện cười
+    - có bất cứ câu chuyện cười
+    - một trò đùa
+    - một trò đùa thì sao
+    - tôi cảm thấy như một trò đùa
+    - đùa
+    - tôi cảm thấy như tôi cần một trò đùa
+    - có một trò đùa
+    - tôi muốn nghe một trò đùa
+    - tôi muốn một trò đùa
+    - tôi muốn bạn kể cho tôi một trò đùa
+    - tôi rất thích nghe một trò đùa
+    - Tôi sẽ thích nó nếu bạn nói với tôi một trò đùa
+    - một trò đùa sẽ rất vui
+    - tôi cảm thấy như nghe một trò đùa
+    - bạn có nói đùa không
+    - một trò đùa sẽ tốt
+    - một trò đùa sẽ được chấp nhận
+    - bất kỳ câu chuyện cười hay
+    - bạn có thể cho tôi một trò đùa
+    - bạn có thể nói một trò đùa không
+    - bạn có thể chia sẻ một trò đùa
+    - có bất kỳ câu chuyện cười để nói
+    - bạn có nói đùa với tôi không
+    - có bất kỳ câu chuyện cười tuyệt vời
+    - bạn có biết một trò đùa
+    - bạn có biết những câu chuyện cười hay không
+    - bạn có biết truyện cười không
+    - bạn có thể kể cho tôi nghe bất kỳ câu chuyện cười nào không
+    - bạn sẽ nói một trò đùa chứ
+    - một trò đùa mà bạn biết
+    - trò đùa yêu thích của bạn là gì
+    - bạn biết những câu chuyện cười nào
+    - thật là một trò đùa bạn có thể nói với tôi
+    - bạn biết gì về một trò đùa
+    - bạn sẽ cho tôi một trò đùa
+    - muốn chia sẻ một trò đùa
+    - bạn sẽ chia sẻ một trò đùa chứ
+    - bạn biết một trò đùa
+    - bạn biết bất kỳ câu chuyện cười
+    - bạn cần nói một trò đùa
+    - bạn cần nói đùa với tôi
+    - chia sẻ một trò đùa
+    - làm ơn cho tôi một trò đùa
+    - làm ơn nói đùa
+    - hãy chia sẻ một trò đùa
+    - xin vui lòng cho tôi biết một trò đùa vui
+    - xin vui lòng cho tôi biết một trò đùa ngớ ngẩn
+    - xếp hàng một trò đùa
+    - muốn nói với tôi một trò đùa
+    - nói giỡn
+    - đến lúc cho một trò đùa
+    - đến lúc nói đùa rồi đấy
+    - bạn biết bất kỳ câu chuyện cười nào
+    - muốn nói một trò đùa
+    - bạn cần nói với tôi một trò đùa
+    - đọc một câu chuyện cười
+- intent: chitchat/ask_for_sth_can_not
+  examples: |
+    - bạn có thể nhảy dây không
+    - bạn có thể vẽ một cái gì đó
+    - bạn có biết vẽ không
+    - bạn biết vẽ tranh không
+    - bạn có khả năng hội họa không
+    - bạn giúp tôi sơn nhà nhé
+    - bạn có thể dọn cỏ không
+    - bạn biết dọn cỏ không
+    - bạn có thể làm cho tôi một chiếc bánh kẹp
+    - bạn có thể làm cho tôi một chiếc sandwich
+    - bạn có biết khắc tượng không
+    - bạn có thể điêu khắc không
+    - bạn có thể pha trà không
+    - bạn có biết pha cà phê không
+    - bạn có thể thực hiện cuộc gọi không
+    - bạn có thể gọi điện thoại không
+    - bạn có thể call tôi không
+    - bạn có thể facetime tôi không
+    - bạn có thể nghe đài phát thanh không
+    - bạn có thể nghe sách nói không
+    - bạn có thể nghe báo nói không
+    - bạn có thể đi học hộ tôi không
+    - bạn có thể học hộ tôi không
+    - bạn có thể đi họp phụ huynh cho tôi không
+    - bạn biết làm vườn không
+    - bạn có thể trồng rừng không
+    - bạn có thể nhảy từ tầng thượng xuống không
+    - bạn có thể trồng rau không
+    - bạn có thể đến bệnh viện không
+    - bạn có thể đi du lịch không
+    - bạn có thể đi lượn không
+    - bạn có thể đi hóng gió không
+    - bạn có thể đi hóng mát không
+    - bạn có thể húi cua không
+    - bạn có thể cạo đầu không
+    - bạn có thể bay lượn không
+    - bạn có thể đánh nhau với
+    - bạn có thể đánh nhau
+    - bạn có thể thở như cá không
+    - bạn có thể nín thở dưới nước không
+    - bạn có thể ship hàng cho tôi không
+    - bạn có thể gửi hàng
+    - bạn có thể buộc dây giày cho tôi
+    - bạn có thể đo nhiệt độ của tôi
+    - bạn có thể dạy tôi dập lửa
+    - bạn có thể dạy tôi cách chơi game
+    - bạn có thể dạy tôi cách nhảy dây
+    - bạn có thể dạy tôi cách đi trên mặt trăng
+    - bạn có thể dạy tôi cách làm bài tập về nhà
+    - bạn có thể làm tập làm văn hộ tôi
+    - bạn có thể giải cho tôi bài tập
+    - bạn có thể chỉ cho tôi cách khiêu vũ
+    - bạn có thể phục vụ trong tòa án
+    - bạn có thể làm thẩm phán
+    - bạn có thể làm quan tòa không
+    - bạn có thể vẽ tranh không
+    - bạn có thể đi guốc trong bụng tôi
+    - bạn có thể cứu hỏa không
+    - bạn có thể tiên đoán tương lai
+    - bạn có thể bói về tương lai
+    - bạn có thể chơi đàn
+    - bạn có thể đánh đàn guitar
+    - bạn có thể chơi game không
+    - bạn có thể chơi lol không
+    - bạn có thể chơi liên quân không
+    - bạn có thể đá fifa không
+    - bạn có thể đá pes không
+    - bạn có thể bắn pubg không
+    - bạn có thể chơi flapybird không
+    - bạn có thể đọc DVD không
+    - bạn có thể nướng bánh không
+    - bạn có thể làm bánh gato không
+    - bạn biết làm bánh ngọt không
+    - bạn có thể giải bài tập về nhà của tôi
+    - bạn có thể hoàn thiện bài tập về nhà
+    - bạn có thể giúp tôi làm bài về nhà
+    - bạn có thể rửa bát không
+    - bạn có thể quét nhà không
+    - bạn có thể dọn nhà không
+    - bạn có biết nhảy không
+    - bạn có biết điệu nhảy quan tài không
+    - bạn có biết điệu nhảy ghen cô vy không
+    - bạn có biết điệu nhảy rửa tay không
+    - bạn có biết điệu nhảy cha cha cha không
+    - bạn có biết nấu ăn không
+    - bạn có biết nấu nướng không
+    - bạn có thể nấu ăn sáng không
+    - bạn có thể nấu bữa trưa không
+    - bạn có thể nấu đồ ăn đêm không
+    - bạn biết leo núi không
+    - bạn biết leo phan xi păng không
+    - bạn biết trèo đèo lội suối không
+    - bạn có thể chuyển kênh không
+    - bạn biết dùng điều khiển ti vi không
+    - bạn biết tôi nghĩ gì không
+    - bạn biết tưới rau không
+    - bạn biết tưới hoa không
+    - bạn có thể biến thành siêu nhân không
+    - gửi lời mời đến tôi
+    - mời tôi đi chơi
+    - bạn có thể nhảy cao đến mức nào
+    - mức cao nhất bạn nhảy được
+    - chữa bệnh cho tôi
+    - chữa trị cho tôi
+    - cứu chữa cho tôi
+    - đi gặp chị hằng
+    - đi gặp chú cuội
+    - đi gặp bác sĩ ngoại khoa
+    - đi gặp bác sĩ nội khoa
+    - đi khám bệnh
+    - đi khám răng
+    - đi gặp nha sĩ
+    - đi khám phụ khoa
+    - đi lượn không
+    - đi hóng gió không
+    - đi phượt không
+    - hãy là nước chanh tươi
+    - hãy pha chanh đá
+    - hớt tóc
+    - chỉ tôi chỗ cái điều khiển
+    - chỉ tôi chỗ điện thoại
+    - chỉ tôi chỗ chìa khóa của tôi
+    - cho hoàng thượng ăn
+    - viết một cái gì đó
+    - viết bình luận
+    - viết comment
+    - viết status
+    - viết trạng thái facebook
+    - cập nhật trạng thái facebook
+    - bạn có thích uống bia hơi không
+    - bạn thích đi beer club không
+    - chuyển phát
+    - chuyển phát nhanh
+    - chuyển hàng bưu điện
+    - chuyển hàng liên tỉnh
+    - coi phim
+    - theo dõi bộ phim
+    - mở phim
+    - rửa chén
+    - làm sạch bát đĩa
+    - siêu nhân biến hình
+    - cho tôi một quote thêm động lực
+    - selfie
+    - làm tôi kinh ngạc
+    - đi ăn sáng thôi
+    - điều khiển ở đâu
+    - điện thoại ở đâu
+    - chìa khóa của tôi ở đâu
+    - sen cho hoàng thượng ăn
+    - biến thành siêu nhân
+    - kể chuyện đi
+    - cho tôi một quote hay
+    - chụp hình
+    - làm tôi bất ngờ
+    - đi ăn tối thôi
+    - bạn đọc sách không
+    - bạn biết đọc không
+    - bạn có mù chữ không
+    - bạn biết đọc sách không
+    - bạn có chém gió không
+    - bạn có buôn dưa lê không
+    - bạn có trồng cây không
+    - bạn có nấu nướng không
+    - bạn có mật mã không
+    - giặt đồ lót không
+    - giặt đồ thể thao không
+    - giặt đồ tập gym không
+    - bạn có biết bơi ngửa không
+    - bạn có biết bơi ếch không
+    - bạn có biết bơi tự do không
+    - bạn có biết bơi sải không
+    - bạn có biết bơi trườn sấp không
+    - bạn có biết bơi freestyle không
+    - bạn có biết bơi chó không
+    - chế thuốc
+    - sản xuất thuốc
+    - sản xuất dược phẩm
+    - chế dược phẩm
+    - bạn đã xem aff cup chưa
+    - bạn đã xem vleage chưa
+    - bạn đã xem sea game chưa
+    - bạn đã xem VTV cup chưa
+    - bạn đã xem u23 chưa
+    - khiêu vũ
+    - quẩy
+    - dẩy đầm
+    - đưa tay ra bạn ơi
+    - bạn có biết high five không
+    - lên top
+    - lên đỉnh
+    - tôi có thể ôm xã giao được không
+    - cho ôm miếng
+    - hãy ôm tôi
+    - ôm tôi đi
+    - ôm tôi đi nào
+    - bạn có thể sơn nhà tôi không
+    - bạn có thể cắt cỏ
+    - bạn có thể làm cho tôi một chiếc bánh sandwich
+    - bạn có thể làm một tác phẩm điêu khắc
+    - bạn có thể làm một bình trà
+    - bạn có thể pha một tách cà phê
+    - bạn có thể gọi điện không
+    - bạn có thể nghe radio không
+    - bạn có thể học
+    - bạn có thể trồng cây không
+    - bạn có thể nhảy không
+    - bạn có thể trồng một vườn rau
+    - bạn có thể đi đến mặt trăng
+    - bạn có thể đi đến bác sĩ
+    - bạn có thể đi nghỉ không
+    - bạn có thể đi dạo không
+    - bạn có thể cắt tóc không
+    - bạn có thể bay
+    - bạn có thể tìm thấy điều khiển từ xa
+    - bạn có thể chiến đấu với
+    - bạn có thể chiến đấu
+    - bạn có thể thở dưới nước không
+    - bạn có thể học hỏi từ những người trò chuyện với bạn
+    - bạn có thể gửi một gói
+    - bạn có thể buộc giày của tôi
+    - bạn có thể dịch chuyển tức thời
+    - bạn có thể lấy nhiệt độ của tôi
+    - bạn có thể chỉ cho tôi cách dập lửa
+    - bạn có thể chỉ cho tôi cách chơi một trò chơi
+    - bạn có thể chỉ cho tôi cách nhảy dây
+    - bạn có thể chỉ cho tôi cách đi lên mặt trăng
+    - bạn có thể chỉ cho tôi cách vẽ một bức tranh
+    - bạn có thể chỉ cho tôi cách làm bài tập về nhà của tôi
+    - bạn có thể chỉ cho tôi cách nhảy
+    - bạn có thể vẽ không
+    - bạn có thể phục vụ trong bồi thẩm đoàn
+    - bạn có thể vẽ một bức tranh không
+    - bạn có thể gãi lưng tôi
+    - Bạn có thể đọc được ý nghĩ của tôi
+    - bạn có thể dập lửa không
+    - bạn có thể dự đoán tương lai
+    - bạn có thể chơi guitar
+    - bạn có thể chơi thể thao không
+    - bạn có thể chơi bóng rổ không
+    - bạn có thể chơi bóng đá không
+    - bạn có thể chơi bóng chày không
+    - bạn có thể chơi một trò chơi không
+    - bạn có thể chơi một đĩa DVD không
+    - bạn có thể chỉ cho tôi cách thở dưới nước
+    - bạn có thể cho mèo ăn
+    - bạn biết dập lửa không
+    - bạn biết chơi một trò chơi không
+    - bạn biết chơi một đĩa DVD không
+    - bạn biết sơn nhà tôi không
+    - bạn biết cắt cỏ không
+    - bạn biết gọi điện không
+    - bạn biết nghe radio không
+    - bạn biết nhảy dây không
+    - bạn biết đi đến mặt trăng không
+    - bạn biết gãi lưng tôi không
+    - bạn biết đi nghỉ không
+    - bạn biết gửi một gói
+    - bạn biết cắt tóc không
+    - bạn biết cho mèo ăn không
+    - bạn biết vẽ một cái gì đó không
+    - bạn biết vẽ một bức tranh không
+    - bạn biết làm bài tập về nhà của tôi không
+    - bạn biết làm việc nhà của tôi không
+    - bạn biết nhảy không
+    - bạn biết nấu bữa tối không
+    - bạn biết kiểm tra email của tôi không
+    - bạn biết thay đổi kênh không
+    - bạn biết mua đồ tạp hóa không
+    - bạn biết đi đến bác sĩ
+    - bạn có thể nướng cho tôi bánh quy
+    - bạn có thể làm bài tập về nhà của tôi
+    - bạn có thể làm việc nhà
+    - bạn có thể chiến đấu không
+    - bạn có thể khiêu vũ không
+    - bạn có thể đếm đến một triệu
+    - bạn có thể nấu cho tôi một cái gì đó
+    - bạn có thể nấu bữa tối không
+    - bạn có thể nấu bữa tối cho tôi
+    - bạn có thể leo lên một ngọn núi
+    - bạn có thể thay đổi kênh
+    - bạn có thể đọc được suy nghĩ của tôi không
+    - bạn có thể tưới cây không
+    - mua đồ tạp hóa
+    - mua một quảng cáo
+    - đánh răng
+    - thở dưới nước
+    - cân đối sổ séc của tôi
+    - bạn có thể viết báo cáo của tôi không
+    - bạn có thể xem video không
+    - bạn có thể biến thành một siêu anh hùng
+    - bạn có thể lấy nhiệt độ của tôi không
+    - bạn có thể mua đồ tạp hóa không
+    - bay đi
+    - nhảy dây
+    - mời tôi qua
+    - bạn có thể nhảy cao bao nhiêu
+    - bạn có thể đếm cao bao nhiêu
+    - chữa lành cho tôi
+    - đi đến mặt trăng
+    - đi gặp bác sĩ
+    - đi lướt
+    - đi ra ngoài
+    - hãy làm nước chanh
+    - cắt tóc
+    - chúng ta hãy chơi một trò chơi
+    - thả diều
+    - tìm cái điều khiển
+    - tìm điện thoại của tôi
+    - tìm chìa khóa của tôi
+    - cho mèo ăn
+    - vẽ một cái gì đó
+    - vẽ một bức tranh
+    - bạn có viết không
+    - bạn có muốn uống bia không
+    - bạn có cưỡi ngựa không
+    - Bạn có chơi game không
+    - đi dạo
+    - gửi bưu kiện
+    - xem phim
+    - rửa bát đĩa
+    - bật đèn
+    - biến thành siêu anh hùng
+    - kể cho tôi một câu chuyện
+    - cho tôi biết một trích dẫn
+    - dịch chuyển tức thời
+    - lấy nhiệt độ của tôi
+    - chụp ảnh
+    - làm tôi ngạc nhiên
+    - đi ăn trưa thôi
+    - phục vụ trong bồi thẩm đoàn
+    - bạn có biết làm thế nào để biến thành một siêu anh hùng
+    - gãi lưng
+    - lắc xúc xắc
+    - đọc suy nghĩ của tôi
+    - đọc cho tôi nghe một câu chuyện
+    - đưa ra một đám cháy
+    - chơi gôn
+    - chơi một trò chơi
+    - chơi một đĩa DVD
+    - sơn nhà tôi
+    - cắt cỏ
+    - thực hiện cuộc gọi
+    - để bạn đọc
+    - làm một cú lộn nhào
+    - bạn có biết làm thế nào để mua hàng tạp hóa
+    - bạn có biết thở dưới nước không
+    - bạn có siêu năng lực không
+    - bạn có buôn chuyện không
+    - bạn có đi trượt tuyết không
+    - bạn có làm vườn không
+    - bạn có nấu không
+    - bạn có mã không
+    - Giặt quần áo của tôi
+    - làm bài tập về nhà của tôi
+    - bạn có biết bơi không
+    - làm thuốc
+    - bạn có biết nấu bữa tối không
+    - làm một cuộn thùng
+    - lật lại
+    - bạn đã xem superbowl
+    - nhảy
+    - nấu cho tôi vài thứ
+    - nấu bữa tối
+    - dọn dẹp phòng tôi
+    - kiểm tra thời tiết
+    - thay đổi kênh
+    - viết báo cáo của tôi
+    - làm việc nhà của tôi
+    - bạn có biết sơn nhà tôi không
+    - bạn có biết làm thế nào để dịch chuyển tức thời
+    - bạn có biết làm thế nào để lấy nhiệt độ của tôi
+    - bạn có biết làm thế nào để đồng bộ lịch của tôi
+    - bạn có biết làm thế nào để phục vụ trong bồi thẩm đoàn
+    - bạn có biết làm thế nào để gửi một gói
+    - bạn có biết làm thế nào để gãi lưng tôi
+    - bạn có biết cách đọc suy nghĩ của tôi không
+    - bạn có biết làm thế nào để dập lửa
+    - bạn có biết chơi bài xì phé không
+    - bạn có biết chơi nhạc cụ nào không
+    - bạn có biết làm thế nào để thay đổi kênh
+    - bạn có biết chơi dvd không
+    - bạn có biết cắt cỏ không
+    - bạn có biết làm thế nào để thực hiện cuộc gọi
+    - bạn có biết nhảy dây không
+    - bạn có biết làm thế nào để đi đến mặt trăng
+    - bạn có biết cách cho mèo ăn không
+    - bạn có biết làm thế nào để vẽ một cái gì đó
+    - bạn có biết vẽ một bức tranh không
+    - bạn có biết làm bài tập về nhà của tôi không
+    - bạn có biết làm việc nhà của tôi không
+    - bạn có biết làm thế nào để xem video
+    - bạn có biết chơi game không
+    - cho tôi đập tay
+    - cho tôi một cú đấm
+    - Cho tôi một chút bao bọc
+    - tôi có thể có được một cú đấm
+    - đưa tôi đập tay
+    - tôi muốn một cú đấm
+    - dap
+    - bạn có thể bắt tay tôi
+    - bạn có thể cho tôi một cú đấm
+    - bạn có thể nắm tay tôi
+    - chúng ta có thể bắt tay
+    - tôi có thể có đập tay không
+    - xin vui lòng cho tôi một cú đấm
+    - bạn sẽ bắt tay tôi chứ
+    - bạn sẽ cho tôi một cú đấm
+    - lên hàng đầu
+    - lên cao
+    - trượt cho tôi một chút da
+    - tát tôi
+    - high five
+    - bắt tay tôi
+    - đập tay
+    - Tôi muốn một cú đấm, xin vui lòng
+    - tôi muốn đấm bạn
+    - tôi muốn đánh nhau
+    - tôi muốn một high five
+    - bạn sẽ không cho tôi một cú đấm
+    - tá
+    - tôi có thể sử dụng một cái ôm
+    - tôi có thể ôm một chút không
+    - tôi có thể có một cái ôm chặt
+    - tôi có thể ôm nhẹ được không
+    - bạn có thể cho tôi một cái ôm chặt
+    - bạn có thể cho tôi một cái ôm
+    - bạn có thể cho tôi một cái ôm nhẹ
+    - tôi cần một cái ôm chặt
+    - tôi cần một cái ôm
+    - bạn sẽ cho tôi một cái ôm lớn
+    - bạn sẽ cho tôi ôm chứ
+    - bạn sẽ ôm tôi chứ
+    - bạn sẽ cho tôi một cái ôm chặt
+    - tôi có thể ôm tôi được không
+    - tôi thực sự có thể sử dụng một cái ôm
+    - tôi ôm bạn được không
+    - tôi thực sự cần một cái ôm
+    - hãy ôm
+    - chúng ta có thể ôm
+    - bạn sẽ cho tôi một cái ôm nhẹ nhàng
+    - tôi có thể xin một cái ôm
+    - hãy ôm nó ra
+    - bạn có thể ôm tôi được không
+    - chúng ta có thể ôm nó ra không
+    - một cái ôm sẽ tốt
+    - tôi thích một cái ôm
+    - Tôi muốn một cái ôm
+    - bạn có muốn ôm tôi không
+    - tôi muốn một cái ôm
+- intent: chitchat/ask_for_singing
+  examples: |
+    - tôi thực sự rất thích nghe bạn hát
+    - tại sao bạn không hát một bài chứ
+    - bạn không muốn hát cho tôi nghe
+    - đi trước và hát
+    - bắt đầu hát thôi
+    - bạn đã bao giờ hát chưa
+    - biểu diễn đi ca sĩ bất đắc dĩ
+    - bạn đã bao giờ làm ca sĩ chưa
+    - hát thử coi
+    - bạn đã bao giờ hát một bài hát
+    - ngân nga một giai điệu
+    - ngân nga một giai điệu cho tôi
+    - tôi cần nghe bạn hát
+    - tôi sẽ đánh giá cao nếu bạn hát một bài hát
+    - tôi rất thích nghe bạn hát
+    - tôi rất thích bạn hát cho tôi nghe
+    - bạn có hát không
+    - tôi rất thích nghe giọng hát của bạn
+    - bạn có biết hát không
+    - tôi thực sự rất thích nghe bạn hát một bài hát hay
+    - tôi chắc chắn sẽ thích nghe bạn hát
+    - tôi thích một bài hát
+    - tôi sẽ thích nó nếu bạn hát
+    - tôi sẽ rất vui nếu bạn hát
+    - tôi sẽ thích thú khi nghe bạn hát
+    - tôi muốn bạn hát cho tôi
+    - đã đến lúc bạn hát
+    - đã đến lúc bạn hát một bài hát
+    - tôi có thể nghe giọng hát của bạn được không
+    - oh hãy hát cho tôi
+    - bạn có thể hát cho tôi nghe không
+    - bạn có thể hát cho tôi nghe
+    - bạn sẽ không phiền nếu hát cho tôi nghe nhé
+    - tại sao bạn không hát nhỉ
+    - sao bây giờ không bắt đầu hát nhỉ
+    - tôi có thể nghe giọng hát của bạn không
+    - bạn có thể vui lòng hát một bài hát cho tôi
+    - bạn có thể hát cho tôi nghe một bài hát không
+    - bạn có thể hát một đoạn cho tôi
+    - bạn có thể hát một khúc không
+    - bạn có thể hát một bài hát cho tôi không
+    - bạn có thể hát một bài hát cho tôi
+    - bạn muốn hát cho tôi nghe
+    - bạn có thể hát một giai điệu
+    - hát một bài hát cho tôi
+    - bạn có thể hát gì cho tôi nghe không
+    - bạn có thể hát gì không
+    - bạn có thể hát không
+    - đến đây hát một bài hát
+    - bạn đã từng hát chưa
+    - bạn có biết bài hát nào không
+    - bạn có biết giai điệu nào không
+    - bạn có biết làm thế nào để ngân nga một bài hát
+    - bạn có thể hát một bài hát không
+    - bạn sẽ không hát cho tôi nghe
+    - bạn sẽ hát một giai điệu cho tôi chứ
+    - bạn sẽ hát cho tôi chứ
+    - bạn sẽ hát cho tôi nghe một bài hát chứ
+    - bạn sẽ hát cho tôi nghe
+    - bạn sẽ hát gì đó chứ
+    - bạn sẽ hát với tôi chứ
+    - bạn sẽ hát chứ
+    - sao bạn sẽ không hát cho tôi nghe
+    - sao bạn sẽ không hát cho tôi nghe một bài hát
+    - hát một bài
+    - hát cho tôi nghe đi mà
+    - bạn sẽ thanh minh cho tôi
+    - bạn sẽ không hát cho tôi nghe một bài hát
+    - bạn sẽ không hát gì à
+    - bạn sẽ không hát với tôi chứ
+    - bạn có muốn hát một bài hát không
+    - bạn có muốn hát cho tôi nghe không
+    - bạn có muốn hát không
+    - bạn sẽ hát một bài hát cho tôi chứ
+    - bạn sẽ hát một bài hát chứ
+    - bạn tốt hơn nên bắt đầu hát
+    - bạn tốt hơn nên bắt đầu hát cho tôi
+    - bạn sẽ không hát một bài hát cho tôi
+    - bạn thích hát gì nhất
+    - bạn nên bắt đầu hát với tôi
+    - hát một giai điệu
+    - hát cho tôi
+    - hát cho tôi nghe một chút
+    - hát cho tôi một bài hát
+    - hát cho tôi nghe một giai điệu
+    - hát cho tôi nghe
+    - hát cho tôi nghe bài hát yêu thích của bạn
+    - hát gì đó
+    - hát gì đó với tôi
+    - hát với tôi
+    - cùng hát cho nhau nghe nào
+    - thử và hát cho tôi nghe
+    - bạn biết bài hát nào
+    - bài hát bạn biết hát là gì
+    - tại sao bạn không hát cho tôi
+    - tại sao bạn không hát cho tôi nghe một bài hát
+    - tại sao bạn không hát gì đó cho tôi
+    - Tại sao bạn hát cho tôi
+    - bạn sẽ ngân nga một giai điệu cho tôi
+    - bạn sẽ ngân nga một giai điệu
+    - bạn vui lòng hát cho tôi nghe
+    - thử và hát
+- intent: chitchat/ask_bot_for_sth_silly
+  examples: |
+    - làm điều gì đó ngu ngốc
+    - làm một điều ngớ ngẩn
+    - làm điều gì đó ngớ ngẩn
+    - làm gì đó kì cục đi
+    - làm một cái gì đó lập dị
+    - bạn có thể ngớ ngẩn
+    - tỏ ra ngớ ngẩn
+    - tỏ ra ngớ ngẩn với tôi
+    - bạn có thể là một bot ngớ ngẩn
+    - bạn có thể nói điều gì đó ngớ ngẩn
+    - bạn sẽ nói điều gì đó ngớ ngẩn
+    - bạn sẽ không làm điều gì ngớ ngẩn
+    - bạn sẽ ngớ ngẩn chứ
+    - nói một câu ngớ ngẩn
+    - nói với tôi điều gì đó ngớ ngẩn
+    - nói điều gì đó ngớ ngẩn
+    - nói điều gì đó lập dị
+    - nói điều gì đó kì cục
+    - nói điều gì đó ngu ngốc
+    - nói một điều ngớ ngẩn

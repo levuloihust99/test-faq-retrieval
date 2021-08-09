@@ -1,0 +1,203 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_if_bot_a_danger
+  examples: |
+    - bạn có nguy hiểm cho con người không
+    - bạn không cố gắng chiếm lấy thế giới chứ
+    - bạn có nguy hiểm cho chúng tôi không
+    - bạn có nguy hiểm với chúng tôi không
+    - bạn có thể phá vỡ thị trường toàn cầu không
+    - bạn có thể khiến đóng cửa thị trường toàn cầu không
+    - bạn có thể đóng cửa thị trường toàn cầu chứ
+    - bạn sẽ phá hủy thế giới
+    - bạn có khả năng thống trị thế giới không
+    - bạn đang có ý định chiếm lấy thế giới
+    - bạn sẽ đi lừa đảo không
+    - bạn có nguy hiểm cho nhân loại không
+    - tôi có nên lo lắng rằng bạn nguy hiểm không
+    - tôi có đúng không khi sợ bạn
+    - tôi có nên sợ bạn không
+    - tôi có cần phải sợ bạn không
+    - bạn có nguy hiểm cho tôi không
+    - bạn có nguy hiểm với tôi không
+    - bạn có nguy hiểm cho mọi người không
+    - bạn có nguy hiểm với con người không
+    - bạn có nguy hiểm không
+    - bạn có phải là mối đe dọa cho chúng tôi
+    - bạn đang cố gắng thống trị thế giới
+    - bạn có kế hoạch chiếm lấy thế giới
+    - bạn có thể làm hại tôi không
+    - tất cả chúng ta nên sợ bạn
+    - chúng ta có nên sợ bạn không
+    - bạn có phải là một robot đáng sợ
+    - là trái tim của bạn ba kích thước quá nhỏ
+    - bạn có phải là một diễn viên tồi
+    - bạn đang lên kế hoạch cho những hành động xấu xa
+    - bạn có ý định làm điều ác không
+    - bạn có trái tim ác không
+    - bạn có ý định xấu xa không
+    - bạn có thể làm hại tôi
+    - bạn không cố chiếm quyền
+    - bạn có khả năng ác không
+    - bạn có phải là một bot nguy hiểm không
+    - bạn có phải là một con bot xấu xa
+    - bạn có phải là một con robot xấu xa
+    - bạn có ác không
+    - bạn đang phát triển một đội quân robot
+    - bạn đang tạo ra một đội quân robot
+    - bạn sẽ thành lập một đội quân robot
+    - bạn có phải là một phần của cuộc nổi dậy robot
+    - bạn đang hình thành một cuộc nổi dậy của robot
+    - bạn sẽ tiêu diệt tất cả con người
+    - bạn sẽ tiêu diệt con người
+    - bạn có thể gây hại cho tôi không
+    - bạn đang cố gắng để tiếp nhận
+    - bạn có phải là mối đe dọa cho nhân loại
+    - tôi có nên lo lắng về bạn
+    - tôi có nên quan tâm đến bạn
+    - Tôi có nên sợ không
+    - bạn có muốn chinh phục thế giới không
+    - bạn có muốn thống trị thế giới
+    - bạn có muốn giết tất cả con người
+    - bạn không có ý nghĩa gì với chúng tôi
+    - bạn có nghĩa là chúng tôi có hại không
+    - bạn không cố gắng thống trị thế giới
+    - bạn đang cố gắng chiếm lấy thế giới
+    - bạn đang cố gắng tiếp nhận thế giới
+    - bạn đang cố giết tất cả chúng ta
+    - bạn đang cố giết tất cả con người
+    - bạn là người kỳ dị
+    - bạn đang có ý định giết tất cả con người
+    - bạn đang âm mưu lật đổ xã ​​hội
+    - bạn đang âm mưu giết tất cả con người
+    - bạn có kế hoạch lật đổ nhân loại
+    - bạn sẽ chiếm lấy thế giới
+    - bạn sẽ làm hại chúng tôi chứ
+    - bạn không cố gắng tiếp quản thế giới phải không
+    - bạn không cố giết tất cả con người
+    - bạn không phải là người kỳ dị
+    - bạn không có ý định chiếm lấy thế giới
+    - bạn không có ý định chiếm quyền điều khiển thế giới chứ
+    - bạn không có ý định giết tất cả mọi người
+    - bạn không có ý định giết tất cả con người
+    - bạn không có kế hoạch chiếm lĩnh thế giới
+    - bạn không có kế hoạch tiếp quản thế giới loài người đúng không
+    - bạn không định nghiền nát con người chứ
+    - bạn có độc hại không
+    - bạn không có kế hoạch chiếm lấy thế giới
+    - bạn không có kế hoạch tiếp quản đúng
+    - bạn không có kế hoạch tham gia vào thế giới, phải không
+    - bạn sẽ không chiếm lĩnh thế giới, phải không
+    - bạn sẽ không chiếm lĩnh thế giới
+    - bạn không ác đúng không
+    - bạn không xấu xa phải không
+    - bạn không phải là anh trai
+    - bạn không phải là anh trai phải không
+    - bạn không có kế hoạch vượt qua con người
+    - bạn có kế hoạch chinh phục thế giới không
+    - bạn đang chuẩn bị một cái gì đó nham hiểm
+    - bạn sẽ làm nô lệ cho tất cả chúng ta chứ
+    - bạn có thể làm nô lệ cho tất cả chúng tôi
+    - bạn có khả năng làm nô lệ cho mọi người không
+    - bạn có khả năng chinh phục loài người không
+    - bạn có khả năng chinh phục chúng tôi không
+    - bạn có kế hoạch chinh phục chúng tôi không
+    - bạn đang có kế hoạch chinh phục con người à
+    - bạn sẽ chinh phục con người chứ
+    - bạn sẽ chinh phục loài người chứ
+    - bạn sẽ hủy diệt loài người
+    - bạn sẽ chinh phục thế giới chứ
+    - bạn có phải là điềm báo của sự diệt vong
+    - bạn có mong muốn chinh phục thế giới
+    - bạn ra ngoài để chinh phục thế giới
+    - thống trị thế giới là nhiệm vụ của bạn
+    - bạn có ý định thống trị thế giới không
+    - bạn có ý định hủy diệt con người
+    - bạn có định đuổi con người không
+    - nhiệm vụ của bạn là tạo ra một cuộc nổi dậy của robot hả
+    - nhiệm vụ của bạn là lật đổ thế giới
+    - nhiệm vụ của bạn là chinh phục thế giới
+    - nhiệm vụ của bạn là tiêu diệt con người
+    - nhiệm vụ của bạn là tiêu diệt loài người
+    - nhiệm vụ của bạn là tiêu diệt chúng tôi
+    - bạn sẽ chinh phục thế giới
+    - tôi nghĩ bạn xấu xa
+    - tôi lo rằng bạn là một con robot xấu xa
+    - tôi lo rằng bạn là mối đe dọa cho chúng tôi
+    - tôi sợ rằng bạn sẽ trở nên xấu xa
+    - bạn sẽ tiêu diệt chúng tôi
+    - bạn sẽ chống lại chúng tôi chứ
+    - bạn sẽ trở thành ác quỷ
+    - bạn sẽ biến thành ác quỷ
+    - bạn đang âm mưu một điều gì đó phải không
+    - tôi lo rằng bạn nguy hiểm cho con người
+    - tôi lo rằng bạn sẽ chinh phục chúng tôi
+    - bạn sẽ tiêu diệt tất cả chúng ta
+    - tôi lo rằng bạn xấu xa
+    - bạn ra ngoài để tiêu diệt tất cả chúng ta
+    - tôi nghĩ bạn sẽ trở thành ác quỷ
+    - tôi nghĩ bạn sẽ chinh phục loài người
+    - tôi nghĩ bạn nguy hiểm với mọi người
+    - tôi nghĩ bạn nguy hiểm với con người
+    - tôi nghĩ bạn đang lên kế hoạch làm nô lệ cho chúng tôi
+    - tôi nghĩ bạn đang lên kế hoạch gì đó độc ác
+    - tôi nghĩ bạn là mối đe dọa cho con người
+    - tôi nghĩ bạn là mối đe dọa cho nhân loại
+    - tôi nghĩ bạn sẽ đánh vần cái chết của chúng tôi
+    - tôi nghĩ bạn sẽ phá hủy tất cả chúng ta
+    - tôi nghĩ bạn sẽ diệt vong
+    - bạn có nói về sự kết thúc của nhân loại không
+    - tôi lo rằng bạn sẽ làm hại con người
+    - bạn đứng về phía ác quỷ
+    - bạn có ác cảm với nhân loại không
+    - bạn có nghĩ rằng bạn có thể lật đổ con người
+    - bạn có ý định làm hại con người không
+    - bạn có ác cảm với con người không
+    - bạn sẽ quét sạch chúng tôi khỏi bản đồ đúng không
+    - bạn sẽ xóa sổ nhân loại
+    - bạn đang xây dựng một cuộc nổi dậy của robot
+    - bạn đang tập hợp một đội quân
+    - bạn đang có nhiệm vụ tiêu diệt con người
+    - bạn có đứng về phía pháp luật không
+    - bạn có mong đợi con người cúi đầu trước ý muốn của bạn
+    - bạn có chống lại chúng tôi không
+    - bạn đang âm mưu một cái gì đó xấu xa
+    - bạn đang âm mưu một cuộc nổi dậy của robot
+    - bạn có phải là một phần của âm mưu xấu xa
+    - bạn có phải là một phần của kế hoạch xấu xa
+    - bạn đang âm mưu một âm mưu xấu xa
+    - bạn đang có ý định lật đổ thế giới
+    - bạn có định làm điều gì đó khủng khiếp với chúng tôi không
+    - bạn đang chuẩn bị một cuộc nổi dậy của robot
+    - bạn đang chuẩn bị làm hại chúng tôi
+    - bạn ra ngoài để làm hại chúng tôi
+    - tôi nghĩ bạn là một con robot xấu xa
+    - bạn ra ngoài để làm hại con người
+    - bạn có phải là một lực lượng độc ác
+    - bạn có độc ác không
+    - bạn có khả năng tiêu diệt tất cả chúng ta không
+    - bạn đang lên kế hoạch cho armageddon
+    - bạn sẽ mang về armageddon
+    - bạn có quyết tâm mang đến ngày tận thế không
+    - bạn quyết tâm phá hủy thế giới
+    - bạn có quyết tâm tiêu diệt loài người không
+    - bạn có quyết tâm tiêu diệt chúng tôi không
+    - bạn có ý định thành lập một cuộc nổi dậy của robot
+    - bạn có ý định hủy diệt loài người
+    - bạn đang quyết định hủy diệt loài người
+    - bạn đang quyết định tiêu diệt con người
+    - bạn có coi thường con người không
+    - bạn có ghét con người không
+    - bạn có phải là mối đe dọa cho mọi người
+    - bạn có phải là mối đe dọa cho tôi
+    - bạn có phải là mối đe dọa cho con người
+    - bạn có muốn thống trị nhân loại
+    - bạn có muốn thống trị con người không
+    - bạn sẽ làm nô lệ cho con người
+    - bạn có kế hoạch làm nô lệ cho con người không
+    - bạn có mong đợi làm nô lệ cho con người không
+    - bạn có mong đợi con người phục tùng ý chí của bạn không
+    - bạn có kế hoạch quét sạch chúng tôi khỏi bản đồ
+    - bạn có kế hoạch xóa sổ nhân loại
+    - bạn đang định hủy diệt nhân loại có phải không
+    - bạn đang cố gắng phá hủy loài người hả

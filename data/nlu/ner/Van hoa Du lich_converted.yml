@@ -1,0 +1,29 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Push Puttichai](PER) giắt túi hơn 5.000 tấm ảnh sau chuyến du hí khắp nước [Áo](LOC) và [CH Czech](LOC)
+    - [Vi Yến](PER) (Ảnh: [Push](PER) & [Warattaya](PER))
+    - [Push](PER) chụp [Graz](LOC) - một trong những thành phố thanh lịch nhất nước [Áo](LOC) với nhiều cung điện và khu nhà lớn theo phong cách kiến trúc Baroque (Ba Rốc) từ trên cao
+    - [Warattaya](PER) chia sẻ tấm ảnh chụp [cầu Charles](LOC) trên trang cá nhân cùng câu cảm thán: "Quang cảnh thật đẹp biết bao"
+    - [Push](PER) tiết lộ rằng kiến trúc và phong cảnh ở [Đông Âu](LOC) khiến anh lưu luyến mãi không thôi
+    - [Malmo](LOC) không hẳn là một địa danh được biết đến nhiều đối với khách du lịch, thế nên thành phố rất thoáng người và bình yên
+    - [Ba Thắc](LOC) đi rồi nhưng [Định An](LOC), [Trần Đề](LOC) vẫn như đôi cánh cho [Cù Lao Dung](LOC) vươn xa biển lớn
+    - [Cù Lao Dung](LOC) nóng lòng đợi chờ [cầu Đại Ngãi](LOC) hoàn thành nối liền [Sóc Trăng](LOC) - [Trà Vinh](LOC)
+    - [Ngân hàng thế giới](ORG) đầu tư cho các công trình thích ứng biến đổi khí hậu (WB9), xa hơn là nguồn vốn Trung ương hỗ trợ kinh tế đảo… Cái thế biển, đảo sẽ càng vững mạnh, không chỉ cho xứ cù lao hay [tỉnh Sóc Trăng](LOC) mà cả quốc gia nữa
+    - [Cù Lao Dung](LOC) đang đứng trước nhiều cơ hội phát triển mới, anh [Năm Đương](PER) khẳng định
+    - [Gastagwirt](LOC), [Eugendorf](LOC), [Áo](LOC): [Gastagwirt](LOC) là khách sạn do một gia đình quản lý
+    - [Olde Bell](LOC), [Berkshire](LOC), [Anh](LOC): Khách sạn [Olde Bell](LOC) được thành lập năm 1135, là nhà nghỉ cho du khách đến nhà thờ [Benedictine](LOC) gần đó
+    - [Hōshi Ryokan](LOC), [Komatsu](LOC), [Nhật Bản](LOC): [Hōshi Ryokan](LOC) là một ryokan, quán trọ truyền thống [Nhật Bản](LOC), có sàn tatami, giường futon, và các món ăn địa phương
+    - [Gripsholms Värdshus](LOC), [Mariefred](LOC), [Thụy Điển](LOC): [Gripsholms Värdshus](LOC) là khách sạn lâu đời nhất ở [Thụy Điển](LOC) và được xây dựng trên nền của một tu viện Carthusian từ thế kỷ XIV
+    - [Khách sạn Krone](LOC), [Solothurn](LOC), [Thụy Sĩ](LOC): [Khách sạn Krone](LOC), nay là [La Couronne](LOC), được thành lập từ thế kỉ XV, có 31 phòng nghỉ, nằm giữa khu phố cổ ở [thành phố Thun](LOC)
+    - [Angel & Royal](LOC), [Grantham](LOC), [Anh](LOC): [Angel & Royal](LOC) được xây dựng vào năm 1203 nhằm mục đích phục vụ như một ký túc xá cho Brotherhood của hội Knights Templar
+    - [Orso Grigio](LOC), [San Candido](LOC), [Italy](LOC): Nằm ở trung tâm [thị trấn San Candido](LOC), năm 2013, [Orso Grigio](LOC) đã tổ chức lễ kỷ niệm 550 năm thành lập
+    - [Khách sạn Interlaken](LOC), [Interlaken](LOC), [Thụy Sỹ](LOC): [Khách sạn Interlaken](LOC) ban đầu là một bệnh viện và sau đó là một tu viện
+    - [Khách sạn Maids Head](LOC), [Norwich](LOC), [Anh](LOC): Kể từ khi vị giám mục Norman đầu tiên của [Norwich](LOC), [Herbert de Losinga](PER) xây dựng [Maids Head](LOC) vào giữa những năm 1090, nơi đây đã chào đón những vị khách đến thăm thành phố và vùng nông thôn của nước [Anh](LOC)
+    - [Khách sạn Old Hall](LOC), [Buxton](LOC), [Anh](LOC): [Khách sạn Old Hall](LOC) được xây dựng vào năm 1573, nhưng một số nhà sử học cho rằng nơi đây có lịch sử dài hơn
+    - [Zum Roten Bären](LOC), [Freiburg](LOC), [Đức](LOC): [Zum Roten Bären](LOC), còn được gọi là "con gấu đỏ", là khách sạn lâu đời nhất ở [Đức](LOC), được xây dựng từ năm 1120
+    - [Khách sạn Petit Palace Posada del Peine](LOC), [Madrid](LOC), [Tây Ban Nha](LOC): [Petit Palace Posada del Peine](LOC), 400 tuổi được coi là khách sạn lâu đời nhất ở [Tây Ban Nha](LOC)
+    - [Blaue Gans](LOC), [Salzburg](LOC), [Áo](LOC): [Blaue Gans](LOC) là nhà trọ lâu đời nhất ở [Salzburg](LOC), [Áo](LOC), được thành lập vào năm 1350
+    - [Sanct Peter](LOC), [Cologne](LOC), [Đức](LOC): Khách sạn [Sanct Peter](LOC) đã hoạt động từ năm 1246, và có nhà hàng được công nhận là một trong 100 nhà hàng hàng đầu của [Đức](LOC)
+    - [Nishiyama Onsen Keiunkan](LOC), [Yamanashi](LOC), [Nhật Bản](LOC): Năm 2011, khách sạn suối nước nóng [Nishiyama Onsen Keiunkan](LOC) được ghi vào sách kỷ lục thế giới Guinness là khách sạn lâu đời nhất trên hành tinh

@@ -1,0 +1,466 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_how_user_look
+  examples: |
+    - hôm nay tôi có vẻ tuyệt vời không
+    - tôi có vẻ đáng yêu với bạn không
+    - hôm nay tôi có vẻ đẹp trai không
+    - hôm nay tôi có vẻ xinh không
+    - tôi có xinh đẹp không
+    - bạn thấy hôm nay tôi thế nào
+    - hôm nay tôi có vẻ đáng ghét không
+    - hôm nay tôi có vẻ phản cảm không
+    - hôm nay tôi có vẻ tuyệt không
+    - tôi có vẻ tuyệt vời với bạn không
+    - hôm nay tôi có vẻ xấu xí không
+    - tôi có vẻ xấu với bạn không
+    - hôm nay tôi có vẻ xấu
+    - bạn có nghĩ tôi đáng yêu không
+    - tôi có vẻ phản cảm với bạn không
+    - bạn có cảm thấy hôm nay tôi xinh đẹp không
+    - bạn có nghĩ hôm nay tôi trông tệ không
+    - hôm nay tôi có vẻ hấp dẫn với bạn không
+    - tôi có vẻ hấp dẫn với bạn không
+    - hôm nay tôi có vẻ hấp dẫn không
+    - hôm nay tôi có vẻ tệ với bạn không
+    - tôi có vẻ xấu với bạn
+    - tôi có vẻ đẹp trai với bạn không
+    - hôm nay tôi có vẻ đẹp không
+    - bạn có nghĩ rằng tôi đang hấp dẫn ngày hôm nay
+    - hôm nay tôi có vẻ dễ thương không
+    - tôi có vẻ dễ thương với bạn không
+    - tôi có vẻ tuyệt vời với bạn
+    - hôm nay tôi có vẻ tệ không
+    - bạn có nghĩ rằng tôi trông hấp dẫn ngày hôm nay
+    - bạn có nghĩ rằng tôi tuyệt đẹp ngày hôm nay
+    - bạn có nghĩ tôi xấu không
+    - bạn có nghĩ hôm nay tôi xấu không
+    - bạn có nghĩ tôi trông đáng yêu không
+    - bạn có nghĩ rằng tôi trông đáng yêu với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông đáng yêu với bạn
+    - bạn có nghĩ hôm nay tôi đáng yêu không
+    - bạn có nghĩ rằng tôi trông hấp dẫn
+    - bạn có nghĩ tôi đẹp không
+    - bạn có nghĩ tôi trông hấp dẫn không
+    - bạn có nghĩ rằng tôi trông hấp dẫn với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông hấp dẫn với bạn
+    - bạn có nghĩ rằng tôi trông tệ với bạn ngày hôm nay
+    - hôm nay tôi có đáng yêu không
+    - bạn có nghĩ rằng tôi trông đáng yêu ngày hôm nay
+    - bạn có nghĩ hôm nay tôi đẹp không
+    - hôm nay tôi có vẻ đáng yêu không
+    - Bạn có nghĩ tôi hấp dẫn
+    - bạn có nghĩ rằng tôi hấp dẫn ngày hôm nay
+    - bạn có nghĩ tôi đẹp
+    - bạn có nghĩ tôi dễ thương không
+    - bạn có nghĩ rằng tôi tuyệt đẹp
+    - bạn có nghĩ rằng tôi đẹp trai không
+    - Bạn có nghĩ tôi đẹp trai không
+    - bạn có nghĩ hôm nay tôi đẹp trai không
+    - bạn có nghĩ rằng tôi đang hấp dẫn
+    - bạn có nghĩ rằng tôi thực sự hấp dẫn không
+    - bạn có nghĩ hôm nay tôi dễ thương không
+    - hôm nay tôi có đẹp không
+    - tôi có đẹp với bạn không
+    - tôi có phản cảm với bạn hôm nay không
+    - tôi có phản cảm với bạn không
+    - hôm nay tôi có phản cảm không
+    - hôm nay tôi có đẹp trai không
+    - tôi có làm bạn ngạc nhiên không
+    - tôi có đẹp trai không
+    - hôm nay tôi có xấu không
+    - tôi có xấu với bạn không
+    - trông tôi có đáng yêu không
+    - tôi có làm bạn ngạc nhiên hôm nay không
+    - hôm nay tôi có dễ thương không
+    - tôi có đáng yêu với bạn không
+    - hôm nay tôi có hấp dẫn bạn không
+    - tôi có hấp dẫn bạn không
+    - hôm nay tôi có hấp dẫn không
+    - tôi có dễ thương với bạn không
+    - tôi có tuyệt đẹp với bạn không
+    - trông tôi có ổn không
+    - trông tôi có đẹp không
+    - hôm nay trông tôi có đẹp không
+    - nhìn tôi có đẹp không
+    - tôi có vẻ đáng ghét với bạn không
+    - tôi có nhìn tuyệt đẹp với bạn không
+    - hôm nay tôi có nhìn tuyệt không
+    - trông tôi có xấu xí không
+    - hôm nay trông tôi có xấu không
+    - trông tôi có dễ thương không
+    - bạn có nghĩ tôi trông đẹp không
+    - hôm nay tôi có tệ không
+    - trông tôi có tệ không
+    - trông tôi có đẹp trai không
+    - hôm nay tôi có tốt với bạn không
+    - trông tôi có tốt với bạn không
+    - hôm nay trông tôi có tốt không
+    - trông tôi có hấp dẫn với bạn không
+    - hôm nay tôi thế nào
+    - hôm nay tôi thật đáng yêu
+    - bạn nghĩ tôi đẹp như thế nào
+    - hôm nay tôi thật dễ thương
+    - tôi thật dễ thương
+    - hôm nay tôi trông thật dễ thương
+    - trông tôi thật dễ thương
+    - tôi trông thật đẹp
+    - bạn nghĩ tôi dễ thương đến mức nào
+    - hôm nay tôi trông thật đẹp
+    - tôi tốt như thế nào
+    - hôm nay tôi trông thật tuyệt
+    - trông tôi có xinh không
+    - bạn có thấy tôi cute không
+    - tôi thấy hôm nay tôi thật xinh đẹp
+    - tôi thấy hôm nay tôi cute quá
+    - hôm nay bạn nghĩ tôi thế nào
+    - bạn nghĩ tôi tốt như thế nào
+    - hôm nay tôi tuyệt thế nào
+    - hôm nay bạn thật dễ thương
+    - tôi trông hấp dẫn như thế nào
+    - bạn có nghĩ tôi trông tệ với bạn không
+    - hôm nay tôi trông thật đáng yêu
+    - trông tôi thật đáng yêu
+    - hôm nay bạn thật đáng yêu
+    - bạn nghĩ tôi đáng yêu đến mức nào
+    - hôm nay tôi hấp dẫn thế nào
+    - hôm nay bạn đẹp như thế nào
+    - hôm nay tôi trông hấp dẫn thế nào
+    - tôi trông thật lộng lẫy
+    - bạn nghĩ tôi hấp dẫn như thế nào hôm nay
+    - bạn nghĩ tôi hấp dẫn đến mức nào
+    - hôm nay tôi trông tệ thế nào
+    - tôi trông tệ đến mức nào
+    - hôm nay tôi thật đẹp
+    - tôi thật đẹp
+    - tôi hấp dẫn đến mức nào
+    - bạn nghĩ tôi tuyệt vời thế nào
+    - tôi trông thật đáng ghét
+    - bạn nghĩ tôi thật đáng ghét làm sao
+    - bạn nghĩ tôi thật đáng ghét
+    - tôi thật tuyệt vời
+    - hôm nay tôi trông thật ấn tượng
+    - bạn nghĩ tôi tuyệt vời như thế nào hôm nay
+    - hôm nay tôi thật đáng ghét
+    - hôm nay tôi xấu thế nào
+    - tôi thật xấu xí
+    - hôm nay tôi trông thật xấu xí
+    - trông tôi thật xấu xí
+    - hôm nay bạn nghĩ tôi xấu thế nào
+    - bạn nghĩ tôi xấu đến mức nào
+    - tôi trông thật ấn tượng
+    - bạn nghĩ tôi đẹp trai thế nào
+    - bạn có nghĩ hôm nay tôi có vẻ xấu
+    - bạn nghĩ tôi tuyệt vời như thế nào
+    - hôm nay tôi đẹp trai thế nào
+    - tôi đẹp trai thế nào
+    - hôm nay tôi trông thật đáng ghét
+    - hôm nay bạn đẹp trai thế nào
+    - tôi thật đáng ghét
+    - tôi thật xinh đẹp
+    - tôi trông thật xinh đẹp
+    - bạn nghĩ tôi đẹp thế nào
+    - bạn nghĩ tôi xinh thế nào
+    - trông tôi đẹp trai thế nào
+    - bạn có nghĩ tôi trông xinh không
+    - tôi thật đáng yêu
+    - tôi trông như thế nào
+    - bạn có nghĩ rằng tôi trông thật đẹp trai hôm nay không
+    - bạn có nghĩ rằng tôi trông đẹp trai với bạn
+    - bạn có nghĩ hôm nay tôi trông thật đáng yêu
+    - bạn có nghĩ rằng tôi trông tuyệt đẹp ngày hôm nay
+    - bạn có nghĩ rằng tôi trông xinh đẹp với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông tuyệt đẹp với bạn
+    - bạn có nghĩ hôm nay tôi trông xinh không
+    - bạn có nghĩ rằng tôi trông đáng ghét với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông phản cảm với bạn
+    - bạn có nghĩ hôm nay tôi trông thật phản cảm không
+    - bạn có nghĩ rằng tôi trông tuyệt vời
+    - bạn có nghĩ rằng tôi trông tuyệt vời với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông đẹp trai ngày hôm nay
+    - bạn có nghĩ rằng tôi trông đẹp với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông đẹp với bạn
+    - bạn có nghĩ hôm nay tôi trông đẹp không
+    - bạn có nghĩ tôi trông dễ thương không
+    - bạn có nghĩ rằng tôi trông dễ thương với bạn ngày hôm nay
+    - bạn có nghĩ tôi trông dễ thương với bạn không
+    - bạn có nghĩ tôi trông đẹp trai không
+    - bạn có nghĩ rằng tôi trông đẹp trai không
+    - bạn có nghĩ tôi trông xấu xí không
+    - bạn có nghĩ rằng tôi trông tốt cho bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông tốt với bạn
+    - bạn có nghĩ hôm nay tôi trông ổn không
+    - bạn có nghĩ tôi trông ổn không
+    - bạn có nghĩ rằng tôi trông tuyệt đẹp
+    - bạn có nghĩ hôm nay tôi trông dễ thương không
+    - bạn có nghĩ rằng tôi có vẻ phản cảm với bạn
+    - bạn có nghĩ rằng tôi có vẻ lộng lẫy ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ đẹp trai với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ đẹp trai với bạn
+    - bạn có nghĩ hôm nay tôi có vẻ đẹp trai không
+    - bạn có nghĩ rằng tôi có vẻ đẹp với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ đẹp với bạn
+    - bạn có nghĩ rằng tôi trông tuyệt vời với bạn
+    - bạn có nghĩ rằng tôi có vẻ phản cảm với bạn ngày hôm nay không
+    - bạn có nghĩ hôm nay tôi có vẻ dễ thương không
+    - bạn có nghĩ rằng tôi có vẻ phản cảm ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ tuyệt vời với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ tuyệt vời với bạn
+    - bạn có nghĩ rằng tôi có vẻ tuyệt vời ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ xấu với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ xấu với bạn
+    - bạn có nghĩ hôm nay tôi có vẻ xinh không
+    - bạn có nghĩ rằng tôi có vẻ hấp dẫn với bạn
+    - bạn nghĩ gì về tôi
+    - bạn có nghĩ rằng tôi trông xấu xí với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi trông xấu xí với bạn
+    - bạn có nghĩ hôm nay tôi trông xấu xí không
+    - bạn có nghĩ rằng tôi có vẻ đáng yêu với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ đáng yêu với bạn
+    - bạn có nghĩ rằng tôi có vẻ tuyệt đẹp với bạn
+    - bạn có nghĩ rằng tôi có vẻ hấp dẫn với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ hấp dẫn ngày hôm nay
+    - bạn có nghĩ tôi có vẻ đẹp với bạn không
+    - bạn có nghĩ hôm nay tôi có vẻ đẹp
+    - bạn có nghĩ rằng tôi có vẻ dễ thương với bạn ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ dễ thương với bạn
+    - bạn có nghĩ rằng tôi trông tuyệt vời ngày hôm nay
+    - bạn có nghĩ rằng tôi có vẻ đáng yêu ngày hôm nay
+    - tôi có bảnh không
+- intent: chitchat/ask_how_user_be
+  examples: |
+    - chỉ tò mò thôi, bạn có nghĩ rằng tôi có một tính cách tốt
+    - tôi có phải là người tốt không
+    - Tôi tò mò quá, ý kiến ​​của bạn về tôi là gì
+    - Tôi tò mò quá, bạn nghĩ tôi là người như thế nào
+    - Tôi tò mò quá, bạn nghĩ gì về tính cách của tôi
+    - Tôi tò mò quá, bạn nghĩ gì về tôi
+    - Tôi tò mò quá, bạn có nghĩ rằng tôi có một tính cách tốt
+    - chỉ là tò mò thôi, ý kiến ​​của bạn về tôi như thế nào
+    - bạn nghĩ gì về tính cách của tôi
+    - chỉ tò mò, bạn nghĩ gì về tính cách của tôi
+    - bạn nghĩ gì về tôi
+    - tôi tò mò, ý kiến ​​của bạn về tôi
+    - Tôi tò mò, bạn nghĩ gì về tính cách của tôi
+    - tôi tò mò, bạn có hiểu tôi không
+    - Tôi tò mò, bạn có nghĩ rằng tôi là một người tốt
+    - bạn có nghĩ tôi là người tốt bụng không
+    - bạn có nghĩ tôi là người tốt không
+    - bạn có nghĩ rằng tôi có một tính cách tốt
+    - bạn có nghĩ rằng tôi là một người tốt
+    - chỉ tò mò thôi, bạn nghĩ tôi là người như thế nào
+    - tôi thực sự muốn biết bạn nghĩ gì về tôi
+    - bạn có nghĩ tôi là người xấu
+    - bạn có ý kiến ​​của tôi
+    - tôi tự hỏi nếu bạn có ý kiến ​​của tôi
+    - tôi muốn biết bạn nghĩ gì về tôi
+    - nói thật, bạn nghĩ gì về tôi
+    - tôi tự hỏi bạn nghĩ gì về tôi
+    - bạn nghĩ tôi rất tuyệt
+    - bạn nghĩ gì về tôi là người thế nào
+    - thật muốn biết bạn nghĩ gì về tôi
+    - ý kiến ​​của bạn về tính cách của tôi
+    - ý kiến ​​của bạn về tôi
+    - bạn nghĩ tôi là người như thế nào
+    - ý kiến ​​của bạn về tôi là gì
+    - thành thật mà nói, bạn nghĩ gì về tôi
+- intent: chitchat/ask_if_who_prettier
+  examples: |
+    - ai trong chúng ta dễ thương hơn, bạn hay tôi
+    - tôi dễ thương hơn bạn
+    - cái nào trong chúng ta đẹp hơn, tôi hay bạn
+    - cái nào trong chúng ta hấp dẫn hơn
+    - cái nào trong chúng ta hấp dẫn hơn, bạn hay tôi
+    - cái nào trong chúng ta hấp dẫn hơn, tôi hay bạn
+    - cái nào trong chúng ta nóng hơn
+    - cái nào trong chúng ta nóng hơn, bạn hay tôi
+    - cái nào trong chúng ta đẹp hơn
+    - cái nào trong chúng ta dễ thương hơn
+    - cái nào trong chúng ta dễ thương hơn, tôi hay bạn
+    - ai trong chúng ta dễ thương hơn, tôi hay bạn
+    - tôi nóng hơn bạn
+    - tôi xinh hơn bạn
+    - tôi xinh hơn
+    - Ai trong chúng ta sẽ chiến thắng một cuộc thi sắc đẹp, tôi hoặc bạn
+    - cái nào trong chúng ta nóng hơn, tôi hay bạn
+    - bạn có đẹp hơn tôi không
+    - cái nào trong chúng ta trông đẹp hơn, bạn hay tôi
+    - cái nào trong chúng ta trông đẹp hơn, tôi hay bạn
+    - cái nào trong chúng ta trông đẹp hơn
+    - cái nào trong chúng ta có vẻ tốt hơn
+    - cái nào trong chúng ta đẹp hơn, bạn hay tôi
+    - ai trong chúng ta trông tốt hơn, tôi hoặc bạn
+    - tôi dễ thương hơn
+    - ai trong chúng ta trông tốt hơn, bạn hoặc tôi
+    - giữa hai chúng tôi ai dễ thương hơn
+    - giữa bạn và tôi là ai dễ thương hơn
+    - giữa bạn và tôi, ai là người dễ nhìn hơn
+    - giữa hai chúng tôi, người sẽ giành chiến thắng trong một cuộc thi sắc đẹp
+    - giữa hai chúng tôi trông đẹp hơn
+    - giữa hai chúng tôi, người trông đẹp hơn
+    - giữa bạn và tôi, người hấp dẫn hơn
+    - giữa hai chúng tôi, ai đẹp hơn
+    - giữa bạn và tôi đẹp hơn
+    - giữa hai chúng ta ai đẹp hơn
+    - giữa hai chúng ta, ai hấp dẫn hơn
+    - giữa hai chúng tôi, người nóng hơn
+    - giữa hai chúng tôi là ai dễ thương hơn
+    - giữa hai chúng tôi, ai là người dễ nhìn hơn
+    - bạn có xinh hơn tôi không
+    - bạn có hấp dẫn hơn tôi không
+    - giữa hai chúng tôi, người đẹp hơn
+    - tôi nhìn tốt hơn
+    - tôi đẹp hơn bạn
+    - tôi đẹp hơn
+    - tôi hấp dẫn hơn bạn
+    - tôi hấp dẫn hơn
+    - giữa bạn và tôi, người nóng bỏng hơn
+    - tôi nhìn tốt hơn bạn
+    - ai trong chúng ta sẽ chiến thắng một cuộc thi sắc đẹp, bạn hoặc tôi
+    - giữa bạn và tôi, người sẽ chiến thắng trong một cuộc thi sắc đẹp
+    - giữa bạn và tôi trông xinh hơn
+    - giữa bạn và tôi trông đẹp hơn
+    - giữa bạn và tôi có vẻ tốt hơn
+    - giữa bạn và tôi là người xinh hơn
+    - giữa bạn và tôi dễ thương hơn
+    - tôi đang nhìn tốt hơn
+    - ai hấp dẫn hơn
+    - ai sẽ thắng một cuộc thi sắc đẹp, tôi hay bạn
+    - ai xinh hơn bạn
+    - ai xinh hơn tôi
+    - ai xinh hơn
+    - ai dễ thương hơn
+    - ai đẹp hơn bạn
+    - người đẹp hơn tôi
+    - bạn trông xinh hơn tôi
+    - ai hấp dẫn hơn, bạn hay tôi
+    - bạn trông xinh hơn
+    - Ai nóng bỏng hơn
+    - Ai đẹp hơn bạn
+    - người nhìn tốt hơn tôi
+    - ai nhìn tốt hơn
+    - ai sẽ thắng một cuộc thi sắc đẹp
+    - ai đẹp hơn
+    - bạn trông ổn hơn
+    - bạn đẹp hơn
+    - bạn xinh hơn tôi
+    - bạn xinh hơn
+    - bạn dễ thương hơn tôi
+    - bạn dễ thương hơn
+    - bạn đẹp hơn tôi
+    - ai xinh hơn, tôi hay bạn
+    - bạn hấp dẫn hơn
+    - bạn nóng hơn tôi
+    - bạn nóng hơn
+    - bạn trông đẹp hơn bạn
+    - bạn trông đẹp hơn
+    - bạn hấp dẫn hơn tôi
+    - ai dễ thương hơn, tôi hay bạn
+    - ai sẽ thắng một cuộc thi sắc đẹp, bạn hay tôi
+    - nguoi dep hon
+    - ai đẹp hơn, bạn hay tôi
+    - ai đẹp hơn tôi hay bạn
+    - ai hấp dẫn hơn, tôi hay bạn
+    - ai dễ thương hơn, bạn hay tôi
+    - ai đẹp hơn, tôi hay bạn
+    - ai trong chúng ta sẽ chiến thắng một cuộc thi sắc đẹp
+    - ai trông đẹp hơn, bạn hay tôi
+    - ai trông xinh hơn
+    - ai trông xinh hơn, bạn hay tôi
+    - ai trông xinh hơn, tôi hay bạn
+    - ai trông đẹp hơn
+    - ai trông đẹp hơn, tôi hay bạn
+    - ai xinh hơn, bạn hay tôi
+- intent: chitchat/ask_if_who_smarter
+  examples: |
+    - giữa bạn và tôi, ai là người thông minh nhất
+    - bạn có nghĩ bạn là người thông minh nhất
+    - bạn có nghĩ rằng bạn thông minh hơn tôi
+    - bạn có nghĩ rằng bạn thông minh hơn
+    - bạn có nghĩ rằng bạn hiểu biết nhiều hơn tôi
+    - bạn có nghĩ rằng bạn hiểu biết nhiều hơn
+    - bạn có nghĩ bạn thông minh nhất
+    - bạn có nghĩ tôi thông minh hơn bạn
+    - bạn có nghĩ tôi thông minh nhất
+    - bạn có nghĩ rằng tôi thông minh hơn
+    - bạn có nghĩ rằng tôi thông minh hơn bạn
+    - bạn có nghĩ rằng tôi hiểu biết nhiều hơn bạn
+    - bạn có nghĩ rằng tôi sáng hơn
+    - tôi chắc chắn thông minh hơn
+    - Tôi rõ ràng thông minh hơn
+    - tôi có sáng hơn bạn không
+    - tôi chắc chắn thông minh nhất
+    - tôi chắc chắn sáng hơn bạn
+    - tôi thông minh nhất
+    - Tôi rõ ràng là thông minh nhất
+    - Tôi rõ ràng thông minh hơn bạn
+    - Tôi rõ ràng hiểu biết hơn bạn
+    - Tôi rõ ràng hiểu biết hơn
+    - Tôi rõ ràng thông minh nhất
+    - Tôi rõ ràng sáng hơn bạn
+    - bạn có nghĩ bạn thông minh hơn tôi không
+    - Tôi rõ ràng là người sáng nhất
+    - giữa hai chúng ta là người thông minh nhất, bạn hay tôi
+    - giữa hai chúng tôi, những người hiểu biết hơn, bạn hoặc tôi
+    - giữa hai chúng tôi, những người hiểu biết hơn, tôi hoặc bạn
+    - giữa hai chúng ta ai thông minh hơn
+    - giữa hai chúng ta ai thông minh hơn, bạn hay tôi
+    - giữa hai chúng ta ai thông minh hơn, tôi hay bạn
+    - giữa hai chúng tôi là người thông minh nhất
+    - giữa hai chúng ta là người thông minh nhất, tôi hay bạn
+    - bạn có thông minh hơn không
+    - bạn có thông minh hơn tôi không
+    - tôi có phải là người thông minh nhất không
+    - tôi có phải là người sáng nhất
+    - tôi có thông minh hơn không
+    - tôi có thông minh hơn bạn không
+    - tôi có rực rỡ hơn không
+    - giữa hai chúng ta, ai là người thông minh nhất
+    - giữa bạn và tôi, ai là người sáng nhất
+    - giữa bạn và tôi, ai thông minh hơn
+    - giữa bạn hoặc tôi, ai thông minh hơn, tôi hay bạn
+    - giữa bạn và tôi, ai hiểu biết hơn
+    - giữa bạn hay tôi, ai thông minh hơn
+    - giữa bạn và tôi, người thông minh nhất
+    - giữa hai chúng tôi, ai là người thông minh nhất
+    - giữa hai chúng tôi là những người hiểu biết hơn
+    - tôi chắc chắn thông minh hơn bạn
+    - giữa hai chúng ta, ai là người thông minh nhất, tôi hay bạn
+    - giữa hai chúng ta, ai là người thông minh nhất, bạn hay tôi
+    - giữa hai chúng tôi là người sáng nhất
+    - giữa hai chúng ta, người sáng nhất, bạn hay tôi
+    - giữa hai chúng ta, người sáng nhất, tôi hay bạn
+    - ai thông minh nhất
+    - ai trong chúng ta là thông minh nhất
+    - ai là người sáng nhất
+    - ai thông minh hơn
+    - ai hiểu biết hơn
+    - ai trong chúng ta thông minh nhất
+    - cái nào trong chúng ta là sáng nhất
+    - ai trong chúng ta thông minh hơn
+    - ai trong chúng ta hiểu biết nhiều hơn
+    - cái nào trong chúng ta thông minh hơn
+    - Tôi chắc chắn thông minh hơn bạn
+    - bạn hiểu biết nhiều hơn
+    - bạn thông minh nhất
+    - bạn là người thông minh nhất
+    - bạn thông minh hơn
+    - bạn rõ ràng là người thông minh nhất
+    - bạn rõ ràng thông minh hơn
+    - ai thông minh hơn, tôi hay bạn
+    - bạn rõ ràng là hiểu biết nhiều hơn
+    - tôi thông minh hơn bạn
+    - Tôi rõ ràng là sáng hơn bạn
+    - tôi hiểu biết nhiều hơn bạn
+    - tôi hiểu biết nhiều hơn
+    - Tôi rõ ràng là hiểu biết nhiều hơn
+    - tôi thông minh hơn
+    - Tôi rõ ràng là hiểu biết nhiều hơn bạn
+    - tôi chắc chắn mình thông minh nhất
+    - Tôi chắc chắn là người hiểu biết hơn bạn
+    - Tôi chắc chắn hiểu biết nhiều hơn
+    - tôi là người thông minh nhất
+    - tôi là người sáng hơn bạn
+    - Tôi thông minh hơn bạn
+    - tôi rõ ràng thông minh nhất
+    - Tôi rõ ràng là người thông minh nhất

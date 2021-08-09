@@ -1,0 +1,72 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Valenciennes](ORG) vs [Nancy](ORG) lúc 02h00 ngày 3/2 (Vòng 24 giải Hạng 2 [Pháp](LOC) Ligue 2 2017/18): Nhận định bóng đá hôm nay, ý kiến chuyên gia, dự đoán kết quả, phân tích chuyên môn, các thông tin tỷ lệ bóng đá, thống kê bên lề trước trận đấu
+    - [Eric Gordon](PER) vẫn sẽ làm khán giả vì chấn thương trong khi [Trevor Ariza](PER) cũng gặp vấn đề tương tự
+    - [NBA](ORG) 2017-18, [Rockets](ORG) 120-88 [Cavaliers](ORG): Thua bạc nhược, [Lebron James](PER) nên nghĩ lại về [Warriors](ORG)
+    - [Chris Paul](PER) có 22 điểm cùng 11 kiến tạo, [Ryan Anderson](PER) có 21 điểm
+    - [James Harden](PER) chỉ ghi 16 điểm nhưng vẫn nhiều hơn tất cả cầu thủ [Cavaliers](ORG) khi không ai trong số họ ghi được quá 13 điểm
+    - [Cavaliers](ORG) đang đưa người hâm mộ họ đi từ thất vọng này đến thất vọng khác và kết quả này đang đe dọa trực tiếp đến vị trí tham dự play-off mùa giải [NBA](ORG) 2017-18 với việc còn rất nhiều vòng đấu nữa
+    - [Chris Paul](PER) tỏa sáng thay phần [James Harden](PER)
+    - [Dương Ngọc Tân](PER) - TinTheThao.com.vn - [TTVN](ORG) | 10:30 04/02/2018
+    - [Enes Kanter](PER) và [Kristaps Porzingis](PER) sẽ không thể ra sân vì lí do khác nhau, không có lí do gì để [Raptors](ORG) buông tha cho 1 con mồi hết sức béo bở như vậy
+    - [Knicks](ORG) từng thắng 108-100 trước [Raptors](ORG) nhưng có lẽ đó chỉ là may mắn nhất thời
+    - [Kristaps Porzingis](PER) sẽ phải làm khán giả ít nhất tháng 1 năm sau
+    - [Knicks](ORG): [Jarrett Jack](PER), [Courtney Lee](PER), [Tim Hardaway](PER), [Michael Beasley](PER), [Kyle O'Quinn](PER)
+    - [Dương Ngọc Tân](PER) - TinTheThao.com.vn - [TTVN](ORG) | 14:00 08/02/2018
+    - [Raptors](ORG): [Kyle Lowry](PER), [DeMar DeRozan](PER), [OG Anunoby](PER), [Serge Ibaka](PER), [Jonas Valanciunas](PER)
+    - [Kanter](PER) là cái tên thứ 2 quan trọng sẽ vắng mặt trong chuyến làm khách sáng mai của [Knicks](PER) sau va chạm dẫn tới miệng anh chảy máu khá nhiều trong trận đấu với [Bucks](ORG)
+    - [Kanter](PER) có trung bình 17.2 điểm và 15.5 rebound ở mùa giải [NBA](ORG) 2017-18
+    - [Miles](PER) chỉ là 1 phần trong tổng số 59 điểm tạo ra trong chiến thắng [Celtics](ORG) từ băng ghế dự bị áp đảo hoàn toàn so với các cầu thủ cùng vị trí bên đội khách
+    - [Dương Ngọc Tân](PER) - TinTheThao.com.vn - [TTVN](ORG) | 15:00 08/02/2018
+    - [Golden State Warriors](ORG) có tới 4 cầu thủ nằm trong danh sách All-star nên việc họ để thua 2 trong 3 vòng đấu gần đây ít nhiều đặt ra câu hỏi về thực lực của các chiến binh cũng như phong độ của các siêu sao như [Stephen Curry](PER), [Kevin Durant](PER), [Klay Thompson](PER) và [Draymond Green](PER)
+    - [Dirk Nowitzki](PER) có 12 điểm trong 25 phút ra sân trong thất bại trước [Clippers](PER) để trở thành cầu thủ thứ 6 trong lịch sử [NBA](ORG) trải qua 50000 phút trong sự nghiệp thi đấu, một minh chứng cho sự trung thành cùng tình thần bất khuất của 1 đấu sĩ thực thụ
+    - [Draymond Green](PER) bị đuổi khỏi sân bên cạnh tiền phong [David West](PER) cùng [Andre Iguodala](PER) phạm 1 lỗi kĩ thuật trong trận thua bạc nhược trước [Thunder](ORG)
+    - [Warriors](ORG): [Jordan Bell](PER) (OUT), [David West](PER) (có thể), [Shaun Livingston](PER) (có thể), [Kevin Durant](PER) (có thể)
+    - [LeBron](PER) chơi 9 phút, nhưng chỉ ghi được 2 điểm
+    - [Isaiah Thomas](PER) cũng ra sân 9 phút và không ghi được điểm số nào
+    - [DeMar DeRozan](PER) chơi không thực sự hiệu quả và chỉ có 2 điểm
+    - [Thanh Hoài](PER) - TinTheThao.com.vn - [TTVN](ORG) | 13:00 12/01/2018
+    - [LeBron James](PER) tỏa sáng, [Cavaliers](ORG) vẫn thua thảm trên sân [Raptors](ORG)
+    - [LeBron James](PER) không còn lẻ loi một mình trên hàng công khi đã có [Isaiah Thomas](PER) và [Kevin Love](PER) phần nào thể hiện đúng phong độ
+    - [NBA](ORG) 2017-18: Đại chiến [Warriors](ORG) - [Cavaliers](ORG): 'Nhà vua' thực sự đã già
+    - [Dương Ngọc Tân](PER) - TinTheThao.com.vn - [TTVN](ORG) | 10:40 16/01/2018
+    - [Bayern](ORG): [Ulreich](PER); [Kimmich](PER), [Boateng](PER), [Sule](PER), [Bernat](PER); [James](PER), [Martinez](PER), [Ribery](PER); [Robben](PER), [Lewandowski](PER), [Muller](PER)
+    - [Bayern](ORG): [Thomas Müller](PER) (41′, 84'), [Robert Lewandowski](PER) (63', 76'), [Niklas Süle](PER) (74', đốt lưới)
+    - [Bremen](ORG): [Pavlenka](PER); [Bauer](PER), [Veljkovic](PER), [Moisander](PER), [Augustinsson](PER); [Bargfrede](PER); [Gondorf](PER), [Junuzovic](PER), [Delaney](PER), [Eggestein](PER); [Kruse](PER)
+    - [Thanh Hoài](PER) - TinTheThao.com.vn - [TTVN](ORG) | 18:12 03/02/2018
+    - [Golden State Warriors](ORG): [Curry](PER), [Thompson](PER), [Durant](PER), [Green](PER), [Pachulia](PER)
+    - [Nuggets](ORG): [Murray](PER), [Harris](PER), [Barton](PER), [Chandler](PER), [Jokic](PER)
+    - [Nikola Jokic](PER) sẽ là đối trọng cực lớn cho [Warriors](ORG)
+    - [Kevin Durant](PER) vùa giúp [Warriors](ORG) đứng dậy sau thất bại
+    - [Huddersfield](ORG): [Coleman](PER); [Hadergjonaj](PER), [Hefele](PER), [Kongolo](PER), [Malone](PER); [Hogg](PER), [Mooy](PER); [Quaner](PER), [Sabiri](PER), [van La Parra](PER); [Mounie](PER)
+    - [Huddersfield](ORG) lúc này khó có thể dồn sức cho FA Cup hay bất cứ giải đấu nào khác bởi họ biết phải dồn sức cho việc trụ hạng tại Premier League
+    - [Birmingham](ORG) vs [Huddersfield](ORG) lúc 02h45 ngày 7/2 (Đá lại vòng 4 cúp FA Cup 2017/18): Nhận định bóng đá, ý kiến chuyên gia, dự đoán kết quả, phân tích chuyên môn, các thông tin tỷ lệ bóng đá, thống kê bên lề trước trận đấu
+    - [Huddersfield](ORG) giờ không mấy xa lạ trước Quỷ đỏ khi cả hai đang cùng nhau chơi tại Premier League
+    - [Thanh Hoài](PER) - TinTheThao.com.vn - [TTVN](ORG) | 13:00 07/02/2018
+    - [Stephen Curry](PER) và các đồng đội đã tung ra 9 tình huống ba điểm, nhưng chỉ thành công 3/9
+    - [Klay Thompson](PER) là người chơi ấn tượng nhất với 8 điểm, tiếp đó là [Kevin Durant](PER) – có 7 điểm
+    - [Spurs](ORG) đã thua, nhưng đó là trận đấu mà HLV [Popovich](PER) không có được sự phục vụ của 4 trụ cột trong đội hình là [Manu Ginobili](PER), [Danny Green](PER), [Tony Parker](PER) và [Kawhi Leonard](PER)
+    - [Thanh Hoài](PER) - TinTheThao.com.vn - [TTVN](ORG) | 18:00 05/01/2018
+    - [NBA](ORG) ngày 6/1: [Celtics](ORG) đủ sức để hạ [Timberwolves](ORG)?
+    - [Kawhi Leonard](PER) và [Tony Parker](PER) trở lại để giúp sức cho [Spurs](ORG)
+    - [Cavaliers](ORG) cần phải cẩn trọng với [Timberwolves](ORG)
+    - [Thanh Hoài](PER) - TinTheThao.com.vn - [TTVN](ORG) | 18:00 08/01/2018
+    - [Warriors](ORG) nắm giữ ít nhất 80% cơ hội giành chiến thắng ở trận đấu này
+    - [NBA](ORG) ngày 9/1: Tâm điểm [Cavaliers](ORG) – [Timberwolves](ORG)
+    - [Warriors](ORG) sẽ chiến thắng khi không có [Durant](PER)?
+    - [Kinh Luân](PER) - Bongda.com.vn - [TTVN](ORG) | 21:20 09/01/2018
+    - [Barca](ORG) dành được 8 danh hiệu La Lga trong khi con số này của [Madrid](ORG) chỉ là 6
+    - [Chivas](ORG) - một đội bóng ở [Mexico](LOC) lại có chất lượng cao hơn [Al Wasl](ORG) ở [Dubai](LOC).” Nguyên tắc làm việc của [Albert](PER) là không tạo ra những đội bóng chỉ biết chơi thực dụng hay bắt chước một cách hời hợt, không có mục đích cụ thể
+    - [Real](ORG) ngày càng bắt kịp [Barca](ORG) trên chính phương diện sở trường của [Barca](ORG) trong năm 2017
+    - [Albert Puig](PER), cựu giám đốc lò đào tạo [La Masia](ORG) trứ danh, nơi ươm mầm những [Xavi](PER), [Iniesta](PER), [Messi](PER), … từng phát biểu: “Bất kì đội bóng nào cũng cần tạo được một lối chơi đặc trưng của chính mình”
+    - [La Masia](ORG) là kiểu mẫu mà các đội bóng đang học tập
+    - [Marc Ingla](PER), đồng nghiệp trước đây của [Soriano](PER) trong thời gian cả hai còn ở [Camp Nou](LOC), bây giờ là Giám đốc điều hành của CLB [Pháp](LOC) [Lille O.S.C.](ORG) “Các chuyên gia luôn muốn phát triển các dự án của riêng họ, và mọi người đều học hỏi và bắt chước những dự án thành công
+    - [Carles Romagosa](PER), cựu giám đốc lò [La Masia](ORG), hiện nay cũng nắm giữ một vai trò ở [PSG](ORG)
+    - [Andoni Zubizarreta](PER), cựu giám đốc kỹ thuật của [Barca](ORG), hiện đang làm việc cho [Marseille](ORG); cho đến gần đây, [Jose Ramon Alexanco](PER) cũng đảm nhiệm công việc tương tự ở [Valencia](ORG)
+    - [La Masia](ORG) là nền tảng làm nên thành công của [Barca](ORG)
+    - [Real](ORG) cũng có một mối quan hệ không chính thức với [Aspire](ORG), khi [Ivan Bravo](PER), người từng giữ chức giám đốc chiến lược ở [Madrid](ORG) từ 2003 đến 2010, đang là tổng giám đốc học viện [Aspire](ORG) này
+    - [Barcelona](ORG) không tiếp nhận theo chiều hướng như vậy
+    - [Barcelona](ORG) luôn để lại dấu ấn của họ ở bất cứ nơi nào trên khắp thế giới, mỗi nơi họ từng đi qua
+    - [Barca](ORG) đang là thế lực của bóng đá thế giới

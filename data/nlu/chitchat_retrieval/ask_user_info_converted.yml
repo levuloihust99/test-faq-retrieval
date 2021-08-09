@@ -1,0 +1,143 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_user_name
+  examples: |
+    - bạn có thể cho tôi biết tên của tôi
+    - bạn có thể cho tôi biết tôi được gọi là gì không
+    - tôi có tên không
+    - tôi có tên là gì không
+    - bạn có biết tên tôi không
+    - bạn có biết tôi tên gì không
+    - giải thích tên của tôi cho tôi
+    - tôi có một cái tên, nó là gì
+    - tôi muốn biết tên tôi
+    - tôi muốn biết tên tôi là gì
+    - cho tôi biết tên tôi là gì
+    - tôi có thể biết tên tôi không
+    - xin vui lòng cho tôi biết tên của tôi là gì
+    - nói tên tôi.
+    - cho tôi biết tên của tôi
+    - tôi được gọi là gì
+    - tên tôi là gì
+    - bố mẹ tôi đã đặt tên cho tôi là gì
+    - tôi tự gọi mình là gì
+    - đồng nghiệp của tôi gọi tôi là gì
+    - mọi người gọi tôi là gì
+    - mọi người gọi tôi là gì nữa
+    - chính xác tên tôi là gì
+    - tên của tôi là gì
+    - tên đầy đủ của tôi là gì
+    - tôi tên là gì
+    - tên tôi đã được đặt là gì
+    - tôi đi bằng tên gì
+    - tôi nên nhận ra tên gì
+    - tôi đã được đặt tên là gì
+    - tên trên bia mộ của tôi sẽ là gì
+- intent: chitchat/ask_who_user
+  examples: |
+    - bạn có thể cho tôi biết tôi là ai
+    - bạn có biết tôi là ai
+    - bạn có biết tôi là ai không
+    - làm thế nào tôi có thể xác định tôi là ai
+    - làm thế nào để tôi khám phá ra tôi là ai
+    - làm thế nào để tôi xác định chính mình
+    - được rồi tôi là ai
+    - tôi sẽ biết tôi là ai
+    - nói cho tôi biết tôi là ai
+    - cho tôi biết tôi là ai
+    - tôi là ai
+    - tôi có thể là ai
+    - bạn có thể cho tôi biết danh tính của tôi là gì
+    - cho tôi biết danh tính của tôi là gì
+    - danh tính của tôi là gì
+- intent: chitchat/ask_if_know_user
+  examples: |
+    - Tôi bao nhiêu tuổi
+    - bạn có biết tôi thích gì không
+    - Bạn có biết tôi sống ở đâu không
+    - bạn có biết tôi là ai
+    - Bạn có biết đây là ai không
+    - bạn không biết đây là ai
+    - bạn không nhớ tôi à
+    - bạn có nghĩ rằng bạn biết tôi
+    - bạn có nghĩ bạn biết tôi là ai
+    - bạn không biết tôi à
+    - bạn không biết tôi là ai
+    - môn thể thao yêu thích của tôi là gì
+    - bạn không nhớ tôi là ai
+    - bạn có biết tôi không
+    - Bạn biết tốt về tôi như thế nào
+    - bạn nghĩ bạn biết tôi thế nào
+    - tôi gọi là gì
+    - nỗi sợ của tôi là gì
+    - mục tiêu của tôi là gì
+    - sở thích của tôi là gì
+    - Bạn đang nghĩ gì về tôi
+    - bạn biết gì về tôi
+    - bạn có thông tin gì về tôi
+    - thức ăn yêu thích của tôi là gì
+    - tôi có phải là một người cha
+    - bạn không nhớ tôi
+    - tôi có sợ không
+    - tôi có phải là ông không
+    - tôi có phải là bà không
+    - tôi có phải là ông
+    - tôi có phải là ông bà không
+    - tôi có phải là mẹ không
+    - tôi có phải là cha mẹ không
+    - tôi có việc làm không
+    - tôi đang ở trường
+    - tôi có đi học không
+    - bạn có biết tên tôi không
+    - tôi có ước mơ nào không
+    - tôi có mục tiêu nào không
+    - tôi có con không
+    - tôi có thú cưng không
+    - tôi có anh chị em không
+    - bạn có biết tôi là ai không
+    - Bạn có biết gì về tôi không
+    - bạn có biết gì về tôi không
+    - tôi tên là gì
+    - ai là bạn thân của tôi
+    - tôi thuộc dân tộc nào
+    - tôi từ đâu đến
+    - tôi sinh ra ở đâu
+    - tôi bao nhiêu tuổi
+    - bài hát yêu thích của tôi là gì
+    - tôi có phải là anh trai không
+    - tôi có phải là em gái không
+    - tôi có anh trai không
+    - tôi có em gái không
+    - sở thích yêu thích của tôi là gì
+    - tôi sinh ra khi nào
+    - họ của tôi là gì
+    - ngày sinh của tôi là gì
+    - địa chỉ của tôi là gì
+    - bạn không biết gì về tôi
+    - bạn biết gì về cuộc sống của tôi
+    - tên đệm của tôi là gì
+    - tôi có biệt danh nào không
+    - ai là diễn viên yêu thích của tôi
+    - ai là nữ diễn viên yêu thích của tôi
+    - ai là ca sĩ yêu thích của tôi
+    - ban nhạc yêu thích của tôi là gì
+    - bạn có biết gì về cuộc sống của tôi không
+    - tên tôi là gì
+    - người nổi tiếng yêu thích của tôi là ai
+    - dấu hiệu của tôi là gì
+    - bộ phim yêu thích của tôi là gì
+    - tôi đang đi nghỉ ở đâu
+    - tôi đi học ở đâu
+    - tôi làm việc ở đâu
+    - chủng tộc của tôi là gì
+    - bạn nghĩ tôi là ai
+    - màu sắc yêu thích của tôi
+    - đội yêu thích của tôi là ai
+    - bạn không biết tôi rồi
+    - bạn không biết tôi đúng không
+    - biệt danh của tôi là gì
+    - giới tính của tôi là gì
+    - khi nào là sinh nhật của tôi
+    - công việc của tôi là gì
+    - tôi làm gì cho công việc
+    - tôi là ai

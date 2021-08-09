@@ -1,0 +1,19 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Caleb Scharf](PER): Mặc dù tôi vẫn không tin vào những gì truyền thông và mọi người đang nói nhưng lại không ngờ vụ việc lại thu hút nhiều người quan tâm đến vậy
+    - [Caleb Scharf](PER): Vấn đề này vẫn còn khá tranh cãi
+    - [Carolin Frueh](PER): Tôi đồng ý với [Caleb](PER), chẳng thể nói được gì chỉ qua một video như thế này
+    - [Caleb Scharf](PER): Bạn không thể cứ thế mà thí nghiệm ngay được đâu, mà phải dựa vào những thông tin, con số làm nền tảng
+    - [Caleb Scharf](PER): Điều này thật sự rất là khó khăn để cho một nhà khoa học có thể kết luận được điều gì, đồng ý là câu chuyện ly kì thật đấy
+    - [David Fravor](PER) kể lại cuộc gặp gỡ với UFO hình thoi khi đang trên đường thực thi nhiệm vụ
+    - [Hồ Hillier](LOC) nhìn từ trên cao
+    - [Hồ Hillier](LOC) là một hồ nước mặn dài khoảng 600m, rộng 250m trên [đảo Middle](LOC), đảo lớn nhất trong [quần đảo Recherche](LOC), ngoài khơi phía nam nước [Úc](LOC)
+    - [Kawah Ijen](LOC) là một trong những ngọn núi ở vùng lòng chảo núi lửa rộng 20km ở đông [đảo Java](LOC), [Indonesia](LOC), đặc biệt chứa một hồ axit và lượng lớn lưu huỳnh
+    - [Louigene](PER) sau đó đã thông báo trên đài phát thanh của địa phương về việc [St.Luke](ORG) đang trông nom thi thể để gia đình cô gái có thể đến tiếp nhận, song không có ai đến
+    - [Quỹ St.Luke](ORG) bắt đầu hoạt động năm 2000 để giúp đỡ những người nghèo nhất ở [Haiti](LOC), được sáng lập bởi một linh mục và bác sĩ [người Mỹ](MIS), [Rick Frechette](PER)
+    - [Louigene](PER) và nhóm của anh đã xếp chúng vào chung nhau trong 3 chiếc quan tài để tiết kiệm hết mức có thể, song còn vì một lý do khác: để chúng đỡ cô đơn
+    - [Delianne](PER) mới mất chân bán hàng ở một hiệu trang sức, còn chồng cô kiếm được tối đa 56USD/tuần
+    - [Raphaël Louigene](PER) là nhân viên xã hội trong khu ổ chuột tồi tệ nhất Haiti với công việc hàng ngày là giúp phụ nữ kiếm sống bằng việc kinh doanh nhỏ hay đơn giản chỉ là giúp họ lợp lại căn nhà dột
+    - [John](PER) cũng đã liên lạc với cảnh sát khu vực, tuy nhiên họ nói không thể giúp được gì cho ông bởi đó chỉ là vụ tấn công giữa động vật với nhau mà thôi

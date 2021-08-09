@@ -1,0 +1,16 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Tập đoàn Công nghệ BKAV](ORG) nhận định, các cuộc tấn công trên thiết bị kết nối Internet vạn vật (IoT), công nghệ sinh tắc học, mã độc mã hóa dữ liệu tống tiền, mã độc đào tiền ảo
+    - [Google](ORG) không cho phép phát triển các nội dung khiêu dâm trên kho ứng dụng Play Store
+    - [Kaspersky](ORG) tiết lộ, hiện có khoảng 1,2 triệu người đã dính các loại mã độc trong khi xem video khiêu dâm trên smartphone
+    - [Ang Cui](PER) - một nhà khoa học và người sáng lập ra công ty [Red Balloon Security](ORG) chuyên bảo mật các thiết bị nhúng đã chia sẻ video về cách mà tin tặc tạo ra lỗ hổng trên máy tính [Dell](ORG) phổ biến sau đó từ từ xâm nhập vào hệ thống
+    - [Ang Cui](PER) cho biết về cơ bản người dùng hầu như không tin là có thể bị đánh lừa bởi chính màn hình máy tính của mình nhưng trên thực tế các hacker đã tự động thay đổi nội dung trên đó chỉ trong chớp nhoáng bằng cách tạo ra một web giả khiến người dùng nhập thông tin cá nhân vào
+    - [Ang Cui](PER) đã ước tính rằng có ít nhất một tỷ màn hình máy tính trên toàn cầu đều dễ bị tấn công kiểu này, nó gọi là "A Monitor Darkly"
+    - [AT&T](ORG) được thành lập vào năm 1885 với tư cách là công ty con của [Bell](ORG) để xây dựng và vận hành mạng điện thoại đường dài đầu tiên
+    - [AT&T](ORG), một trong những công ty viễn thông lớn nhất trên thế giới, đã gặp khá nhiều rắc rối với chính phủ [Mỹ](LOC) bởi luật chống độc quyền đang tại quốc gia này
+    - [AT&T](ORG) và những 'trận chiến' cam go với chính phủ
+    - [Western Electric](ORG) đã quá “thiên vị” [AT&T](ORG), giúp công ty này gần như độc quyền trong mảng viễn thông vào thời điểm bấy giờ
+    - [AT&T Crop](ORG) là công ty truyền hình cáp và điện thoại đường dài lớn nhất tại [Mỹ](LOC)
+    - [Leibowitz](PER) cho biết người trẻ còn bị ám ảnh bởi một thứ: Fomo – lo sợ mình sẽ bỏ lỡ điều gì đó lớn lao

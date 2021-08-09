@@ -1,0 +1,140 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Ben Hoffman](PER), một chuyên gia về [Mỹ Latinh](LOC) của [Viện Nghiên cứu toàn cầu và các khu vực](ORG) của [Đức](LOC), bình luận rằng bất cứ nhà đầu tư nào đều mong muốn những dữ liệu đáng tin cậy
+    - [Reuters](ORG) cũng trích lời một nhà kinh tế [Cuba](LOC) giấu tên nhận xét: “khi mọi việc tồi tệ đi, câu trả lời của Chính phủ là che giấu thông tin
+    - [VN](LOC) vẫn phải tập trung tái cơ cấu kinh tế, hướng tới phát triển bền vững và hiệu quả
+    - [Bộ Y tế](ORG) nghiên cứu ảnh hưởng của thuốc BVTV đến sức khỏe người trồng cũng như người sử dụng hoa, [Bộ Tài nguyên và Môi trường](ORG) nghiên cứu việc sử dụng thuốc BVTV tác động đến đất, nước, không khí và các vi sinh vật cũng như sinh vật để đề xuất quy định
+    - [Bộ NN-PTNT](ORG) chỉ đạo [Cục BVTV](ORG) nghiên cứu kỹ việc đăng ký thuốc
+    - [Huyện Mê Linh](LOC) có các xã trồng hoa chủ yếu gồm [Mê Linh](LOC), [Văn Khê](LOC), [Tráng Việt](LOC), [Đại Thịnh](LOC) còn [Từ Liêm](LOC) chủ yếu là [phường Tây Tựu](LOC)
+    - [Bộ Xây dựng](ORG) đã trình Chính phủ ban hành Nghị định số 42/2017/NĐ-CP ngày 5/4/2017 về sửa đổi, bổ sung một số điều của Nghị định số 59/2015/NĐ-CP ngày 18/6/2015 về quản lý dự án đầu tư xây dựng và Nghị định số 53/2017/NĐ-CP ngày 8/5/2017 quy định các loại giấy tờ hợp pháp về đất đai để cấp giấy phép xây dựng, trong đó có nhiều nội dung đổi mới theo hướng tăng cường phân cấp, ủy quyền hợp lý trong quản lý các hoạt động xây dựng, nhất là đối với 2 thành phố lớn [Hà Nội](LOC) và [TPHCM](LOC); phân định rõ trách nhiệm, phù hợp với chức năng, nhiệm vụ và năng lực thực hiện của các cơ quan quản lý nhà nước chuyên ngành, cơ quan chuyên môn về xây dựng, người quyết định đầu tư, đồng thời cắt giảm các quy định, thủ tục hành chính không còn phù hợp
+    - [Bộ Xây dựng](ORG) đặc biệt quan tâm cải cách
+    - [Bộ Xây dựng](ORG) cho biết, tính đến ngày 18/12/2017 đã được Chính phủ, Thủ tướng Chính phủ giao 510 nhiệm vụ, Bộ đã tập trung đôn đốc, chỉ đạo quyết liệt cơ bản hoàn thành bảo đảm tiến độ, chất lượng các nhiệm vụ được giao
+    - [Công ty chè Phú Đa](ORG) hướng tới tiêu chí phát triển nông nghiệp bền vững, chè hữu cơ
+    - [Công ty chè Phú đa](ORG) đã được cấp chứng chỉ ISO 22.000 phiên bản năm 2005, chứng nhận HACCP và chứng chỉ Nông nghiệp bền vững R/A
+    - [Công ty chè Phú Đa](ORG) là công ty cổ phần có vốn đầu tư nước ngoài, vốn pháp định 15,1 triệu USD
+    - [Cục Quản lý đấu thầu](ORG) sẽ hoàn thiện hệ thống và khung pháp lý để có thể đấu thầu qua mạng các gói thầu mua sắm hàng hóa, xây lắp sử dụng nguồn vốn của [ADB](ORG) và [WB](ORG) trong năm 2018
+    - [Hà Tĩnh](LOC): [Xã Đức Nhân](LOC) – [Đức Thọ](LOC) sẵn sàng về đích nông thôn mới
+    - [Xã Đức Nhân](LOC) đã bê tông hóa 3,7 km đường nội đồng (chiếm 74% đường đạt chuẩn), trong đó đã tiến hành cắm đặt các biển báo trên các trục thôn, trục xã và trồng được 1,4/1,9km cây xanh bóng mát dọc đường
+    - [Cowen](ORG) cho biết các công ty E&P họ theo dõi sẽ chi tiêu khoảng 66,1 tỷ USD cho việc khoan và hoàn thành giếng khoan tại 48 tiểu bang ở [Mỹ](LOC) trong năm 2017, cao hơn khoảng 53% so với những gì họ đã lên kế hoạch chi tiêu trong năm 2016
+    - [Cowen](ORG) cho biết họ dự kiến số giàn khoan sụt giảm dần trong quý 4/2017 và trong năm 2018
+    - [Baker Hughes](ORG): Số giàn khoan dầu [Mỹ](LOC) giữ ổn định trong tuần này
+    - [BoC](ORG) dự báo tốc độ tăng trưởng kinh tế của Canada đạt 2,2% (năm 2018) và 1,6% (năm 2019), cao hơn so với mức tăng tương ứng 2,1% và 1,5% (dự báo đưa ra trước đó)
+    - [EVNNPT](ORG) lựa chọn nhà thầu qua Hệ thống mạng đấu thầu Quốc gia
+    - [EVNNPT](ORG) cũng là đơn vị đầu tiên phối hợp với [Trung tâm Đấu thầu qua mạng quốc gia](ORG) tổ chức đào tạo về Thông tư số 04/2017/TT-[BKHĐT](ORG) và thực hành thử nghiệm đấu thầu qua mạng đối với gói thầu một giai đoạn hai túi hồ sơ trên Hệ thống mạng đấu thầu quốc gia dự kiến vận hành chính thức vào 01/03/2018
+    - [Tổng công ty Truyền tải điện Quốc gia](ORG) ([EVNNPT](ORG)) vừa phối hợp với [Trung tâm Đấu thầu qua mạng Quốc gia](ORG) thuộc [Cục Quản lý Đấu thầu](ORG), [Bộ Kế hoạch và Đầu tư](ORG) tổ chức đào tạo về lựa chọn nhà thầu qua Hệ thống mạng đấu thầu Quốc gia theo Thông tư 04/2017/TT-[BKHĐT](ORG) ngày 15/11/2017 có hiệu lực từ ngày 01/03/2018
+    - [Toyota Motor Corp](ORG) và [Mazda Motor Corp](ORG) sẽ đặt nhà máy sản xuất ô tô mới trị giá 1,6 tỉ USD tại [bang Alabama](LOC), [Mỹ](LOC)
+    - [Toyota](ORG) và [Mazda](ORG) vừa thông báo chọn [Alabama](LOC) làm địa điểm xây dựng nhà máy trị giá 1,6 tỷ đô la của họ
+    - [Toyota](ORG) 'bắt tay' [Mazda](ORG) xây dựng nhà máy trị giá 1,6 tỷ đô la
+    - [Bộ Kế hoạch và Đầu tư](ORG) cho biết việc thực hiện các nhiệm vụ của các bộ, ngành đã đạt được nhiều kết quả tích cực: Nâng cao hiệu lực, hiệu quả điều hành kinh tế vĩ mô; cơ cấu lại thị trường tài chính, trọng tâm là các tổ chức tín dụng; phát triển mạnh khu vực kinh tế tư nhân
+    - [Quảng Nam](LOC) công bố 15 dự án, lĩnh vực đầu tư có nguy cơ tác động lớn đến môi trường
+    - [Bộ Tài chính](ORG) sẽ tiếp tục phối hợp chặt chẽ với [Bộ Nông nghiệp và Phát triển nông thôn](ORG), Ủy ban nhân dân các tỉnh, thành phố liên quan giám sát, chỉ đạo các doanh nghiệp bảo hiểm đẩy mạnh hơn nữa việc triển khai thực hiện chính sách bảo hiểm theo Nghị định 67/2014/NĐ-CP, kịp thời hướng dẫn, hỗ trợ ngư dân và các địa phương tháo gỡ các vướng mắc trong quá trình triển khai thực hiện
+    - [IMF](ORG) đưa ra khuyến nghị đối với nước [Pháp](LOC)
+    - [IMF](ORG) nhấn mạnh, hiện là thời điểm quan trọng để [Pháp](LOC) thực hiện các chiến lược táo bạo và toàn diện để thúc đẩy tăng trưởng kinh tế, giảm tỷ lệ thất nghiệp, đảm bảo sự ổn định của nền tài chính công và nâng cao năng lực cạnh tranh
+    - [Bộ Công Thương](ORG) đã tiến hành rà soát, sửa đổi nhiều văn bản quy phạm pháp luật về quản lý chuyên ngành của Bộ, thực hiện đơn giản hóa thủ tục hành chính, giảm các loại giấy tờ, hồ sơ hoặc chuyển sang thủ tục mang tính tự động hơn (trực tuyến) để tạo thuận lợi tối đa cho các DN và Bộ đã triển khai và hoàn thành đúng thời hạn các nhiệm vụ được giao
+    - [Bộ Công Thương](ORG) không có sản phẩm hàng hóa thực hiện kiểm tra trong khi thông quan
+    - [Bộ Công Thương](ORG) cũng xóa bỏ khoảng 420/720 mã hồ sơ phải kiểm tra trước thông quan thuộc trách nhiệm quản lý của Bộ đạt tỷ lệ 58,3%
+    - [Quảng Ngãi](LOC) giải bài toán khát vốn cho doanh nghiệp
+    - [Thiên Nam](ORG) và cuộc lột xác từ khủng hoảng
+    - [Thiên Nam](ORG) đã tạm ngừng xuất khẩu dòng thang máy chở hàng phi tiêu chuẩn theo đơn đặt hàng của các doanh nghiệp vừa và nhỏ ở [Nhật Bản](LOC) vì đồng yên giảm giá mạnh, trong khi phí môi giới lại cao, khiến cho lợi nhuận xuất khẩu không còn hấp dẫn
+    - [Thái Lan](LOC) hiện cũng đang là nước nhập khẩu nhiều nhất mực, bạch tuộc từ các nước trên thế giới trong khối [ASEAN](ORG)
+    - [Việt Nam](LOC) và [Trung Quốc](LOC) là 2 nguồn cung chính mặt hàng này cho [Thái Lan](LOC)
+    - [Người Thái](MIS) thích ăn mực [Việt Nam](LOC), 'chê' mực [TQ](LOC)
+    - [Tổng cục Thuế](ORG), [Tổng cục Hải quan](ORG) đã tích cực triển khai hiệu quả nhiều hoạt động, điện tử hóa nhiều khâu, giảm thủ tục hành chính, giúp DN giảm thời gian đăng ký, kê khai, nộp thuế, hoàn thuế, thời gian thông quan hàng hóa, tạo điều kiện thuận lợi cho hoạt động kinh doanh và dịch vụ của DN
+    - [Bộ Tài chính](ORG) đối thoại với DN [Hàn Quốc](LOC) về lĩnh vực thuế, hải quan
+    - [PVTex](ORG) không có khả năng thu xếp nguồn trả nợ nên dẫn đến chậm thanh toán đối với các nghĩa vụ theo phán quyết của Tòa án, nên phương án khởi động lại Nhà máy hay bán/chuyển nhượng là khó khả thi
+    - [Đức](LOC) là quốc gia xuất khẩu nhiều nhất thế giới, đặc biệt tập trung vào các lĩnh vực sản xuất công nghiệp và dịch vụ
+    - [Tổ chức Lao động Thế giới](ORG) ([ILO](ORG)), một cơ quan thuộc [Liên hợp quốc](ORG) tập trung vào các tiêu chuẩn lao động và bảo trợ xã hội cho biết, suy thoái kinh tế trong năm 2015 đã gây ra tình trạng thất nghiệp cao năm 2016, đặc biệt ở khu vực [châu Á](LOC), [châu Phi](LOC), [Mỹ Latinh](LOC) và [Trung Đông](LOC)
+    - [Brazil](LOC) đã trải qua sự khủng hoảng, rối loạn trong xã hội khi chi tiêu của Chính phủ bị cắt giảm, thuế và tình trạng thất nghiệp tăng
+    - [Nhật Bản](LOC) là thị trường tiêu thụ than của [Việt Nam](LOC) nhiều nhất, chiếm 52% về khối lượng và chiếm 46% trong tổng kim ngạch xuất khẩu than của cả nước (đạt 671.647 tấn, thu về 83,25 triệu USD)
+    - [Bộ Công Thương](ORG) báo cáo 12 dự án, DN yếu kém: 3 dự án thuộc [PVN](ORG) vẫn bế tắc
+    - [Bộ Công Thương](ORG) vừa có báo cáo về tình hình và các giải pháp tập trung triển khai xử lý các dự án, doanh nghiệp chậm tiến độ, kém hiệu quả của ngành Công Thương
+    - [Bộ Công Thương](ORG) cho biết, trong cả giai đoạn 2017-2020 sẽ xác định rõ trách nhiệm, xử lý nghiêm minh đối với các tổ chức, cá nhân có sai phạm trong quá trình đầu tư, quản lý, vận hành, khai thác từng dự án, doanh nghiệp kém hiệu quả của ngành
+    - [Đỗ Lê An Hòa](PER) (hoaando850412@gmail.com) thắc mắc:
+    - [Xưởng X264](LOC) được đầu tư xây mới nhà xưởng vỏ ống liều; phối hợp với [Viện Kỹ thuật cơ giới quân sự](ORG) nghiên cứu ứng dụng công nghệ tiên tiến, tự động hóa trong sơn sấy ống liều
+    - [Kho K834](LOC) và một số kho ứng dụng hệ thống làm mát nhà kho và hệ thống cứu hỏa tự động, bảo đảm an toàn kho tàng
+    - [Tổng LĐLĐVN](ORG) sẽ ưu tiên xem xét đối với chủ tịch CĐCS trong doanh nghiệp có vốn đầu tư nước ngoài và khu vực kinh tế tư nhân; doanh nghiệp có từ 1.000 lao động trở lên hoặc tỷ lệ người lao động là đoàn viên CĐ đạt từ 80% trở lên.CĐCS nơi có chủ tịch CĐCS được đề nghị tuyên dương đạt danh hiệu “CĐCS vững mạnh” trong năm 2016
+    - [Tổng LĐLĐVN](ORG): Sẽ tuyên dương 100 Chủ tịch Công đoàn cơ sở tiêu biểu
+    - [Tổng LĐLĐVN](ORG) cũng sẽ xem xét, đánh giá tác động của TƯLĐTT và đối thoại đối với người lao động và doanh nghiệp
+    - [Đường Phạm Ngọc Thạch](LOC) – một trong những tuyến đường kết nối vào Trung tâm thành phố mối [Bình Dương](LOC) do [Becamex IDC](ORG) đầu tư
+    - [Đường Mỹ Phước Tân Vạn](LOC) kết nối giữa các khu công nghiệp trên địa bàn [tỉnh Bình Dương](LOC) đi các cảng ở [Đồng Nai](LOC) và [Vùng Tàu](LOC)
+    - [Hội nghị an toàn giao thông Việt Nam 2017](MIS) và phiên đặc biệt tại [Bình Dương](LOC)
+    - [Hà Nội](LOC) vừa phê duyệt Đề án “Thí điểm quản lý các cửa hàng kinh doanh trái cây trên địa bàn các quận nội thành của [TP.Hà Nội](LOC)” với mong muốn người dân được sử dụng thực phẩm sạch, rõ nguồn gốc xuất xứ
+    - [Hà Nội](LOC): Truy xuất nguồn gốc, dẹp buôn bán trái cây trên vỉa hè?
+    - [Bộ Công Thương](ORG) vào cuộc quyết liệt, thực sự
+    - [Parthasarathy](PER) cho biết cô cảm thấy tức giận khi nghe thấy chuyện trong năm nay một đồng nghiệp nam dường như đã nhận được một gói cổ phiếu có giá trị hơn của cô vì những lý do không rõ ràng
+    - [Parthasarathy](PER), 26 tuổi, nhấn mạnh rằng cô thích tất cả mọi người trong nhóm của mình và vẫn là bạn với họ kể từ khi rời khỏi công ty hồi đầu năm nay, nhưng nói thêm: "Bạn luôn luôn là cô gái duy nhất trong phòng
+    - [Google](ORG) có đội ngũ nhân lực và tôi nghĩ rằng họ cố gắng theo cách riêng
+    - [Zhang](PER) nói: "Tôi không thấy có nhiều phụ nữ, đặc biệt là phụ nữ [châu Á](LOC), phụ nữ da đen hoặc phụ nữ da màu khác nằm trong ban lãnh đạo của công ty
+    - [Zhang](PER) chia sẻ với [Guardian](ORG) vài ngày sau khi nam kỹ sư da trắng tại [Google](ORG) châm ngòi cho một cuộc tranh luận rộng khắp về "sáng kiến đa dạng" gây tranh cãi, bàn luận về việc đàn ông da trắng mới là nạn nhân bị phân biệt đối xử và phụ nữ không nhận được vai trò xứng đáng trong lĩnh vực công nghệ bởi về mặt sinh học họ thiếu sự phù hợp cho vai trò lãnh đạo và kỹ sư
+    - [Zhang](PER) chia sẻ: "Văn hóa tại [Google](ORG) đã thúc đẩy ý tưởng ‘chế độ nhân tài', nghĩa là phân biệt đối xử không còn là vấn đề nữa và những phụ nữ đang nỗ lực để thăng tiến chỉ cần làm việc thật chăm chỉ và cống hiến"
+    - [Zhang](PER) nói thêm: "Họ quan tâm đến những bài báo tốt, nhưng lại không thực sự muốn thấu hiểu về phân biệt chủng tộc và phân biệt đối xử dựa trên giới tính"
+    - [Parthasarathy](PER) cho biết cô cảm thấy thất vọng bởi lập luận hành động quả quyết giúp những người thuộc nhóm thiểu số không đủ tiêu chuẩn được tuyển dụng: "Mọi người nghĩ rằng tôi có thể bắt tay vào công việc của mình dễ dàng hơn
+    - [Mangolini](PER) từ chối thảo luận về những tuyên bố khoảng cách lương và phản ứng của [Google](ORG) đối với bản ghi nhớ Damore
+    - [Zhang](PER), người đã thôi việc từ năm 2014, chia sẻ cô cảm thấy mối quan ngại ngày càng tăng đối với đồng nghiệp về trò đùa kỳ thị mà cô ấy phải đối mặt sẽ là vô nghĩa, đặc biệt kể từ khi đồng nghiệp là một kỹ sư còn cô thì không
+    - [Lakshmi Parthasarathy](PER), bắt đầu làm việc tại [Google](ORG) với tư cách chuyên gia từ năm 2014 và sau đó được thăng chức lên kỹ sư giải pháp kỹ thuật, cho biết cô thiếu những người cố vấn và quản lý nữ
+    - [Mekka Okereke](PER), Giám đốc kỹ thuật của [Google Play](MIS), cho biết ông sở hữu một trong những đội kỹ thuật đa dạng nhất trong công ty - 10% da đen, 10% Latino, 25% phụ nữ và 50% nữ quản lý
+    - [Google](ORG) đã kịch liệt phủ nhận cáo buộc nữ giới bị trả lương thấp này
+    - [Mangolini](PER) nói: "Điều đó làm tôi buồn phiền khi đọc nó, vì tôi biết tác động của những lời nói trên đối với những phụ nữ kỹ thuật
+    - [Cà Mau](LOC): Chấn chỉnh việc đào tạo sau đại học với cán bộ
+    - [PVTEX](ORG) rà soát đánh giá thực trạng Nhà máy thực hiện công tác bảo trì bảo dưỡng để chuẩn bị khởi động lại
+    - [Bộ Công Thương](ORG) báo cáo tình hình xử lý 12 dự án thua lỗ
+    - [Bộ Công Thương](ORG) phấn đấu đến hết năm 2018 xử lý căn bản các tồn tại, yếu kém đối với các dự án, doanh nghiệp
+    - [Rosneft](ORG) cho biết "Công ty đủ khả năng cung cấp dầu thô cho [Trung Quốc](LOC) theo hợp đồng hiện tại trong đó bao gồm kế hoạch tăng nguồn cung dầu thô cho [Trung Quốc](LOC) thêm 10 triệu tấn vào năm sau"
+    - [Suresh Sivanandam](PER), chuyên viên tư vấn ở công ty [Wood Mackenzie](ORG) cho biết đợt cung cấp dầu thô mới này sẽ bù lại phần phần nguồn cung bị thiếu hụt ở các mỏ dầu lâu năm của [Trung Quốc](LOC)
+    - [Ả-rập Saudi](LOC) nỗ lực bán dầu cho [Trung Quốc](LOC) thông qua các thỏa thuận với các nhà máy lọc dầu
+    - [Nga](LOC) liên tục "vượt mặt" [Ả-rập Saudi](LOC) trong 5 tháng liền và trở thành nhà cung cấp dầu thô lớn nhất của [Trung Quốc](LOC)
+    - [Việt Nam](LOC) cũng không còn được hưởng nhiều lợi ích từ hội nhập do đổ vỡ của [Hiệp định Đối tác xuyên Thái Bình Dương](MIS) (TPP) hay việc đàm phán Hiệp định Hợp tác kinh tế khu vực toàn diện đang giẫm chân tại chỗ
+    - [Bộ KH-ĐT](ORG) cũng lưu ý ngay cả đối với cơ quan quản lý chặt chẽ DN như [Bộ Quốc phòng](ORG) có 5 dự án BĐS với số vốn khoảng 2.900 tỉ đồng cũng được liệt vào danh sách có nguy cơ thua lỗ
+    - [Bộ Y tế](ORG) sẽ thí điểm giám sát mua bán thuốc bằng camera tại các nhà thuốc, tiến tới chấm dứt tình trạng mua kháng sinh không cần đơn vào năm 2020
+    - [Gery](PER) quyết định bỏ học trung học, tham gia phục vụ trong Thủy quân lục chiến suốt thế chiến thứ 2
+    - [Rowling](PER) giờ là một nhà từ thiện hoạt động tích cực và theo [Celebrity Net Worth](ORG), tài sản của [Rowling](PER) đã lên tới 1 tỷ USD
+    - [John Paul DeJoria](PER) là  nhà đồng sáng lập thương hiệu [Paul Mitchell](ORG) chuyên về các sản phẩm chăm sóc tóc và hãng rượu [Patrón](ORG)
+    - [Sheldon Adelson](PER)  là Chủ tịch và Giám đốc điều hành của [Las Vegas Sands](ORG), công ty casino và giải trí lớn nhất nước [Mỹ](LOC)
+    - [Gerry](PER) dùng số tiền xây dựng quỹ đầu tư mạo hiểm  [Granite Associates](ORG), tiếp tục đóng góp cho sự phát triển của cộng đồng nơi ông lớn lên, nổi bật là việc xây dựng Trung tâm nghệ thuật [Bethel Woods](ORG)
+    - [Trung Quốc](LOC) sản xuất hơn một nửa lượng nhôm trên thế giới
+    - [Trung Quốc](LOC) siết chặt nhập khẩu kim loại phế liệu
+    - [CTCP Dầu thực vật Tường An](ORG) ([TAC](ORG)) vừa công bố báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty (ESOP)
+    - [CTCP Dầu thực vật Tường An](ORG) ([TAC](ORG)) đã thu về được hơn 43,5 tỷ đồng sau đợt phát hành ESOP này
+    - [TAC](ORG) hoàn tất phát hành 1,6 triệu cổ phiếu ESOP
+    - [Thái Phiên](LOC) là một trong bốn làng hoa truyền thống của [Đà Lạt](LOC), được xem là vùng tiên phong trong ứng dụng nông nghiệp công nghệ cao tại [Lâm Đồng](LOC)
+    - [Lâm Đồng](LOC) hiện có hơn 50 nghìn ha nông nghiệp ứng dụng công nghệ cao, chiếm 17% diện tích canh tác, góp phần đưa giá trị sản xuất nông nghiệp bình quân của tỉnh đạt 150 triệu đồng/ha/năm
+    - [Bộ Công Thương](ORG) vừa có báo cáo cập nhật tình hình 12 dự án nghìn tỷ thua lỗ
+    - [Bộ Công Thương](ORG) cho biết: Trong năm 2017, Bộ sẽ hoàn thành xây dựng phương án xử lý đối với từng dự án, doanh nghiệp và kế hoạch chi tiết tổ chức triển khai thực hiện, trình Thủ tướng Chính phủ trước ngày 30/9/2017
+    - [Bộ Công Thương](ORG) cũng sẽ làm việc với các Bộ ngành để đề xuất các cơ chế, chính sách xử lý các khó khăn, vướng mắc của các dự án, doanh nghiệp
+    - [Bộ Công Thương](ORG): Năm sau xử lý căn bản 12 dự án 'nghìn tỷ' thua lỗ
+    - [Quảng Bình](LOC) cần quan tâm đến an sinh xã hội, tạo sinh kế cho nhân dân
+    - [Mark Williams](PER), chuyên gia kinh tế tại [Capital Economics](ORG), nói: "Chuyện này không có gì mới mẻ đối với bất cứ ai chịu khó theo dõi [Trung Quốc](LOC) trong những năm gần đây”
+    - [S&P](ORG): Rủi ro nợ của [Trung Quốc](LOC) đang tăng lên
+    - [S&P](ORG) chỉ là cái tên mới nhất xuất hiện trong danh sách này
+    - [Bộ Công Thương](ORG) cần tương tác với doanh nghiệp nhiều hơn nữa
+    - [Cà Mau](LOC) chấn chỉnh đào tạo sau đại học cho công chức, viên chức
+    - [Bettencourt](PER) gia nhập công ty của gia đình khi 15 tuổi với vai trò là nhân viên tập sự và thừa kế tài sản từ cha bà vào năm 1957
+    - [Forbes](ORG) ước tính giá trị tài sản ròng của bà [Bettencourt](PER) vào đầu năm nay là 39,5 tỷ USD, đưa bà trở thành nữ tỷ phú giàu nhất thế giới và lọt vào danh sách 20 người giàu nhất hành tinh
+    - [Nestlé](ORG) - công ty sở hữu trên 23% cổ phần của [L'Oreal](ORG), đã có thỏa thuận với gia đình sáng lập công ty này rằng, hai bên không thể tăng cổ phần của mình trong nhóm mỹ phẩm khi bà [Liliane Bettencourt](PER) còn sống và ít nhất sau 6 tháng sau khi bà qua đời
+    - [Liliane Bettencourt](PER) là con duy nhất của nhà hóa học [Eugene Schueller](PER), người đã sáng lập tập đoàn mỹ phẩm danh tiếng của [Pháp](LOC) [L'Oreal](ORG) từ hồi đầu thế kỷ 20
+    - [Rabbi](PER) cùng mẹ đang làm việc trong một nhà máy sản xuất nhựa ở [Kamrangi Char](LOC)
+    - [Buris](PER) cho biết chiến dịch quảng cáo đạt được thành công trong thời gian ngắn
+    - [Melania](PER) dọa kiện trường dùng hình ảnh bà quảng cáo học [tiếng Anh](MIS)
+    - [Bộ Công Thương](ORG) báo cáo tình hình về 12 dự án thua lỗ
+    - [Bộ Công Thương](ORG) cho biết sẽ giải quyết các tồn tại vướng mắc liên quan đến Dự án mở rộng sản xuất giai đoạn 2, báo cáo với Chính phủ trước ngày 30/9/2017
+    - [Diễn đàn Tài chính Việt Nam](MIS) sẽ là diễn đàn thường niên do [Bộ Tài chính](ORG) tổ chức, bắt đầu từ năm 2017
+    - [Bộ Công Thương](ORG) cho biết, việc cắt giảm các điều kiện kinh doanh, tháo gỡ khó khăn cho doanh nghiệp đã được lãnh đạo Bộ này xác định là công việc trọng tâm đi suốt quá trình cải cách hành chính, hoàn thiện bộ máy, thể chế, cải thiện môi trường đầu tư, kinh doanh và vì mục tiêu Chính phủ kiến tạo
+    - [Bộ Công Thương](ORG) vừa Quyết định số 3610a/QĐ-[BCT](ORG) về phương án cắt giảm, đơn giản hóa điều kiện đầu tư, kinh doanh thuộc lĩnh vực quản lý nhà nước của [Bộ Công Thương](ORG) giai đoạn 2017 – 2018
+    - [Trí Dũng](PER) (TH) Theo Đời sống Plus/[GĐVN](ORG)
+    - [Bộ Công thương](ORG) cắt giảm điều kiện đầu tư: Một quyết định lịch sử!
+    - [Alibaba](ORG) cung cấp dịch vụ bán hàng giữa người tiêu dùng với người tiêu dùng (C2C), doanh nghiệp tới người tiêu dùng (B2C) và doanh nghiệp với doanh nghiệp (B2B) thông qua cổng thông tin điện tử
+    - [Alibaba](ORG) được ông [Jack Ma](PER) gây dựng tại căn hộ của chính ông vào năm 1999
+    - [Standard & Poor](ORG) ([S&P](ORG)) hạ bậc xếp hạng đối với [Trung Quốc](LOC) từ AA- xuống A + vì cho rằng tăng trưởng kinh tế mạnh mẽ của nước này được thúc đẩy bởi "bão tín dụng"
+    - [S&P](ORG) dự báo rằng tình trạng này sẽ tiếp tục và có thể ảnh hưởng đến khả năng của nền kinh tế lớn thứ 2 thế giới trong việc xử lý các cú sốc tài chính tiềm ẩn như khủng hoảng ngành ngân hàng và có thể dẫn đến các vấn đề tăng trưởng dài hạn
+    - [S&P](ORG) hạ xếp hạng [Trung Quốc](LOC) lần đầu tiên kể từ năm 1999, cảnh báo vay nợ quá nhiều
+    - [Techcombank](ORG) và [Manulife](ORG) thỏa thuận hợp tác bảo hiểm độc quyền kéo dài 15 năm
+    - [Bộ Tài chính](ORG) cho rằng, nếu theo phương án đề xuất của [Vinachem](ORG), từ năm 2017-2022, ngân sách nhà nước sẽ phải ứng vốn để trả nợ cho phía [Trung Quốc](LOC) thay [Vinachem](ORG) 125 triệu USD
+    - [Công ty Cổ phần DAP số 2](ORG) [Vinachem](ORG) cũng báo nợ hơn 484 tỷ đồng tại 4 chi nhánh ngân hàng khác nhau
+    - [Bộ Tài chính](ORG) cũng cảnh báo, việc triển khai các dự án đầu tư mới của tập đoàn này đang tạo ra những rủi ro mới trong thời gian tới
+    - [NIKKEI](MIS) giảm 0,25%, [Shanghai](MIS) giảm 0,15% trong khi HSI giảm tới 0,82% xuống 27.880,53
+    - [Công ty cổ phần Tập đoàn Masan](ORG) ([MSN](ORG)) cho biết, Hội đồng quản trị của Công ty đã phê chuẩn mua lại tối đa 10% tổng số cổ phiếu phổ thông làm cổ phiếu quỹ
+    - [Masan](ORG) cho biết, giá cổ phiếu bình quân của Công ty trong thời gian vừa qua thấp hơn giá trị thực của Công ty
+    - [Larry Ellison](PER) là người sáng lập và cựu CEO của [Oracle](ORG) - một trong những công ty phần mềm doanh nghiệp thành công nhất trên thế giới
+    - [Schultz](PER) chia sẻ: “Tôi không bao giờ dám mơ một ngày nào đó tôi có thể điều hành cả một công ty”

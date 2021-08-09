@@ -1,0 +1,6 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Hoài Lâm](PER) đã khiến nhiều khán giả rơi nước mắt và xúc động khi cất lời ca gan ruột của điệu Xẩm thập Ân Ngãi mẹ sinh thành - bài xẩm răn dạy con cái về công đức cha mẹ
+    - [Phương Mỹ Chi](PER) - cô gái với giọng hát dân ca ngọt ngào từng làm thổn thức nhiều trái tim để rồi ngay sau chương trình “Giọng hát Việt nhí”, [Phương Mỹ Chi](PER) có nhiều đất diễn hơn cho nghệ thuật truyền thống với dòng nhạc dân ca, cải lương

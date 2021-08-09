@@ -1,0 +1,35 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Brazil](LOC): Trùm mafia hào phóng, ưa từ thiện sa lưới
+    - [Antonio Francisco Bonfim Lopes](PER) bị bắt giữ mới đây, kết thúc những tháng ngày huy hoàng của một tên mafia được nhiều người hâm mộ nhất
+    - [Nem](PER) đã ngay lập tức nắm lấy cơ hội, loại bỏ hết vây cánh của hắn
+    - [Leng Rjn](PER) cho biết cô bắt đầu kinh doanh sản phẩm Collagen [Nhật](LOC) này cách đây gần 1 năm
+    - [Đỗ Đức Khả](PER) cho rằng, chính bản thân người làm khởi nghiệp đang mập mờ về khởi nghiệp, nếu lại được bơm thêm tài chính mà không có bất cứ một cơ chế để thúc đẩy người khởi nghiệp làm quản lý thì tất yếu chương trình khởi nghiệp và gói tài chính hỗ trợ đều thất bại và lãng phí
+    - [Đỗ Đức Khả](PER), thanh niên [Việt Nam](LOC) đang làm khởi nghiệp tràn lan, đâu đâu cũng tự xưng là khởi nghiệp nhưng lại không hiểu rằng, đó mới chỉ là làm nghề, là lập nghiệp mà thôi
+    - [Đỗ Đức Khả](PER), vấn đề quan trọng nhất là cơ quan đánh giá, thẩm định dự án
+    - [Việt Nam](LOC) đang loạn khởi nghiệp vì quá nhiều cử nhân, thạc sĩ thất nghiệp
+    - [Khả](PER) cho rằng, 95% dự án khởi nghiệp ở [Việt Nam](LOC) thất bại
+    - [Đặng Ngọc Dinh](PER) - Giám đốc [Trung tâm Nghiên cứu phát triển và hỗ trợ cộng đồng](ORG) ([CECODES](ORG)) cũng cho rằng, một nền giáo dục còn quá coi trọng bằng cấp như [Việt Nam](LOC) thì sẽ rất khó để làm khởi nghiệp sáng tạo
+    - [Đỗ Đức Khả](PER) còn nêu ra sự phức tạp của môi trường kinh doanh ở [Việt Nam](LOC) kìm hãm doanh nghiệp nói chung và khiến các ý tưởng khởi nghiệp kể cả có được hỗ trợ tài chính cũng khó hiện thực hóa ý tưởng đó
+    - [John Hathaway](PER), một nhà đầu tư vàng với [Tocqueville Asset Management](ORG)
+    - [Ray Dalio](PER) là người sáng lập quỹ đầu tư chứng khoán [Bridgewater Associates](ORG)
+    - [Warren Buffett](PER) - nhà đầu tư tỷ phú và là người giàu thứ hai thế giới đã gọi Bitcoin là "một bong bóng thực sự" vào cuối tháng Mười trong một phiên thảo luận
+    - [Jamie Dimon](PER) - Giám đốc điều hành của [JPMorgan Chase](ORG) thậm chí đã tăng gấp đôi sự chì trích của mình đối với Bitcoin tại một sự kiện vào ngày 12/9 vừa qua
+    - [John Hathaway](PER), một nhà đầu tư vàng với [Tocqueville Asset Management](ORG) đã ví các đồng tiền ảo là một loại "rác" và cho rằng các đồng tiền đó không thể lấy đi sự hấp dẫn hay đầu tư từ vàng
+    - [Jamie Dimon](PER) - Giám đốc điều hành của [JPMorgan Chase](ORG)
+    - [Ray Dalio](PER) là người sáng lập quỹ công ty chứng khoán [Bridgewater Associates](ORG)
+    - [Bric](PER) cho rằng chiều cao lẫn chiều rộng phải hoàn hảo, nó cần phải lắp vừa vào bất kì hộp bỏng ngô nào đang bán trong các rạp chiếu phim
+    - [Bric](PER) còn thuê một nhóm sản xuất nội dung làm video quảng bá cho chiếc nắp Kernel King và rồi nhờ chính những rạp chiếu phim phân phối phát đoạn video ngắn quảng cáo này trước mỗi bộ phim
+    - [Simpson](PER) luôn yêu thích ý tưởng điều hành kinh doanh của mình
+    - [Vũ Thành Tôn](PER), nhân viên bán hàng của [Suzuki Hà Thành](ORG) cho biết, lượng khách đến mua xe tăng hơn so với tháng trước dù giá xe tại hãng niêm yết tăng khoảng 5-10 triệu/xe
+    - [Nguyễn Thị Nhàn](PER) - cô gái trẻ hoạt động trong lĩnh vực này chia sẻ: “Cũng có thể gọi là liều lĩnh khi đến với một lĩnh vực hoàn toàn khác với ngành học kế toàn mình từng theo đuổi
+    - [Bogle](PER) – nhà sáng lập Quỹ đầu cơ [Vanguard Group](ORG) đồng thời là người tạo ra quỹ chỉ số đầu tiên của thế giới – đã mô tả chi tiết chiến lược đầu tư đơn giản và hiệu quả nhất qua cuốn sách “The Little Book of Common Sense Investing”: đó là đầu tư vào các quỹ chỉ số thấp
+    - [Robbins](PER) – người đã phỏng vấn rất nhiều tên tuổi nổi tiếng trong thế giới tài chính, đã đúc kết lại kinh nghiệm của mình trong một cuốn sách hướng dẫn từng bước cụ thể để thay đổi cuộc sống tài chính và giúp bạn gia tăng sự giàu có
+    - [Chris Reining](PER), 38 tuổi, một lập trình viên trẻ trở thành triệu phú và về hưu ở tuổi 35 gọi đây là “cuốn sách thay đổi cuộc đời”
+    - [Khaisilk](ORG) vẫn tự tin thẳng tiến, cuốn phăng mọi hoài nghi, đặt điều của mấy kẻ "GATO"
+    - [Khaisilk](ORG) bán hàng [Trung Quốc](LOC) thì có sao
+    - [Thủy](PER) kể lại, khi đã thành lập DN, rất nhiều các đoàn đến đề nghị hỗ trợ, từ khu phố xin suất quà Trung Thu cho các cháu đến cán bộ dọn vệ sinh đề nghị bồi dưỡng…
+    - [Hà Thủy](PER) - chủ một tiệm may trên con phố chính của Thủ đô - như đã thành thông lệ, việc đầu tiên sau khi dọn hàng buổi sáng là cô lại thắp nén nhang lên bàn thờ thần tài
+    - [Thủy](PER) đăng ký ngừng hoạt động DN và giờ đây chỉ còn một mình điều hành cửa hàng duy nhất còn lại, kiêm luôn may đo cho khách

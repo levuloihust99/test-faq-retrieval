@@ -1,0 +1,10 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Ủy ban Dân tộc](ORG) tiếp tục quản lý, chỉ đạo thực hiện có hiệu quả 11 chương trình, dự án, chính sách dân tộc; tăng cường nắm bắt tình hình vùng dân tộc thiểu số và miền núi; tham mưu cho Đảng, Chính phủ nhiều vấn đề mới về công tác dân tộc
+    - [Ủy ban Dân tộc](ORG) phải tiếp tục phát động các phong trào thi đua, nhân rộng người tốt việc tốt, đề cao trách nhiệm tính nêu gương của người đứng đầu các vụ đơn vị
+    - [Bộ Chính trị](ORG), [Ban Bí thư](ORG) trên cơ sở tham mưu của ngành tổ chức đã ban hành nhiều quy định, quy chế trong công tác xây dựng Đảng, góp phần chỉnh đốn Đảng trên tinh thần lấy "xây" là nhiệm vụ cơ bản, lâu dài, lấy "chống" là nhiệm vụ thường xuyên, quan trọng
+    - [Viện Kinh tế Xây dựng](ORG): Tổng kết công tác năm 2017 và triển khai nhiệm vụ năm 2018
+    - [Viện Kinh tế Xây dựng](ORG) luôn giữ vững truyền thống là một tập thể dân chủ, đoàn kết nhất trí
+    - [Cơ quan Liên hợp quốc về Bình đẳng giới và Trao quyền cho phụ nữ](ORG) kiến nghị để giải quyết các khía cạnh giới của HIV, [Việt Nam](LOC) cần một chương trình dự phòng mạnh cung cấp thông tin cần thiết để phụ nữ và trẻ em gái tự bảo vệ bản thân; hệ thống điều trị, chăm sóc, hỗ trợ với giá phải chăng, dễ tiếp cận; chấm dứt kỳ thị và phân biệt đối xử với phụ nữ trong gia đình, cộng đồng; đảm bảo các quyền của phụ nữ

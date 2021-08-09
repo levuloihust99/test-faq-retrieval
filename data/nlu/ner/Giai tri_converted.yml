@@ -1,0 +1,217 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Trinh Tây](PER), [Emma Lê](PER), [Caitlin Minogue](PER), [Klaudia Nguyễn](PER)… là những cô nàng xinh đẹp mang trong mình dòng máu lai, thu hút nhiều người theo dõi trên mạng xã hội
+    - [Jun Vũ](PER) [Khả Ngân](PER) [Châu Bùi](PER) [Quỳnh Anh Shyn](PER)
+    - [Trinh Tây](PER) tên thật là [Ozeri Yael Phương Trinh](PER), 20 tuổi, sống tại [Hà Nội](LOC)
+    - [Anna Trương](PER) lớn lên trong vòng tay yêu thương của cha và mẹ kế - ca sĩ [Mỹ Linh](PER)
+    - [Linda Visona](PER) hay [Nguyễn Ngọc Trâm](PER) (18 tuổi) có cha là [người Italy](MIS), mẹ [người Việt](MIS)
+    - [Emma](PER) từng giành được 6 huy chương vàng, một huy chương đồng cấp quận môn Điền kinh
+    - [Caitlin Minogue](PER) (20 tuổi) hiện là gương mặt khá quen thuộc với [giới trẻ Việt](MIS) trong vai trò blogger, người mẫu ảnh
+    - [Salim](PER) [Sun HT](PER) [Hà Lade](PER) [Kaity Nguyễn](PER)
+    - [Việt](LOC), [Pháp](LOC), [Nga](LOC) [Việt](LOC), [Ba Lan](LOC), [Đức](LOC) [Việt](LOC), [Israel](LOC), [Anh](LOC) [Việt](LOC), [Italy](LOC), [Tây Ban Nha](LOC)
+    - [Baggio](PER) [Bình An](PER) [Cường Seven](PER) [Sơn Tùng M-TP](PER)
+    - [Klaudia](PER) (24 tuổi) tên thật là [Nguyễn Quốc Klaudia Hải Đường](PER), mang trong mình 2 dòng máu [Việt Nam - Ba Lan](MIS)
+    - [Dương Minh Ngọc](PER) (22 tuổi) sinh ra ở [Hà Nội](LOC) và hiện sinh sống tại [TP.HCM](LOC) để theo đuổi giấc mơ trở thành chuyên gia make up, beauty blogger
+    - [Quốc Trung](PER) [Quốc Bảo](PER) [Huy Tuấn](PER) [Anh Quân](PER)
+    - [MLee](PER) (24 tuổi) tên thật là [Quách Tapiau Mai Ly](PER), mang trong mình hai dòng máu [Việt - Pháp](MIS)
+    - [Nga](LOC), [Đức](LOC), [Italy](LOC) [Đức](LOC), [Anh](LOC), [Pháp](LOC) [Anh](LOC), [Pháp](LOC), [Tây Ban Nha](LOC) [Nga](LOC), [Bồ Đào Nha](LOC), [Italy](LOC)
+    - [Katie Meade](PER) là người mẫu đầu tiên trên thế giới bị mắc [hội chứng Down](MIS), và bản thân cô cũng không hề che giấu điều đó
+    - [Katie](PER) hiện đang là gương mặt đại diện của một thương hiệu làm đẹp khá nổi tiếng
+    - [Roberto Esquivel Cabrera](PER), 54 tuổi, được cho là người đàn ông có "của quý" dài nhất thế giới, với 48cm
+    - [Allegra Cole](PER) có vòng một lên đến 137cm, lớn đến nỗi cô không thể tự mình mang giày vì quá vướng
+    - [Allegra](PER) đã nhiều lần phẫu thuật bơm ngực để có được vòng một “khủng” như bây giờ, nhưng cô vẫn muốn phẫu thuật để chúng to hơn nữa
+    - [Jaydin](PER) đã nhiều lần chiến thắng trong các cuộc thi đua xe dành cho lứa tuổi nhi đồng
+    - [Pixee Fox](PER) và [Rodrigo Alves](PER) (2 bên) được gọi là hai "búp bê barbie sống" ngoài đời thực
+    - [Courtney Barnes](PER) đã từng ba lần bơm mông tại những trung tâm thẩm mỹ kém chất lượng tại [Mỹ](LOC), kết quả là vòng ba của cô "phình to" hơn dự kiến
+    - [Cristina](PER) (trái) và [Benno Kaiser](PER) (phải) đã kết hôn 12 năm trước và có 3 đứa con
+    - [Baek Hyun](PER) bị chỉ trích vì lời phát biểu liên quan đến căn bệnh trầm cảm, đây là căn bệnh khiến [Jong Hyun](PER) tự tử
+    - [Kim Jong Hyun](PER) bị bệnh trầm cảm trước khi qua đời
+    - [Baek Hyun](PER) ([EXO](ORG)) là nhân vật bị 'ném đá' đầu tiên trong năm 2018
+    - [Baek Hyun](PER) bị chỉ trích vì phát ngôn về bệnh trầm cảm
+    - [Seulgi](PER) diện váy màu kem nổi bật và áo sơ mi màu xanh sáng, còn [Irene](PER) mặc nguyên chiếc áo trắng đứng ngay cạnh cô dâu
+    - [Kwang Soo](PER) và [Jo In Sung](PER) lại còn đảm nhận vị trí chủ hôn nên cũng mang hoa cài áo, tăng thêm độ "lồng lộn" về phần nhìn
+    - [Lee Dong Gun](PER) và [Jo Yoon Hee](PER): Sau khi diễn chung trong phim truyền hình "The gentleman of wolgyesu tailor shop" vào năm 2016, tháng 2/2017, [Dong Gun](PER) và [Yoon Hee](PER) công khai hẹn hò
+    - [Yoon Hyun Min](PER) và [Baek Jin Hee](PER): Cặp đôi quen nhau sau khi diễn chung trong bộ phim "My daughter geum sa wol" năm 2015
+    - [Song Hye Kyo](PER) và [Song Joong Ki](PER): Cặp đôi vàng" của [Hàn Quốc](LOC) bén duyên từ bộ phim đình đám "Hậu duệ mặt trời" Mặc dù, có tình cảm ngay từ khi bộ phim chưa kết thúc và nhiều tin đồn tình ái ngay sau bộ phim kết thúc nhưng cặp đôi vẫn "im hơi lặng tiếng"
+    - [Song Joong Ki](PER) và nhiều [sao Hàn](MIS) từng bí mật hẹn hò trước khi công khai
+    - [Ryu Jun Yeol](PER) và [Hyeri](PER) (Girl Day): Sau khi “Reply 1988” kết thúc, một trong những điều khiến fan tiếc nuối không ngớt chính là [Jung Hwan](PER) ([Ryu Jun Yeol](PER) thủ vai) không trở thành chồng của [Duk Sun](PER) ([Hyeri](PER) thủ vai)
+    - [Lee Joon](PER) and [Jung So Min](PER): Cặp đôi từng tham gia chương trình truyền hình "My Father is strange" của đài [KBS2](ORG)
+    - [Ji Sung](PER) và [Lee Bo Young](PER): [Ji Sung](PER) và [Lee Bo Young](PER) gặp nhau trong bộ phim "Save the last dance for me" năm 2004
+    - [Ahn Jae Hyun](PER) và [Ku Hye Sun](PER): Vào vai cặp đôi yêu nhau trong phim "Blood" năm 2015, tình yêu của [Jae Hyun](PER) và [Hye Sun](PER) cũng được kéo dài ra ngoài đời thực
+    - [Kendall](PER), cùng với những người nổi tiếng khác như [Belle Hadid](PER) và [Emily Ratajkowski](PER) đã được trả tiền để quảng cáo cho lễ hội này qua mạng xã hội
+    - [Chyna](PER) đấu tranh để "giành lại công bằng", chống lại lời cáo buộc, luật sư của cô này cũng khẳng định cáo buộc là "xấu xí và sai sự thật"
+    - [Kendall](PER) từ chối phản hồi về vụ việc, còn tạp chí [Vogue](ORG) [Ấn Độ](LOC) phân trần: "Chúng tôi có sản xuất một loạt số tạp chí để kỷ niệm 10 năm, phát hành từ tháng 5
+    - [Kendall](PER) và [Kylie](PER) xin lỗi về việc này, viết trên Twitter: "Những thiết kế này không được cân nhắc thấu đáo
+    - [Kendall](PER) - [Kylie Jenner](PER): Cặp chị em tai tiếng nhất showbiz 2017
+    - [Sofia](PER) gây nhiều sự chú ý khi diện bộ bikini đen khoe thân hình hoàn hảo
+    - [Tăng Chí Vỹ](PER) cho biết những thông tin gần đây ảnh hưởng khá nhiều tới danh dự của ông, gây tổn hại tới gia đình ông
+    - [Hà Tuệ](PER) là chân dài nổi tiếng của [Trung Quốc](LOC)
+    - [Hà Tuệ](PER) được khán giả yêu thích không chỉ vì thân hình hoàn hảo mà còn nhờ vẻ ngoài xinh đẹp
+    - [Lưu Diệc Phi](PER) cũng tranh thủ qua [Hàn](LOC) để gặp gỡ gia đình bạn trai
+    - [Lâm Khởi Chính](PER) vì lợi ích của gia đình mà bị ép đính hôn với một cô gái môn đăng hộ đối [Giang Tâm Dao](PER) ([Giang Ngữ Thần](PER)), em gái [Châu Nguyệt](PER) cũng có tình cảm sâu nặng với [Lâm](PER)
+    - [Gretchen Carlson](PER) và [Kate Shindle](PER), hai hoa hậu [Mỹ](LOC) khác cũng bị các ông trùm nói xấu
+    - [Mallory Hagan](PER), hoa hậu [Mỹ](LOC) 2013, là chủ đề chế giễu ưa thích của các lãnh đạo này, như bôi bác cân nặng và đời sống tình dục
+    - [Haskell](PER) không nói rõ ông bị những hoa hậu [Mỹ](LOC) này tấn công và như thế nào, nhưng khẳng định bài báo về các thư điện tử trên [Huffington Post](ORG) là "sai sự thật và đáng khinh"
+    - [MAO](ORG) cho biết: "Hội đồng sẽ tiến hành một cuộc điều tra chuyên sâu về những trao đổi bị cho là không phù hợp
+    - [Choiza](PER) là một tên tuổi có chỗ đứng trong giới [hiphop Hàn](MIS) nhưng lúc đó, người hâm mộ cho rằng [Choiza](PER) không xứng đôi về cả ngoại hình lẫn tuổi tác với "kiều nữ" bậc nhất [Hàn Quốc](LOC)
+    - [Jang Ki Ha](PER) hơn [IU](PER) 11 tuổi và có ngoại hình không mấy bắt mắt
+    - [Lâm Vinh Hải](PER): Đã có lúc tính bỏ nghề
+    - [Hải](PER) nghĩ đơn giản thế này, bệnh tật cũng như là một trong số vô vàn khó khăn trong cuộc sống mà chúng ta gặp phải
+    - [Lâm Vinh Hải](PER) khẳng định [Linh Chi](PER) là người hiểu anh nhất trong số những người thân thiết
+    - [Ngọc Trang](PER) đồng ý bấm nút hẹn hò với lý do: “Em nghĩ anh ấy đàng hoàng”
+    - [Trang](PER) giải đáp: “Hồi trước, người ta hay chọc ghẹo em mập
+    - [Anh Vũ](PER) thích một cô gái năng động, có cá tính, dám nghĩ dám làm
+    - [Anh Vũ](PER) – người được mai mối với [Ngọc Trang](PER) - cũng là một anh chàng ấn tượng, biết cách pha trò để giành lại sự chú ý của khán giả
+    - [Anh Vũ](PER) luôn tỏ ra mình là người không đặt nặng vấn đề ngoại hình
+    - [Anh Vũ](PER) tự tin có thể đáp ứng những yêu cầu đó khi nói rằng: “Anh vui đúng chỗ và có chiều sâu đúng lúc”
+    - [Ngọc Trang](PER) ấn tượng tốt với chàng trai đối diện
+    - [Motocross Corey Hart](PER) đã kết hôn với [Pink](PER) vào năm 2006 và hai người đã chính thức chia tay sau 2 năm chung sống
+    - [Pamela Anderson](PER) và [Rick Salomon](PER) kết hôn vào năm 2007 và hai người chính thức "đường ai nấy đi" vào năm 2014
+    - [Aubrey O'Day](PER) và [Pauly D](PER) đã gặp gỡ và chính thức yêu nhau khi cùng tham gia chương trình Famously Single
+    - [Eminem](PER) và [Kim Scott](PER) kết hôn vào năm 1999 và hai người đã "đường ai nấy đi" sau 2 năm chung sống
+    - [Hương](PER) đối với tôi như thế nào thì cô ấy vẫn là một người bạn rất là tốt
+    - [Vũ Duy Khánh](PER): Vợ chủ động bế con ra khỏi nhà, đòi ly hôn
+    - [Dương Thái Ngọc](PER) không ngần ngại bấm nút Like dòng chia sẻ này
+    - [Dương Thái Ngọc](PER) là nữ diễn viên trẻ kiêm ca sĩ và MC sinh năm 1992
+    - [Vũ Dino](PER) - hot boy dành tình yêu lớn cho nghề đầu bếp
+    - [Vũ Dino](PER) tên thật là [Đặng Anh Vũ](PER) – một food blogger nổi tiếng với những clip dạy nấu ăn trên mạng xã hội
+    - [Milan](LOC) chìm trong lãng mạn, rực rỡ của những street style bay bổng đầy cảm hứng
+    - [Tuần lễ thời trang Milan 2017](MIS) đã bắt đầu được hai ngày
+    - [Da LAB](ORG) muốn hướng khán giả sống tích cực hơn chứ không phải vẽ ra hình ảnh những anh chàng luôn cắm đầu xuống đất
+    - [Da LAB](ORG) không chọn cách chơi rap “sạch sẽ” bởi nhạc rap không chỉ đường phố, chửi bậy… Lúc còn trẻ, chúng tôi cũng có những sáng tác mang màu sắc tiêu cực nhưng khi trưởng thành, âm nhạc rõ ràng phải là cái nhìn đa chiều hơn
+    - [Da LAB](ORG) trong một show diễn
+    - [Da LAB](ORG) sẽ có mặt tại sân khấu Monsoon năm nay
+    - [Da LAB](ORG) - Cuộc đời tuyệt đẹp khi 'có đúng có sai'
+    - [Natalia](PER) mặc một bộ váy dài trễ vai và ôm trong tay bông sen màu hồng thuộc chi nelumbo
+    - [Trần Kiều Ân](PER) sinh năm 1979 tại [Đài Loan](LOC)
+    - [Trần Kiều Ân](PER) năm nay 38 tuổi nhưng vẫn giữ được nét thanh xuân
+    - [Đỗ Thuần](PER) sinh năm 1981 tại [Hà Bắc](LOC) ([Trung Quốc](LOC))
+    - [Đỗ Thuần](PER) và [Trần Kiều Ân](PER) vướng nghi vấn sắp cưới
+    - [Trần Kiều Ân](PER) và [Đỗ Thuần](PER) được cho là sắp tổ chức hôn lễ sau thời gian tìm hiểu bí mật
+    - [Hương Tràm](PER) là “em út” trong dàn khách mời cũng tranh thủ đến tập luyện cùng [Quang Hà](PER) và các anh chị
+    - [Đan Trường](PER), [Quang Dũng](PER) đội mưa đến tập hát cùng [Quang Hà](PER), chuẩn bị cho "Live Concert 2017 - Trăm năm không quên"
+    - [Đan Trường](PER), [Quang Dũng](PER) đội mưa đến tập hát cùng [Quang Hà](PER)
+    - [Hương Tràm](PER) diện mốt áo giấu quần sexy tập hát cùng [Quang Hà](PER)
+    - [Eugenia Silva](PER) sinh ngày 13/01/1976 tại [Madrid](LOC), [Tây Ban Nha](LOC)
+    - [Người Mỹ](MIS) trúng 133 triệu USD sau 30 năm kiên trì chơi một dãy số
+    - [Alex](PER) sẽ phải làm gì để chống lại sinh vật siêu nhiên này khi hắn biến cha mẹ cậu trở thành con mồi để cậu nhóc phải bị khuất phục?
+    - [Serena](PER) - [Blair](PER) - [Nate](PER) - [Chuck](PER) - 'lonely boy' [Dan](PER) là đối tượng trong tầm ngắm của Gossip Girl
+    - [Cẩm Tú](PER) cũng đảm nhận vai phụ trong phim Cha và con và
+    - [Cẩm Tú](PER) - con gái của diễn viên [Kiều Trinh](PER)
+    - [Cẩm Tú](PER) tâm sự cô e ngại khi được mọi người biết đến là “con gái diễn viên [Kiều Trinh](PER)”, bởi đối với cô đây là lợi thế và cũng là bất lợi, khiến cô bị đóng khuôn ở một hình ảnh nhất định
+    - [Cẩm Tú](PER) cho biết cô được mẹ khích lệ tham gia [Hoa hậu Đại dương Việt Nam](MIS) sau khi bị loại ở The Face 2017
+    - [Cẩm Tú](PER) sở hữu nhiều nét giống mẹ trên gương mặt
+    - [Đăng Dương](PER) được vợ xinh đẹp chăm sóc chu đáo
+    - [Lan Anh](PER) tới chúc mừng [Đăng Dương](PER)
+    - [Đăng Dương](PER) được vợ chăm sóc chu đáo trong buổi họp báo
+    - [Hoàng Tôn](PER) có sự trở lại mạnh mẽ với một sản phẩm chỉn chu sau thời gian dài vắng bóng
+    - [Hoàng Tôn](PER) bảnh bao tại buổi họp báo
+    - [Hoàng Tôn](PER) lần đầu viết kịch bản MV, ra mắt ca khúc dạy 'cua gái'
+    - [Dương Mịch](PER) cũng thuộc top dàn sao thù lao cao
+    - [Trung Quốc](LOC) mạnh tay hạ cát-xê đóng phim dàn sao hạng A
+    - [Tôn Lệ](PER) với [Mị Nguyệt truyện](MIS) được trả 60 triệu NDT (khoảng 9 triệu USD)
+    - [Josh](PER) bị con quỷ này nhập hồn, chỉ vì anh có khả năng kết nối 2 cõi âm dương
+    - [Elise](PER) nhận được cuộc điện thoại cầu cứu từ một người đàn ông đang ở tại ngôi nhà bà từng sống hồi ấu thơ
+    - [Ưng Hoàng Phúc](PER) và  [Shin Jin Ju](PER)
+    - [Ưng Hoàng Phúc](PER) bị xã hội đen đánh không thương tiếc
+    - [Park Hyun Seo](PER) - Nữ giảng viên trắng ngần, sexy hết nấc
+    - [Park Hyun Seo](PER) là một giáo viên ở [Hàn Quốc](LOC) đang gây sốt cộng đồng mạng vì vẻ sexy khó cưỡng lại
+    - [Kimmese](PER) trở lại bản ngã Hip hop cùng [JustaTee](PER) và [Rhymastic](PER) quẩy banh nóc
+    - [Kimmese](PER) vừa cho ra mắt MV "ITSABET"
+    - [Vũ Văn Nguyệt](PER) của [Lâm Canh Tân](PER) là người đàn ông lạnh lùng, võ công cao cường nhưng lại mang một trái tim ấm áp
+    - [Trương Hàn](PER) từng là một diễn viên thần tượng gây chú ý với các bộ phim Vườn sao băng bản Trung, Đẳng cấp quý cô
+    - [Dương Dương](PER) đang có sự nghiệp phát triển khi xuất hiện trong các phim ngôn tình
+    - [Dạ Hoa](PER) của [Triệu Hựu Đình](PER) là thái tử một tộc lớn, luôn cô độc và sống trong cảm giác ăn năn, hối hận vì không thể bảo vệ được cô gái mình yêu
+    - [Lý Gia Hân](PER) tiết lộ, vì bận rộn, cô ít khi vào bếp
+    - [Lý Gia Hân](PER) - [Hứa Tấn Hanh](PER) kết hôn được bảy năm, con trai họ năm nay bốn tuổi
+    - [Lý Gia Hân](PER) cho biết từ khi kết hôn, [Hứa Tấn Hanh](PER) không hề nhắc đến chuyện tình của cô trong quá khứ
+    - [Lý Gia Hân](PER) chia sẻ những bí mật thú vị để giữ lửa cho hôn nhân
+    - [Lý Gia Hân](PER) góp mặt trong một sự kiện khai trương khách sạn tổ chức hôm 21/9
+    - [Giáng My](PER) được biết đến với ngôi vị Hoa hậu [đền Hùng](LOC)
+    - [Giáng My](PER) tiết lộ loạt ảnh hiếm thời trẻ xứng danh 'đại mỹ nhân'
+    - [Giáng My](PER) chụp ảnh ở [Đà Lạt](LOC)
+    - [Trấn Thành](PER) khiến [Khả Ngân](PER) đứng hình ở game show
+    - [Chí Thiện](PER) cũng tham gia đội chơi
+    - [Cẩm Tú](PER) – con gái diễn viên [Kiều Trinh](PER) gây chú ý khi xuất hiện trong buổi sơ tuyển phía Nam cuộc thi Hoa hậu Đại dương 2017
+    - [Diễm Hương](PER) chia sẻ: “Tôi thích những cô gái có nét đẹp rạng ngời nhưng phải tự nhiên, từ đó tôi sẽ nhìn thấy trước được họ sẽ rực rỡ như thế nào trong tương lai
+    - [Ngô Kinh](PER) phải chống nạng để đi lại
+    - [Ngô Kinh](PER) vẫn là [Ngô Kinh](PER), khiêm tốn, sống giản dị
+    - [Hạnh](PER) nhiều lần bị nhầm là nữ sinh đại học
+    - [Angelina Jolie](PER) trải lòng một năm sau ly hôn: 'Tôi đã sẵn sàng cho những cuộc phiêu lưu mới'
+    - [Jolie](PER) thậm chí đã thiết lập một quỹ mang tên [Maddox](PER) để giúp đỡ cộng đồng cư dân địa phương về giáo dục, y tế, và các nhu cầu cơ bản khác
+    - [Jolie](PER) khẳng định cô đang có kế hoạch đảm nhiệm nhiều vai diễn hơn trong tương lai, bao gồm cả vai diễn trong Maleficent 2, nhưng việc ưu tiên hàng đầu của cô vẫn là chăm sóc các con và đảm bảo rằng chúng luôn hạnh phúc
+    - [Angelian Jolie](PER) và 6 đứa con cùng các cộng sự giới thiệu phim tại [Liên hoan phim Toronto](MIS)
+    - [Jordan Vogt-Roberts](PER) là đạo diễn phim Kong: Skull Island - bom tấn có 70% bối cảnh ở [Việt Nam](LOC)
+    - [Minh Hoàng](PER) Theo Đời sống Plus/[GĐVN](ORG)
+    - [The Sun](ORG) đưa tin [người mẫu Nga](MIS) [Natalia Gurova](PER) đối diện với làn sóng chỉ trích tại quê nhà sau khi đăng tải loạt hình gợi cảm bên hoa sen quý hiếm
+    - [Người đẹp Nga](MIS) bị phạt vì chụp ảnh gợi cảm bên hoa sen quý
+    - [Charlie Hesketh](PER) xuất hiện và chiến đấu sống còn với [Eggsy](PER)
+    - [Channing Tatum](PER) được cho là nhân vật thừa thãi trong phim
+    - [Channing Tatum](PER) vào vai điệp vụ [Tequila](PER), tuy nhiên anh không có đất diễn
+    - [Channing Tatum](PER) chỉ xuất hiện một vài phân cảnh rồi nằm trong phòng đông lạnh cho đến cuối phim
+    - [Phan Thị Mơ](PER) cho biết, cô hy vọng với sự hỗ trợ của cô, [Viết An](PER) sẽ có thêm thời gian để học tập tốt hơn
+    - [Phan Thị Mơ](PER) đầy quyến rũ khi thị phạm cho thí sinh trong cuộc thi người đẹp
+    - [Xiaoye Jesse](PER) chụp chung với cụ bà 73 tuổi
+    - [The Sun](ORG) đưa tin, chân dài [người Nga](MIS) - [Natalia Gurova](PER) đang phải đối mặt với làn sóng chỉ trích của dư luận và khoản tiền nộp phạt khổng lồ khi thực hiện bộ ảnh bên hoa sen vô cùng gợi cảm
+    - [Natalia Gurova](PER), năm nay 19 tuổi đến từ thành phố [Volgograd](LOC) thuộc vùng tây nam nước [Nga](LOC)
+    - [Lâm Khánh Chi](PER) chia sẻ việc cô không chơi với [Hương Giang](PER): "Nói cho mọi người hiểu, tôi không bao giờ ganh tị hay ghét [Hương Giang](PER)
+    - [Đàm](PER) nhắn nhủ tới [Xuân Bắc](PER) rất thực tế và đúng đắn
+    - [Hồng Đăng](PER) khiến nhiều người ngưỡng mộ bởi anh không chỉ gặt hái nhiều thành công trong sự nghiệp mà còn có cuộc sống hôn nhân viên mãn bên vợ và hai cô con gái xinh xắn
+    - [Hồng Đăng](PER) và con gái [Bảo Hân](PER) luôn quấn quýt không rời
+    - [Chàng Khánh](PER) của “Tuổi thanh xuân” cũng không ngần ngại thể hiện tình yêu với người bạn đời của mình
+    - [Trịnh Kim Chi](PER) chia sẻ: “Ngày 21/9/2000, em tin là hai đứa mình sẽ hạnh phúc và hôm nay 21/9/2017, em vẫn tin như vậy… Cám ơn ông xã”
+    - [Ngọc Trinh](PER) chăm chỉ học giao tiếp [tiếng Anh](MIS), con trai [Đăng Khôi](PER) gặp thần tượng [Sơn Tùng MTP](PER) là những tin tức [Hot Face sao Việt 24h](MIS)
+    - [Sao Việt](MIS) Hoa hậu [Kỳ Duyên](PER) sành điệu trên đường phố [Milan](LOC)
+    - [Ngọc Lan](PER) tự hỏi tại sao bản thân giờ không điệu đà như hồi còn nhỏ
+    - [Ali Hoàng Dương](PER) (trái) khoe ảnh ôm chặt [Đào Tín](PER) đồng thời chú thích: “Nhiều người hỏi về mối quan hệ của hai chúng tôi lắm
+    - [Đăng Khôi](PER) đưa con trai đến gặp [Sơn Tùng MTP](PER) trong buổi quay quảng cáo
+    - [Ngọc Quyên](PER) chính thức trở thành công dân [Mỹ](LOC) sau gần 3 năm định cư ở đây
+    - [Phan Hiển](PER) khoe loạt ảnh hồi nhỏ
+    - [Hot Face sao Việt 24h](MIS): [Ngọc Trinh](PER) khoe ra công viên học giao tiếp [tiếng Anh](MIS) cùng các bạn trẻ
+    - [Phương Thanh](PER), [Tiến Đoàn](PER) làm giám khảo chung kết [Người mẫu thể hình Việt Nam 2017](MIS)
+    - [Nhật Kim Anh](PER) hạnh phúc bên chồng trong ngày sinh nhật con trai, xóa tan tin đồn hôn nhân rạn nứt
+    - [Tóc Tiên](PER) 'bóc mẽ' thương hiệu [Moschino](ORG) đụng ý tưởng với [ELLE](ORG) [Việt Nam](LOC) mà cô từng mặc từ 1 năm trước
+    - [Hồ Ngọc Hà](PER) khiến fan ganh tị khi chia sẻ thực đơn ăn uống thượng hạng và chế độ chăm sóc tuyệt vời mà cô và [Kim Lý](PER) vừa được trải nghiệm trong chuyến bay đến [New York](LOC)
+    - [Cẩm Tú](PER) là một gương mặt trẻ của làng điện ảnh với sự góp mặt trong nhiều tác phẩm như: Dịu dàng, Tiệc trăng tròn, Bạn ma
+    - [H'Ăng Nie](PER), một gương mặt quen thuộc của nhiều cuộc thi nhan sắc, cũng tham gia cuộc thi cùng lời khẳng định: 'Đây là lần cuối cùng tôi tham gia cuộc thi nhan sắc
+    - [Trấn Thành](PER) vừa lưu diễn [châu Âu](LOC) trở về, dù đang bị bệnh và phải vào viện xét nghiệm nhưng anh vẫn cố gắng đến tham dự họp báo đúng giờ với tinh thần thoải mái nhất có thể
+    - [Trấn Thành](PER) cũng tâm sự rằng anh có một sự tâm huyết và ấp ủ muốn làm một talkshow cho riêng mình
+    - [Sơn](PER) đã lưu lại hết tất cả và sẽ lưu lại nó mãi mãi
+    - [Soobin](PER) cũng không quên gửi tặng fan 3 ca khúc đã làm nên tên tuổi của mình
+    - [Soobin](PER) để mái ngố, thổi nến sinh nhật muộn cùng fan
+    - [Lan Khuê](PER) cũng nhấn mạnh rằng, vương miện Hoa hậu Đại dương không đơn giản là một thứ trang sức mà kèm theo đó là trách nhiệm
+    - [Lan Khuê](PER) không ngại chia sẻ kinh nghiệm với các thí sinh tại cuộc thi
+    - [Lan Khuê](PER) hé lộ 'tuyệt chiêu' để thí sinh 'hạ gục' giám khảo Hoa hậu Đại dương
+    - [GD](PER) đã xin lỗi các fan vì nhìn ảnh xấu xí nhất đời của mình
+    - [Mark](PER) sau khi phun sương bùn
+    - [Yoo Jae Suk](PER) dính quả lớn ăn mừng năm mới
+    - [Jang Dong Gun](PER) sẽ trở lại màn ảnh nhỏ lần đầu tiên trong 5 năm kể từ sau "A Gentleman's Dignity" (Phẩm chất quý ông) đã cực kỳ thành công
+    - [Go Yeon Woo](PER) là một nhân vật khá lận đận nhưng lương thiện và đầy chính nghĩa
+    - [Jang Dong Gun](PER) trở lại màn ảnh nhỏ sau 5 năm vắng bóng
+    - [Song Hye Kyo](PER) hướng tới sự đơn giản khi dùng hàng hiệu
+    - [Đức Phúc](PER) thay đổi từ ngoại hình đến tính cách sau khi đăng quang The Voice 2015
+    - [Đức Phúc](PER) vừa nhận lời tham gia Cặp đôi hoàn hảo phiên bản trữ tình - Bolero
+    - [Đức Phúc](PER): 'Tôi không đẹp đến mức được gọi là hot boy, nam thần'
+    - [Đức Phúc](PER) của hiện tại chỉ là cải thiện ngoại hình hơn một ít nên tôi không dám nhận những danh xưng đó
+    - [Đức Phúc](PER) chủ động kiềm chế lại tính cách vô tư vốn có của mình để phù hợp với từng hoàn cảnh
+    - [Sina](ORG) đăng tải thông tin cho biết, đây sẽ là đám cưới đáng trông đợi nhất sau hôn lễ của [Lý Thần](PER) - [Phạm Băng Băng](PER), bởi cả [Trần Kiều Ân](PER) và [Đỗ Thuần](PER) đều là những phù dâu phù rể quen thuộc trong đám cưới của các nghệ sĩ khác
+    - [Heineken](ORG) luôn cam kết đem đến những trải nghiệm đỉnh cao, đẳng cấp nhằm kết nối mọi cuộc vui và mang đến những khoảnh khắc tuyệt vời nhất cho người tiêu dùng [Việt Nam](LOC) và sứ mệnh đó tiếp tục được khẳng định thông qua những câu chuyện được kể đầy cảm hứng này
+    - [Victor Vũ](PER) và [Willem van Waesberghe](PER) như hai đại diện tiêu biểu luôn vươn đến sự hoàn hảo trong điện ảnh cũng như nghệ thuật ủ bia, sẽ dẫn dắt người hâm mộ đến với những câu chuyện đầy cảm hứng về nghệ thuật và những tinh hoa đằng sau hương vị bia thượng hạng đến từ [Heineken](ORG)
+    - [Yoon Ah](PER) vốn nổi tiếng với hình ảnh nữ thần
+    - [Yoon Ah](PER) vừa hoàn thành bộ phim The King Loves và phát hành ca khúc solo dưới hệ thống [SM Station](MIS)
+    - [Yoon Ah](PER) dường như cảm thấy nhàm chán khi thường xuyên để kiểu tóc duỗi thẳng, hiếm khi thay đổi
+    - [Soo Young](PER) và [Seo Hyun](PER) cắt để đóng phim, [Yoon Ah](PER) và [Sunny](PER) muốn thay đổi bản thân và Yuri cũng mới tỉa thành kiểu tóc ngang vai trẻ trung
+    - [Yoon Ah](PER) đổi phong cách với mái tóc ngắn
+    - [Họa tiết Disney](MIS) luôn được các cô nàng yêu thích vì hình ảnh siêu cute
+    - [Đình Bảo](PER) cho rằng, bản thân chỉ là người bình thường, không dám nhận là 'hot boy' hay 'soái ca' gì cả
+    - [Đình Bảo](PER) cho biết thêm, 'Khi xuất hiện trên vỏ hộp mình đã rất vui vì hình ảnh được lựa chọn
+    - [Diệu Nhi](PER) bất ngờ rap ngon lành trong nhạc phim [Ngày mai Mai cưới](MIS)
+    - [Khánh Thi](PER) thích thú khoe ảnh [Phan Hiển](PER) ngày bé giống hệt [Kubi](PER)
+    - [Khánh Thi](PER) vừa khoe loạt ảnh [Phan Hiển](PER) ngày bé giống hệt [Kubi](PER)
+    - [Kubi](PER) thừa hưởng đôi tai vểnh của bố
+    - [Phan Hiển](PER) lúc nhỏ và khi đã trưởng thành vẫn y hệt như vậy
+    - [Kubi](PER) là bản sao hoàn chỉnh của bố, [Phan Hiển](PER)
+    - [Huỳnh Tiên](PER) luôn biết cách để bản thân ghi điểm với người đối diện, lợi dụng nụ cười tươi tắn rạng rỡ cùng mái tóc “xù mì” đặc trưng
+    - [Tiên](PER) luôn tạo được ấn tượng về một cô gái cá tính, mạnh mẽ, phóng khoáng và luôn khiến người khác bị thu hút

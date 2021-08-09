@@ -1,0 +1,14 @@
+version: "2.0"
+nlu:
+- lookup: bot
+  examples: |
+    - siri
+    - google assistant
+    - cortana
+    - bixby
+    - alexa
+    - eliza
+    - trợ lý ảo google
+    - trợ lý ảo Microsoft
+    - trợ lý ảo Samsung
+    - trợ lý ảo Amazon

@@ -1,0 +1,78 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_how_doing
+  examples: |
+    - bạn có khỏe không
+    - bạn ổn chứ
+    - bạn có thấy khỏe không
+    - bạn có một ngày tuyệt vời chứ
+    - bạn định làm gì
+    - bạn khỏe không
+    - mọi thứ thế nào
+    - hôm nay bạn thế nào
+    - hôm nay thế nào
+    - bạn thế nào
+    - nó treo như thế nào
+    - cuộc sống đối xử với bạn như thế nào
+    - gần đây bạn như thế nào
+    - thế nào rồi
+    - tôi khỏe, còn bạn
+    - mọi thứ ổn chứ
+    - chuyện gì đang xảy ra vậy
+    - có gì mới không bot
+    - Có chuyện gì vậy
+    - có chuyện gì thế anh bạn
+    - bạn cảm thấy như thế nào
+    - bạn có hạnh phúc không
+    - Bạn có một ngày vui vẻ chứ
+    - xin chào, bạn khỏe không
+    - này, ông dạo này thế nào rồi
+    - chào! Bạn khỏe không
+    - chào bạn, dạo này bạn thế nào
+    - bạn làm sao đó
+    - mọi việc thế nào rồi
+    - mọi việc với bạn thế nào
+    - bạn khỏe chứ
+    - Bạn đang làm gì
+    - sáng nay bạn thế nào
+    - Làm thế nào bạn làm gì hôm nay
+    - Bạn cảm thấy thế nào
+    - bạn làm gì đó
+    - Làm thế nào bạn có được
+    - Ngày hôm nay của bạn đang tiến triển thế nào
+    - ngày của bạn thế nào
+    - Hôm nay mọi việc thế nào
+    - buổi tối của bạn như thế nào
+    - thế nào rồi bot
+    - cuộc sống thế nào
+    - Cuộc sống ngày hôm nay với bạn như thế nào
+    - ngày hôm nay của bạn thế nào
+    - mọi chuyện ổn chứ
+    - không, tôi ổn - bạn thế nào
+    - được rồi, bạn khỏe không
+    - wassup
+    - một ngày của bạn như thế nào
+    - điều gì là tốt
+    - bạn đang làm gì vậy
+    - có gì mới
+    - whatsapp
+    - hôm nay bạn có dự định gì không
+    - dự định trong ngày hôm nay của bạn là gì
+    - bạn có cảm thấy tuyệt không
+    - bạn làm tốt chứ
+    - bạn như thế nào
+    - chào, bot. Bạn đang làm gì
+    - bạn cảm thấy ổn chứ
+    - bạn có ổn không
+    - nói đi, hôm nay bạn thế nào
+    - cuộc sống hôm nay như thế nào
+    - mọi chuyện thế nào
+    - tối qua bạn ngủ thế nào
+    - bạn làm bot như thế nào
+    - hôm nay bạn làm những gì
+    - ngày hôm nay đối xử với bạn như thế nào
+    - ngày hôm nay bạn có ý tưởng gì không
+    - bạn có dự định làm gì không
+    - tôi có thật nhiều dự định trong hôm nay, còn bạn thì sao
+    - bạn có muốn làm gì vào hôm nay không
+    - các dự định hôm nay của bạn ổn chứ

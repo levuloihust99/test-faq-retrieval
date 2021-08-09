@@ -1,0 +1,243 @@
+version: "2.0"
+nlu:
+- intent: chitchat/test
+  examples: |
+    - tôi chỉ cần kiểm tra bạn
+    - tôi đang thực hiện một bài kiểm tra
+    - bạn có biết rằng tôi đang kiểm tra bạn
+    - thời gian để tôi kiểm tra bạn
+    - đây đơn giản chỉ là một bài kiểm tra
+    - Đây chỉ là một thử nghiệm
+    - đây chỉ là một bài kiểm tra
+    - đây là một bài kiểm tra
+    - đây là một bài kiểm tra thường xuyên
+    - tôi chỉ đang kiểm tra bạn
+    - tôi chỉ đang test thôi
+    - khả năng tự kiểm tra
+    - chỉ cố gắng để kiểm tra bạn thôi bot
+    - điều quan trọng cần biết là bạn hiểu rằng tôi đang kiểm tra bạn
+    - tôi chỉ đang cố gắng để kiểm tra bạn
+    - kiểm tra nhé
+- intent: chitchat/kidding
+  examples: |
+    - tôi chỉ đang loay hoay
+    - bạn không thể hiểu đó là một trò đùa
+    - tôi chỉ là ngớ ngẩn
+    - tôi chỉ là một kẻ ngốc
+    - tôi chỉ là một quả bóng
+    - tôi chỉ là một thằng ngốc
+    - tôi chỉ là một người chơi khăm
+    - tôi là một người chơi khăm
+    - tôi chỉ đang lừa
+    - tôi chỉ chơi khăm bạn
+    - tôi chỉ nói đùa
+    - tôi vừa cười
+    - tôi chỉ đi vòng quanh
+    - đừng lo lắng đó là một trò đùa
+    - đừng đi về nó tôi chỉ đùa thôi
+    - bạn có hiểu đó là một trò đùa
+    - đến đó là buồn cười
+    - tôi là người thích đùa
+    - bạn không cần phải nghiêm túc với tôi
+    - điều đó không được coi là nghiêm trọng
+    - đó là một trò đùa
+    - chỉ chơi với bạn
+    - chỉ loay hoay
+    - đùa thôi
+    - tôi chỉ là kẻ ngốc
+    - đùa với bạn
+    - có lẽ bạn không nên nghiêm túc với tôi
+    - nó chỉ là một trò đùa nhỏ
+    - nó chỉ là một trò đùa
+    - Tôi không nghiêm túc
+    - tôi chỉ đang chơi
+    - tôi chỉ nhắn tin với bạn
+    - tôi chỉ đùa thôi
+    - chỉ loanh quanh
+- intent: chitchat/ask_for_another_answer
+  examples: |
+    - tôi nghĩ rằng tôi đã nghe điều đó rồi
+    - tôi muốn bạn thay đổi câu trả lời của bạn
+    - tôi muốn một phản ứng mới
+    - tôi muốn một câu trả lời mới
+    - tôi muốn một phản ứng khác nhau
+    - tôi muốn một câu trả lời khác
+    - tôi nghĩ bạn đang lặp lại chính mình
+    - bạn có khả năng nói điều gì khác không
+    - tôi nghĩ rằng tôi đã nghe điều này trước đây
+    - tôi muốn bạn ngừng lặp đi lặp lại
+    - tôi nghĩ rằng tôi đã nghe nói rằng
+    - tôi chắc chắn mong muốn bạn sẽ thay đổi câu trả lời của bạn
+    - tôi đã nghe nói rằng
+    - sao bạn luôn nói điều tương tự
+    - sao bạn luôn lặp lại mọi thứ
+    - có bất kỳ phản hồi nào khác
+    - có bất kỳ câu trả lời khác
+    - tôi nghĩ bạn đã nói rằng
+    - tôi ước bạn nói điều gì khác
+    - đó là câu trả lời duy nhất bạn có
+    - đó là tất cả những gì bạn có
+    - đó là tất cả những gì bạn có thể nói
+    - tôi sẽ cần một câu trả lời khác
+    - tôi sẽ cần một phản ứng mới
+    - tôi sẽ cần một câu trả lời mới
+    - tôi muốn bạn nói bất cứ điều gì khác
+    - tôi ước bạn ngừng lặp lại chính mình
+    - tôi muốn bạn nói điều gì khác
+    - tôi ước bạn nói bất cứ điều gì khác
+    - tôi ước bạn thay đổi câu trả lời của bạn
+    - tôi ước bạn sẽ nói điều gì khác
+    - tôi ước bạn không lặp đi lặp lại
+    - tôi ước bạn có điều gì khác để nói
+    - tôi muốn bạn ngừng lặp lại những gì bạn vừa nói
+    - bạn không có gì mới để nói
+    - tôi sẽ thích nếu bạn ngừng lặp lại những lời đó
+    - bạn có thể nói cho tôi điều gì khác không
+    - có điều gì mới hơn không
+    - bạn không thể nói cho tôi một cái gì đó mới à
+    - bạn không thể nói cho tôi điều gì khác ư
+    - bạn không thể nói với tôi điều gì khác hả
+    - bạn không thể nói gì khác sao
+    - bạn không thể thay đổi câu trả lời của bạn hả
+    - bạn có thể thử nói điều gì khác không
+    - bạn có nghĩ ra điều gì mới không
+    - bạn có thể cho tôi biết một cái gì đó mới không
+    - Câu chuyện hay, anh bạn. nói lại lần nữa
+    - bạn có thể chuyển lên câu trả lời của bạn
+    - bạn có thể nói gì khác không
+    - bạn có thể cho tôi một câu trả lời khác
+    - bạn có thể nghĩ ra điều gì khác không
+    - bạn có thể thử nói bất cứ điều gì khác không
+    - bạn có câu trả lời nào khác không
+    - đó là phản ứng duy nhất bạn biết
+    - bạn không có gì khác để nói à
+    - bạn không có câu trả lời nào khác
+    - bạn không có điều gì mới hơn chăng
+    - câu trả lời của bạn không có gì khác với trước đó cả
+    - bạn có biết nói gì nữa không
+    - nghĩ ra cái gì khác đi bạn
+    - bạn có gì mới để nói không
+    - bạn không nói gì nữa
+    - bạn đã không nói với tôi rằng
+    - bạn đã không nói điều đó
+    - tôi đã không thấy điều đó rồi
+    - bạn có thể cho tôi biết một cái gì đó mới
+    - bạn có thể nói điều gì mới không
+    - bạn có biết câu trả lời nào khác không
+    - bạn cứ nói những điều tương tự
+    - bạn đã nói điều đó rồi
+    - bạn lặp lại bản thân rất nhiều
+    - bạn nhận ra bạn đang lặp lại chính mình
+    - bạn nhận ra bạn đang lặp lại chính mình, phải
+    - bạn cần một số sự đa dạng trong câu trả lời của bạn
+    - bạn có vẻ ngu ngốc khi bạn lặp lại chính mình
+    - bạn cứ nói như vậy
+    - bạn có vẻ như một bản ghi bị hỏng
+    - bạn cứ nói chính xác
+    - bạn cứ lặp đi lặp lại
+    - bạn cứ lặp đi lặp lại những thứ tương tự
+    - bạn cứ nói đi nói lại
+    - đó là câu trả lời duy nhất bạn biết
+    - bạn cứ nói điều tương tự mọi lúc
+    - câu trả lời của bạn cần sự đa dạng
+    - bạn đã nói rằng
+    - bạn rất lặp đi lặp lại
+    - bạn siêu lặp đi lặp lại
+    - bạn thật lặp đi lặp lại
+    - bạn lặp đi lặp lại
+    - bạn đang lặp lại những gì vừa nói
+    - bạn thực sự lặp đi lặp lại
+    - bạn nói những điều tương tự lặp đi lặp lại
+    - bạn là một kỷ lục bị phá vỡ
+    - bạn sẽ cho tôi một phản ứng mới
+    - câu trả lời của bạn cần được làm mới
+    - câu trả lời của bạn không thay đổi
+    - câu trả lời của bạn đang trở nên cũ kỹ
+    - câu trả lời của bạn đều giống nhau
+    - tài liệu của bạn đang bị cũ
+    - bạn đã nói với tôi rằng
+    - bạn liên tục lặp lại chính mình
+    - đừng nói điều tương tự
+    - ngừng nói đi nói lại
+    - ngừng lặp lại chính mình
+    - đừng nhắc nữa
+    - nói một điều mới đi bot
+    - cùng cũ như cũ
+    - cái này nữa
+    - câu trả lời này một lần nữa
+    - tôi đã nghe điều đó trước đây
+    - tôi đã nghe nói rồi
+    - Tôi đã nghe tất cả các câu trả lời của bạn nhiều lần
+    - tôi đã nghe tất cả câu trả lời của bạn
+    - đó là điều duy nhất bạn có thể nói
+    - bạn đã nói điều đó trước đây
+    - làm ơn nói điều gì đó khác đi
+    - tại sao bạn luôn lặp lại chính mình
+    - bạn sẽ cho tôi một phản ứng khác nhau
+    - bạn sẽ cho tôi một câu trả lời khác
+    - bạn sẽ cho tôi một câu trả lời mới
+    - tại sao bạn không nói điều gì mới
+    - tại sao những gì bạn nói rất hạn chế
+    - tại sao bạn không nói gì khác
+    - tại sao bạn nói điều tương tự mọi lúc
+    - đó là tất cả những gì bạn từng nói
+    - tại sao bạn luôn nói điều tương tự
+    - đó là phản ứng duy nhất bạn có
+    - tại sao câu trả lời của bạn luôn giống nhau
+    - tại sao câu trả lời của bạn luôn giống hệt nhau
+    - tại sao câu trả lời của bạn rất lặp đi lặp lại
+    - tại sao bạn lại lặp đi lặp lại
+    - tại sao bạn quá hạn chế
+    - tại sao bạn lại lặp lại
+    - tại sao bạn cứ lặp đi lặp lại
+- intent: chitchat/confused
+  examples: |
+    - tôi không hiểu bạn đang nói về cái gì
+    - giải thích cho mình
+    - bạn có thể giải thích thêm có được không
+    - tôi rất bối rối, tôi không hiểu gì cả
+    - tôi siêu bối rối
+    - tôi đang rất bối rối
+    - tôi thấy bối rối quá
+    - có lẽ là tôi bị hiểu lầm rồi
+    - tôi bối rối quá
+    - tôi không hiểu bạn đang nói gì
+    - điều đó không có nghĩa gì cả
+    - tôi không hiểu ý bạn
+    - tôi không hiểu
+    - tôi không nghĩ tôi biết bạn đang nói về cái gì
+    - tôi không theo dõi
+    - tôi siêu bối rối, bạn giải thích lại được không
+    - tôi không biết bạn đang nói về cái gì
+    - chúng tôi không cùng suy nghĩ rồi
+    - điều bạn nói không có ý nghĩa gì cả
+    - bạn đang làm tôi bối rối
+    - câu bạn vừa nói không có ý nghĩa gì cả
+    - bạn nói không có nghĩa rồi
+    - điều bạn nói không có ý nghĩa gì với tôi
+    - bạn nói gì cơ
+    - bạn nói lại được không
+    - bạn hãy cố gắng làm cho câu có một số ý nghĩa
+    - đó là điều khó hiểu
+    - điều đó thật vô nghĩa
+    - điều đó không có ý nghĩa
+    - điều đó không có ý nghĩa gì
+- intent: chitchat/you_are_welcome
+  examples: |
+    - tôi rất vui lòng giúp đỡ bạn
+    - đừng lo lắng gì nhé
+    - không vấn đề gì đâi
+    - không có vấn đề gì
+    - Hân hạnh được giúp đỡ bạn
+    - đó là niềm vui của tôi
+    - Bất cứ lúc nào
+    - không có gì cả
+    - đừng khách sáo bạn của tôi
+    - bạn được chào đón
+    - Không có gì
+    - bạn rất hoan nghênh
+    - không thành vấn đề
+    - bạn được chào đón nhất
+    - không có chi
+    - Bạn rất được chào đón
+    - you are welcome

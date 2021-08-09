@@ -1,0 +1,5 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Bộ Tài nguyên và Môi trường](ORG) cũng đánh giá việc sử dụng nước nhiễm các chất ô nhiễm dài ngày sẽ dẫn đến nhiều bệnh, trong đó, asen là tác nhân gây bệnh ung thư da và ung thư phổi; sắt, amoni dễ làm cho thực phẩm biến chất, thay đổi màu sắc, mùi vị, giảm khả năng tiêu hóa và hấp thu các loại thực phẩm… Thống kê của Bộ Tài nguyên và Môi trường, mỗi năm cả nước có khoảng 9.000 người tử vong và hơn 200.000 trường hợp ung thư được cho là có liên quan đến sử dụng nguồn nước ô nhiễm

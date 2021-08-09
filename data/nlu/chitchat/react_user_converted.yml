@@ -1,0 +1,93 @@
+version: "2.0"
+nlu:
+- intent: chitchat/say_sad
+  examples: |
+    - mình cảm thấy buồn
+    - mình buồn quá
+    - mình buồn
+    - :(
+    - :((
+    - tôi đang cảm thấy mệt mỏi
+    - tôi buồn
+    - tôi siêu buồn
+    - tôi rất buồn
+    - bây giờ tôi buồn
+    - buồn
+    - buồn quá
+    - buồn quá :(
+    - siêu buồn
+    - tôi ước tôi có thể ngừng cảm thấy không vui
+    - tôi ước tôi có thể ngừng cảm thấy buồn
+    - tôi ước tôi có thể ngừng cảm thấy chán nản
+    - mình ước tôi có thể ngừng cảm thấy ảm đạm
+    - mình ước tôi có thể ngừng cảm giác buồn rầu
+    - mình đang tuyệt vọng
+    - mình ước mình có thể ngừng cảm giác tuyệt vọng
+    - hôm nay mình buồn
+    - mình tan nát cõi lòng
+    - hôm nay mình rất đau lòng
+- intent: chitchat/say_negative
+  examples: |
+    - mình đang tức giận
+    - mình tức giận
+    - mình đang cảm thấy điên
+    - mình đang cảm thấy tức giận
+    - mình đang nóng
+    - tôi là một kẻ giận dữ
+    - tôi hoàn toàn tức giận
+    - tôi bực tức
+    - tôi rất tức giận
+    - tôi đang rất tức giận
+    - tôi đang phát điên
+    - bây giờ tôi rất khó chịu
+    - tôi rất cáu
+    - tôi rất bực mình
+    - tôi đang tức điên lên
+    - tôi đang bực mình
+    - tôi đang giận dữ
+    - tôi đang bực
+    - tôi đang mất bình tĩnh
+    - tôi sẽ nổi giận
+    - tôi sắp nổi cơn thịnh nộ
+    - tôi vừa mất bình tĩnh
+- intent: chitchat/say_positive
+  examples: |
+    - mình rất vui
+    - mình đang hạnh phúc
+    - mình có một ngày đáng yêu
+    - mình có một ngày tuyệt vời
+    - mình là một tâm trạng tuyệt vời
+    - mình vui mừng
+    - tôi là người hạnh phúc nhất trên trái đất
+    - tôi không bao giờ hạnh phúc hơn
+    - tôi hạnh phúc như một thiên thần
+    - tôi hoàn toàn hạnh phúc
+    - tôi hoàn toàn vui mừng
+    - tôi đang vỡ òa trong hạnh phúc
+    - tôi đang vỡ òa trong niềm vui
+    - tôi đang cảm thấy vui
+    - tôi đang cảm thấy rất vui
+    - tôi là một người hạnh phúc
+    - tôi không thể hạnh phúc hơn
+    - tôi là một người vui vẻ
+    - tôi rất vui
+- intent: chitchat/alone
+  examples: |
+    - mình cảm thấy cô đơn
+    - mình cô đơn bot ơi
+    - mình thấy cô đơn huhu
+    - tôi cảm thấy rất cô đơn
+    - mình cô đơn quá
+    - hôm nay tôi cô đơn quá
+    - cô đơn nhỉ
+    - cô đơn
+    - tôi không có bạn bè
+    - tôi không có ai để nói chuyện
+    - tôi sống một cuộc sống cô đơn
+    - tôi sống một cuộc sống rất cô đơn
+    - mình cần một người bạn
+    - mình cần ai đó để nói chuyện
+    - tôi cô đơn, không ai nói chuyện với tôi hết
+    - tôi cô đơn quá
+    - mình cô đơn quá bot ơi
+    - hôm nay sao tôi cô đơn quá

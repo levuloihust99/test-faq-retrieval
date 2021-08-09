@@ -1,0 +1,28 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Người Nga](MIS) đã dự đoán mức giá trung bình là 12,507 USD, khi được hỏi giá bitcoin sẽ được bán vào ngày 1 tháng 3
+    - [Indonesia](LOC) cũng đang trong quá trình sửa đổi luật thuế của mình
+    - [Mỹ](LOC), [Australia](LOC), [Ấn Độ](LOC), [Philippines](LOC), [Trung Quốc](LOC), [Hàn Quốc](LOC) và [Malaysia](LOC) nằm trong số nhiều nước có kế hoạch giảm thuế
+    - [Indonesia](LOC) dường như cũng muốn cắt giảm thuế thu nhập doanh nghiệp xuống mức tương đương với các nước [ASEAN](ORG)
+    - [Hà Lan](LOC) đã không cấm bong bóng củ hoa tuy-lip trong những năm 1630 và cũng không cấm các cổ phiếu công nghệ khi họ đạt đến mức độ cao chóng mặt vào đầu những năm 2000
+    - [Ole Hansen](PER), Giám đốc chiến lược hàng hóa tại [Ngân hàng Saxo](ORG), cho biết, “lợi tức trái phiếu tăng cao sẽ đẩy đồng USD bật khỏi đáy 3 năm qua, qua đó có thể kéo giá vàng xuống mức thấp hơn trong thời gian tới”
+    - [Adam Button](PER), Chuyên gia chiến lược tiền tệ tại Forexlive.com cho biết, “tôi lạc quan về vàng trong thời gian gần đây
+    - [IRCJ](ORG) có thể bán các bộ phận không sinh lời kèm chiết khấu dựa vào giá trị tài sản sau khi định giá
+    - [Hackett](PER) cho biết sẽ chia sẻ chi tiết kế hoạch vào cuối năm nay với các nhà đầu tư và cổ đông
+    - [Ford](ORG) vừa công bố lợi nhuận ròng hàng quý thấp hơn so với dự kiến
+    - [Ford](ORG) cũng tuyên bố mỗi công nhân sẽ nhận được khoản thanh toán chia sẻ lợi nhuận 7.500 USD trong năm 2017
+    - [Ford](ORG) từng là một trong số những nhà sản xuất ôtô lớn nhất thế giới lên tiếng cảnh báo việc các kim loại như nhôm và thép tăng giá sẽ khiến giá thành xe tăng vọt
+    - [Trương Văn Phước](PER) - Quyền Chủ tịch [Ủy ban Giám sát tài chính quốc gia](ORG), cùng với đẩy mạnh cổ phần hóa, [Việt Nam](LOC) cần xây dựng đội ngũ các DN có khả năng sử dụng nguồn vốn hiệu quả hơn
+    - [Hiếu](PER) và ông cho biết thêm, ở bên [Mỹ](LOC) điều kiện để vay vốn tín chấp rất chặt chẽ
+    - [Bill Baruch](PER), chủ tịch của [Blue Line Futures](ORG) nói rằng ông ta lạc quan với thị trường vàng trong thời gian dài nhưng bên cạnh đó vẫn đợi giá vàng rơi xuống lại mức 1,302 USD, được xem như một điểm khởi đầu mới
+    - [Christopher Vecchio](PER), chiến lược gia tiền tệ cao cấp tại DailyFX.com, nhận xét: “Chúng ta đang nhìn thấy dự báo lạm phát tăng nhưng chỉ là do sự suy yếu của [đôla Mỹ](MIS), và điều này dẫn đến tỷ giá thực giảm, nhu cầu về tài sản an toàn như vàng tăng lên.”
+    - [Vecchio](PER) nói thêm rằng thị trường vàng có thể tiếp tục thu hút vốn đầu tư do nhà đầu tư muốn đa dạng hóa mục tiêu để tránh khỏi thị trường cổ phiếu đang quá tải
+    - [Lê Việt Thủy](PER) - Phó Trưởng phòng Quản lý Đào tạo, [Đại học Kinh tế Quốc dân](ORG) - cho rằng, bong bóng Bitcoin có thể vỡ khi giá trị vượt quá 100.000 USD trên mỗi đơn vị
+    - [Thủy](PER) nêu rõ: Chính phủ [Việt Nam](LOC) chỉ cấm dùng Bitcoin làm phương tiện thanh toán, còn việc sở hữu tài sản thì không cấm
+    - [David Sønstebø](PER), nhà sáng lập của đồng IOTA, cho rằng “cơn khủng hoảng về mục đích sử dụng” của Bitcoin đang khiến các tiền ảo khác chiếm lĩnh thị phần
+    - [John Spallanzani](PER), nhà chiến lược vĩ mô trưởng tại [GFI Group](ORG) nhận định rằng thị trường tiền ảo đang chứng kiến sự chuyển đổi từ đồng Bitcoin sang các tiền ảo khác
+    - [Phước](PER) cho rằng, điều này phụ thuộc nhiều vào đồng USD trên thị trường thế giới, vào cán cân thương mại [Việt Nam](LOC), các dòng vốn vào ra,…
+    - [Phước](PER) cho rằng, mục tiêu ổn định kinh tế vĩ mô là quan trọng và đương nhiên, tuy nhiên, năm nay, chúng ta nên chủ trương tập trung chỉ đạo tăng cường sản xuất kinh doanh, tiếp tục cải thiện mạnh mẽ môi trường đầu tư trên nền tảng ổn định kinh tế vĩ mô và kiểm soát lạm phát
+    - [Trương Văn Phước](PER), quyền Chủ tịch [Ủy ban Giám sát Tài chính Quốc gia](ORG) ([NFSC](ORG)) cho rằng, mong muốn tăng trưởng tín dụng trên 20% được đưa ra từ giữa năm, khi tăng trưởng GDP có khó khăn, lo ngại không đạt được 6,7%

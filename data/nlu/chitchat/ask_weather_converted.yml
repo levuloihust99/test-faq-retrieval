@@ -1,0 +1,44 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_weather
+  examples: |
+    - thời tiết hôm nay thế nào
+    - tôi có thể hỏi bạn vài điều về thời tiết không
+    - thời tiết hôm nay có tốt không bạn
+    - thời tiết thế nào
+    - hôm nay có ẩm không
+    - trời đang mưa
+    - trông như một ngày đẹp trời
+    - ngày hôm nay tốt đẹp
+    - thời tiết
+    - nhiệt độ hôm nay là bao nhiêu
+    - thời tiết ở nơi bạn ở là gì
+    - thời tiết ngày mai thế nào
+    - trời hôm nay như thế nào
+    - dự báo thời tiết
+    - thời tiết ở đó như thế nào
+    - thời tiết bây giờ như thế nào
+    - thời tiết như thế nào
+    - hôm nay tôi có cần mặc áo mưa không
+    - hôm nay tôi có cần bôi kem chống nắng không
+    - hôm nay tôi có cần mang áo chống nắng không
+    - hôm nay tôi có cần mang theo dù không
+    - ở Hà Nội có nóng không
+    - thời tiết ở Hà Nội thế nào
+    - thời tiết trong thế giới bot
+    - thời tiết hôm nay ở Hà Nội
+    - bên ngoài có nóng không
+    - trời có nắng Không
+    - trời lạnh
+    - nhiệt độ hôm nay thế nào
+    - thời tiết hôm nay
+    - không biết thời tiết hôm nay như thế nào nhỉ
+    - bạn có thể cho tôi biết thời tiết hôm nay thế nào không
+    - Nhiệt độ hôm nay như thế nào
+    - thời tiết ở Hà Nội là gì
+    - thời tiết ở zurich là gì
+    - thời tiết ra sao
+    - thời tiết ở SG như thế nào
+    - nhiệt độ là bao nhiêu
+    - nhiệt độ trong delhi là bao nhiêu
+    - thời tiết ngày mai như thế nào

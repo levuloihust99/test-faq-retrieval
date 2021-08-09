@@ -1,0 +1,25 @@
+version: "2.0"
+nlu:
+- intent: chitchat/sorry
+  examples: |
+    - xin lỗi
+    - là lỗi của tôi
+    - tôi chỉ muốn nói xin lỗi
+    - tôi rất xin lỗi
+    - tôi vô cùng xin lỗi
+    - tôi xin lỗi bạn
+    - tôi rất hối hận
+    - tôi thực sự xin lỗi về điều đó
+    - tôi thực sự xin lỗi
+    - chúa ơi, tôi xin lỗi
+    - Ôi trời, xin lỗi về điều đó
+    - tôi cầu xin sự tha thứ của bạn
+    - tôi xin lỗi
+    - tôi thành thật xin lỗi
+    - tha thứ cho tôi
+    - bạn có thể tha lỗi cho tôi không
+    - bạn có thể tha thứ cho tôi
+    - tôi chân thành xin lỗi
+    - Xin lỗi vì tất cả mọi thứ
+    - xin lỗi tôi xin lỗi
+    - sorry

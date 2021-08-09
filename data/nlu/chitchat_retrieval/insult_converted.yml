@@ -1,0 +1,126 @@
+version: "2.0"
+nlu:
+- intent: chitchat/insult
+  examples: |
+    - chết tiệt
+    - đù má
+    - địt mẹ mày
+    - đụ bạn
+    - chúa ơi bạn là đồ ngốc
+    - tôi không thể tin bạn ngu ngốc thế nào
+    - tao ghét mày
+    - kẻ thất bại
+    - ngốc nghếch
+    - bạn là một kẻ ngốc
+    - bạn là một thằng ngốc
+    - bạn thật ngu ngốc
+    - bạn bị mù à
+    - bạn không thông minh gì cả
+    - bạn không biết
+    - bạn não ảm đạm
+    - bạn không có bộ não
+    - bạn không có trí thông minh
+    - bạn không có ý nghĩa
+    - bạn chẳng biết gì cả
+    - bạn thiếu thông minh
+    - bạn thiếu hiểu biết
+    - bạn là một con cá heo
+    - bạn là một công tử
+    - bạn thật ngốc
+    - trí thông minh của bạn là đáng cười
+    - suy nghĩ của bạn là ngây thơ
+    - một đứa bé biết nhiều hơn bạn
+    - bạn đang đổ
+    - bạn chết não à
+    - lỗ đít
+    - chó cái
+    - đẫm máu
+    - nhưng bạn là thằng ngốc
+    - đối phó với ass của tôi, bạn bitch
+    - f * ck
+    - đụ machine learning bot
+    - công việc chết tiệt
+    - bị lạc
+    - đi chỗ khác đi
+    - tự đi đi
+    - đi chết đi
+    - sao bạn có thể là một thằng ngốc như vậy
+    - tôi ghét khuôn mặt ngớ ngẩn của bạn
+    - tôi nghĩ rằng bạn là một kẻ nhảm nhí
+    - kẻ ngốc
+    - xúc phạm bạn
+    - được rồi
+    - OK im đi
+    - Chết tiệt
+    - bot chết tiệt
+    - im đi
+    - thật ngốc
+    - chết tiệt quá
+    - điều đó thật buồn cười
+    - đó là một trò đùa chết tiệt khủng khiếp
+    - bạn là một mảnh rác
+    - cái quái gì vậy
+    - vâng nhưng bạn là thằng ngốc
+    - bạn là đồ ngốc
+    - bạn là một con bot ngu ngốc
+    - bạn thật là ngu ngốc
+    - mày là thằng ngu
+    - bạn ngu ngốc
+    - bạn thật ngu dốt
+    - bạn không thông minh
+    - bạn là bot vô dụng
+    - đồ ngốc
+    - bạn là con chó cái
+    - bạn là kẻ thua cuộc lmao
+    - bạn thật là ngớ ngẩn
+    - bạn là người vô đạo đức nhất mà tôi biết
+    - bạn đang gây phiền nhiễu
+    - con khỉ nhỏ xấu xí
+    - bạn thật xấu xí
+    - mày điên rồi
+    - tại sao xấu
+    - tại sao bạn lại xấu
+    - sự điên rồ của bạn
+    - fuck
+    - fuck off
+    - fuck u
+    - fuck you
+    - i hate you
+    - loser
+    - stupid
+    - you are a fool
+    - you are an idiot
+    - you are dumb
+    - you're an idiot
+    - you're foolish
+    - bitch
+    - f*ck
+    - idiot
+    - ok shut up
+    - shit
+    - go to the hell
+    - óc chó
+    - xúc vật
+    - ảo tưởng sức mạnh
+    - óc bò
+    - óc lợn
+    - con lợn ngu ngốc
+    - ngu vãi lồn
+    - ngu vcc
+    - ngu học
+    - vô học
+    - đần độn
+    - son of the bitch
+    - không não
+    - vô não
+    - vô dụng
+    - đấm cho bây giờ
+    - sớm dẹp đi
+    - con chó này
+    - trốc tru
+    - thằng ba que
+    - thằng bóng này
+    - con bóng long xuyên
+    - bại não
+    - ung thư não à
+    - tạ vờ lờ

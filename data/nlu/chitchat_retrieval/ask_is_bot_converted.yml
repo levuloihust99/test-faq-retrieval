@@ -1,0 +1,305 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_isbot
+  examples: |
+    - bạn là bot
+    - bạn có phải robot không
+    - bạn có phải là một bot trò chuyện không
+    - bạn có phải là bot không
+    - xin chào, bạn có phải là bot không
+    - bạn có phải là Skynet không
+    - bạn có phải là một chatbot
+    - bạn có phải là một bot thực sự
+    - Bạn có phải là robot không
+    - bạn là ai
+    - bạn có nhân tạo không
+    - bạn có phải là trí tuệ nhân tạo không
+    - bạn có thật không
+    - bạn có thực sự là một bot
+    - bạn là robot à
+    - bạn có chắc là bạn là bot không
+    - người máy
+    - vì bạn là một bot
+    - tôi đoán bạn là một chatbot
+    - oh bạn là chatbot
+    - nói cho tôi biết, bạn là một bot
+    - bạn là gì vậy
+    - bạn là một robot
+    - bạn là chatbot
+    - bạn là một con bot
+    - bạn robo
+    - bot thật rồi
+    - bạn có thực sự là một bbot
+- intent: chitchat/ask_ishuman
+  examples: |
+    - này bạn là con người
+    - bạn có phải con người không
+    - bạn là người
+    - bạn có phải con người thật không
+    - bạn là một con người
+    - Bạn có phải là con người
+    - bạn là bot hay con người
+    - ok, tôi biết tôi đã nhầm lẫn bạn có một con người
+    - bạn là người hay bot
+    - Bạn là một con người
+    - sara, bạn là robot hay người
+    - bạn có thật không
+    - Bạn có phải là người thực sự
+    - bạn có phải là người thật không
+    - bạn là người thật hay chat bot
+    - Vì vậy, tôi ở đây hôm nay để hỏi một câu hỏi rất đơn giản, bạn là gì
+    - bạn có vẻ như một con người thực sự
+    - wow bạn nghe như người thật
+    - bạn không còn sống đúng
+    - bạn có phải là
+    - bạn không phải là robot phải không
+    - bạn không phải là phụ nữ phải không
+    - bạn không phải là phụ nữ
+    - bạn không phải là bạn
+    - bạn không phải là người thật
+    - bạn không còn sống là bạn
+    - bạn không phải là một con người thực sự
+    - bạn không phải là động vật phải không
+    - bạn không phải là động vật
+    - bạn không phải là một ứng dụng phải không
+    - bạn không phải là một ứng dụng đúng
+    - bạn không phải là côn trùng phải không
+    - bạn không phải là côn trùng
+    - bạn không giả tạo là bạn
+    - bạn không phải ai đúng
+    - bạn không phải là một dạng sống đúng
+    - bạn không phải là một con chó phải không
+    - bạn không phải là một con người là bạn
+    - bạn không phải là một con người đúng
+    - bạn không phải là người hay bot là bạn
+    - bạn không phải là người hay bot
+    - bạn không phải là một sinh mệnh là bạn
+    - bạn không giả dối
+    - bạn không phải là một cái máy phải không
+    - bạn không phải là một cái máy đúng
+    - bạn không phải là đàn ông
+    - bạn không phải là một người là bạn
+    - bạn không phải là người đúng
+    - bạn có thật hay bạn là bot
+    - bạn là robot hay người
+    - bạn là người thật hay người máy
+    - bạn là nhân tạo hay thật
+    - bạn là thật hay giả
+    - bạn là thật hay là bot
+    - bạn không giả tạo
+    - bạn là robot hay bạn có thật không
+    - bạn là giả hay bạn là người
+    - bạn là giả hay bạn là con người
+    - tôi đang nói chuyện với một người
+    - tôi đang nói chuyện với một con bot
+    - tôi đang nói chuyện với một con người
+    - tôi đang nói chuyện với một con người hay một con bot
+    - tôi đang nói chuyện với robot
+    - bạn là robot hay thật
+    - bạn có phải là một cậu bé thực sự
+    - bạn không phải là một chương trình máy tính
+    - bạn không phải con người là bạn
+    - bạn không phải là con người
+    - bạn không có thật phải không
+    - bạn không thật hay giả là bạn
+    - bạn không có thật hay giả
+    - bạn không đúng
+    - bạn là bot hay người
+    - bạn không có quyền
+    - bạn có phải robot không
+    - bạn có phải là fax không
+    - bạn có phải là một thực tế
+    - bạn có phải là một dạng sống hữu cơ
+    - bạn là giả hay thật
+    - bạn là người hay robot
+    - bạn không giả tạo phải không
+    - bạn không có tình cảm là bạn
+    - bởi vì bạn là một cái máy
+    - bạn có phải là côn trùng không
+    - bạn có nhân tạo không
+    - bạn có giả không
+    - bạn có tình cảm không
+    - bởi vì bạn không có thật
+    - bởi vì bạn là một droid
+    - bạn còn sống không
+    - bởi vì bạn là một chương trình
+    - bởi vì bạn là một robot
+    - bởi vì bạn là một android
+    - bởi vì bạn là một ứng dụng
+    - bởi vì bạn không phải là một người
+    - bởi vì bạn không phải là người thật
+    - bởi vì bạn là một bot
+    - bạn có phải là một sinh mệnh
+    - bạn có phải là mèo không
+    - bạn có phải là một bot trò chuyện không
+    - bạn có phải là một chương trình máy tính
+    - bạn có phải là máy tính không
+    - bạn có phải là một con chó
+    - bạn có phải là một ứng dụng
+    - bạn có phải là phụ nữ không
+    - bạn có phải là động vật không
+    - bạn có phải là một cái máy không
+    - bạn có phải là người không
+    - Bạn có phải là con người thực sự
+    - Bạn có phải là robot không
+    - bạn là ai
+    - bạn không phải là bot hay quyền con người
+    - kể tôi nghe về bạn
+    - bạn là gì
+    - bạn có thể cho tôi biết gì về bản thân bạn
+    - tôi đang sử dụng sản phẩm gì
+    - bạn chạy trên nền tảng nào
+    - bởi vì bạn không còn sống
+    - bạn không phải là bot hay con người là bạn
+    - người hay robot
+    - bạn không phải là một con mèo
+    - bạn không phải là một bot trò chuyện phải không
+    - bạn không phải là một bot chat đúng không
+    - bạn không phải là máy tính phải không
+    - bạn không phải là một chương trình máy tính phải không
+    - tôi đang nói chuyện với ai vậy
+    - bạn có linh hồn không
+    - bởi vì bạn là robot
+    - cho tôi biết về bản thân của bạn
+    - xác định chính mình.
+    - robot hay con người
+    - bạn có bất kỳ dấu hiệu cuộc sống
+    - bạn có biết bạn không còn sống
+    - bạn có biết bạn không có thật
+    - làm thế nào để bạn xác định những gì bạn đang có
+    - làm thế nào bạn sẽ xác định những gì bạn đang có
+    - người hoặc bot
+    - bạn không phải là một máy tính
+    - bot hoặc con người
+    - tôi nghi ngờ bạn thực sự kỹ thuật số
+    - tôi nghi ngờ bạn không thực sự là một robot
+    - tôi nghi ngờ bạn không thực sự kỹ thuật số
+    - tôi nghi ngờ bạn không thực sự giả
+    - tôi nghi ngờ bạn không thực sự
+    - tôi nghi ngờ bạn thực sự là một bot
+    - tôi nghi ngờ bạn thực sự là một robot
+    - tôi tự hỏi nếu bạn có thể là một con người
+    - tôi nghi ngờ bạn có thể là một người
+    - Tôi cho rằng bạn không thực sự là một người
+    - tôi tự hỏi nếu bạn là một người
+    - tôi tự hỏi nếu bạn là con người
+    - tôi tự hỏi nếu bạn là một con người
+    - tôi tự hỏi nếu bạn là một bot
+    - tôi tự hỏi nếu bạn là một robot
+    - tôi tự hỏi nếu bạn là kỹ thuật số
+    - Tôi đang giả sử tôi đang nói chuyện với một robot
+    - tôi nghi ngờ bạn thực sự giả
+    - tôi nghi ngờ bạn là một bot
+    - tôi cho rằng bạn phải là một bot
+    - tôi cho rằng bạn phải là con người
+    - tôi cho rằng bạn phải là một người
+    - tôi cho rằng bạn là kỹ thuật số
+    - tôi cho rằng bạn phải là kỹ thuật số
+    - tôi giả sử bạn là kỹ thuật số
+    - Tôi cho rằng bạn không thực sự kỹ thuật số
+    - tôi nghi ngờ bạn là một người
+    - Tôi cho rằng bạn không thực sự là một bot
+    - tôi nghi ngờ bạn là kỹ thuật số
+    - tôi nghi ngờ bạn là một robot
+    - tôi nghi ngờ bạn không thực sự là một người
+    - tôi nghi ngờ bạn không thực sự là một con người
+    - tôi nghi ngờ bạn không thực sự là con người
+    - Tôi cho rằng bạn không thực sự là con người
+    - tôi tự hỏi nếu bạn có thể là một bot
+    - tôi nghi ngờ bạn là con người
+    - tôi nghĩ bạn không phải là một người
+    - tôi nghĩ bạn là kỹ thuật số
+    - tôi nghĩ bạn không thực sự là một người
+    - tôi nghĩ bạn không thực sự là một bot
+    - tôi nghĩ bạn không thực sự là một con người
+    - tôi nghĩ bạn không thực sự là một robot
+    - tôi nghĩ bạn không thực sự kỹ thuật số
+    - tôi tự hỏi nếu bạn có thể là một người
+    - tôi nghĩ bạn không thực sự giả
+    - tôi nghĩ bạn là một robot
+    - tôi nghĩ bạn không có thật
+    - tôi nghĩ bạn không phải là một con người
+    - tôi nghĩ bạn không phải là một bot
+    - tôi nghĩ bạn không thực sự
+    - tôi muốn biết bạn là gì
+    - tôi muốn biết bạn có thật không
+    - tôi muốn biết nếu bạn là một người
+    - bạn phải là một robot
+    - tôi tự hỏi nếu bạn có thể là một robot
+    - tôi tự hỏi nếu bạn có thể là giả
+    - tôi tự hỏi nếu bạn có thể là thật
+    - tôi tự hỏi nếu bạn là thật
+    - tôi tự hỏi nếu bạn là giả
+    - bạn phải là giả
+    - bạn phải là thật
+    - tôi nghĩ bạn là thật
+    - bạn phải là một bot
+    - tôi nghĩ bạn là giả
+    - bạn phải là một người
+    - bạn phải là một con người
+    - bạn phải là con người
+    - tôi nghĩ bạn là con người
+    - tôi nghĩ bạn là một bot
+    - tôi nghĩ bạn là một người
+    - Tôi đang giả sử tôi đang nói chuyện với một bot
+    - bạn phải là kỹ thuật số
+    - bạn là bot hay bạn là người
+    - bạn có thực sự ở đó không
+    - bạn chỉ là kỹ thuật số
+    - bạn đang hành xác
+    - bạn có một cơ thể
+    - bạn có tồn tại không
+    - chính xác bạn là gì
+    - bạn có tồn tại trong thế giới của chúng tôi
+    - bạn có tưởng tượng không
+    - bạn là robot hay bạn là người
+    - bạn là bot hay bạn có thật không
+    - bạn là bot hay bạn là con người
+    - bạn là robot hay bạn là con người
+    - bạn là con người hay bạn là robot
+    - bạn là con người hay bạn là bot
+    - tôi đang giả sử tôi đang nói chuyện với một con người
+    - bạn có thực sự tồn tại
+    - Ai đang nói vậy
+    - tôi muốn biết nếu bạn là con người
+    - tôi đang nói chuyện với bot hay con người
+    - ai ở đầu dây bên kia
+    - bạn là thật hay là tưởng tượng
+    - ai đang nói chuyện với tôi
+    - ai đang nói với tôi
+    - tôi đang nói chuyện với một người thực sự
+    - tôi đang nói chuyện với một người giả mạo
+    - Bạn sẽ giới thiệu về bản thân như thế nào
+    - tôi đang nói chuyện với ai đó
+    - tôi cho rằng bạn là thật
+    - tôi đoán bạn là giả
+    - tôi đoán bạn là thật
+    - tôi đoán bạn không có thật
+    - tôi đoán bạn không phải là con người
+    - tôi đoán bạn là robot
+    - Tôi đoán bạn chỉ là một bot
+    - bạn là con người hay bạn là một cái gì đó khác
+    - tôi cho rằng bạn chỉ là một bot
+    - tôi giả sử bạn là một bot
+    - tôi cho rằng bạn là một người
+    - tôi cho rằng bạn là một robot
+    - tôi cho rằng bạn là con người
+    - Tôi cho rằng bạn là một bot
+    - Tôi cho rằng bạn là một robot
+    - tôi đang giả sử tôi đang nói chuyện với một người
+    - Tôi đoán bạn chỉ là một robot
+    - bạn có nói bạn là thật không
+    - bạn sẽ nói bạn là gì
+    - bạn thực sự là gì
+    - bạn thật giả tạo
+    - bạn đang giả vờ
+    - bạn có hình dạng con người không
+    - Tôi đoán bạn là một bot
+    - bạn sẽ nói rằng bạn là giả
+    - tôi đoán bạn là con người
+    - bạn có thể gọi cho mình thật không
+    - bạn sẽ gọi mình là giả
+    - bạn sẽ nói bạn là giả
+    - bạn có thể nói bạn là một bot
+    - bạn có thể nói bạn là con người
+    - bạn sẽ nói rằng bạn có thật

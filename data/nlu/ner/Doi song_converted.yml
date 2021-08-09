@@ -1,0 +1,76 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Crowley](PER) sau đó được chôn cất tại nghĩa trang [Calvary](LOC) ở [thành phố New York](LOC)
+    - [Crowley](PER) đã chuẩn bị sẵn tinh thần
+    - [Crowley](PER) thường nhai kẹo cao su và khá lém lỉnh trong việc làm các thủ tục vào trại
+    - [Crowley](PER) luôn từ chối gặp gỡ hay nói chuyện với cô
+    - [Robert Elliot](PER) mô tả giây phút cuối cùng của “Kẻ hai súng” là … "Nó bước vào phòng tử hình với nụ cười trên môi gửi tới người mẹ của mình, nó gần như là một cậu bé bắt đầu chuyến phiêu lưu"
+    - [Alan Hruby](PER), một thanh niên 20 tuổi [người Mỹ](MIS), đã sát hại cha mẹ và em gái mình vào một ngày mùa đông năm 2014 với mục đích lấy tiền thừa kế
+    - [Hruby](PER) được mô tả là một con nghiện mua sắm nặng, thường xuyên mua sắm vượt kiểm soát và thậm chí còn lấy trộm cả thẻ tín dụng của bà ngoại để chi tiêu
+    - [Isabella](PER) không phải một trường hợp đặc biệt
+    - [Isabella](PER) cho biết, một trong những khó khăn lớn nhất trong việc điều trị CBD là nghiện mua sắm là điều được xã hội chấp nhận, thậm chí là cổ súy khi hàng hóa hiện diện ở khắp nơi, và người mua luôn được coi là thượng đế
+    - [Isabella](PER) luôn lo sợ họ sẽ buộc cô phải đem trả một món hàng đã mua nào đó lại cho cửa hàng - và điều này xảy ra rất thường xuyên - nhưng cô cũng dần dần nhận ra rằng, dù trên thế giới có vô số những món đồ xinh đẹp, cô không nhất thiết phải sở hữu tất cả những món đồ đó
+    - [Người Việt Nam](MIS) có câu “con nhà tông không giống lông cũng giống cánh” là bởi mối liên hệ nhân quả trong giáo dục này
+    - [Annie McKee](PER) – tác giả cuốn How to Be Happy at Work và đồng tác giả một số cuốn sách về trí thông minh cảm xúc nói như thế này về lòng từ bi, sự tự yêu thương bản thân mình (self-compassion): “Nếu bạn thực sự muốn đối phó với stress, hãy ngưng việc cố gắng trở thành một anh hùng và bắt đầu quan tâm đến chính mình”
+    - [David Rock](PER) – Giám đốc [Viện NeuroLeadership](ORG) – gợi ý trong cuốn sách Your Brain at Work của mình rằng, thay vì phủ nhận hoặc tìm cách đẩy lùi cảm xúc, việc gọi tên cho chúng là cách tiếp cận hiệu quả hơn
+    - [N.H](PER) tâm sự, mới tháng đầu có “gà con”, cô đã “vung tay hết 33 triệu đồng, chưa kể các khoản lặt vặt và than thở “thế này không biết tháng sau sống như nào”
+    - [Ilyse Schapiro](PER), một chuyên gia dinh dưỡng lớn tại [New York](LOC) nói: "Tôi thậm chí còn nghĩ rằng rau luộc rất nhàm chán!"
+    - [Elisa Zied](PER) đã giảm được 30 pound (xấp xỉ 14kg) và giữ được thân hình cân đối kể từ khi trọng lượng cô đạt tối đã vào năm trung học
+    - [Hoàng](PER) bảo: “Tính ra 17 tuổi mà mỗi tháng cũng chỉ có 1,3 triệu đồng tiêu vặt thì đâu đã nhiều
+    - [N.](PER) kể: “Mẹ em cứ nghĩ 300.000đồng/giờ là lớn lắm, nhưng thực ra có mua được gì đâu, xài 2-3 ngày đã hết
+    - [Hoàng](PER) cho biết, ngoài nguồn “lương” hàng tuần của mẹ là 200.000 đồng thì cô bạn còn có thêm 500.000 đồng/tháng từ nguồn “viện trợ” của bà ngoại và dì
+    - [Người Trung Quốc](MIS) có câu: Nước muối mỗi sáng, nước mật ong mỗi tối
+    - [Galen](PER) đã sử dụng kỹ năng phẫu thuật của mình thực hành trên động vật để nghiên cứu chi tiết nhiều cơ quan, bao gồm tim và mạch máu
+    - [Galen](PER) nổi tiếng khi nhận những ca bệnh khó mà không có bác sĩ nào khác dám thử
+    - [Tom](PER) có hai cậu con trai là [Timothy](PER) và [Solomon](PER) (7 tuổi)
+    - [Tom](PER) chỉ biết đó là một bệnh lí di truyền khi [Timothy](PER) được sinh ra và bắt đầu có những triệu chứng đau đớn tương tự như mình
+    - [Tom Baker](PER) và con trai của anh là [Timothy](PER) (9 tuổi) đều được chẩn đoán bị Pachyonychia Congenita (PC) – bệnh dày móng bẩm sinh
+    - [Tom Baker](PER) cho biết, căn bệnh này khiến anh phải chịu nhiều đau đớn ở cả hai bàn chân
+    - [Tom](PER) nhận thấy rằng, càng lớn tuổi, tình trạng bệnh của mình càng trầm trọng hơn
+    - [Lộ Lộ](PER) không quản ngại vất vả, kiếm tiền chữa bệnh cho [Yến Tử](PER)
+    - [Lộ Lộ](PER) thương bạn, liền rút hết tiền tiết kiệm gửi trong ngân hàng của mình ra cùng với tiền lương hàng tháng để chữa bệnh cho [Yến Tử](PER)
+    - [Yến Tử](PER) (trái) đang vô cùng cảm động trước tình cảm của cô bạn thân [Lộ Lộ](PER)
+    - [Samara](PER) hi vọng câu chuyện của cô sẽ giúp cảnh báo người khác. Tiến sĩ [Martin](PER) nói khi nói đến phẫu thuật thẩm mỹ hãy chọn một bác sĩ phẫu thuật thẩm mỹ hoặc bác sĩ da liễu tin cậy
+    - [Samara](PER) quyết đinh tiến hành tự phẫu thuật sau khi đọc đọc một quảng cáo trên báo về một cuộc thi cung cấp miễn phí cách làm trẻ hóa khuôn mặt
+    - [Samara](PER) không biết cô đã tiêm chất gì vào mặt mình
+    - [Thành](PER) ([Mạnh Trường](PER)) đâu ngờ rằng em dâu lại chính là bạn gái cũ của anh trong tập 3 Ngược chiều nước mắt
+    - [Ngọc](PER) lật tiếp trang sau, một bức ảnh chụp người con trai đang ôm môt người con gái từ phía sau
+    - [Minh](PER) là một thám tử tư giỏi chuyên điều tra các vụ ngoại tình
+    - [Minh](PER) hiểu bản thân anh không được đón nhận ở căn biệt thư này nên xin phép ra về
+    - [Ngọc](PER) nhìn theo anh, ánh mắt đầy tiếc nuối, cô định lên tiếng giữ anh lại nhưng [An](PER) đã ngăn cản cô
+    - [Ngọc](PER) đưa tay lau những giọt nước mắt rồi quay sang nhìn [Minh](PER)
+    - [Ngọc](PER) mở một ngăn kéo nhỏ được thiết kế ẩn bên trong ghế ngồi, lôi ra một cuốn album ảnh đã cũ, bên ngoài bọc da được buộc lại rất cẩn thận
+    - [Ngọc](PER) mở ra, ngay trang đầu tiên là bức ảnh của cô gái mà [Kim](PER) đã mang tới văn phòng thám tử của [Minh](PER)
+    - [Ngọc](PER) vuốt nhẹ tay lên bức ảnh, hít một hơi thật sâu rồi nói với giọng nghẹn ngào: “Đây là chị gái tớ, tên [Hằng](PER)
+    - [Minh](PER) lên tiếng chào [An](PER) còn cô dường như hơi có thoáng chút giật mình khi nghe [Ngọc](PER) nói anh là bạn, cô có vẻ không ưa gì anh, nên không nói gì chỉ im lặng bước qua [Minh](PER) rồi đột nhiên quay lại nói:
+    - [Minh](PER) nhớ lại khi xưa, cậu đã từng nghe loáng thoáng bố mẹ câu kể [Ngọc](PER) có một cô chị gái sống ở nước ngoài
+    - [Minh](PER) im lặng, anh hiểu [Ngọc](PER) đang rất đau lòng
+    - [Minh](PER) ôm [Ngọc](PER) vào lòng, an ủi cô
+    - [Minh](PER) quay đầu lại nhận ra đó là [An](PER)
+    - [Ngọc](PER) nhìn thấy [An](PER) liền hào hứng giới thiệu:
+    - [An](PER) là người thông tin lại mọi việc cho ông [Long](PER)
+    - [Minh](PER) cảm thấy trong lòng nhẹ nhõm hơn khi mọi khúc mắc trong anh giờ đã sáng tỏ: [An](PER) là bạn thân của chị gái [Ngọc](PER) và ông [Long](PER)
+    - [Minh](PER) trở về nhà, cũng may lần trước [Ngọc](PER) gọi, anh vẫn còn giữ số điện thoại, tối ấy cả hai người lại nói chuyện với nhau rất lâu
+    - [Minh](PER) giật mình nhìn đồng hồ, giờ là 2 giờ đêm, ai lại đến làm phiền anh lúc này
+    - [Minh](PER) cảnh giác, nhìn qua lỗ mắt mèo
+    - [Ngọc](PER) vuốt nhẹ tay lên bức ảnh, hít một hơi thật sâu rồi nói với giọng nghẹn ngào: “Đây là chị gái tớ, tên [Hằng](PER)
+    - [Ngọc](PER) nói tiếp: “Chị tớ và ông [Long](PER) đã yêu nhau khi chị ấy ở bên nước ngoài
+    - [An](PER) lập công ty về thời trang để cô có thể sống tại [Việt Nam](LOC) và tiện chăm sóc [Ngọc](PER) và bố mẹ cô
+    - [Minh](PER) chợt cảm thấy xấy hổ trước câu nói của [Ngọc](PER)
+    - [Gabby](PER) tự cắn đến nát luôn cả 3 đầu ngón tay
+    - [Gabby](PER) cũng thường xuyên cào và chọc vào mắt mình đến mức một bên đã bị hỏng hoàn toàn và phải thay mắt giả
+    - [Samelson](PER) và nhóm nghiên cứu đã xem xét hơn 1.000 người trong thời gian 3 năm
+    - [Bộ Giáo dục & Đào tạo](ORG) đề nghị các sở giáo dục chủ động phối hợp với các sở y tế và cơ quan liên quan của địa phương triển khai tăng cường phòng chống, chủ động kiểm soát, ngăn chặn dịch bệnh tay chân miệng
+    - [Chung](PER) mới từ từ cởi áo vợ nhưng vừa nhìn thấy ngực vợ, [Chung](PER) thảng thốt vội vàng đóng lại ngay rồi tức tốc lôi vợ đi bệnh viện
+    - [Chung](PER) dường như vẫn chưa thỏa mãn nhưng bị [Xuân](PER) nằng nặc lôi về
+    - [Chung](PER) mới kể lể sự tình rằng "em nghe nói phụ nữ làm chuyện đó rồi thì vòng 1 lớn và đầu ngực thâm lắm, bác sĩ xem giúp vợ em có phải cô ấy đã quan hệ rồi không"
+    - [Chung](PER) và [Xuân](PER) yêu nhau đã 3 năm nhưng [Xuân](PER) nhất quyết không cho [Chung](PER) đi quá giới hạn
+    - [Xuân](PER) chẳng hiểu cơ sự gì nữa mà cứ thế bị [Chung](PER) lôi đi
+    - [Chung](PER) khép nép "bọn em yêu nhau 3 năm nhưng em chưa làm chuyện ấy với vợ em bao giờ"
+    - [Xuân](PER) là cô gái hiền lành, chăm chỉ, xinh xắn lại biết điều
+    - [Xuân](PER) sống với mọi người khá chan hòa và thân thiện
+    - [Chung](PER) bị đám bạn vừa chuốc rượu vừa trêu lên trêu xuống, đỏ hết mặt nhưng [Chung](PER) nhất định phải cho lũ bạn thấy
+    - [Cherylanne DeVita](PER), CEO của dòng mỹ phẩm DeVita Natural Skin Care chia sẻ trong các loại peptide của ngành mỹ phẩm, acetyl hexapeptide 8 (tên phổ thông là argireline) là dạng tốt nhất nhưng chưa được biết đến rộng rãi
+    - [Hòa Minzy](PER) tố trêu đàn em [Đức Phúc](PER) sống tệ

@@ -1,0 +1,48 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_how_built
+  examples: |
+    - bạn được xây dựng từ điều gì
+    - bạn sinh ra từ điều gì
+    - bạn được tạo ra từ gì
+    - bạn được sinh ra từ gì
+    - bạn được làm ra như thế nào
+    - bạn đã được làm theo phương pháp nào
+    - bạn có thể giải thích bạn đã được tạo ra như thế nào không
+    - bạn có thể nói bạn đã được xây dựng như thế nào không
+    - bạn có biết bạn đã được xây dựng như thế nào
+    - bạn có biết bạn đã được làm như thế nào
+    - họ đã xây dựng bạn như thế nào
+    - họ đã tạo ra bạn như thế nào
+    - họ đã làm bạn như thế nào
+    - làm thế nào bạn ra đời
+    - làm thế nào bạn đến được
+    - chính xác bạn đã nghĩ bạn ra đời như thế nào
+    - chính xác bạn đã làm như thế nào
+    - bạn đã được xây dựng như thế nào
+    - bạn đã được sinh ra như thế nào
+    - bạn đã nghĩ mình được sinh ra như thế nào
+    - bạn đã hình thành như thế nào
+    - bạn đã trở thành người như thế nào
+    - bạn đã làm thế nào để được sinh ra
+    - bạn đã được tạo ra như thế nào
+    - bạn đã thiết lập như thế nào
+    - tôi muốn biết làm thế nào bạn được hình thành
+    - tôi muốn biết làm thế nào bạn được tạo ra
+    - tôi muốn biết làm thế nào bạn được sinh ra
+    - bạn đã được xây dựng theo cách nào
+    - bạn đã được hình thành theo cách nào
+    - bạn đã được tạo ra theo cách nào
+    - bạn đã được làm theo cách nào
+    - bạn đã được định hình theo cách nào
+    - bạn đã được nghĩ ra bằng cách nào
+    - cho tôi biết làm thế nào để tạo ra bạn
+    - chỉ định cách bạn đã được tạo
+    - cho tôi biết bạn đã được thực hiện như thế nào
+    - quá trình nào được sử dụng để xây dựng bạn
+    - quá trình nào được sử dụng để tạo ra bạn
+    - quá trình làm ra bạn là gì
+    - bạn bắt nguồn từ những gì
+    - bạn đã được làm thế nào
+    - vậy bạn đã được làm thế nào
+    - bạn được làm như thế nào đấy

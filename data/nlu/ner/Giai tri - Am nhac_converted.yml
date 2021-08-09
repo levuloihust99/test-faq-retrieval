@@ -1,0 +1,35 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Phúc Bồ](PER) còn gây phẫn nộ khi có hành động thiếu tôn trọng [Mino](PER) ám chỉ chàng ca sĩ [Hàn Quốc](LOC) này là “trai bóng”
+    - [Lana Del Rey](PER) xác nhận sẽ ra tòa sau khi bị tố đạo nhạc của [Radiohead](ORG)
+    - [Lana Del Rey](PER) từ trước đến giờ luôn nổi tiếng với những ca khúc do chính mình sáng tác với chất nhạc ma mị và cực kì độc đáo, tin tức về nghi án đạo nhạc, dù có là thật hay không, chắc chắn sẽ “dội một gáo nước lạnh” lên cộng đồng người hâm mộ đông đảo của cô
+    - [Yoojung](PER) nhận được sự yêu mến của khán giả nhờ tính cách đáng yêu, vui vẻ nhưng cô cũng không tránh khỏi việc bị chỉ trích vì thái độ không đúng mực
+    - [Seo Woo](PER) từng bị chỉ trích là một người thiếu tế nhị khi xuất hiện trong show Happy Together
+    - [Kyuhyun](PER) tiếp tục đùa: “Tôi mà mở miệng là coi như chấm hết với [Goo Hara](PER)”
+    - [Hara](PER) đứng dậy và đáp lại: “Anh cũng chẳng hơn gì đâu”
+    - [Britney Spears](PER) lập tức trở thành cái tên được săn đón ở mọi nơi
+    - [Britney Spears](PER) sinh ngày 2-12-1981 trong một gia đình có 3 anh chị em ở [bang Missisippi](LOC), nhưng cô lớn lên ở [Kentwood](LOC), [bang Louisiana](LOC), [Mỹ](LOC)
+    - [Britney Spears](PER) mãi mãi là công chúa
+    - [Britney Spears](PER) nổi bật không chỉ với ngoại hình vô cùng xinh đẹp mà còn đặc biệt nổi tiếng bởi tài năng ca hát “trời phú” khi tuổi đời còn rất trẻ
+    - [Yanbi](PER) – [Yến Lê](PER) tung MV 'Ngày cưới' đầy ấn tượng
+    - [Camila Cabello](PER) sinh năm 1997, cô được biết đến khi tham gia chương trình tìm kiếm tài năng âm nhạc X-Factor, sau đó gia nhập [Fifth Harmony](ORG)
+    - [One Direction](ORG), nhóm nhạc cũ của [Zayn](PER) chưa từng giành được No.1 nhưng anh chàng lại dẫn đầu với ca khúc Pillow Talk
+    - [Britney Spears](PER) lập kỷ lục này năm 1999 với single và album đình đám …Baby One More Time
+    - [Bảo An](PER) vốn được biết đến là “hiện tượng YouTube” khi sở hữu 3 MV triệu lượt xem cùng rất nhiều MV ấn tượng khác
+    - [Block B](ORG) sở hữu phong cách âm nhạc được cho là độc đáo, nổi loạn, khác hẳn những boygroup debut cùng thời
+    - [BTOB](ORG) là nhóm nhạc nam debut năm 2012, thuộc Cube Entertainment
+    - [VIXX](ORG) từng nhiều lần gây ấn tượng bởi khả năng biến hóa concept "siêu đỉnh", đặc biệt với những concept mang hơi hướng "kinh dị"
+    - [Ravi](PER), [Leo](PER), [Hyuk](PER) còn cùng nhau soạn nhạc, sáng tác những bài hát trong album
+    - [BTOB](ORG), [Mamamoo](ORG), [Block B](ORG), [VIXX](ORG) đều có tiếng là tài năng trong Kpop nhưng tên tuổi của họ vẫn chưa có cơ hội 'bật' lên hẳn
+    - [Ed Sheeran](PER) có 2 tượng vàng hạng mục Album pop xuất sắc và Trình diễn pop xuất sắc, dù anh không đến nhận giải
+    - [Taylor Swift](PER) nhận giải Ca khúc nhạc đồng quê xuất sắc, trong khi [Rihanna](PER) nhận giải Màn trình diễn rap kết hợp hát hay nhất cùng [Kendrick Lamar](PER)
+    - [Brothers Osborne](PER), [Maren Morris](PER) và [Eric Church](PER) cùng nhau tưởng nhớ các nạn nhân trong vụ ném bom ở [Manchester Arena](LOC) cũng như vụ thảm sát tại [Las Vegas’s Route 91 Festival](MIS) trong ca khúc Tears In Heaven ([Eric Clapton](PER))
+    - [Janelle Monae](PER) cũng gửi thông điệp khẳng khái: “Chúng tôi đến trong hòa bình và chúng tôi muốn nói về những mặt trái của nền công nghiệp này
+    - [Hoài Lâm](PER) được biết đến là con nuôi nghệ sĩ [Hoài Linh](PER), sở hữu chất giọng ngọt ngào
+    - [Phương Mỹ Chi](PER) là cái tên sao nhí hot nhất làng [nhạc Việt](MIS) ngay từ thời điểm cô bé đi thi The Voice Kids mùa đầu tiên
+    - [Time](ORG) đánh giá "Mo Bounce" là ca khúc dở tệ
+    - [Time](ORG) cho rằng, "Swalla" là một màn trình diễn "vô thưởng, vô phạt" và sự xuất hiện của [Nicki Minaj](PER) cùng với [Jason Derulo](PER) được cho là khá thừa thãi
+    - [Katy Perry](PER) bị 'điểm tên' trong top 10 ca khúc dở nhất năm 2017
+    - [Time](ORG) cho rằng, nhạc của [Fall Ouy Boy](ORG) từ trước đến nay đều mang nội dung khá nặng nề

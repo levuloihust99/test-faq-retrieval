@@ -1,0 +1,10 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Nga](LOC) vừa công bố video vũ khí phòng không khai hỏa, trong đó có Buk-M3 - hệ thống phòng không có tính năng đánh chặn ấn tượng hơn cả S-400
+    - [Nước khoáng Chanh leo Thạch Bích](MIS) có ga PET 480ml là sản phẩm mới có đặc tính nổi bật, khác biệt với các dòng sản phẩm nước giải khát hiện có trên thị trường
+    - [George Eustice](PER), Bộ trưởng phúc lợi động vật tại [Bộ Môi trường, Thực Phẩm và Nông Nghiệp](ORG), cho biết: "Gắn chíp vào chó không những giúp đoàn tụ chủ và chó bị thất lạc mà còn giảm thiểu tình trạng chó đi lang thang ngoài đường, giảm gánh nặng cho những tổ chức từ thiện bảo vệ động vật và các nhà chức trách địa phương"
+    - [Thạch Bích](ORG) tin tưởng sản phẩm mới và bao bì mới này sẽ làm tăng giá trị cộng thêm của sản phẩm cho khách hàng và một lần nữa khẳng định giá trị thương hiệu [Thạch Bích](ORG) – Quà tặng vô giá của thời gian
+    - [Samsung](ORG) lưu ý loại pin này sẽ rất hữu ích cho xe điện, hiện đang mất rất nhiều thời gian để sạc
+    - [ADI](ORG) tích hợp các giải pháp phần cứng với ứng dụng IoT dựa trên công nghệ đám mây từ ThingWorx để phát triển một giải pháp hoàn chỉnh cho nông dân, cung cấp các ứng dụng và bảng điều khiển được xây dựng trên ThingWorx để hiểu rõ hơn và thực hiện các cải tiến

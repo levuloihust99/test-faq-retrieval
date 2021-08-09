@@ -1,0 +1,14 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Conway Lee](PER), Chủ tịch Tổng công ty [BenQ](ORG), cho biết: “W1700 mang đến cho người xem một tầm nhìn tuyệt vời về xem phim kỹ thuật số 4K trên màn hình lớn
+    - [BenQ W1700](MIS): Máy chiếu 4K cho gia đình công nghệ
+    - [Nokia 8](MIS) là smartphone cao cấp nhất của [Nokia](ORG)
+    - [Nokia](ORG) sử dụng cảm biến 13 megapixel cho cả 3 camera trên [Nokia 8](MIS)
+    - [Nokia 8](MIS) được trang bị chip xử lý Qualcomm Snapdragon 835, RAM 4 GB và bộ nhớ trong 64 GB
+    - [LG](ORG) đưa ra nhiều lựa chọn về màu sắc, chất liệu và phong cách thiết kế, giúp người dùng thích phong cách cổ điển hay hiện đại đều có thể chọn một model ưng ý
+    - [HP Sprocket Photo Printer](MIS) tương thích với cả hệ điều hành Android và iOS giúp cho việc sử dụng trở nên phổ thông hơn
+    - [LG Watch Style](MIS) cũng là một sự lựa chọn không thể bỏ qua
+    - [Sony](ORG) trang bị Android 8.0 Oreo làm nền tảng hệ điều hành gốc cho Xperia XA2 - điều này cũng có nghĩa là máy sẽ được tích hợp Project Treble - nên tảng giúp máy có thể cập nhật phiên bản Android mới nhanh hơn
+    - [Sony Xperia XA2](MIS) được trang bị viên pin lớn hơn nhiều so với XA1 với dung lượng tới 3300 mAh - đây là sự trang bị rất cần thiết cho một smartphone màn hình lớn như XA2

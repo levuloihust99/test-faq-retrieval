@@ -1,0 +1,82 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Hạnh Chi](PER) (T/h) Theo Đời sống Plus/[GĐVN](ORG)
+    - [Apple](ORG) vẫn trang bị phím Home vật lý tích hợp cảm biến vân tay Touch ID
+    - [Apple](ORG) âm thầm tăng giá bán iPad Pro, dù cấu hình không đổi
+    - [Apple](ORG) đã bất ngờ tăng giá bán iPad Pro 10.5 dù cấu hình và tính năng không hề thay đổi
+    - [Qualcomm Technologies](ORG) vừa công bố nền tảng di động [Qualcomm® Snapdragon™](MIS) sẽ được sử dụng trên điện thoại [ASUS ZenFone 4 Pro](MIS) với kết nối gigabit
+    - [Huawei](ORG) và [Intel](ORG) sẽ làm việc chặt chẽ để đẩy nhanh kỷ nguyên của 5G
+    - [Huawei](ORG) khởi động hợp tác 5G với [Intel](ORG) về sóng vô tuyến mới
+    - [Huawei](ORG) công bố hợp tác với [Intel](ORG) và giới thiệu sóng vô tuyến mới (new radio) 3GPP 5G dựa trên thử nghiệm phát triển khả năng tương tác (IODT), để kiểm tra các công nghệ 5G và mức độ trưởng thành của công nghệ
+    - [Mark](PER) nói: “Chúng tôi đã vẽ lại được sơ đồ kênh đào và đây chính là hệ thống quan trọng nhất giúp đưa đá tới chân [cao nguyên Giza](LOC)”
+    - [Kim tự tháp Giza](LOC) lớn nhất thế giới
+    - [Kim tự tháp Giza](LOC) xây vào năm 2.600 trước Công nguyên
+    - [Báo QĐND Online](ORG) trân trọng gửi tới bạn đọc một vài hình ảnh trong ngày kỹ thuật trên tàu CSB 4006
+    - [Apple](ORG) đã dành thêm "một món ngon" cho cụm camera trên iPhone X đó là tính năng chống rung quang học (OIS) trên cả 2 camera.Thêm nữa, ống kính tele có khẩu độ f/2.4 của iPhone X sẽ giúp cho hiệu ứng xóa phông cũng như việc chụp ở môi trường ánh sáng yếu tốt hơn
+    - [Kodak](ORG) vừa giới thiệu một ứng dụng và chatbot mới mà ở đó sẽ giúp người dùng tìm thấy những khoảnh khắc ấn tượng, trong số hàng ngàn bức ảnh mà họ đang lưu trữ trên Facebook lẫn điện thoại
+    - [Kodak](ORG) phát triển ứng dụng và chatbot giúp tìm ảnh quý lỡ quên
+    - [OnePlus](ORG) đã đem đến bộ cánh mới cho flagship con cưng [OnePlus 5](MIS) với những họa tiết dạng câu chữ viết tay
+    - [OnePlus 5](MIS) sở hữu màn hình 5.5 inch độ phân giải 2K, chip Snapdragon 835, RAM 8GB, ROM 128GB, camera kép (16 + 20 MP), camera selfie 16 MP, dung lượng pin 3.300 mAh
+    - [Hà Nội](LOC) và [TP.HCM](LOC) 'cạnh tranh' số người mắc ung thư
+    - [Apple](ORG) sắp đạt được thỏa thuận trị giá hàng tỷ đô la để sửa chữa vấn đề lưu trữ trên iPhone
+    - [Apple](ORG) dường như rất quan tâm đến việc đảm bảo vốn góp trong thương vụ mua lại bộ nhớ flash của [Toshiba](ORG)
+    - [Apple](ORG) lần đầu chứng kiến cảnh ít người xếp hàng mua iPhone mới
+    - [Apple](ORG) đã từ bỏ Touch ID trên iPhone X, thay vào đó sử dụng Face ID làm tính năng bảo mật mới thay thế cho sử dụng mật khẩu truyền thống và cho các khoản thanh toán
+    - [Harford](PER) nói: "Những thứ này phức tạp hơn rất nhiều"
+    - [Francesco Starace](PER), CEO của công ty điện lực lớn nhất nước [Ý](LOC) là [Enel](ORG), cho rằng ưu điểm chính của xe điện là không có thiết kế phức tạp về cơ khí, giúp cho chúng dễ triển khai các công nghệ xe tự lái
+    - [David Eyton](PER), người đứng đầu mảng công nghệ tại [tập đoàn dầu khí BP](ORG), cho biết: "Xe điện tự nó không tạo ra nhiều hiệu ứng
+    - [Reba](PER) nói thêm: "Sự kết hợp của mô hình kinh tế chia sẻ, xe điện và xe tự lái có thể làm đảo lộn mọi thứ, từ ngành kinh doanh bãi xe đến bảo hiểm, nhu cầu tiêu thụ dầu và ngành bán lẻ"
+    - [BP](ORG) dự báo các loại xe điện sẽ khiến nhu cầu tiêu thụ dầu chỉ giảm khoảng 1 triệu thùng/ngày vào năm 2035
+    - [Steven Martin](PER), giám đốc kỹ thuật số và phó chủ tịch đơn vị Năng lượng Kết nối của [General Electric](ORG), nói: "Sự kết hợp này sẽ tạo ra "mô hình [Uber](ORG) có cải tiến
+    - [Steam](ORG) cho biết nếu một nhà phát triển không định giá game tại một quốc gia, game của họ sẽ không được bán tại quốc gia đó
+    - [Steam](ORG) sẽ bán game giảm giá bằng [Việt Nam Đồng](MIS) trong Autumn và Winter Sale
+    - [Khách hàng Việt](MIS) chê iPhone 8 gia công kém, để lộ keo dán
+    - [Sao Mộc](LOC) tuyệt đẹp qua hình ảnh mới nhất của tàu Juno
+    - [Vivo V7+](MIS) bán ra [thị trường Việt](MIS) với mức giá 7.990.000 VNĐ gồm 2 màu chính: Vàng và Đen
+    - [Vivo V7+](MIS) Hiển Thị Tràn Màn Hình FullViewTM 5.99 inch có tỉ lệ màn hình đột phá 18:9 trong phân khúc tầm trung, giúp tăng thêm 12.5% góc hiển thị so với tỉ lệ truyền thống 16:9
+    - [Vivo V7+](MIS) được trang bị bộ vi xử lý [Qualcomm Snapdragon 450](MIS) 8 nhân và RAM 4GB, đảm bảo trải nghiệm người dùng luôn mượt mà và liền mạch
+    - [Qualcomm](ORG) tuyên bố, công nghệ Wi-Fi 11ad trên Zenfone 4 Pro cho phép người dùng có thể tải xuống và chia sẻ video chất lượng 4K hay đồng bộ hóa hình ảnh, video và các tập tin khác với tốc độ ấn tượng chỉ trong vài giây, dịch vụ đám mây với kết nối cực nhanh
+    - [Birdseye](PER) đã khám phá được kinh nghiệm khi làm việc ở vùng giá lạnh [Labrador](LOC) miền [Bắc Cực](LOC) và được người Inuit (Eskimo) truyền cho nghề đánh cá
+    - [Ekstedt](PER) và cả khoa thực phẩm & sinh học còn nghiên cứu cả về tiến trình đông lạnh
+    - [Ekstedt](PER), cả ba cách này đều là sai lầm, ngay cả cách để qua đêm trong tủ lạnh, vì cách này để quá nhiều thời giờ cho vi khuẩn phát triển, ngoài ra thực phẩm (cả thịt, cá, rau trái…) sẽ bị khô do mất nước nên vừa giảm chất lượng vừa không ngon
+    - [Per Einar Granum](PER), tiến sĩ vi sinh vật học tại [Đại học Khoa học Đời sống](ORG) ([Na Uy](LOC)), với thịt, nếu muốn hầm trong nồi thì có thể rã đông trong lò microwave, nhưng nếu muốn nướng thì không nên vì cách này làm cho thịt bị hỏng
+    - [Ekstedt](PER) và cả khoa thực phẩm & sinh học, kết luận: cách tốt nhất để rã đông thực phẩm là cho vào túi plastic buộc kín và đặt vào trong thau nước lạnh (cold water)
+    - [Susanne Ekstedt](PER), nhà nghiên cứu thuộc khoa thực phẩm và sinh học tại [Viện nghiên cứu kỹ thuật SP](ORG) ([Gothenburg](LOC), [Thụy Điển](LOC)), chúng ta đã rã đông sai cách
+    - [Apple](ORG) nên mừng khi người tiêu dùng chê iPhone 8?
+    - [Apple](ORG) hiếm khi không đạt được kỳ vọng lợi nhuận này, nhưng theo chuyên gia phân tích tại tổ chức [Guggenheim Partners](ORG), ông [Robert Cihra](PER), kể cả nếu [Apple](ORG) không đạt được mức doanh thu này trong quý Ba vì nguyên nhân người tiêu dùng chờ iPhone X hẳn điều đó cũng xứng đáng
+    - [Singapore](LOC) thí điểm triển khai [Apple Pay](MIS) cho phương tiện công cộng trong năm 2018
+    - [Matternet](ORG), có trụ sở tại [Menlo Park](LOC), [California](LOC) được cấp giấy phép hoạt động hệ thống máy bay không người lái tại các vùng đông dân cư ở [Thụy Sỹ](LOC)
+    - [Thụy Sỹ](LOC) cũng là quốc gia đầu tiên đưa công nghệ tiến tiến này vào hoạt động
+    - [Matternet](ORG) đã lên kế hoạch đưa dịch vụ vào hoạt động một cách rộng rãi
+    - [Thụy Sĩ](LOC) vận hành hệ thống máy bay không ngưới lái vào tháng tới
+    - [Matternet](ORG) cũng tuyên bố rằng trong tương lai những [trạm Matternet](LOC) có thể được đặt tại các cửa hàng tạp hóa cũng như là tại các trạm xăng
+    - [Matternet](ORG) cũng nói rằng, [Đức](LOC) và [Anh](LOC) sẽ là hai thị trường tiềm năng tiếp theo sau khi họ đã có chỗ đứng vững chắc tại [Thụy Sĩ](LOC)
+    - [Matternet](ORG) cho biết mỗi mạng lưới sẽ có từ một đến hai máy bay không người lái
+    - [Samsung Pay](MIS) ở [Việt Nam](LOC): Đã đến lúc để thẻ ATM ở nhà
+    - [Giang Hoàng Nhơn](PER) - [Duy Khoa](PER)
+    - [Samsung Pay](MIS) hoạt động dựa trên công nghệ “truyền dữ liệu an toàn qua từ tính” (Magnetic Secure Transmission - MST) và “giao tiếp không dây tầm gần” (Near Field Communication - NFC)
+    - [Samsung Pay](MIS) sẽ giúp người dùng ra đường không cần mang theo thẻ ATM hay tín dụng
+    - [Bành Tuấn An](PER) - reviewer các sản phẩm công nghệ tại môt nhà bán lẻ - cũng đánh giá cao sự tiện lợi của [Samsung Pay](MIS): “Cách thanh toán này thật sự rất thú vị
+    - [Samsung Pay](MIS) hoạt động với hầu hết máy quẹt thẻ (POS) thuộc [NAPAS](ORG)
+    - [NAPAS](ORG) đang quản trị và vận hành hệ thống chuyển mạch kết nối liên thông hơn 17.300 máy ATM, 270.600 máy POS, phục vụ hơn 100 triệu chủ thẻ của 46 ngân hàng và tổ chức tài chính trong nước và quốc tế đang hoạt động tại [Việt Nam](LOC)
+    - [Indonesia](LOC) hiện có 130 núi lửa hoạt động, nhiều hơn bất kỳ quốc gia nào trên thế giới
+    - [Indonesia](LOC) nằm trên "Vành đai Lửa [Thái Bình Dương](LOC)", nơi các tầng địa chất va chạm và gây ra 90% các trận động đất trên thế giới
+    - [MobiFone](ORG) hiện là chuỗi hệ thống bán lẻ đầu tiên tại thị trường [Việt Nam](LOC) đã triển khai chương trình bán smartphone kèm với gói cước viễn thông, theo đó các dòng điện thoại cao cấp và trung cấp tại đây được bán với mức giá rẻ hơn 70% so với giá thị trường, đồng thời khách hàng phải cam kết sử dụng gói cước viễn thông trong một thời gian nhất định
+    - [Samsung Galaxy Note 8](MIS) sẽ chính thức “lên kệ” tại toàn bộ hệ thống cửa hàng của [MobiFone](ORG) vào ngày 29/9 sắp tới"
+    - [Tim Cook](PER) nói gì khi iPhone X bị chê quá đắt?
+    - [Trung Quốc](LOC) thực hiện ca trồng răng bằng robot đầu tiên trên thế giới
+    - [Samsung Pay](MIS) mang đến một giải pháp thanh toán lạ nhưng đơn giản - đơn giản từ việc cài đặt, khai báo thông tin thẻ ngân hàng cho tới khi thanh toán ngoài thực tế
+    - [Đặng Trí Dũng](PER) cho biết: “Sản phẩm rất dễ sử dụng cho người dân do được thiết kế bằng [tiếng Việt](MIS), chỉ cần dùng các phím số trên bàn phím để lựa chọn và dùng các nút tăng giảm để điều khiển nhiệt độ, độ ẩm...”
+    - [Cục Viễn thông](ORG) cho biết thêm, trong bối cảnh thị trường viễn thông di động tại [Việt Nam](LOC) phát triển mạnh mẽ những năm gần đây, trên cơ sở tiếp thu khuyến nghị từ các tổ chức viễn thông thế giới mà [Việt Nam](LOC) là thành viên và đặc biệt là việc đàm phán ký kết hiệp định TPP sắp đi đến hồi kết, [Bộ TT&TT](ORG) đã chỉ đạo [Cục Viễn thông](ORG) và các doanh nghiệp viễn thông di động phối hợp, tổ chức triển khai Đề án Chuyển mạng giữ nguyên số để sớm cung cấp dịch vụ này cho người dân
+    - [SoundMax](ORG) bất ngờ tung ra mẫu tai nghe chơi game AH-323
+    - [SoundMax AH-323](MIS) có ngoại hình đơn giảnnhưng khá hấp dẫn, đệm mút dày êm, đèn LED xanh dương cùng thiết kế có thể runglắc theo điệu nhạc
+    - [SoundMax AH-323](MIS) cũng ứng dụng thiết kế củ tai tròn ôm trọn vành tai người dùng với phần nhựa mặt ngoài bọc lưới kim loại sơn màu tương phản và quan trọng là mỗi củ tai còn tích hợp đèn nền LED với biểu tượng làm bạn liên tưởng đến anh hùng Batman xanh dương lung linh huyền ảo
+    - [Cục Viễn thông](ORG) cho biết, khi thực hiện chính sách chuyển mạng giữ nguyên số sẽ đem lại quyền lựa chọn nhà cung cấp dịch vụ có chất lượng dịch vụ và lợi ích phù hợp hơn cho khách hàng
+    - [Cục Viễn thông](ORG) cho biết, để có thể đăng ký dịch vụ chuyển mạng, thuê bao chỉ cần phải chủ động khai báo, cập nhật đầy đủ thông tin thuê bao theo quy định của pháp luật hiện hành và đăng ký dịch vụ chuyển mạng tại nhà mạng chuyển đến
+    - [Cục Viễn thông](ORG) cho rằng, nới việc chủ động nắm bắt và làm chủ công nghệ, một số doanh nghiệp di động chỉ đầu tư nâng cấp phần cứng còn toàn bộ phần mềm triển khai dịch vụ được doanh nghiệp tự thiết kế, lập trình, triển khai
+    - [Công ty Trách nhiệm hữu hạn sản xuất cơ khí cầu trục NMC](ORG) đang thực hiện đề tài "Nghiên cứu thiết kế và triển khai hệ thống đỗ xe ô tô tự động tại [Việt Nam](LOC)” cho biết, công ty này đã phân tích các hệ thống đỗ xe tự động hiện nay ở nhiều nước [châu Á](LOC), từ đơn giản đến hiện đại và đưa ra các vấn đề cần quan tâm khi đầu tư hệ thống đỗ xe tự động tại [Việt Nam](LOC)
+    - [Nguyễn Hoàng Mai](PER) – [Viện NCPT Du lịch](ORG) cho rằng, cần đa dạng hóa các hệ thống sản phẩm du lịch, gia tăng giá trị cho sản phẩm du lịch; Nâng cao khả năng cạnh tranh; Phát triển thương hiệu du lịch độc đáo, thu hút khách du lịch thông qua các hiệu ứng mạng xã hội; Thu hút dòng khách trung cấp – cao cấp; Bảo tồn giá trị văn hóa, nâng cao sự tham gia của cộng đồng vào phát triển du lịch
+    - [Google](ORG) khẳng định không ăn theo bất cứ sản phẩm nào của [Apple](ORG) và smartphone của nhà sản xuất này được định giá dựa trên những công nghệ mà chúng sở hữu
+    - [CNN](ORG) cho biết chúng ta đang đứng bên bờ của kỳ đại tuyệt chủng thứ sáu với 3/4 số loài có thể biến mất vĩnh viễn

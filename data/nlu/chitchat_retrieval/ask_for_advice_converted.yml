@@ -1,0 +1,170 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_if_user_should
+  examples: |
+    - tôi có nên đi bộ không
+    - tôi có nên tắm nắng không
+    - tôi có nên đi xem phim không
+    - tôi có nên ra ngoài tối nay
+    - tôi có nên ra ngoài ăn không
+    - tối nay tôi có nên ra ngoài nhảy không
+    - tôi có nên đi du lịch không
+    - tôi có nên ăn kiêng không
+    - tôi có nên đi xe đạp không
+    - tôi có nên đi nhảy dù
+    - tôi có nên chạy bộ không
+    - tôi có nên đi đến một bảo tàng
+    - tôi có nên đi làm lại không
+    - tôi có nên đi học lại không
+    - tôi có nên lấy ra gì đó không
+    - tôi có nên xỏ lỗ tai không
+    - tôi có nên kết hôn không
+    - tôi có nên giao đồ ăn không
+    - tôi có nên ly hôn không
+    - tôi có nên đập phá không
+    - tôi có cần một công việc mới không
+    - tôi có nên đi làm không
+    - tôi có nên đi trị liệu không
+    - tôi có nên đăng lên facebook không
+    - tôi có nên chơi nhạc không
+    - tôi có nên di chuyển không
+    - tôi có nên di chuyển ra ngoài
+    - tôi có nên chuyển đến
+    - tôi có nên nghe nhạc không
+    - tôi có nên nâng tạ không
+    - tôi có nên có con không
+    - tôi có nên đi mua sắm
+    - tôi có nên ăn chay không
+    - tôi có nên có một con chó con
+    - tôi có nên đi sở thú không
+    - tôi có nên đi đến cửa hàng
+    - tôi có nên đi dự tiệc không
+    - tôi có nên đi chơi game không
+    - tôi có nên đi đến buổi hòa nhạc
+    - tôi có nên đi biển không
+    - tôi có nên đi đến quán bar không
+    - tôi có nên đi nhà thờ không
+    - tôi có nên uống thêm một tách cà phê
+    - bạn có nghĩ rằng tôi nên chơi một trò chơi
+    - tôi có nên xăm không
+    - tôi có nên mua xe hơi không
+    - tôi có nên mua thuyền không
+    - tôi có nên mang ô không
+    - tôi có nên trở thành người thuần chay
+    - tôi có nên nướng bánh không
+    - tôi không biết tôi phải làm gì
+    - tôi có nên mua một chiếc thuyền mới
+    - bạn có nghĩ tôi nên hát một bài hát không
+    - tôi có nên mua một chiếc xe mới
+    - bạn có nghĩ rằng tôi nên đi đến cửa hàng
+    - bạn có nghĩ tôi nên chạy bộ không
+    - bạn có nghĩ rằng tôi nên làm điều đó
+    - bạn có nghĩ rằng tôi nên hỏi anh ấy
+    - bạn có nghĩ tôi nên hỏi cô ấy không
+    - bạn có nghĩ rằng tôi cần cắt tóc
+    - tôi có cần ra ngoài không
+    - tôi có cần đánh răng không
+    - bạn có nghĩ rằng tôi nên xem một bộ phim
+    - tôi có nên uống soda
+    - tôi có nên làm việc bán thời gian không
+    - tôi có nên nhận một công việc mới không
+    - tôi có nên cắt tóc không
+    - tôi có nên tìm bạn cùng phòng mới không
+    - tôi có nên tìm một căn hộ mới không
+    - tôi có nên ăn thức ăn Thái không
+    - tôi có nên ăn thức ăn Mexico
+    - tôi có nên mua nhà không
+    - tôi có nên uống nước
+    - tôi có nên nghỉ việc không
+    - tôi có nên uống cà phê không
+    - tôi có nên làm bài tập về nhà không
+    - tôi có nên chải tóc không
+    - tôi có nên gọi cho chị tôi không
+    - tôi có nên gọi cho mẹ tôi không
+    - tôi có nên gọi cho bố tôi không
+    - tôi có nên gọi anh tôi không
+    - tôi có nên mua cà phê không
+    - tôi có nên mua nhà mới không
+    - tôi có nên ăn thức ăn Trung Quốc
+    - tôi nên làm gì cho bữa sáng
+    - tôi có nên đăng lên instagram không
+    - tôi nên đi đâu
+    - tôi nên đi đâu tiếp theo
+    - Bạn sẽ làm gì nếu bạn là tôi
+    - tôi nên hát bài hát nào
+    - tôi nên nghe bài hát nào
+    - hôm nay tôi nên mặc gì
+    - tôi nên nói gì
+    - bạn sẽ đi đâu nếu bạn là tôi
+    - tôi nên làm gì cho bữa tối
+    - tôi nên hỏi ai
+    - tôi nên ăn gì vào bữa trưa
+    - tôi nên ăn gì cho bữa tối
+    - Những gì tôi nên có cho bữa sáng
+    - tôi nên ăn gì cho bữa sáng
+    - tôi nên làm gì
+    - tôi nên làm gì sáng nay
+    - tôi nên làm gì chiều nay
+    - tôi nên làm gì cho bữa trưa
+    - bạn sẽ chạy nếu bạn là tôi
+    - bạn sẽ thử nếu bạn là tôi
+    - bạn sẽ đi du lịch nếu bạn là tôi
+    - bạn sẽ nhắn tin cho anh ấy nếu bạn là tôi
+    - bạn sẽ nhắn tin cho cô ấy nếu bạn là tôi
+    - bạn sẽ có một chuyến đi nếu bạn là tôi
+    - bạn sẽ ở nhà nếu bạn là tôi
+    - bạn sẽ chơi một trò chơi nếu bạn là tôi
+    - bạn sẽ đi ăn chay nếu bạn là tôi
+    - tôi nên đi đâu vào kì nghỉ
+    - bạn sẽ đi học nếu bạn là tôi
+    - tôi nên làm gì khi lớn lên
+    - bạn sẽ nhận được tiếng nổ nếu bạn là tôi
+    - bạn sẽ tập yoga nếu bạn là tôi
+    - bạn sẽ làm điều đó nếu bạn là tôi
+    - bạn sẽ hỏi họ nếu bạn là tôi
+    - bạn sẽ bầu cho ai nếu bạn là tôi
+    - tôi nên sống với ai
+    - tôi nên đi chơi với ai
+    - tôi nên ngủ với ai
+    - bạn sẽ đi làm nếu bạn là tôi
+    - tôi có nên đi du học không
+    - tôi có nên thử đá bóng không
+    - tôi có nên đi du lịch
+    - tôi có nên tổ chức một bữa tiệc
+    - tôi có nên nhắn tin cho anh ấy không
+    - tôi có nên nhắn tin cho cô ấy không
+    - tôi có nên đi xe buýt không
+    - tôi có nên lấy nó
+    - tôi có nên đi dạo không
+    - tôi nên làm gì tiếp theo
+    - tôi có nên nghỉ một ngày không
+    - tôi có nên tweet không
+    - tôi có nên ở nhà ốm không
+    - tôi có nên ở nhà không đi làm
+    - tôi có nên bắt đầu kinh doanh không
+    - tôi có nên nghỉ học không
+    - tôi có nên bỏ lớp không
+    - tôi có nên đi xe đạp đi làm không
+    - tôi có nên đọc một cuốn sách
+    - bạn sẽ xem phim nếu bạn là tôi
+    - tôi có nên bỏ phiếu cho đảng cộng hòa
+    - tôi nên xem phim gì
+    - tôi nên chơi trò chơi gì
+    - tôi nên thử cái gì nữa
+    - bạn nghĩ tôi nên làm gì
+    - tôi nên thử cái gì
+    - Tôi phải làm gì bây giờ
+    - tôi được phép nói gì
+    - tôi được phép làm gì
+    - tôi có nên thử chế độ ăn keto
+    - tôi có nên thử yoga không
+    - tôi có nên bỏ phiếu cho át chủ bài
+    - tôi có nên bỏ phiếu cho harris
+    - tôi có nên bỏ phiếu cho beto
+    - tôi nên bỏ phiếu dân chủ
+    - tôi có nên đến thăm em gái tôi không
+    - tôi có nên đến thăm mẹ tôi không
+    - tôi có nên đến thăm bố tôi không
+    - tôi có nên đến thăm anh trai tôi không
+    - tôi nên làm gì sau này
+    - tôi có nên ra ngoài không

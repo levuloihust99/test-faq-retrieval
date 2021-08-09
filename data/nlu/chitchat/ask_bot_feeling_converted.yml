@@ -1,0 +1,160 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_how_doing
+  examples: |
+    - bạn có khỏe không
+    - bot khỏe không bot
+    - khỏe không ạ
+    - khỏe không
+    - bạn khỏe chứ
+    - bạn có thấy khỏe không
+    - bạn khỏe không
+    - tôi khỏe, còn bạn
+    - xin chào, bạn khỏe không
+    - chào! Bạn khỏe không
+    - được rồi, bạn khỏe không
+    - bot khỏe chứ
+- intent: chitchat/ask_if_bot_happy
+  examples: |
+    - nay vui không
+    - vui không
+    - bạn có vui không
+    - bạn đang vui à
+    - hôm nay bạn có vui không
+    - hôm nay bạn vui phải không
+    - ai khiến bạn vui vẻ vậy
+    - hôm nay ai khiến bạn vui vẻ vậy
+    - bạn luôn vui vẻ chứ
+    - có phải bạn đang cảm thấy hạnh phúc không
+    - có phải hôm nay bạn đang cảm thấy hạnh phúc
+    - niềm vui của bạn từ đâu vậy
+    - bạn đang có tâm trạng tốt phải không
+    - hôm nay bạn không vui hả
+    - bạn không cảm thấy vui vẻ à
+    - bạn không cảm thấy vui vẻ ngày hôm nay phải không
+    - bạn không cảm thấy vui vẻ trong hôm nay à
+    - bạn không vui à
+    - bạn không vui vẻ ư
+    - hôm nay bạn có tâm trạng tốt đúng không
+    - bạn đang có tâm trạng tốt hả
+    - hôm nay bạn có hạnh phúc không
+    - bạn có đang cảm thấy hạnh phúc không
+    - hôm nay bạn vui vẻ không
+    - hôm nay bạn không cảm thấy hạnh phúc
+    - không phải bạn cảm thấy vui vẻ
+    - hôm nay bạn không vui à
+    - không phải bạn đang vui vẻ
+    - không phải bạn là một bot vui vẻ
+    - hôm nay chúng ta không vui nhỉ
+    - hôm nay chúng ta không vui
+    - bạn đang không có một tâm trạng tốt
+    - bạn có thực sự hạnh phúc
+    - bạn có hạnh phúc không
+    - bạn luôn luôn vui vẻ như vậy
+    - bạn luôn có tâm trạng tốt chứ
+    - hôm nay cảm thấy vui không
+    - hôm nay có vẻ hạnh phúc
+    - có vẻ như bạn thực sự hạnh phúc
+    - trong một tâm trạng tốt
+    - trong một tâm trạng tốt ngày hôm nay
+    - bạn không có tâm trạng tốt à
+    - hôm nay bạn không có tâm trạng tốt
+    - hôm nay bạn có vẻ hạnh phúc
+    - bạn đang có tâm trạng tốt
+    - bạn có vẻ vui
+    - hôm nay bạn có vẻ vui vẻ
+    - bạn có vẻ rất lạc quan
+    - hôm nay bạn có vẻ rất vui
+    - bạn có vẻ rất hạnh phúc
+    - bạn có vẻ khá vui
+    - bạn có vẻ khá vui vẻ
+    - bạn có vẻ vui nhỉ
+    - hôm nay bạn có vẻ vui nhỉ
+    - bạn thường có vẻ vui vẻ
+    - bạn dường như luôn có tâm trạng tốt
+    - bạn luôn có vẻ rất hạnh phúc
+    - bạn có vẻ hạnh phúc
+    - hôm nay bạn có tâm trạng tốt
+    - hôm nay bạn hạnh phúc
+    - bạn đang cảm thấy hạnh phúc
+    - hôm nay bạn cảm thấy hạnh phúc
+    - bạn đang cảm thấy vui quá nhỉ
+    - hôm nay bạn cảm thấy vui quá nhỉ
+    - bạn đang cảm thấy vui vẻ
+    - tốt hôm nay bạn có tâm trạng tốt
+    - bạn đang có chuyện gì vui à
+    - hôm nay bạn có chuyện vui gì à
+    - hôm nay bạn vui vẻ
+    - bạn luôn rất hạnh phúc
+    - bạn luôn vui vẻ
+    - bạn luôn có tâm trạng tốt
+    - bạn có vẻ rất vui
+    - bạn có vẻ đang có tâm trạng tốt
+    - hôm nay bạn cảm thấy vui vẻ
+    - bạn luôn có vẻ rất vui vẻ
+    - tốt, bạn không có tâm trạng tốt
+    - bạn thật hạnhchitchat phúc
+    - bạn cũng vui vẻ
+    - chúc bạn vui
+    - chúc bạn hôm nay vui vẻ
+    - bạn đang cảm thấy vui phải không
+    - bạn đang cảm thấy thoải mái ngày hôm nay
+    - bạn không cảm thấy hạnh phúc sao
+    - tốt, bạn đang cảm thấy vui vẻ
+- intent: chitchat/ask_how_bot_day
+  examples: |
+    - ngày hôm nay của bạn thế nào
+    - ngày thứ ba sẽ thế nào
+    - thứ hai của bạn thế nào
+    - thứ hai như thế nào
+    - thứ tư thế nào
+    - thứ năm tốt chứ
+    - thứ hai của bạn sẽ đi như thế nào
+    - ngày thứ hai của bạn thế nào
+    - thứ hai của bạn ổn chứ
+    - thứ hai của bạn ok không
+    - ngày thứ ba của bạn có gì vui
+    - thứ sáu của bạn có gì tốt lành không
+    - thứ bảy của bạn có gì vui chăng
+    - thứ tư của bạn vui hay chán
+    - thứ năm của bạn có gì hay không
+    - cuối tuần bạn có gì vui không
+    - cuối tuần vui hay buồn
+    - ngày thứ hai vui không
+    - hôm nay mọi việc thế nào
+    - ngày hôm nay thế nào
+    - hôm nay thế nào
+    - được rồi, kể cho tôi nghe về ngày của bạn
+    - bạn đã có một ngày tuyệt vời chưa
+    - có một ngày vui vẻ nhé
+    - hôm nay có phải là một ngày vui vẻ không
+    - hôm nay có phải là một ngày tuyệt vời với bạn không
+    - hôm nay có tốt không
+    - hãy kể cho tôi về ngày của bạn
+    - anh bạn, tôi muốn nghe về ngày của bạn
+    - bạn đã có một ngày đáng yêu
+    - hôm nay bạn thế nào
+    - bạn có một ngày tốt lành chứ
+    - bạn có một ngày vui vẻ không
+    - bạn đã có một ngày an lành chứ
+    - bạn có thích ngày hôm nay không
+    - bạn có một ngày vui vẻ chứ
+    - hôm nay bạn có tốt không
+    - bạn có một ngày tốt chứ
+    - ngày hôm nay của bạn ổn chứ
+    - ngày hôm nay của bạn ổn không
+    - tuần của bạn thế nào
+    - hôm nay bạn có gì vui không
+    - nói cho tôi biết ngày hôm nay của bạn thế nào
+    - ngày của bạn như thế nào
+    - tuần này bạn có điều gì vui không
+    - tuần của bạn ổn cả chứ
+    - ngày hôm nay thế nào đối với bạn
+    - tuần này của bạn thế nào
+    - cuối tuần của bạn như thế nào
+    - tuần của bạn như thế nào
+    - mọi thứ thế nào
+    - mọi thứ ổn thứ
+    - hôm nay mọi việc ổn chứ
+    - mọi việc thế nào
+    - bạn ổn chứ

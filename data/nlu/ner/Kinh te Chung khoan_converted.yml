@@ -1,0 +1,8 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Hoa Sen Group](ORG) tiếp tục "ngập" trong nợ vay
+    - [Hoa Sen Group](ORG): Nợ vay tăng 'chóng mặt' lên trên 17.000 tỷ, gấp 3 lần vốn tự có
+    - [Tập đoàn Hoa Sen](ORG) ([Hoa Sen Group](ORG)) vừa công bố báo cáo tài chính quý I niên độ 2017 – 2018 (từ ngày 1/10/2017 – 31/12/2017), theo đó, doanh thu thuần quý vừa qua của [Hoa Sen Group](ORG) đạt 7.886 tỷ đồng, tăng 37% so với cùng kỳ niên độ trước
+    - [Công ty Cổ Phần Thế Giới Số](ORG) ([Digiworld Corporation](ORG) – 'DGW') vừa công bố báo cáo tài chính hợp nhất Quý IV/2017

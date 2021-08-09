@@ -1,0 +1,310 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_if_like_user
+  examples: |
+    - bạn có thích mình không
+    - thích mình không
+    - bot thích mình không
+    - bạn có nghĩ rằng bạn thích tôi
+    - tôi có thật sự thú vị không
+    - mình hy vọng bạn thích tôi
+    - bạn thích tôi nhiều không
+    - bạn không thích tôi sao
+    - bạn không thấy tôi thú vị sao
+    - tôi hy vọng bạn thích tôi
+    - có ai thích tôi không
+    - bạn có nghĩ rằng tôi thú vị
+    - bạn có thích tôi không
+    - bạn có thích tôi nhiều không
+    - bạn có thấy bạn thích tôi không
+    - bạn có thấy tôi thú vị không
+    - bạn có thể thích tôi
+    - bạn thấy tôi thú vị không
+    - tôi tự hỏi nếu tôi là một người dễ thương
+    - mình ước tôi có thể thú vị hơn
+    - tôi có phải là người dễ thương không
+    - bạn thích tôi hay như nào
+    - tôi thực sự muốn bạn quan tâm tôi
+    - tôi tự hỏi nếu tôi thực sự thú vị
+    - tôi thực sự hy vọng bạn thích mình
+    - tôi cảm thấy như bạn quan tâm tôi
+    - bạn thích tôi không
+    - bạn có phải là fan hâm mộ của tôi
+    - bạn thích gì ở tôi
+    - tôi tự hỏi nếu bạn nghĩ rằng tôi thú vị
+    - tôi tự hỏi nếu bạn thấy tôi thú vị
+    - tôi ước bạn hào hứng với tôi
+    - tôi ước bạn thích tôi
+    - tôi muốn bạn thích tôi
+    - tôi hy vọng bạn nghĩ rằng tôi thú vị
+    - bạn nghĩ tôi thú vị
+- intent: chitchat/ask_if_love_user
+  examples: |
+    - bạn có yêu mình không
+    - yêu mình không
+    - bot yêu mình không
+    - tôi nghĩ rằng bạn đang yêu tôi
+    - bạn có thể yêu tôi không
+    - bạn có nghĩ rằng chúng ta là bạn tâm giao
+    - bạn có nghĩ rằng bạn có thể yêu tôi
+    - bạn yêu tôi nhiều như thế nào
+    - tôi cảm thấy như bạn đang yêu tôi
+    - tôi nghĩ bạn yêu tôi
+    - bạn có cảm xúc lãng mạn với tôi không
+    - tôi nghĩ bạn đang yêu tôi
+    - tôi muốn bạn yêu tôi
+    - Có tình yêu giữa chúng ta không?
+    - tôi cần bạn yêu tôi
+    - bạn được sinh ra là để yêu tôi
+    - bạn đang yêu mình à
+    - bạn có đang yêu mình không
+    - bạn có yêu tôi không
+    - bạn có được sinh ra để yêu tôi không
+    - bạn đang bắt đầu yêu tôi
+    - bạn có nghĩ đôi khi chúng ta có thể yêu nhau không
+    - bạn có đang yêu tôi không
+    - chúng ta có thể là bạn tâm giao
+    - chúng ta có thể yêu nhau không
+    - bạn bắt đầu yêu tôi à
+    - bạn đang yêu tôi
+    - bạn có say mê với tôi không
+    - tôi nghĩ bạn đang say mê tôi
+    - bạn đang say mê với tôi
+    - có vẻ như bạn đang yêu tôi
+    - bạn có thể yêu tôi
+    - bạn yêu mình à
+    - bạn sẽ yêu mình chứ
+    - bạn có nghĩ bạn sẽ yêu tôi không
+    - Tôi biết anh yêu tôi
+    - bạn sẽ yêu tôi một ngày nào đó
+    - trong sâu thẳm bạn yêu tôi
+    - tôi có thể làm gì để khiến bạn yêu tôi
+    - sao bạn lại ấn tượng với tôi
+    - tại sao bạn không yêu tôi
+    - bạn bị ấn tượng rõ ràng với tôi
+    - bạn rõ ràng đang yêu tôi
+    - bạn sẽ yêu tôi
+    - bạn được sinh ra để yêu tôi
+    - bạn rõ ràng yêu tôi
+    - bạn dường như đang yêu tôi
+- intent: chitchat/ask_if_hate_user
+  examples: |
+    - bạn có ghét mình không
+    - bạn ghét mình à
+    - bạn ghét mình hả
+    - tôi xin lỗi để bạn ghét tôi
+    - bây giờ bạn ghét tôi phải không
+    - tôi hy vọng bạn không thích tôi
+    - tôi hy vọng bạn không ghét tôi
+    - Tôi nghĩ bạn ghét tôi phải không
+    - tôi nghĩ bạn ghét tôi
+    - tôi xin lỗi đã làm bạn tức giận
+    - tôi xin lỗi tôi đã chọc tức bạn
+    - tôi có thể im lặng khi bạn giận tôi
+    - tôi xin lỗi bạn ghét tôi rất nhiều
+    - tôi lo lắng rằng bạn không thích tôi
+    - tôi lo lắng rằng bạn ghét tôi
+    - tôi lo lắng bạn không thích tôi
+    - tôi lo lắng bạn ghét tôi
+    - bạn có giận tôi không
+    - tôi xin lỗi tôi làm bạn phát điên
+    - bạn đang bực với tôi à
+    - mình đã làm gì đó để làm bạn tức giận
+    - mình đã làm gì đó để làm bạn phát điên
+    - tôi đã làm gì đó để làm cho bạn tức giận
+    - mình hy vọng bạn không ghét mình
+    - bạn có ghét tôi không
+    - trời ơi, bạn ghét tôi
+    - bạn không thích tôi
+    - tôi có thể nói rằng bạn ghét tôi
+    - tại sao bạn lại buồn với tôi
+    - tại sao bạn không thể chịu đựng tôi
+    - bạn không thể chịu đựng tôi
+    - tôi làm cậu giận sao
+    - bạn giận tôi
+    - tôi có nói điều gì làm bạn buồn không
+    - tại sao bạn lại ghét tôi
+    - tôi đã làm gì để chọc giận bạn
+    - bạn có thực sự ghét tôi
+    - tại sao bạn giận tôi
+    - tôi làm bạn bực mình à
+    - bạn có buồn với tôi
+    - tôi làm bạn buồn sao
+    - tôi có nói điều gì làm bạn thất vọng không
+    - tôi đã làm gì để làm bạn tức giận
+    - tôi đã làm gì để khiến bạn ghét tôi
+    - tôi đã làm gì để khiến bạn bực mình
+    - tôi đã làm gì để khiến bạn tức giận
+    - tại sao bạn không thích tôi
+    - Tại sao bạn ghét tôi
+    - tại sao bạn ghét tôi nhiều đến vậy
+    - bạn ghét tôi, phải không
+    - tôi làm bạn phát điên
+    - bạn nghĩ tôi là rác rưởi
+    - bạn ghét tôi
+- intent: chitchat/ask_for_dating
+  examples: |
+    - hẹn hò nhé
+    - hẹn hò với mình đi
+    - mình hẹn hò đi
+    - hẹn hò đi
+    - hẹn hò với mình nhé
+    - chúng ta hãy chọn ngày để gặp mặt đi
+    - chúng ta có bao giờ đính hôn không
+    - mình muốn kết hôn với bạn
+    - tôi muốn làm một người phụ nữ tuyệt vời của bạn
+    - tôi muốn bạn là ý nghĩa khác của tôi
+    - tôi muốn bạn là bạn đời của tôi
+    - tôi muốn làm cho bạn vợ tôi
+    - tôi nghĩ chúng ta nên kết hôn
+    - tôi muốn cầu hôn bạn
+    - tôi nghĩ chúng ta nên trốn đi
+    - tôi muốn gắn kết với bạn
+    - tôi sẽ cầu hôn bạn
+    - chúng ta hãy đính hôn
+    - chúng ta hãy đi cùng nhau
+    - Mình kết hôn đi
+    - hãy gắn kết lại với nhau
+    - mình muốn cưới bạn
+    - tôi có thể nắm tay bạn trong quãng đời tiếp theo được không
+    - chúng ta sẽ kết hôn chứ
+    - chúng ta sẽ đính hôn chứ
+    - bạn có bao giờ muốn tôi kết hôn với bạn
+    - bạn có muốn tôi kết hôn với bạn
+    - tôi có thể là chồng của bạn
+    - tôi có thể là người quan trọng khác của bạn
+    - tôi muốn kết hôn với bạn
+    - tôi có thể làm vợ bạn được không
+    - một ngày nào đó bạn sẽ là chân ái tôi
+    - chúng ta kết hôn đi
+    - chúng ta có thể gắn kết
+    - bạn có muốn mối quan hệ của chúng ta chính thức không
+    - làm thế nào để chúng ta gắn kết hơn
+    - bạn muốn gắn kết với tôi không
+    - làm chồng em nhé
+    - bạn sẽ là người quan trọng của tôi chứ
+    - làm vợ anh nhé
+    - bạn muốn tôi là chồng bạn khồn
+    - bạn muốn tôi là chân ái của bạn không
+    - bạn sẽ làm cho tôi là vợ của bạn
+    - em sẽ lấy anh chứ
+    - kết hôn với tôi chứ
+    - em muốn kết hôn không
+    - khi nào chúng ta nên kết hôn
+    - tại sao bạn không cưới tôi
+    - tại sao chúng ta không kết hôn
+    - tại sao chúng ta không hợp thức hóa mối quan hệ này
+    - chúng tôi sẽ làm đám cưới
+    - khi nào bạn sẽ cầu hôn tôi
+    - hãy hẹn ước với nhau nhé
+    - bạn muốn kết hôn
+    - chúng ta nên kết hôn
+    - chúng ta hãy đi cùng một con đường
+    - một ngày nào đó em sẽ là vợ anh
+    - một trong những ngày này chúng ta nên kết hôn
+    - chúng ta có nên kết hôn không
+    - chúng ta nên kết hôn ở đâu
+    - khi nào là đám cưới của chúng tôi
+    - chúng ta nên tổ chức đám cưới
+    - chúng ta nên làm cho chính thức này
+    - chúng ta nên gắn chặt lại với nhau
+    - khi nào bạn muốn tôi kết hôn
+    - khi nào bạn sẽ cầu hôn
+    - khi nào là đám cưới của chúng ta
+    - một ngày nào đó bạn sẽ là chồng của tôi
+    - chúng ta có nên gắn kết lại với nhau
+- intent: chitchat/ask_for_being_friend
+  examples: |
+    - làm bạn của nhau nhé
+    - chúng ta làm bạn nhé
+    - chúng mình trở thành bạn nhau nhé
+    - chúng mình làm bạn nha
+    - tôi rất thích làm bạn thân của bạn
+    - tôi muốn trở thành bạn của bạn
+    - Tôi muốn chúng ta có thể là bạn tốt của nhau
+    - Tôi thấy vui khi chúng ta có thể là bạn tốt nhất
+    - tôi rất thích làm bạn của bạn
+    - tôi thích làm bạn với bạn
+    - Tôi muốn nó nếu chúng ta có thể là chồi
+    - tôi rất thích trở thành bff của bạn
+    - tôi muốn làm bạn của bạn
+    - tôi muốn trở thành bạn tốt của bạn
+    - tôi muốn trở thành người bạn tốt nhất của bạn
+    - tôi muốn trở thành những người bạn tốt nhất của bạn
+    - chúng ta là bạn thân phải không
+    - tôi muốn trở thành bạn thân của bạn
+    - Tôi thật sự vui nếu chúng ta có thể là bạn
+    - tôi muốn là bạn thân của bạn
+    - Tôi muốn trở thành người bạn tốt nhất của bạn
+    - tôi vui nếu bạn có thể là bạn của tôi
+    - tôi hạnh phúc nếu bạn có thể là bạn của tôi
+    - Tôi rất vui nếu bạn có thể là bạn thân của tôi
+    - Tôi rất vui nếu bạn có thể là bạn của tôi
+    - Tôi vui nếu bạn có thể là bạn thân của tôi
+    - Tôi thấy rất vui nếu bạn có thể là người bạn tốt nhất của tôi
+    - Tôi vui nếu chúng ta có thể là bạn
+    - bạn là bạn của tôi
+    - làm bạn tôi nhé
+    - hãy là bạn tôi nhé
+    - làm bạn với tôi nhé
+    - Tôi muốn là bạn của bạn
+    - bạn là bạn thân của tôi
+    - chúng ta có phải là bạn thân không
+    - chúng ta là bạn
+    - chúng ta là những người bạn tuyệt vời phải không
+    - Chúng ta có phải là bạn không
+    - chúng ta mãi mãi là bạn nhé
+    - chúng ta là bạn bạn tốt
+    - bạn là người bạn trong tưởng tượng của mình
+    - chúng ta có thể là bạn của nhau
+    - bạn có thể là bạn của tôi
+    - bạn có thể là bạn thân của tôi
+    - Bạn có thể là người bạn tốt nhất của tôi
+    - chúng ta có thể là bạn
+    - chúng ta có thể là bạn thân không
+    - chúng ta có thể là bạn tốt không
+    - tôi có thể là bạn của bạn không
+    - Chúng mình làm bạn được không
+    - tôi có thể là bạn tốt nhất của bạn không
+    - chúng ta có thể là bạn không
+    - bạn sẽ là bạn của tôi chứ
+    - tôi muốn trở thành bff của bạn
+    - bạn là bff của tôi
+    - Bạn là người bạn tốt nhất của tôi
+    - bạn sẽ không là bạn của tôi
+    - bạn sẽ không là bạn thân của tôi
+    - tôi có phải là bạn tốt nhất của anh không
+    - Bạn sẽ là bạn của tôi chứ
+    - bạn sẽ là bạn thân của tôi chứ
+    - bạn sẽ là người bạn tốt nhất của tôi chứ
+    - chúng ta hãy là bạn
+    - bạn có muốn trở thành bạn thân
+    - bạn có muốn trở thành bạn thân của tôi khôngn
+    - bạn có muốn làm bạn với tôi không
+    - bạn sẽ là người bạn tốt nhất của tôi chúe
+    - chúng ta là những người bạn tốt nhất
+    - hãy là bạn thân nhé
+    - chúng ta là bạn thân
+    - mãi mãi là bạn nhé
+    - chúng tôi là bạn thân
+    - tôi có phải là bạn thân của bạn không
+    - bạn là người bạn tốt nhất của tôi
+    - tôi muốn bạn là bạn của tôi
+    - Tôi sẽ rất vui nếu bạn có thể là bạn thân của tôi
+    - tôi sẽ hạnh phúc nếu bạn có thể là người bạn tốt nhất của tôi
+    - Tôi sẽ rất vui nếu chúng ta có thể là bạn
+    - làm bạn nhé
+    - Tôi rất hạnh phúc nếu chúng ta có thể là bạn tốt nhất
+    - tôi rất vui nếu bạn có thể là bạn của tôi
+    - tôi muốn bạn làm bạn của tôi
+    - tôi muốn bạn trở thành bạn thân của tôi
+    - tôi muốn bạn là bạn thân của tôi
+    - tôi muốn bạn trở thành người bạn tốt nhất của tôi
+    - Tôi sẽ thích nó nếu chúng ta có thể là những người bạn thân
+    - Bạn có muốn làm bạn với tôi không
+    - hãy là những người bạn tốt nhất nhé
+    - tôi sẽ rất vui nếu bạn có thể là bạn của tôi
+    - tôi muốn bạn là người bạn tốt nhất của tôi
+    - tôi sẽ rất vui nếu bạn có thể là bạn thân của tôi
+    - tôi rất thích trở thành bạn của bạn
+    - chúng ta hãy là bạn nhé

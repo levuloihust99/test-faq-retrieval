@@ -1,0 +1,64 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Pháp luật Plus](ORG) sẽ tiếp tục thông tin
+    - [Hà Tĩnh](LOC): Dân bức xúc vì chính quyền 'tịch thu' đất nông nghiệp chia cho người khác
+    - [Thảo](PER) nhiều lần đòi nhưng bà [Nam](PER) không trả
+    - [Thảo](PER) nhận được số tiền 3,5 tỉ đồng thì đưa bà [Nam](PER) đến một nhà nghỉ ở [Bình Dương](LOC)
+    - [Miên](PER) cho nhân viên bãi xe tiền nên khi bà [Nam](PER) vừa rời khỏi chung cư thì nhân viên bãi xe đã gọi điện báo động cho [Miên](PER)
+    - [Interpol](ORG) không thể ép buộc bất kỳ quốc gia thành viên nào phải bắt giữ một cá nhân là đối tượng của lệnh truy nã đỏ
+    - [Interpol](ORG) đưa ra một lệnh truy nã đỏ chỉ đơn giản là để thông báo cho các quốc gia thành viên rằng người này bị truy nã dựa trên một lệnh bắt giữ hoặc một quyết định tư pháp tương đương được ban hành bởi một quốc gia hay một tòa án quốc tế
+    - [Interpol](ORG) không ban hành các lệnh bắt giữ
+    - [Bắc Ninh](LOC): 4 trẻ tử vong trong một buổi sáng
+    - [TAND Tối cao](ORG) đã có một số điều chỉnh về cách bố trí phòng xử án so với trước đây
+    - [Mai An](PER) (T/h) Theo Đời sống Plus/[GĐVN](ORG)
+    - [Thái Nguyên](LOC): Nghi án chồng giết vợ rồi sau đó uống thuốc sâu tự tử
+    - [PVN](ORG) là cổ đông lớn và được trực tiếp tham gia quản trị, điều hành ngân hàng
+    - [Báo Dân trí](ORG) trích dẫn cáo trạng thể hiện, ngày 11/6, [Y Ăi](PER) và vợ đi đám ma ở nhà người thân cùng buôn
+    - [Đoàn](PER) quan hệ với bạn gái chưa đủ 13 tuổi và bị gia đình bạn gái tố cáo
+    - [Long](PER) bày tỏ sự ăn năn, hối cải và mong muốn được khắc phục hậu quả của hành vi mà mình đã gây ra
+    - [Hằng](PER) đã mua và vận chuyển 18 viên thuốc lắc cho một người bạn cùng quê
+    - [TASS](ORG) thì dẫn lời các dịch vụ khẩn cấp cho biết cứu hộ tìm thấy hai thi thể bên trong tòa nhà, và nói thêm rằng cả hai nạn nhân đều là nhân viên khách sạn
+    - [Thảo](PER) có nghề làm ruộng và phụ hồ nhưng lại  là một 'con bạc' có tiếng
+    - [Thảo](PER) là chỗ quen biết với nạn nhân vì hay sang mua thuốc trừ sâu
+    - [Việt](PER) không chịu ra thì [Nam](PER) và [Sự](PER) xông vào phòng tấn công khiến [Việt](PER) ngã xuống
+    - [Hào](PER) cũng nhào vào đánh [Việt](PER), riêng [Thắng](PER) chụp ống hút thuốc lào bằng kim loại đánh vào thái dương đối phương rồi cả nhóm cùng bỏ trốn
+    - [Võ Xuân Hào](PER) cùng đồng bọn lúc mới bị bắt
+    - [Lâm Đồng](LOC): Cầm dao đâm chết chú do nghe tiếng cãi nhau với mẹ
+    - [Đặng Trọng Tuyên](PER) không xuất trình được các hóa đơn, chứng từ hợp lệ của số hàu giống trên
+    - [Tuấn](PER) chạy đến đánh [T](PER) khiến anh này bỏ chạy; Kép thì giật điện thoại của [D](PER), sau đó thực hiện hành vi hiếp dâm chị [D](PER)
+    - [Tuấn](PER) chạy đến đánh [T](PER) khiến anh này bỏ chạy; [Kép](PER) thì giật điện thoại của [D](PER), sau đó thực hiện hành vi hiếp dâm chị [D](PER)
+    - [Cường](PER) biết một số người dân trên địa bàn [tỉnh Hòa Bình](LOC) có nguyện vọng muốn xin cho con được đi học, đi làm hoặc mua xe thanh lý
+    - [Bảo](PER) lên tầng một của ngôi nhà tìm tài sản, còn [Tâm](PER) lục ở dưới tầng trệt
+    - [Bảo](PER) phát hiện một két sắt nên kêu [Tâm](PER) lên khiêng cùng với mình, rồi cả nhóm chở đi
+    - [Quảng Nam](LOC): Khởi tố vụ án phá rừng phòng hộ [Tiên Lãnh](LOC)
+    - [Thái Lan](LOC) biết kẻ chủ mưu vụ bà [Yingluck](PER) chạy trốn?
+    - [P.Võ](PER) (Theo [The Nation](ORG), [Bangkok Post](ORG))
+    - [Hà Văn Thắm](PER) (cựu Chủ tịch HĐQT [Oceanbank](ORG)) bị đề nghị mức án: 19-20 năm tội Cố ý làm trái quy định nhà nước về quản lý kinh tế gây hậu quả nghiêm trọng; 18-20 năm tội Vi phạm quy định về cho vay trong hoạt động của các tổ chức tín dụng; 20 năm tội Lạm dụng chức vụ quyền hạn chiếm đoạt tài sản; chung thân tội Tham ô
+    - [Thị trấn Lim](LOC) (khoanh đỏ) nơi xảy ra vụ án
+    - [Thảo](PER) khai do cần tiền nên đã dùng chày kim loại sát hại bà Chủ nhiệm hợp tác xã sống đơn thân để cướp tài sản
+    - [Tùng](PER) tiếp tục gọi điện thoại nhờ chị [Diệp](PER) giúp đỡ
+    - [Ngân hàng Nhà nước](ORG) cảnh cáo tập thể Hội đồng quản trị, Ban kiểm soát, Ban điều hành của [HDBank](ORG) gồm: 2 Phó chủ tịch Hội đồng quản trị, Ủy viên Hội đồng quản trị, Tổng giám đốc và Trưởng ban Kiểm soát
+    - [Ngân hàng Nông nghiệp và Phát triển Nông thôn](ORG) ([Agribank](ORG)) cũng nằm trong diện vi phạm vượt trần lãi suất huy động thời gian này
+    - [Agribank](ORG) đã chủ động quyết định kỷ luật cán bộ có liên quan, cảnh cáo, chuyển công tác khác, hưởng bậc lương thấp hơn đối với bà [Bùi Thị Sáu](PER); cảnh cáo, chuyển công tác khác, hưởng bậc lương thấp hơn đối với bà [Nguyễn Thị Huyền](PER), cán bộ kế toán [Agribank](ORG) [Ba Đình](LOC); khiển trách đối với ông Giám đốc [Agribank](ORG) [Ba Đình](LOC) và Giám đốc [Agribank](ORG) chi nhánh [tỉnh Thanh Hóa](LOC)
+    - [Chợ Lê Hồng Phong](LOC) nằm trên con đường này, cũng trở thành nơi giao thương, trung tâm phân phối hàng hóa
+    - [Đặng Ngọc Minh](PER) sau phiên xử
+    - [Quyết](PER) từng có 4 tiền án về tội trộm cắp tài sản, mới ra tù vẫn chứng nào tật ấy
+    - [Quyết](PER) từng có 4 tiền án về trộm cắp tài sản nhưng vẫn chứng nào tật ấy
+    - [Thái Lan](LOC) bắt những người giúp bà [Yingluck](PER) chạy trốn
+    - [Spencer](PER) đã nhấc máy gọi tới số trong quảng cáo
+    - [Spencer](PER) nhớ rõ "khách hàng" đầu tiên
+    - [Caitlin Spencer](PER) (tên giả của nhân vật) kể lại “địa ngục trần ai” khi cô sa vào tay những kẻ buôn người trong một băng đảng [gốc Á](MIS) từ năm 14 tuổi
+    - [Spencer](PER) không còn tin vào sự bảo vệ và quan tâm mà phía cảnh sát hứa hẹn
+    - [Spencer](PER) nói rằng viên cảnh sát tuyên bố cô sẽ không được bảo vệ
+    - [Spencer](PER) tiếp tục bị lạm dụng đến năm 2013
+    - [Spencer](PER) và con chuyển đến [Úc](LOC) sống 7 tháng nhưng không thể xin thêm thị thực
+    - [Bắc](PER) chạy đến tiếp tục chém [Thế Anh](PER)
+    - [Pháp luật Plus](ORG) sẽ tiếp tục thông tin vụ việc đến bạn đọc
+    - [Quảng Bình](LOC): Cát tặc lộng hành, hiểm họa rình rập [cầu Long Đại](LOC) và dòng sông?
+    - [Phạm Hoàng Giang](PER) là TGĐ công ty điều hành mọi hoạt động của công ty, dù bị cáo khai không biết nguồn tiền dùng vào việc gì nhưng với chức trách được giao, việc ký hơn 721 hợp đồng bị cáo phải có trách nhiệm và là đồng phạm của [Nguyễn Xuân Sơn](PER) và [Hà Văn Thắm](PER)
+    - [Hà Văn Thắm](PER) tại phiên xử chiều 22/9
+    - [Hà Văn Thắm](PER) (cựu Chủ tịch HĐQT [Oceanbank](ORG)) bị đề nghị mức án: 19-20 năm tội Cố ý làm trái quy định nhà nước về quản lý kinh tế gây hậu quả nghiêm trọng; 18-20 năm tội Vi phạm quy định về cho vay trong hoạt động của các tổ chức tín dụng; 20 năm tội Lạm dụng chức vụ quyền hạn chiếm đoạt tài sản; chung thân tội Tham ô
+    - [UBKTTW](ORG) vào [Đà Nẵng](LOC) công bố vi phạm của Bí thư, Chủ tịch
+    - [Cáp Trọng Thành](PER) nghiện ma tuý, không nghề nghiệp, từng có 2 tiền án về hành vi tàng trữ trái phép chất ma tuý, 1 tiền án về hành vi cưỡng dâm và mới ra tù một thời gian

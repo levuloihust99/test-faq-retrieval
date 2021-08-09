@@ -1,0 +1,46 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_if_know_another_bot
+  examples: |
+    - bạn có biết [siri](bot) không
+    - bạn biết gì về [siri](bot)
+    - bạn biết gì về [siri](bot) không
+    - bạn đã bao giờ nói chuyện với [siri](bot) chưa
+    - bạn từng nói chuyện với [siri](bot) không
+    - bạn từng chat với [siri](bot) chưa
+    - bạn có quen [siri](bot) không
+    - bạn có quen với [siri](bot) không
+    - bạn và [siri](bot) đã đi chơi với nhau chưa
+    - bạn và [siri](bot) là bạn à
+    - bạn và [siri](bot) chơi với nhau không
+    - bạn và [siri](bot) có làm bạn với nhau không
+    - bạn có thể giới thiệu [siri](bot) cho tôi không
+    - bạn biết [siri](bot) không
+    - bạn có thể kể cho tôi về [siri](bot) không
+    - bạn đã từng gặp [siri](bot) chưa
+    - bạn đã từng tiếp xúc với [siri](bot) chưa
+    - bạn đã gặp [siri](bot) chưa
+    - bạn biết những trợ lý ảo nào
+    - bạn có thể cho tôi biết thông tin về [siri](bot) không
+    - bạn đã bao giờ gặp [siri](bot) chưa
+    - bạn có phải là [siri](bot) không
+    - bạn là [siri](bot) à
+    - bạn quen [siri](bot) à
+    - [siri](bot) là ai
+    - chắc hẳn bạn biết về [siri](bot)
+    - trước đây bạn đã gặp [siri](bot) chưa
+- intent: chitchat/ask_about_another_bot
+  examples: |
+    - bạn có thích [siri](bot) không
+    - bạn có hài lòng với [siri](bot) không
+    - bạn có phải là fan hâm mộ của [siri](bot)
+    - bạn nghĩ gì về [siri](bot)
+    - ý kiến của bạn về [siri](bot)
+    - ý kiến của bạn về [siri](bot) là gì
+    - [siri](bot) có tốt không
+    - bạn có thấy [siri](bot) được không
+    - bạn là fan của [siri](bot) à
+    - [siri](bot) có đặc điểm gì
+    - [siri](bot) có gì đặc biệt không
+    - bạn có thể nói cho mình về [siri](bot) không
+    - bạn có biết nhiều về [siri](bot) không

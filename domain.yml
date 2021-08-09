@@ -1,0 +1,24 @@
+version: "2.0"
+
+entities:
+  - ORG
+  - LOC
+  - MIS
+  - PER
+  - bot
+
+intents:
+  - cancel
+  - ask_posibility
+  - later
+  - chitchat
+  - thank
+  - inform
+  - deny
+  - affirm
+  - goodbye
+  - greet
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

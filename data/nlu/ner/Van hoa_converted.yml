@@ -1,0 +1,98 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Xóm Lồ Cồ](LOC) nằm cách mé [sông Vàm Cỏ](LOC) chừng dăm mét
+    - [Lồ Cồ](LOC) cách trung tâm [xã Biên Giới](LOC) [huyện Châu Thành](LOC) chừng 5 km đường bộ
+    - [Tống Thị](PER) lại bước vào mối tình loạn luân chị dâu - em chồng thứ hai bất chấp miệng lưỡi chê bai phỉ nhổ của người đời
+    - [Tống Thị](PER) quả là một người đàn bà nguy hiểm bậc nhất trong lịch sử [Việt Nam](LOC)
+    - [Trịnh Tráng](PER) nhận thư, liền cùng triều thần bàn việc cất quân đánh vào [Đàng Trong](LOC)
+    - [Từ Hoảng](PER) biết rằng địch thủ đang phân vân, nên đã cho viết một lá thư thuyết phục và cho lính bắn vào trong thành
+    - [Từ Hoảng](PER) - chiến tướng đả bại [Quan Vũ](PER), khiến [Lưu Bị](PER) sợ mất mật
+    - [Quan Vũ](PER) dẫn 5.000 kị binh để để đẩy lùi [quân Ngụy](MIS), nhưng thất bại
+    - [Từ Hoảng](PER) ([chữ Hán](MIS): 徐晃; 169-227) tên chữ là [Công Minh](PER) (公明) là vị tướng được đánh giá là xuất sắc nhất của nước [Ngụy](LOC) thời Tam Quốc trong lịch sử [Trung Quốc](LOC)
+    - [Từ Hoảng](PER) là một trong 5 đại danh tướng [Tào Ngụy](LOC), bên cạnh [Trương Liêu](PER), [Nhạc Tiến](PER), [Vu Cấm](PER), [Trương Cáp](PER)
+    - [Tào Tháo](PER) từng tán dương [Từ Hoảng](PER) rằng - "[Từ](PER) tướng quân có phong thái của [Chu Á Phu](PER) (nhà quân sự và thừa tướng [nhà Hán](MIS) trong lịch sử [Trung Quốc](LOC), con trai [Hán triều](MIS) khai quốc công thần [Chu Bột](PER))"
+    - [Từ Hoảng](PER) khuyên [Dương Phụng](PER) nên hàng [Tào Tháo](PER) nhưng [Dương Phụng](PER) không nghe, thậm chí còn gửi quân đuổi theo để mang [Hán Hiến đế](PER) về
+    - [Từ Hoảng](PER) biết được, nên cho quân tấn công trực diện vào quân [Lưu Bị](PER)
+    - [Từ Hoảng](PER) biết rằng phần lớn lính của mình không được tập luyện bài bản nên ông không giao chiến ngay mà lập trại đằng sau quân địch
+    - [Từ Hoảng](PER) luôn hoàn thành xuất sắc nhiệm vụ nhờ tài năng quân sự và tháo vát của mình
+    - [Quan Vũ](PER) không ngờ, [Từ Hoảng](PER) cho quân đi đường nhỏ, toàn quân [Tào Ngụy](LOC) áp lưng tấn công trận địa phòng ngự của [Thục Hán](LOC) "thế như chẻ tre", phá vỡ phòng tuyến của [Quan Vân Trường](PER) từ bên trong, buộc ông phải rút quân
+    - [Quan Công](PER) là người trọng tình cảm nghĩa khí, còn [Từ Hoảng](PER) không vì tư giao với ông mà làm lỡ việc công
+    - [Lê Doãn Hợp](PER) là một con người mang trong mình nhiều tố chất của quê hương [xứ Nghệ](LOC)
+    - [Lã Bất Vi](PER) dùng người vợ thiếp rất trẻ và xinh đẹp, vừa mới có bầu với ông ta được vài tháng, khôn khéo mở tiệc sang trọng mời khách quý, rồi “câu” được ông vua tương lai của nước [Tần](LOC) hiện đang làm con tin ở nước [Triệu](LOC), rồi tiến hành ngay việc “sang tên” cho vị công tử quý phái này làm “chính chủ”
+    - [Tú Mền](PER), nghĩa là mấy lần Tú tài đắp lên nhau như đắp chăn đắp mền ấy
+    - [Huyền Quang](PER) Thiền sư cao tăng, [Huyền Quang](PER) thi sĩ, cái danh ấy còn lớn gấp nhiều lần ông quan [Lý Đạo Tái](PER)
+    - [Quan Vũ](PER) được đời đời tôn sùng, người người đều kính trọng sự trung nghĩa và tinh thần thượng võ của ông
+    - [HTC](PER) chỉ ra sai lầm trong cách giải thích của [NL](PER) (“quân đội gồm binh lính của nhiều nước họp lại để theo đuổi một mục đích chung”), rằng: đó là “đội quân” chứ không phải “quân đội” nhưng anh không đề cập đến yếu tố “của nhiều nước” - quốc gia (tr.198)
+    - [HTC](PER) đã sửa sai cho [NL](PER) khi thay “lãng công” bằng “lãn công” và khẳng định: lãn là lười (có thể minh họa bằng câu “đại lãn chờ sung” - lười nhác chờ sung rụng)
+    - [Khu du lịch sinh thái Mỹ Lệ](LOC) – Điểm đến hấp dẫn của [Bình Dương](LOC)
+    - [Khu du lịch sinh thái Mỹ Lệ](LOC) chỉ vừa mới khánh thành giai đoạn 1 và chưa đi vào hoạt động đồng bộ
+    - [Tòa nhà trung tâm liên bang 1202](LOC) ở [Seattle](LOC):  Không gian làm việc rất lý tưởng và an toàn cho các kỹ sư trọng yếu của quân đội [Mỹ](LOC)
+    - [Tòa nhà 72 Screens](LOC): Nằm ở [Jaipur](LOC), [Ấn Độ](LOC): Được thiết kế dùng để chống chọi với thời tiết nắng nóng khắc nghiệt của nơi đây
+    - [Tòa tháp Magma](LOC) ở [Monterrey](LOC), [Mexico](LOC): Đây là tòa phức hợp chung cư và văn phòng hiện đại nổi tiếng bậc nhất ở [Mexico](LOC)
+    - [Tòa nhà Al Bahr](LOC) ở [Abu Dhabi](LOC), [UAE](LOC): Có hình dạng bên ngoài là lớp lưới mắt cáo rất đặc biệt và tạo ra điểm nhấn gây sự chú ý rất lớn từ nhiều người
+    - [Tòa tháp sông Pearl](LOC) ở [Quảng Châu](LOC), [Trung Quốc](LOC): Đây thực sự là một công trình nghệ thuật trong kiến trúc và rất đặc biệt khi được lặp đặt hệ thống phát điện từ gió thổi qua tòa nhà
+    - [Tòa nhà Turninn](LOC) ở [Reykjavík](LOC), [Iceland](LOC): Bề ngoài của tòa nhà rất nổi bật với với những tấm cửa sổ kính lớn in bóng phong cảnh xung quanh rất độc đáo
+    - [Tòa nhà Dear Ginza](LOC) ở [Tokyo](LOC), [Nhật Bản](LOC): Với bề mặt ngoài khác lạ khiến cho nhiều người qua đường rất tò mò
+    - [Tòa nhà Capital](LOC) ở [Mumbai](LOC), [Ấn Độ](LOC): Có hình dáng giống một quả trứng, đây là một biểu tượng cho sự tiến bộ của chính quyền muốn truyền tải
+    - [Chùa Hương](LOC) nằm cách [Hà Nội](LOC) chỉ 60km, do đó nhiều du khách Thủ đô đã tranh thủ dịp cuối tuần để đến đây vãn cảnh [suối Yến](LOC) mùa hoa súng rồi về ngay trong ngày
+    - [Suối Yến](LOC) những ngày này khá vắng thuyền đò, không còn cảnh chen lấn, xô bồ
+    - [Victoria](LOC) là một hòn đảo vô cùng đặc biệt, không chỉ với người dân [Canada](LOC) mà cả khu vực [Bắc Mỹ](LOC)
+    - [Vườn Burchart](LOC) 100 năm tuổi, hội tụ gần 1.000 loài hoa và được mệnh danh là “vườn địa đàng nơi hạ giới." (Ảnh: [Vũ Hà](PER)/[Vietnam+](ORG))
+    - [Văn Long](PER) Theo Đời sống Plus/[GĐVN](ORG)
+    - [Hồ Con Rùa](LOC) sẽ thành Quảng trường văn hoá, du lịch?
+    - [Hồ Con Rùa](LOC) – tên chính thức là [Công Trường Quốc Tế](LOC) - là tên gọi dân gian của vòng xoay giao thông có đài phun nước, nối ba đường: [Võ Văn Tần](LOC), [Phạm Ngọc Thạch](LOC) và [Trần Cao Vân](LOC), nằm ở [quận 1](LOC), [TP.HCM](LOC)
+    - [Hồ Con Rùa](LOC) được xây dựng từ những năm 1965 - 1967
+    - [Hồ Con Rùa](LOC) thiết kế theo kiểu kiến trúc hình bát giác, chia ô bằng những bờ bao trên một hồ nước, được xem như một công viên, là điểm dừng chân nghỉ ngơi và dạo chơi yêu thích của người dân, đặc biệt là giới trẻ cũng như du khách đến với [Sài Gòn](LOC)
+    - [Nông Văn Quỳnh](PER) đã chọn mua cuốn “Đắc nhân tâm” với mục đích: “Đọc để hoàn thiện bản thân, từ tính cách đến cách làm việc”
+    - [Nguyễn Hiền](PER) về quê, tiếp tục đọc sách chờ thời
+    - [Trạng Hiền](PER) đáp rằng: “Thân thế sự nghiệp ta là ở trên cao, bếp núc ở tạm đó”
+    - [Nguyễn Hiền](PER), lúc đó mới 13 tuổi, khăn gói lên kinh, dự thi lấy được giải Trạng nguyên, trở thành Trạng nguyên khai hoa
+    - [Người Nga](MIS) thường dùng món Shashlyk kèm với món rượu vang của [Nga](LOC)
+    - [Đà nẵng](LOC) cũng vậy thôi, người [Huế](LOC), [Quảng Bình](LOC)… Ở [Đà Nẵng](LOC) cũng không ít nhưng [chất Quảng](MIS) không thể nào phai nhạt trong thành phố đang hồi sinh với cuộc quy hoạch khoa học nhất dải đất chữ S này
+    - [Hà Nội](LOC) trở nên hỗn độn vì đã không [Hà Nội](LOC) hóa được người di cư, việc mà các đô thị khác đã [Huế hoá](MIS), [Đà Nẵng hóa](MIS) và [Sài Gòn hóa](MIS) vô cùng thành công
+    - [Lăng Khải Định](LOC) nhìn từ mặt trước
+    - [Ngọ Môn](LOC), [cầu Trung Đạo](LOC) và [hồ Thái Dịch](LOC) trong [Hoàng thành](LOC)
+    - [Nhà thờ Dòng Chúa Cứu Thế](LOC) ở [Huế](LOC) nhìn từ phía sau
+    - [Vietnam from above II](MIS) - Bản hòa tấu không trung là phim ngắn thứ 2 của nhiếp ảnh gia tự do [Lê Thế Thắng](PER) được quay bằng thiết bị ghi hình không người lái (flycam)
+    - [Tháp Cánh Tiên](LOC) ([Bình Định](LOC)) trong phim ngắn của [Lê Thế Thắng](PER)
+    - [Gành Đá Dĩa](LOC) ([Phú Yên](LOC)) trong phim ngắn của [Lê Thế Thắng](PER)
+    - [Chùa Chèo](LOC) ở [Thái Sơn](LOC), [huyện Hiệp Hòa](LOC), [tỉnh Bắc Giang](LOC) có niên đại cả nghìn năm tuổi đang bị xuống cấp có nguy cơ đổ sập bất cứ lúc nào
+    - [Bộ TT&TT](ORG) chuyển giao toàn bộ tư liệu triển lãm cho [Bộ Tư lệnh Vùng 3 Hải quân](ORG) để tiếp tục tuyên truyền đến cán bộ, chiến sỹ và người dân trên địa bàn [Thành phố Đà Nẵng](LOC)
+    - [Khách sạn The Raj Palace](LOC) trước đây là một cung điện thuộc về gia đình hoàng gia ở [Jaipur](LOC) từ những năm 1700
+    - [Palms Resort](LOC) được thiết kế đặc biệt với thang máy trong suốt bằng thủy tinh, một hồ bơi bằng kính uốn lượn nhìn ra [The Strip](LOC), các dịch vụ spa và xông hơi được phục vụ suốt 24h/ngày đảm bảo mang lại cho du khách những trải nghiệm tuyệt hảo về sự tận tình
+    - [Người Nhật](MIS) cũng thường đón tết Trung thu hàng năm vào ngày rằm tháng tám với tên gọi là "lễ ngắm trăng"
+    - [Người Nhật](MIS) thường bày bánh này theo hình tam giác và đặt vào những nơi thoáng đãng để người ta có thể vừa ăn bánh vừa ngắm trăng
+    - [Trung Quốc](LOC) được coi như cái nôi truyền thống của tết Trung thu (hay còn gọi là tết đoàn viên)
+    - [Người Thái](MIS) tin rằng, Bát Tiên sẽ giúp họ mang những quả đào lên chúc thọ [Quan Âm](PER) và thần tiên sẽ ban điều tốt lành đến cho mình
+    - [Truong Dai Duong](PER): 200.000 đồng; [Dang Cong Khuong](PER): 500.000 đồng; [Pham Hong Duc](PER): 1.000.000 đồng; [Pham Hong Hanh Dung](PER): 1.000.000 đồng; [Dam Van Tuan](PER): 2.000.000 đồng; [Nguyen Van Tin](PER): 1.000.000 đồng; [Le Thi Hanh](PER): 500.000 đồng; [Nguyen Loc](PER): 300.000 đồng; [Pham Kim Ngan](PER): 500.000 đồng; [Tran Thanh Nhan](PER): 100.000 đồng; [Nguyen Thi Oanh](PER): 600.000 đồng; ban doc: 500.000 đồng; [Van Hue Thanh](PER): 400.000 đồng; [Nguyen Thi Phuc](PER): 1.000.000 đồng; anh [Ha Cong Binh](PER): 2.000.000 đồng; [Tran Hong My Dung](PER): 3.000.000 đồng; [Bui Thi Bich Nga](PER): 2.000.000 đồng; ban doc: 100.000 đồng; [Nguyen Thi Thuy Trang](PER): 500.000 đồng; [Nguyen Huu Hien](PER): 500.000 đồng; [Nguyen Thi Chau Phi](PER): 1.000.000 đồng; [Nguyen Hoang Nhut Lynh](PER): 100.000 đồng; [Pham Mai Huong](PER): 2.000.000 đồng; [Luong Thi Kim Lien](PER): 1.000.000 đồng; [Tran Thi My Dung](PER): 500.000 đồng; [Ho Thi Kim Hoa](PER): 1.000.000 đồng; [Nguyen Long](PER): 1.000.000 đồng; [Nguyen Huu Hoa](PER): 500.000 đồng; [Huynh Tai Tan](PER): 300.000 đồng; [Huynh Trung Nhan](PER) : 1.000.000 đồng; [Phung Thi Thanh](PER): 1.000.000 đồng; [Phan Hong Chau](PER) : 200.000 đồng; [Tran Truc Duy](PER): 500.000 đồng; [Nguyen Thi Ha](PER): 300.000 đồng; [Pham Thi Yen](PER): 2.000.000 đồng; ban doc: 200.000 đồng; [Pham Thi Ngoc Hanh](PER): 2.000.000 đồng; [Nguyen Duc Thang](PER): 500.000 đồng; [Huyen Ton Nu Minh Bau](PER): 200.000 đồng; [Tran Thi My Nhung](PER): 1.000.000 đồng; [Nguyen Thi Thuy Linh](PER) ([P.Tan Thuan Dong](LOC), [Q.7](LOC), [TP.HCM](LOC)): 300.000 đồng; [Le Thi Minh Nguyet](PER): 300.000 đồng; [Ngo Thi Giang](PER): 2.000.000 đồng; [Nguyen Thi Hieu](PER): 1.000.000 đồng; [Nguyen Thi Minh Chau](PER): 500.000 đồng; [Cong ty TNHH Van Duc Phat](ORG) ([331 Phan Dinh Phung](LOC), [P.2](LOC), [TP.Da Lat](LOC), [tinh Lam Dong](LOC)): 12.550.000 đồng; [Tran Van Hung](PER): 200.000 đồng; [Nguyen Huy Tien](PER): 500.000 đồng; [Nguyen Thi Suong](PER): 1.000.000 đồng; [Pham Van Hieu](PER): 5.000.000 đồng; [Nguyen Duong Hung](PER): 1.000.000 đồng; [Nghiem Thi Kim Nhung](PER): 500.000 đồng; [Ha Van Khanh](PER): 1.000.000 đồng; [Kieu Thi Nam](PER): 1.000.000 đồng; [Truong Quang Son](PER) ([Cafe 90](LOC)): 2.000.000 đồng; [Luong Tien Loi](PER): 200.000 đồng; [Nguyen Van Phu](PER): 200.000 đồng; [Nguyen Thi Kim Thanh](PER): 1.000.000 đồng; (còn tiếp)
+    - [Đền Đậu An](LOC) được bao bọc bởi hồ nước trong xanh in bóng những cây nhãn lồng cổ thụ
+    - [Đền Đậu An](LOC) có kiến trúc kiểu chữ Đinh gồm 3 tòa tiền tế, thượng điện và hậu cung
+    - [Đền Đậu An](LOC) được khởi dựng từ khá sớm, trải qua nhiều lần tôn tạo, đền có quy mô bề thế, các hạng mục mang đậm dấu ấn nghệ thuật [thời Hậu Lê](MIS) đan xen [thời Nguyễn](MIS)
+    - [Phong Điền](LOC) hiện có các điểm du lịch tâm linh như: [Đình Trường Long](LOC), [Thiền viện Trúc lâm Phương Nam](LOC), những điểm du lịch nhà vườn nổi tiếng như: [Làng Du lịch Mỹ Khánh](LOC), vườn trái cây [Vàm Xáng](LOC)…
+    - [Hubler](PER) cho biết, anh muốn dành tặng học sinh một bất ngờ thú vị, để làm cho các em yêu thích việc lên lớp hơn bao giờ hết
+    - [Hoàng Mai](LOC) cũng là quận duy nhất tổ chức tiếp lửa Đại hội TDTT tại các phường trên địa bàn
+    - [Gành Yến](LOC) vẫn còn là cái tên chưa được nhiều người biết đến nên vẫn còn giữ được nét hoang sơ vốn có
+    - [Gành Yến](LOC) là một trong những địa điểm có giá trị địa chất độc đáo của thế giới
+    - [Gành Yến](LOC) cũng có những rạn san hô lớn
+    - [Gành Yến](LOC) chưa được nhiều người biết đến nên vẫn còn giữ được vẻ hoang sơ
+    - [NDĐT](ORG) – Sáng 22-9, Hội sách [Hà Nội](LOC) (thường gọi là Hội sách [Hoàng Thành](LOC)) đã khai mạc tại [Trung tâm Hoàng thành Thăng Long](ORG), với sự tham gia của hàng chục đơn vị xuất bản và phát hành trong nước
+    - [Làng Kayaköy](LOC) tuyệt đẹp ở [Thổ Nhĩ Kỳ](LOC) từng là nơi sinh sống của khoảng 2.000 người
+    - [Thị trấn Craco](LOC) ở [miền Nam](LOC) [Italy](LOC) tĩnh mịch, u ám đến rợn người sau khi người dân bỏ đi nơi khác sinh sống vì nhiều cơ sở vật chất bị tàn phá nặng nề trong các thảm họa thiên nhiên như sạt lở đất, lũ lụt
+    - [Khu dân cư Tianducheng](LOC) là phiên bản [Paris](LOC) ở [Hàng Châu](LOC), [Trung Quốc](LOC) được [công ty bất động sản Zhejiang Guangsha](ORG) bắt đầu xây dựng từ năm 2007 nhằm thu hút giới giàu có của [Trung Quốc](LOC)
+    - [Kolmanskop](LOC) ở [Namibia](LOC) từng là địa điểm sầm uất do [Đức](LOC) thành lập năm 1908 cho những người khai thác mỏ sau khi họ tìm thấy kim cương
+    - [Thị trấn Pripyat](LOC) ở [Ukraine](LOC) từng là nơi sinh sống của khoảng 50.000 người cho đến ngày 27/4/1986
+    - [Copehill Down](LOC) ở [Anh](LOC) bị bỏ hoang phế trong suốt nhiều năm
+    - [Hà Nội](LOC) và [Miền Bắc](LOC) đang ở giữa thu nên nắng không quá gay gắt, cảm giác oi nóng chỉ diễn ra thời gian ngắn giữa trưa, đầu giờ chiều
+    - [Trần Ly Ly](PER) dựng 'Huyền thoại làng chài' tại [Phan Thiết](LOC)
+    - [Trần Ly Ly](PER) còn là biên đạo, đạo diễn, giảng viên và giám khảo nhiều cuộc thi lớn trên truyền hình
+    - [Trần Ly Ly](PER) lấy cảm hứng từ hình ảnh làng chài [Phan Thiết](LOC) năm 1762, Huyền thoại làng chài sẽ bao gồm nhiều tiết mục như ca - múa, vũ kịch… đan xen, khắc họa nghệ thuật truyền thống đặc sắc của dân tộc Chăm và Kinh, được đầu tư nhiều trang thiết bị tối tân của thế giới, trong đó có kỹ thuật công nghệ nước, giàn đu bay
+    - [Nam bộ](LOC) xứng danh 'Thành đồng Tổ quốc'
+    - [Người Tây Ban Nha](MIS) lâu nay đã thích nghi với việc thức khuya, họ không dành thời uống cà phê vào giữa giờ sáng mà tập trung vào làm việc, sau đó thời gian họ để dành cho ăn và ngủ trưa
+    - [Tây Ban Nha](LOC) áp dụng múi giờ [Trung Âu](LOC), trùng với giờ của [Serbia](LOC)
+    - [Vịnh Đà Nẵng](LOC) được đánh giá là một địa danh chưa được khai thác hết tiềm năng du lịch của "thành phố đáng sống nhất [Việt Nam](LOC)"
+    - [Báo Kiến thức](ORG) thông tin, tại [Lâm Đồng](LOC) cũng xuất hiện một cây vạn tuế hàng chục năm tuổi, rụng hết lá rồi nở hoa, kết quả vàng rực
+    - [Kampong Glam](LOC) là một điểm đến vô cùng thú vị
+    - [Singapore Sideways Vespa Tour](MIS) sẽ phù hợp hơn với các bạn đi du lịch theo nhóm từ 5-10 người
+    - [Nhật Bản](LOC) vốn là quê hương của nhiều loại hoa quả đắt tiền

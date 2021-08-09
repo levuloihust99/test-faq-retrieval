@@ -1,0 +1,36 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [UBKT TƯ](ORG) đã ban hành nhiều kết luận kiểm tra đề nghị kỷ luật, xử lý nhiều cán bộ cao cấp
+    - [Trường Trung học cơ sở Tân An](ORG) ([thị xã La Gi](LOC), [tỉnh Bình Thuận](LOC)) có hơn một ngàn học sinh đang theo học
+    - [Trường Tiểu học Kỳ Thịnh 2](LOC) bị tốc mái vẫn chưa được lợp lại
+    - [Hân](PER) hiếu thảo và chăm học lắm
+    - [Hân](PER) sống thiếu thốn tình cảm gia đình vì từ nhỏ vì cha mẹ đã ly dị
+    - [Hân](PER) phải bỏ học giữa chừng khi đang học lớp 1 để theo bà lên [TP.HCM](LOC)
+    - [Văn phòng Chính phủ](ORG) cũng phát đi công văn hỏa tốc gửi [Bộ GD&ĐT](ORG) và các UBND tỉnh, thành, nêu yêu cầu của Phó thủ tướng [Vũ Đức Đam](PER) về việc chấn chỉnh tình trạng lạm thu đầu năm học
+    - [Ngọc Hân](PER) cho biết em rất thích và mong muốn được đi học như các bạn
+    - [TP.HCM](LOC): Sự thật bé gái 7 tuổi không được đi học thiếu nhiều giấy tờ
+    - [Hương Tràm](PER) thích thú khi ca khúc "Em gái mưa" tiếp tục xuất hiện trong đề kiểm tra môn Văn lớp 11
+    - [Việt Nam](LOC) đạt 14 huy chương [Olympic hình học Iran năm 2017](MIS)
+    - [Bộ GD&ĐT](ORG) lên tiếng về đề xuất dẹp hội phụ huynh để chống lạm thu
+    - [Bảo Quốc](PER) chia sẻ “Ngoài các nơi công cộng, CLB đẩy mạnh tuyên truyền tại các trường đại học, cao đẳng, THPT trên địa bàn [TP Vinh](LOC)
+    - [Hải Phòng](LOC) yêu cầu cô giáo nghi tự tử chấp hành việc chuyển trường
+    - [Nguyễn Minh Thuyết](PER) – nguyên Phó chủ nhiệm [Ủy ban Văn hóa giáo dục Thanh Thiếu niên & Nhi đồng](ORG) của Quốc hội cũng cho hay: “Hiện nay, ở nhiều trường ban phụ huynh đã làm rất tốt công việc của mình trong việc kết nối với nhà trường cũng như đảm bảo quyền lợi cho học sinh
+    - [Quảng Trị](LOC): Bất chấp hiểm nguy, học sinh lội sông ngập cổ đến trường
+    - [Bộ GD-ĐT](ORG) trao 1 tỷ đồng hỗ trợ ngành giáo dục [Quảng Bình](LOC), [Hà Tĩnh](LOC)
+    - [Bộ GD-ĐT](ORG) kêu gọi các thầy cô giáo, các em HSSV chấp hành nghiêm túc các quy định của pháp luật về ATGT, kiên quyết thực hiện phương châm “3 phải, 3 không”: “Phải đội mũ bảo hiểm, phải đi đúng phần đường, làn đường, phải giảm tốc độ từ đường phụ ra đường chính; Không lái xe sau khi uống rượu, bia; không phóng nhanh vượt ẩu; không điều khiển xe mô tô, xe gắn máy khi chưa đủ tuổi, chưa có giấy phép lái xe”
+    - [Bộ Y tế](ORG) sẽ tiến hành kiểm tra trình độ chuyên môn và sẽ cấp chứng chỉ hành nghề cho bác sĩ 2 năm/lần, thay vì việc cấp chứng chỉ duy nhất một lần như hiện nay
+    - [Bộ Y tế](ORG) sẽ tiến hành kiểm tra trình độ chuyên môn và cấp chứng chỉ hành nghề cho bác sĩ 2 năm/lần, thay vì việc cấp chứng chỉ duy nhất một lần như hiện nay
+    - [Steele](PER) lập luận rằng sự khác biệt rõ ràng giữa sinh viên song ngữ và đơn ngữ là sự xuất hiện của thứ tiếng thứ hai trong bài đọc hơn nhiều là toán học, khoa học, và học song ngữ sẽ cho phép sinh viên hiểu ngôn ngữ nói chung hoạt động như thế nào, nghĩa là cái gọi là “nhận thức về Metalinguistic”
+    - [Ellen Bialystok](PER) đã chỉ ra thiếu sót trong nghiên cứu đó
+    - [Hải](PER) và bố làm thủ tục đổi lại giới tính cho [Hải](PER)
+    - [Bộ GD-ĐT](ORG) sẽ tăng cường thanh tra, kiểm tra để có biện pháp chấn chỉnh ngay hành vi không đúng” - Thứ trưởng [Nghĩa](PER) nhấn mạnh
+    - [Bùi Thị Chung](PER) là nhân vật trong bài viết Vừa nhập học đã nhập viện cấp cứu đăng trên [Thanh Niên](ORG) ngày 14.9
+    - [Báo Infonet](ORG) đưa tin, cũng tại hội nghị, GS
+    - [Bộ GD&ĐT](ORG) đang xây dựng Nghị định tự chủ đại học và Nghị định về tự chủ các cơ sở giáo dục mầm non, phổ thông
+    - [Trần Nguyên Phong](PER) - [Đức Trí](PER)
+    - [Chris](PER) có thể nói thành thạo [tiếng Anh](MIS), [Tây Ban Nha](MIS), [Cộng hòa Czech](MIS), [Slovak](MIS) và đang tiếp tục học thêm [tiếng Hàn](MIS), [Trung](MIS)
+    - [Lào Cai](LOC) rà soát các bếp ăn trường học sau vụ 73 trẻ nghi ngộ độc thực phẩm nhập viện
+    - [Bộ GD-ĐT](ORG) vừa có văn bản gửi các sở GD-ĐT và cơ sở đào tạo ĐH, CĐ về thực hiện chỉ tiêu bảo hiểm y tế học sinh - sinh viên
+    - [Bộ GD&ĐT](ORG) nói gì về lạm thu

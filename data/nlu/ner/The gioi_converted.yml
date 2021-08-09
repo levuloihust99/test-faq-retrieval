@@ -1,0 +1,108 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Gia Cát Lượng](PER) (181-234) là nhân vật kiệt xuất trong lịch sử [Trung Quốc](LOC) thời Tam quốc
+    - [Khương Duy](PER), tự [Bá Ước](PER), là người [Cam Túc](LOC), ban đầu là một vị tướng bên phe [Tào Ngụy](LOC)
+    - [Ngụy Minh Đế Tào Duệ](PER) khi đó cử đại đô đốc [Tào Chân](PER) làm thống lĩnh, đặt trọng binh phòng ngự ở đất [Mi](LOC)
+    - [Khương Duy](PER) kế tục cũng không chiếm ưu thế trước [Đặng Ngải](PER), [Chung Hội](PER) [nhà Ngụy](MIS)
+    - [Khương Duy](PER) khi đó là Trung lang tướng ở [quận Thiên Thủy](LOC), cùng Thái thú [Mã Tuân](PER) tháp tùng Thứ sử [Ung Châu](LOC) [Quách Hoài](PER) tuần sát các vùng
+    - [Gia Cát Lượng](PER) nắm lấy cơ hội dẫn đầu quân chủ lực quay sang tấn công [Kỳ Sơn](LOC)
+    - [Khương Duy](PER) tới bước đường cùng, buộc phải quay đầu trở lại và sau đó gia nhập lực lượng của [Gia Cát Lượng](PER)
+    - [Bout](PER) phục vụ trong quân đội [Liên Xô](LOC) với hàm trung úy
+    - [Bout](PER) ngay lập tức đồng ý và cả hai hẹn nhau ở [Thái Lan](LOC) để thực hiện phi vụ này
+    - [Mullah](PER) yêu cầu [Bout](PER) cung cấp cho phiến quân [Taliban](ORG) 30 tấn vũ khí và lời đề nghị này nhanh chóng được thực hiện
+    - [Bout](PER) nghĩ ra một cách khác khi nhìn thấy cơ hội từ số vũ khí vô chủ
+    - [Bout](PER) mua hẳn một chiếc vận tải cơ Ilyushin 76 rồi làm mới, chuyển hẳn sang buôn vũ khí, từ súng ống, xe bọc thép, xe tăng tới tên lửa đất đối không
+    - [Bout](PER) làm ăn với nhiều lãnh đạo khác nhau, trong đó có nhà độc tài [Charles Taylor](PER) ở [Liberia](LOC) để đổi lấy đá quý, cho cố lãnh đạo [Gaddafi](PER) ở [Libya](LOC) để lấy dầu lửa
+    - [Bout](PER) cam kết giao cho [FARC](ORG) 6.000 khẩu súng, hàng triệu viên đạn, vài chục nghìn lựu đạn và 100 tên lửa Igla chống máy bay
+    - [Prelas](PER) đã gọi trực tiếp cho [United Airlines](ORG) và đổi vé cho một chuyến bay sớm hơn – điều [Traveller Help Desk](ORG) không nhận được thông tin và sau đó tiến hành hủy vé
+    - [Prelas](PER) nói rằng hãng [United Airlines](ORG) đã thông báo với cô rằng có thể thực hiện thay đổi vé trực tiếp thông qua hãng hàng không và không cần qua [Traveller Help Desk](ORG)
+    - [United Airlines](ORG) gần đây đã bị dư luận chỉ trích rất nhiều về chính sách chỗ ngồi của họ khi một phụ nữ cáo buộc rằng hãng hàng không này đã chuyển ghế hạng nhất của cô cho một nữ nghị sĩ
+    - [Carolyn Gallant](PER), giám sát dịch vụ khách hàng tại [Traveller Help Desk](ORG), nói với [NYT](ORG) rằng họ không biết vé do [Prelas](PER) đặt đã bị thay đổi và họ hủy bỏ nó để chống gian lận
+    - [Gallant](PER) tuyên bố họ đã liên hệ với [Prelas](PER) "rất nhiều lần" sau khi có sự thay đổi xuất hiện trên hệ thống
+    - [Prelas](PER) đã mua vé qua [Traveller Help Desk](ORG) – một đơn vị bán vé trực tuyến
+    - [Amrich](PER) được thông báo rằng vé của cô đã bị hủy bỏ và cô được hộ tống ra khỏi máy bay
+    - [United Airlines](ORG) đã gửi các ý kiến liên quan tới vụ việc sang [Traveller Help Desk](ORG) và đã gửi lời chia buồn tới [Amrich](PER)
+    - [Duvalier](PER) tiếp tục sống một cuộc sống xa hoa và hưởng thụ, với những mối tình với các cô tình nhân của anh em vợ
+    - [Michèle](PER), vốn lắm lời và chưa bao giờ là một người mẹ tận tụy, đã vô cùng thất vọng
+    - [Michèle](PER) giành quyền nuôi hai đứa con là [Nicolas](PER) và [Anya](PER), đồng thời được chi trả 7.500 USD hàng tháng
+    - [Thụy Điển](LOC) cũng từng triệu tập đại sứ [Ecuador](LOC) ở [Stockholm](LOC) để yêu cầu giải thích về quyết định của Tổng thống [Ecuador](LOC) [Rafael Correa](PER)
+    - [Lại Xương Tinh](PER) sau đó bị tòa án [Trung Quốc](LOC) tuyên án tù chung thân và tịch thu toàn bộ tài sản
+    - [Libingan ng mga Bayani](LOC) được chính phủ [Philippines](LOC) xây dựng vào năm 1947 với cái tên ban đầu là “Nghĩa trang tưởng niệm cộng hòa”
+    - [Nghĩa trang Santa Ifigenia](LOC) ở ngoại ô [Santiago de Cuba](LOC), TP có gần nửa triệu dân, cũng chính là nơi an nghỉ của vị lãnh tụ huyền thoại của cách mạng [Cuba](LOC)
+    - [Lực lượng vũ trang Philippines](ORG) ([AFP](ORG)) giữ vai trò quản lý và giám sát nghĩa trang cũng đã ra các chỉ dẫn cụ thể nêu rõ những ai sẽ được chôn cất tại nơi đây
+    - [Harvey Weinstein](PER) cùng em trai [Bob](PER) thành lập [TWC](ORG) 12 năm trước sau khi ngừng hoạt động ở hãng [Miramax](ORG)
+    - [Việt Nam](LOC) xác nhận việc [Nga](LOC) bàn giao tàu chiến Gepard thứ ba
+    - [Devillers](PER), một nhà [Việt Nam học](MIS) kỳ cựu [người Pháp](MIS), đã trích dẫn các báo [Việt Nam](LOC) thời kỳ đó như [nhật báo Quyết chiến](ORG) của [thành phố Huế](LOC), để phản ảnh phản ứng của công dân [Việt Nam](LOC) lúc đó về Hiệp định này:
+    - [Angela Merkel](PER) - Vị 'Thủ tướng bất diệt'
+    - [Tàu Reagan](MIS), tải trọng 100.000 tấn, cùng các tàu hộ tống đã tập trận với tàu hải quân [Nhật](LOC) kể từ ngày 11/9 ở vùng biển phía nam và tây các đảo chính của [Nhật](LOC), lực lượng phòng vệ trên biển của [Nhật](LOC) thông báo
+    - [Triều Tiên](LOC) hôm nay còn tuyên bố có thể thử bom nhiệt hạch trên [Thái Bình Dương](LOC), sau khi Tổng thống [Mỹ](LOC) [Donald Trump](PER) dọa "hủy diệt hoàn toàn" nước này
+    - [Mỹ](LOC) và các đồng minh trong khu vực đang đáp trả bằng các cuộc tập trận quân sự, với sự tham gia của máy bay ném bom, chiến đấu cơ gần [bán đảo Triều Tiên](LOC), khi [Bình Nhưỡng](LOC) theo đuổi chương trình hạt nhân và tên lửa
+    - [Trung Quốc](LOC) đưa ra kêu gọi sau khi Ngoại trưởng [Triều Tiên](LOC) [Ri Yong-ho](PER) đe dọa [Bình Nhưỡng](LOC) có thể xem xét tiến hành một vụ thử bom nhiệt hạch trên [Thái Bình Dương](LOC)
+    - [Trung Quốc](LOC) kêu gọi [Triều Tiên](LOC) ngừng ngoan cố theo con đường nguy hiểm
+    - [Trung Quốc](LOC) kêu gọi [Triều Tiên](LOC) ngừng ngoan cố theo con đường nguy hiểm và cũng yêu cầu [Mỹ](LOC) tránh gây hấn
+    - [SAA](ORG) vượt [sông Euphrates](LOC) đã cắt đứt ý đồ phát triển về phía Đông và [Al Bukaman](LOC) của [SDF](ORG)
+    - [Mỹ](LOC)-[SDF](ORG) đã phản ứng quyết liệt
+    - [Mỹ](LOC) và [SDF](ORG) phải tránh xa và không can thiệp vào cuộc chiến chống [IS](ORG) của [SAA](ORG)
+    - [Mỹ](LOC) cố "thọc gậy bánh xe chiến thắng" của [Nga](LOC)-[Syria](LOC)
+    - [Mỹ](LOC) đã đang núp sau lưng [người Kurd](MIS) và quân khủng bố thọc gậy vào bánh xe chiến thắng của [Nga](LOC)-[Syria](LOC)
+    - [Petrov](PER) cũng mắc lỗi khi không lưu lại chi tiết các hành động của mình trong quãng thời gian ông không thông báo về nguy cơ [Liên Xô](LOC) bị tấn công hạt nhân với chỉ huy
+    - [Thái Lan](LOC): Đánh bom nhằm vào xe quân sự, 10 người thương vong
+    - [Trump](PER) và [Merkel](PER): Đối tác toàn cầu, nghìn trùng xa cách
+    - [Argentina](LOC): Nối lại hợp tác quân sự với [Mỹ](LOC)
+    - [Nga](LOC) trình diễn uy lực của cỗ máy chiến tranh T-90
+    - [Merkel](PER) và [Sauer](PER) kết hôn từ năm 1998
+    - [Merkel](PER) khi đó là phó chủ tịch của đảng này
+    - [Karl Vick](PER), tổng biên tập của [Time](ORG), mô tả bà là "lãnh đạo thực quyền của [Liên minh châu Âu](ORG)" khi là người đứng đầu quốc gia thành viên lớn nhất và giàu mạnh nhất của [EU](ORG)
+    - [Helmut Kohl](PER), người bảo trợ của bà [Merkel](PER), bị vướng vào bê bối nhận tiền quyên góp bất minh
+    - [Angela Merkel](PER): Từ cô gái trầm lặng đến nữ thủ tướng quyền lực
+    - [Merkel](PER) (trái) tham gia tiệc mừng năm mới với bạn bè ở [Berlin](LOC) năm 1972
+    - [Trung Quốc](LOC) kêu gọi [LHQ](ORG) trở thành trung tâm của trật tự thế giới thay vì [Mỹ](LOC) để “các quốc gia có thể bình đẳng, có thể xử lý các vấn đề toàn cầu cùng với nhau”
+    - [Nga](LOC) và [Trung Quốc](LOC) nằm trong số các nước từ chối ký
+    - [Nga](LOC), [Trung Quốc](LOC) phản pháo [Mỹ](LOC) tại [LHQ](ORG)
+    - [Mỹ](LOC) muốn thương lượng lại, cho rằng thỏa thuận hiện tại quá nhân nhượng [Iran](LOC), không phục vụ quyền lợi an ninh [Mỹ](LOC), hạn chế khả năng làm áp lực lên [Iran](LOC) của [Mỹ](LOC)
+    - [Nga](LOC) cáo buộc, vụ tấn công trên là “khởi động” cho các chiến dịch bí mật của [Mỹ](LOC) hòng ngăn cản sự sự thành công của quân đội [Syria](LOC) tại phía đông [Deir ez-Zor](LOC)
+    - [Triều Tiên](LOC) có thể phóng tên lửa mang bom nhiệt hạch bay qua [Nhật](LOC)
+    - [Iran](LOC) diễu binh, khẳng định quyết tâm phát triển tên lửa đạn đạo
+    - [Mỹ](LOC) đã yêu cầu sửa đổi thỏa thuận này và áp đặt trở lại các biện pháp trừng phạt [Iran](LOC)
+    - [Israel](LOC) không kích gần [sân bay Damascus](LOC)
+    - [Mỹ](LOC): [California](LOC) cáo buộc Tổng thống [Trump](PER) vi phạm Hiến pháp
+    - [Mỹ](LOC) chấp thuận hàng loạt biện pháp trừng phạt mới chống [Triều Tiên](LOC)
+    - [Romania](LOC) đã trở thành một trong những điểm trung chuyển của người di cư từ [Syria](LOC) và [Iraq](LOC) để đến [Tây Âu](LOC)
+    - [Mỹ](LOC) rút khỏi thỏa thuận hạt nhân [Iran](LOC) sẽ tạo 'tiền lệ xấu' cho [Triều Tiên](LOC)
+    - [Massoud Barzani](PER) lãnh đạo người Kurd tại [Iraq](LOC) đã lên tiếng bác bỏ nỗ lực chặn cuộc trưng cầu dân ý từ [Liên Hợp Quốc](ORG), [Mỹ](LOC), [Anh](LOC)
+    - [Thổ Nhĩ Kỳ](LOC) thì tập trận sát biên giới với [Iraq](LOC) vì lo người Kurd nước họ sẽ nổi dậy đòi sáp nhập với đất Kurd tại [Iraq](LOC) sau cuộc trưng cầu dân ý vài ngày tới
+    - [Thổ Nhĩ Kỳ](LOC) từ lâu đã tuyên bố họ có "nhiệm vụ đặc biệt" để bảo vệ người Turkmen
+    - [Mỹ](LOC)-[Nga](LOC) tố nhau tại cuộc họp về vũ khí hạt nhân của [LHQ](ORG)
+    - [Tổ chức Nhà nước Hồi giáo](ORG) ([IS](ORG)) tuyên bố thực hiện vụ tấn công này
+    - [Thổ Nhĩ Kỳ](LOC) có tham gia vào lực lượng liên minh do [Mỹ](LOC) dẫn đầu nhằm chống lại lực lượng khủng bố [IS](ORG) tại [Syria](LOC) và [Iraq](LOC)
+    - [Reuters](ORG) cho biết, kể từ sau khi cuộc đảo chính tại [Thổ Nhĩ Kỳ](LOC) thất bại, các quan chức [Istabul](LOC) đã đóng của hơn 130 tờ báo
+    - [Thổ Nhĩ Kỳ](LOC) cũng đã bắt giữ gần 50.000 người liên quan đến vụ đảo chính
+    - [Châu Âu](LOC) và các tổ chức nhân quyền bộc lộ nhiều lo lắng về tình hình khủng hoảng an ninh của [Thổ Nhĩ Kỳ](LOC)
+    - [Thổ Nhĩ Kỳ](LOC) là quốc gia có luật pháp và mọi việc đều làm theo luật pháp”, ông [Erdogan](PER) cho biết thêm
+    - [Anadolu](ORG) cho biết chuyến bay hướng tới [sân bay Ercan](LOC) ở [miền bắc](LOC) [đảo Síp](LOC)
+    - [Mỹ](LOC) kêu gọi [Nga](LOC), [Trung](LOC) dừng phổ biến vũ khí hạt nhân
+    - [Nga](LOC) trước đây từng bắn tên lửa hành trình từ [Địa Trung Hải](LOC) nhắm vào các vị trí của [IS](ORG) ở [tỉnh Deir al-Zour](LOC) (đông [Syria](LOC)), tuy nhiên nhắm vào [tỉnh Idlib](LOC) thì rất hiếm
+    - [Myanmar](LOC) không công nhận người Rohingya là một trong các dân tộc thiểu số của nước mình, và gọi họ là người Bengalis - hay người nhập cư bất hợp pháp từ nước [Bangladesh](LOC) láng giềng - dù nhiều người đã sống tại [Myanmar](LOC) qua nhiều thế hệ
+    - [Hàn Quốc](LOC), [Saudi Arabia](LOC), [Mỹ](LOC) và [Trung Quốc](LOC) cùng đều cam kết sẽ viện trợ nhân đạo cho người Rohingya
+    - [Croatia](LOC) đã bác bỏ phán quyết này và kêu gọi đàm phán song phương để giải quyết vấn đề./
+    - [Nga](LOC) bắt đầu đóng tàu K-560 Severodvinsk từ năm 1993
+    - [USA Today](ORG) hôm 22-9 dẫn nguồn lực lượng đồng minh cho biết số lượng tay súng [IS](ORG) còn lại ở [TP Raqqa](LOC) – [Syria](LOC), hiện là khoảng 500-900 tên so với 3.500 tên hồi tháng 6 qua khi quân đồng minh bắt đầu chiến dịch tái chiếm khu vực này
+    - [Cao Lực](PER) (Theo [USA Today](ORG), [Reuters](ORG), [RT](ORG))
+    - [SDF](ORG) hiện đang được hậu thuẫn bởi không kích, pháo kích và hàng trăm cố vấn của quân đồng minh
+    - [Đảng Quốc gia](ORG) bảo thủ nắm quyền lãnh đạo liên tục ở quốc gia [Thái Bình Dương](LOC) này kể từ năm 2008, và từ đó chưa có cuộc bầu cử Quốc hội nào ở [New Zealand](LOC) được dự báo cho kết quả sít sao như năm nay
+    - [Trung Quốc](LOC) đã bác bỏ các thông tin truyền thông cho rằng nước này đã ra ra lệnh cho các ngân hàng không được mở những giao dịch mới với [Triều Tiên](LOC)
+    - [Trung Quốc](LOC) bác tin ra lệnh hạn chế giao dịch tài chính với [Triều Tiên](LOC)
+    - [Điện Kremlin](LOC) ngày 22/9 tuyên bố không dính líu tới những quảng cáo trên mạng xã hội Facebook có thể đã làm ảnh hưởng tới cuộc bầu cử tổng thống [Mỹ](LOC) hồi năm ngoái
+    - [Nga](LOC) phủ nhận liên quan tới quảng cáo Facebook tác động bầu cử [Mỹ](LOC)
+    - [Triều Tiên](LOC) đã tiến bộ ra sao trong chương trình tên lửa?
+    - [Mỹ](LOC) lo bí mật công nghệ rơi vào tay [Trung Quốc](LOC) nếu giao vũ khí cho [Đài Loan](LOC)
+    - [Mỹ](LOC) thông qua những hành động này nhằm tìm cách can thiệp vào công việc nội bộ của [Trung Quốc](LOC), gây phiền phức cho quan hệ hai bờ, thách thức nghiêm trọng ranh giới đỏ "một [Trung Quốc](LOC)"
+    - [Trung Quốc](LOC) tuyệt đối không cho phép, kiên quyết phản đối bất cứ người nào có ý đồ lợi dụng bất cứ cớ gì, đưa vũ khí hạt nhân vào [Đài Loan](LOC)
+    - [Trung Quốc](LOC) yêu cầu [Mỹ](LOC) tuân thủ nguyên tắc "một [Trung Quốc](LOC)", tuân thủ 3 thông cáo chung [Trung](LOC) - [Mỹ](LOC)
+    - [David Helvey](PER) còn tuyên bố, [Mỹ](LOC) cần hết sức hỗ trợ cho [Đài Loan](LOC), bao gồm cung cấp vũ khí, thiết bị và huấn luyện, tổ chức đối thoại với quan chức quốc phòng [Đài Loan](LOC), tiến hành các hoạt động giao lưu, trao đổi ý kiến cần thiết
+    - [Israel](LOC) và [Syria](LOC) vốn có mối quan hệ thù địch, [Tel Aviv](PER) thường cáo buộc [Damascus](LOC) chứa chấp các nhóm [hồi giáo](ORG) cực đoan chuyên tấn công đẫm máu vào [Israel](LOC)
+    - [Nga](LOC) vừa hoàn thiện lưới lửa phòng không mạnh nhất thế giới bằng mảnh ghép hệ thống tên lửa tầm trung S-350E
+    - [Nga](LOC), [Israel](LOC) và đòn cân não căng thẳng tại [Syria](LOC)
+    - [Israel](LOC) và [Syria](LOC) vốn có mối quan hệ thù địch, [Tel Aviv](PER) thường cáo buộc [Damascus](LOC) chứa chấp các nhóm hồi giáo cực đoan chuyên tấn công đẫm máu vào [Israel](LOC)

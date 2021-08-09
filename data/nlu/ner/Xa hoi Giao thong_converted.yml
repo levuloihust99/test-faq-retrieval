@@ -1,0 +1,5 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [TP.HCM](LOC): Mở 3 đợt xử lý mạnh xe quá tải

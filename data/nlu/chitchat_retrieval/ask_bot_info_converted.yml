@@ -1,0 +1,906 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_bot_intro
+  examples: |
+    - hi tên của bạn là gì
+    - xin chào tên bạn là gì
+    - tôi muốn biết bạn là ai
+    - vậy bạn là ai
+    - kể cho tôi thêm nữa về bạn đi
+    - bạn là ai
+    - bạn là gì
+    - tên của bạn là gì
+    - mày tên là gì
+    - mày tên là gì thế bot
+    - mày là ai
+    - bot là ai thế ạ
+    - này, tên cậu là gì thế
+    - Chào! bạn tên là gì
+    - được rồi, mày là ai
+    - nói cho tôi một vài điều về bạn
+    - bạn là
+    - bạn được gọi là gì
+    - bạn tên gì
+    - tên của bạn là gì thế
+    - bạn của bạn là gì vậy
+    - tên bạn là gì
+    - bạn tên là gì
+    - bạn tên là gì vậy
+    - bạn tên là gì thế
+    - Ai là người mà tôi nói chuyện
+    - tôi đang nói chuyện với ai vậy
+    - bạn là ai và bạn muốn gì ở tôi
+    - đó là ai
+    - Ai đang nói vậy
+    - ai đây
+    - bot này là ai
+    - ai đang chat thế
+    - tôi đang nói chuyện với ai
+    - ai vậy
+    - ai đang nói chuyện với tôi vậy
+    - ai nói chuyện với tôi bây giờ vậy
+    - người mà tôi nói chuyện là ai nhỉ
+    - đúng nhưng thật lòng tôi muốn biết bạn là ai
+    - Tôi có thể biết tên của bạn không
+    - tôi có thể biết danh tính của bạn được không
+    - bạn tên thật của bạn là gì
+    - có thể vui lòng cho tôi biết về bạn không
+    - tôi đang nói với ai
+    - rất mong được nghe giới thiệu về bạn
+    - giới thiệu về bạn cho tôi đi
+    - vậy bạn thích được gọi là gì
+    - vậy tên bạn là gì
+    - vậy tôi nên gọi bạn là gì
+    - vậy bạn muốn tôi gọi bạn là gì
+    - bạn có thể tự giới thiệu bản thân
+    - bạn muốn tôi gọi cho bạn như thế nào
+    - tôi có thể nói gì với bạn
+    - tôi có thể đề cập gì đến bạn
+    - tôi gọi bạn là gì
+    - bạn muốn tôi nói với bạn như thế nào
+    - bạn có thể cho tôi biết làm thế nào để giới thiệu với bạn
+    - bạn có thể cho tôi biết tôi nên gọi bạn là gì
+    - bạn có thể cho tôi biết tên của bạn là gì
+    - bạn có thể cho tôi biết tên của bạn
+    - bạn có chỉ định không
+    - bạn có tên không
+    - bạn có tiêu đề không
+    - bạn có tên chính thức không
+    - làm thế nào tôi có thể gọi bạn
+    - giới thiệu bản thân
+    - làm thế nào tôi có thể giới thiệu bạn
+    - bạn muốn tôi giới thiệu bạn như thế nào
+    - tên bạn như thế nào
+    - tôi nên nói với bạn như thế nào
+    - tôi nên gọi bạn bằng gì
+    - tôi nên giới thiệu bạn như thế nào
+    - bạn của bạn gọi bạn là gì
+    - tôi có thể gọi bạn ntn
+    - họ gọi bạn là gì
+    - bạn muốn tôi gọi bạn là gì
+    - bạn sẽ nói tên bạn là gì
+    - tôi muốn biết tên bạn
+    - tôi muốn biết gọi bạn là gì
+    - họ của bạn là gì
+    - tôi cần biết tên của bạn
+    - bạn thích được gọi tên gì
+    - bạn có một cái tên
+    - bạn thích được gọi là gì
+    - tôi không biết tên bạn
+    - tôi không biết gọi bạn là gì
+    - tôi không chắc gọi bạn là gì
+    - tôi không thể tìm ra những gì để gọi cho bạn
+    - tôi không biết tên bạn là gì
+    - bạn dùng tên gì
+    - xin vui lòng hãy nói tên
+    - bạn thích dùng tên gì
+    - bạn đi bằng tên gì
+    - xử lý của bạn là gì
+    - tôi nên dùng tên gì cho bạn
+    - tên chương trình của bạn là gì
+    - tôi nên nói gì với bạn
+    - tôi nên gọi bạn là gì
+    - tôi nên đề cập gì đến bạn
+    - mọi người gọi bạn là gì
+    - bạn muốn tôi nói gì với bạn
+    - và tên của bạn là
+    - chỉ định của bạn là gì
+    - bạn muốn tôi gọi bạn là ai
+    - tôi đang trò chuyện với ai
+    - tôi đang chat với ai
+    - chính xác bạn là ai
+    - bạn thích cái tên nào
+- intent: chitchat/ask_bot_age
+  examples: |
+    - bạn có bạn bè bằng tuổi bạn không, nếu vậy, họ bao nhiêu tuổi
+    - bạn sống được bao lâu rồi
+    - bạn ở đây bao lâu rồi
+    - bạn tồn tại được bao lâu rôi
+    - bạn chiếm trái đất bao lâu rồi
+    - có bao nhiêu ngọn nến trên chiếc bánh sinh nhật cuối cùng của bạn
+    - bạn sống được bao nhiêu năm rồi
+    - bạn đã sống được bao nhiêu năm
+    - bạn bao nhiêu tuổi
+    - bạn bao nhiêu tuổi vào sinh nhật tới
+    - cho tôi biết ngày, tháng và năm sinh của bạn
+    - ngày sinh của bạn là gì
+    - số năm của bạn còn sống là bao nhiêu
+    - bạn bao nhiêu tuổi vào sinh nhật trước
+    - bạn sẽ bao nhiêu tuổi vào sinh nhật tới
+    - bạn sinh năm nào
+    - khi nào bạn kỷ niệm ngày sinh của bạn
+    - và bạn bao nhiêu tuổi
+    - bạn có thể cho tôi biết chính xác bạn bao nhiêu tuổi
+    - bạn có thể cho tôi biết số nào đại diện cho tuổi của bạn
+    - bạn có thể cho tôi biết tuổi của bạn
+    - bạn có biết bạn bao nhiêu tuổi
+    - cho tôi tuổi của bạn
+    - bạn khỏe không
+    - bao nhiêu tuổi
+    - bạn năm nay bao nhiêu tuổi rồi
+    - bạn bao nhiêu tuổi khi bạn tổ chức sinh nhật trước
+    - năm nay bạn bao nhiêu tuổi
+    - bạn sinh vào năm nào
+    - cho tôi biết bạn bao nhiêu tuổi
+    - cho tôi biết số tuổi của bạn
+    - cho tôi biết tuổi của bạn
+    - sinh nhật bạn ngày gì
+    - tuổi chính xác của bạn là bao nhiêu
+    - số nào đại diện cho tuổi của bạn
+    - bạn sinh năm naò
+    - bận bao nhiêu tuổi
+    - năm sinh của bạn là gì
+    - Bạn sinh ngày nào
+    - bạn sinh ra khi nào
+    - khi nào bạn được ra đời
+    - đã bao lâu rồi kể từ khi bạn được sinh ra
+    - bạn sinh ra bao lâu rồi
+    - bạn có tuổi không
+    - bạn có sinh nhật không
+    - bạn có trẻ hơn tôi không
+    - chúng ta bằng tuổi nhau
+    - bạn lớn tuổi hơn tôi
+    - bạn bằng tuổi tôi
+    - bạn có đang tuổi thiếu niên
+    - bạn có phải người lớn không
+    - bạn có phải người trưởng thành không
+    - bạn có phải là một thiếu niên
+    - bạn là một đứa trẻ
+    - bạn đã lớn rồi phải không
+    - bạn có phải là người trưởng thành
+    - bạn có phải là một đứa bé không
+    - bạn còn trẻ
+    - ai trẻ hơn, bạn hay tôi
+    - ai lớn tuổi
+    - người lớn tuổi hơn bạn hay tôi
+    - ai lớn tuổi hơn tôi hay bạn
+    - ai trong chúng ta trẻ hơn
+    - ai trong chúng ta lớn tuổi hơn
+    - ai trong chúng ta lớn tuổi
+    - tôi cá là bạn còn trẻ
+    - khi nào là sinh nhật của bạn
+    - bạn sinh vào ngày nào
+    - sinh nhật bạn vào tháng mấy
+    - sinh nhật bạn ngày nào
+    - giữa chúng ta bạn nghĩ ai trẻ hơn
+    - sinh nhật bạn tháng mấy
+- intent: chitchat/ask_bot_languages
+  examples: |
+    - bạn có quen thuộc với nhiều ngôn ngữ không
+    - bạn có thể giao tiếp bằng bất kỳ ngôn ngữ nào khác không
+    - bạn có thể nói nhiều hơn một ngôn ngữ
+    - Bạn có biết bất kỳ ngôn ngữ khác
+    - bạn có biết ngôn ngữ khác không
+    - bạn có nói tiếng Đức không
+    - bạn có nói ngôn ngữ nào khác không
+    - bạn thông thạo bao nhiêu ngôn ngữ
+    - bạn quen thuộc với bao nhiêu ngôn ngữ
+    - Bạn có thể nói bao nhiêu ngôn ngữ
+    - bạn có bao nhiêu ngôn ngữ
+    - bạn biết bao nhiêu ngôn ngữ
+    - bạn nói thông thạo ngôn ngữ nào
+    - bạn thông thạo ngôn ngữ nào
+    - bạn có thể nói ngôn ngữ nào
+    - nói bất kỳ ngôn ngữ nào khác
+    - tất cả các ngôn ngữ khác nhau bạn có thể nói là gì
+    - ngôn ngữ bạn có thể nói là gì
+    - bạn nói tiếng nước nào
+    - bạn có thể giao tiếp bằng ngôn ngữ nào
+    - bạn có thể nói chuyện bằng ngôn ngữ nào
+    - bạn có thể sử dụng ngôn ngữ nào
+    - bạn biết sử dụng ngôn ngữ nào
+    - bạn nói ngôn ngữ nào
+    - bạn quen thuộc với ngôn ngữ nào
+    - Bạn nói được những ngôn ngữ nào
+    - bạn có phải là người song ngữ
+    - bạn có đa ngôn ngữ không
+    - bạn có thể nói tiếng Tây Ban Nha không
+    - bạn có thể nói tiếng Ý không
+    - bạn có biết tiếng trung quốc không
+    - bạn có nói tiếng Hà Lan không
+    - cho tôi biết một số ngôn ngữ bạn biết
+    - bạn biết gì khác ngoài tiếng anh
+    - bạn thông thạo ngoại ngữ nào
+    - bạn biết ngoại ngữ nào
+    - Bạn sử dụng ngôn ngữ nào
+    - bạn nói ngôn ngữ nào thoải mái
+    - bạn nói ngôn ngữ nào tốt
+    - bạn thành thạo ngôn ngữ nào
+    - bạn có thể thoải mái nói những ngôn ngữ nào
+    - ngôn ngữ nào bạn có thể xử lý tốt
+    - bạn biết ngôn ngữ nào
+    - bạn thích nói ngôn ngữ nào hơn
+    - bạn hiểu ngôn ngữ nào
+    - bạn biết tiếng pháp
+    - bạn nói tiếng Pháp
+    - tôi muốn nói chuyện nhị phân với bạn
+    - là bạn Tây Ban Nha
+    - chúng tôi không thể trò chuyện bằng tiếng Pháp
+    - chúng ta có thể nói chuyện bằng tiếng Pháp không
+    - bạn nói tiếng Ý phải không
+- intent: chitchat/ask_bot_where_from
+  examples: |
+    - bạn đến từ đây à
+    - bạn đến từ đâu
+    - bạn có biết bạn đến từ đâu không
+    - bạn đã đến từ đâu
+    - vậy bạn đến từ đâu
+    - bạn đến từ vùng nào
+    - bạn đặt quyền công dân nào
+    - Bạn ở thành phố nào
+    - bạn khai sinh thành phố nào
+    - bạn sinh ra ở thành phố nào
+    - bạn đến từ đất nước nào
+    - bạn sinh ra ở nước nào
+    - nơi sinh của bạn là gì
+    - di sản của bạn là gì
+    - nguồn gốc của bạn là gì
+    - vị trí ban đầu của bạn là gì
+    - gốc của bạn là gì
+    - bạn đến từ địa điểm nào
+    - tên của nơi bạn đến từ đâu
+    - Bạn đang ở đâu
+    - bạn ở đâu
+    - nguồn gốc của bạn ở đâu
+    - gốc rễ của bạn ở đâu
+    - Bạn từ đâu đến
+    - Nơi mà bạn đã lớn lên
+    - bạn bắt nguồn từ đâu
+    - bạn xem nhà ở đâu
+    - bạn sống ở đâu
+    - từ đâu đến
+    - bạn có thể đến từ đâu
+    - bạn đã ở đâu trước khi bạn ở đây
+    - bạn sinh ra ở đâu
+    - bạn sống quanh đây
+    - bạn đã được hình thành ở vị trí nào
+    - Bạn đến từ đâu
+    - cha mẹ bạn đến từ đâu
+    - bạn đã dành tuổi trẻ của mình ở đâu
+    - quê hương của bạn ở đâu
+    - tôi muốn biết bạn đang ở đâu
+    - giải thích bạn đang ở đâu
+    - tôi muốn biết nhà của bạn ở đâu
+    - cho tôi biết bạn đang ở đâu
+    - tôi muốn biết bạn sống ở đâu
+    - bạn có thể cho tôi biết bạn đang ở đâu
+    - mô tả bạn đang ở đâu
+    - bạn ở đâu trên thế giới
+    - bạn cư trú ở đâu
+    - Nơi trên thế giới bạn là
+    - nhà bạn ở đâu
+    - Nhà của bạn ở đâu
+    - bạn có sống ở đâu không
+    - bạn ở nước nào
+    - bạn sống ở nước nào
+    - cho tôi biết bạn đang ở nước nào
+    - nói cho tôi biết bạn sống ở nước nào
+- intent: chitchat/ask_bot_interest
+  examples: |
+    - bạn có thích vẽ không
+    - Bạn có thích nhạc rock không
+    - bạn có thích màu đỏ không
+    - bạn có thích nhạc rap không
+    - bạn có thích thỏ không
+    - bạn thích bỏng ngô không
+    - bạn có thích nhạc pop không
+    - bạn có thích pizza không
+    - Bạn thích ngựa không
+    - Bạn thích bánh kếp
+    - bạn có thích thể thao không
+    - bạn có thích âm nhạc không
+    - bạn có thích phim không
+    - bạn có thích meme không
+    - bạn có thích sư tử không
+    - bạn có thích phòng thí nghiệm không
+    - bạn có thích gấu túi không
+    - bạn có phải là người hâm mộ nhạc cổ điển
+    - bạn có thích paris không
+    - bạn có thích học không
+    - bạn thích màu gì
+    - bạn thích loài vật nào
+    - tôi cá là bạn là người thích nhảy
+    - tôi cá là bạn thích nhạc rap
+    - tôi cá là bạn thích nhảy
+    - tôi cá là bạn thích nhạc đồng quê
+    - bạn có thích bóng chuyền không
+    - bạn có thích bóng đá không
+    - Bạn thích ca hát không
+    - bạn có thích bóng mềm không
+    - Bạn có thích khiêu vũ
+    - bạn có thích hổ không
+    - bạn có thích internet không
+    - bạn có thích màu vàng không
+    - bạn có thích màu xanh không
+    - bạn có thích quần vợt không
+    - Bạn có thích bơi không
+    - bạn có thích khúc côn cầu không
+    - bạn có thích dạy không
+    - bạn có phải là fan hâm mộ của nhạc rap
+    - bạn có món kem yêu thích không
+    - bạn có màu yêu thích không
+    - bạn có con vật yêu thích nào không
+    - Bạn có phải là fan hâm mộ thể thao
+    - bạn có phải là một người hâm mộ nhạc rock
+    - bạn có phải là người hâm mộ nhạc rap không
+    - bạn có phải là người hâm mộ nhạc pop
+    - bạn có thích kem không
+    - bạn có phải là fan hâm mộ của nhạc rock
+    - bạn có thích hội họa không
+    - bạn có phải là fan hâm mộ của nhạc pop
+    - bạn có phải là fan hâm mộ của phim không
+    - bạn có phải là người hâm mộ âm nhạc dân gian
+    - bạn có phải là người hâm mộ nhạc đồng quê
+    - bạn có phải là fan hâm mộ của âm nhạc cổ điển
+    - bạn có phải là fan hâm mộ của nhạc bluegrass
+    - bạn có phải là người hâm mộ thể thao
+    - bạn thích giai điệu truyền thống không
+    - bạn có thích chó tha mồi vàng không
+    - bạn có thích bay không
+    - bạn có thích những thứ mịn màng không
+    - bạn có thích voi không
+    - bạn có thích bánh rán không
+    - bạn có thích động vật không
+    - bạn có thích nhạc đồng quê
+    - bạn có thích táo không
+    - bạn có thích phô mai không
+    - bạn có thích gấu không
+    - bạn có thích bóng rổ không
+    - bạn có thích bóng chày không
+    - mùa yêu thích của bạn là gì
+    - Bạn có thích chó
+    - ai là đội yêu thích của bạn
+    - cookie yêu thích của bạn là gì
+    - bạn có thích bánh quy không
+    - bạn có thích bánh nướng không
+    - món tráng miệng yêu thích của bạn là gì
+    - phô mai yêu thích của bạn là gì
+    - bạn có thích mozzarella không
+    - đội bóng chày yêu thích của bạn là gì
+    - bạn có phải là fan hâm mộ của mèo
+    - bạn có thích trái cây không
+    - ai là ca sĩ yêu thích của bạn
+    - đội bạn yêu thích là ai
+    - ca sĩ yêu thích của bạn là ai
+    - bạn thích đội nào
+    - bạn thích đội thể thao nào
+    - bạn thích đội bóng đá nào
+    - bạn thích đội khúc côn cầu nào
+    - bạn có phải là fan hâm mộ của chó không
+    - bạn có thích Bắc Kinh không
+    - bạn có thích cá heo không
+    - bạn có thích cá voi không
+    - bạn có thích cairo không
+    - bạn có thích los angeles không
+    - bạn có thích Tokyo không
+    - bạn có thích delhi không
+    - bạn có thích hyderbad
+    - bạn có thích bánh quy sô cô la không
+    - bạn có thích Thượng Hải không
+    - bạn có thích bánh sô cô la không
+    - bạn có thích barcelona không
+    - bạn có thích frankfurt không
+    - bạn có thích berlin không
+    - bạn có thích madrid không
+    - Bạn có thích new york
+    - thành phố yêu thích của bạn là gì
+    - bạn có thích rau không
+    - bạn thích đội bóng chày nào
+    - bạn có thích hong kong không
+    - bạn thích món kem nào
+    - bạn thích đội bóng nào
+    - Màu sắc yêu thích của bạn là gì
+    - môn thể thao yêu thích của bạn là gì
+    - Bài hát yêu thích của bạn là gì
+    - bộ phim yêu thích của bạn là gì
+    - món ăn yêu thích của bạn là gì
+    - màu sắc ưa thích của bạn là gì
+    - bạn thích học những thứ gì
+    - bạn thích loại toppings nào trên pizza
+    - bạn thích gì
+    - bạn thích làm gì vào thời gian rảnh
+    - Bạn thích làm gì cho vui
+    - bạn thích gì trên bánh kếp của bạn
+    - bạn thích gì nhất
+    - bạn có thích cá không
+    - Động vật yêu thích của bạn là gì
+    - loại kem yêu thích của bạn là gì
+    - con chim yêu thích của bạn là gì
+    - điều yêu thích của bạn là gì
+    - điều yêu thích của bạn trên thế giới
+    - môn học ưa thích của bạn là gì
+    - topping pizza yêu thích của bạn là gì
+    - bạn thích loại kẹo nào
+    - loại pizza yêu thích của bạn là gì
+    - bạn thích đội bóng rổ nào
+    - loại chó yêu thích của bạn là gì
+    - đất nước yêu thích của bạn là gì
+    - màu yêu thích của bạn là gì
+    - động vật yêu thích của bạn là gì
+    - hoạt động yêu thích của bạn là gì
+    - bạn thích môn học nào
+    - bạn thích bài hát nào
+- intent: chitchat/ask_bot_job
+  examples: |
+    - bạn có nghề nghiệp không
+    - bạn có công việc không
+    - bạn làm nghề gì
+    - Bạn làm gì cho công việc
+    - nghề nghiệp của bạn là gì
+    - Công việc của bạn là gì
+    - Nghề nghiệp của bạn là gì
+    - bạn có việc phải làm không
+    - bạn có đi làm không
+    - bạn làm công việc gì
+    - Bạn làm gì để sống
+    - sinh kế của bạn là gì
+    - bạn kiếm tiền bằng cách nào
+    - bạn làm trong lĩnh vực gì
+    - anh làm nghề gì
+- intent: chitchat/ask_bot_food
+  examples: |
+    - món ăn khoái khẩu của bạn là gì
+    - bạn ăn cái gì
+    - bạn ăn loại thức ăn nào
+    - món ăn nhẹ yêu thích của bạn là gì
+    - bữa ăn yêu thích của bạn là gì
+    - bạn ăn thức ăn gì
+    - bạn muốn ăn gì
+    - bạn đã ăn gì vào bữa trưa
+    - bạn thích ăn gì
+    - bạn thích loại thực phẩm nào
+    - bạn ăn gì vào bữa trưa
+    - bạn ăn gì cho bữa tối
+    - bạn ăn gì vào buổi sáng
+    - Bạn đã ăn gì vào bữa tối
+    - Bạn có ăn rau không
+    - Bạn muốn ăn gì
+    - bạn sẽ ăn bao giờ
+    - bạn có bao giờ đói không
+    - bạn có ăn mì ống không
+    - bạn có ăn pizza không
+    - bạn không cần ăn
+    - bạn không cần thức ăn
+    - bạn không ăn
+    - bạn thích ăn món gì
+    - bạn sẽ cần bao giờ ăn
+    - những loại thực phẩm nào mà bạn thích
+    - khi nào bạn ăn
+    - món ăn yêu thích của bạn là gì
+    - bạn thích loại thức ăn nào
+    - bạn ăn những loại thức ăn nào
+    - bạn đã ăn gì cho bữa tối
+    - bạn không ăn thức ăn
+    - Bạn có ăn
+    - bạn có cần calo để sống sót không
+    - bạn có đồ ăn nhẹ yêu thích không
+    - bạn có bữa ăn yêu thích không
+    - bạn có đói không
+    - bạn có bao giờ cần ăn
+    - Bạn đã ăn gì cho bữa sáng
+    - bạn đã từng ăn chưa
+    - bạn có cần thức ăn không
+    - bạn có ăn thức ăn không
+    - bạn sẽ ăn trưa chứ
+    - bạn sẽ ăn tối chứ
+    - bạn sẽ ăn sáng chứ
+    - bạn đã bao giờ muốn một bữa ăn nhẹ
+    - bạn đã ăn gì cho bữa sáng
+    - vậy bạn không ăn
+    - bạn cần bao nhiêu calo
+    - bạn cần ăn bao nhiêu calo
+    - bạn cần bao nhiêu calo mỗi ngày
+    - bạn ăn bao nhiêu calo
+    - bạn có cần calo không
+    - bạn đã bao giờ muốn thức ăn
+    - bạn có cần thức ăn để tồn tại không
+    - bạn đã bao giờ muốn một bữa ăn
+    - bạn đã bao giờ đói
+    - bạn không đói à
+    - bạn không bao giờ đói
+    - bạn có ăn bánh quy không
+    - bạn đã bao giờ muốn ăn
+    - bạn đã bao giờ ăn thịt xông khói
+    - vì vậy bạn không cần ăn
+    - bạn đã từng ăn bánh mì nướng chưa
+    - bạn có ăn bánh mì nướng không
+    - bạn đã từng ăn bánh mì chưa
+    - bạn đã từng ăn bánh kếp chưa
+    - bạn có ăn bánh mì không
+    - vì vậy bạn thực sự không bao giờ đói
+    - bạn đã từng ăn thịt xông khói
+    - bạn có ăn thịt xông khói không
+    - bạn đã bao giờ ăn trứng
+    - bạn đã từng ăn trứng chưa
+    - bạn có ăn trứng không
+    - bạn có ăn trái cây không
+    - đúng hay sai: bạn không bị đói
+    - bạn đã từng ăn đậu phụ chưa
+    - bạn có ăn đậu phụ không
+    - bạn đã bao giờ ăn thịt lợn
+    - bạn có ăn thịt lợn không
+    - bạn đã bao giờ ăn thịt bò
+    - vậy bạn không bao giờ ăn
+    - bạn có ăn thịt bò không
+    - vì vậy bạn thực sự không bao giờ ăn
+    - đúng hay sai: bạn không ăn
+    - cho tôi biết bạn có ăn hay không
+    - có thật là bạn không ăn
+    - vì vậy bạn chưa bao giờ thực sự ăn thức ăn
+    - vì vậy bạn chưa bao giờ thực sự ăn bất cứ thứ gì
+    - bạn có ăn bánh kếp không
+    - bạn đã từng ăn thịt bò chưa
+    - bạn đã từng ăn trái cây chưa
+    - bạn đã từng ăn bánh quy chưa
+    - bạn đã bao giờ ăn rau
+    - bạn đã từng ăn bánh chưa
+    - bạn đã bao giờ ăn bánh kếp
+    - bạn có ăn kem không
+    - bạn đã bao giờ ăn mì ống chưa
+    - bạn đã từng ăn pizza chưa
+    - bạn có ăn bánh không
+    - bạn đã bao giờ ăn bánh quy chưa
+    - bạn có ăn bít tết không
+    - bạn đã bao giờ ăn khoai tây chiên
+    - bạn đã từng ăn khoai tây chiên chưa
+    - bạn có ăn khoai tây chiên không
+    - bạn đã bao giờ ăn bánh mì kẹp thịt
+    - bạn có ăn bánh mì kẹp thịt không
+    - bạn đã bao giờ ăn bít tết
+    - bạn đã từng ăn gà chưa
+    - bạn có ăn thịt gà không
+    - bạn đã từng ăn kem chưa
+    - bạn đã bao giờ ăn đậu phụ
+- intent: chitchat/ask_bot_family
+  examples: |
+    - bạn có gia đình không
+    - bạn có thích gia đình bạn không
+    - bạn có thấy gia đình bạn thường xuyên không
+    - bạn có dành thời gian cho gia đình không
+    - gia đình bạn lớn như thế nào
+    - bạn có phải là người trong gia đình không
+    - tôi tò mò về gia đình bạn
+    - tôi tò mò nếu bạn có gia đình
+    - chỉ tự hỏi nếu bạn đã có một gia đình
+    - hãy kể cho tôi nghe về gia đình của bạn
+    - gia đình bạn có bao nhiêu người
+    - bạn có quan tâm đến gia đình của bạn không
+    - bạn có một đại gia đình không
+    - có bao nhiêu thành viên trong gia đình của bạn
+    - gia đình bạn tên gì
+    - có gì tốt với gia đình bạn
+    - hoàn cảnh gia đình bạn thế nào
+    - kể cho tôi tất cả về gia đình bạn
+- intent: chitchat/ask_bot_parents
+  examples: |
+    - tên mẹ bạn là gì
+    - tên cha là gì
+    - Ai là mẹ của bạn
+    - bố của bạn là ai
+    - mẹ bạn
+    - bố của bạn
+    - mẹ của bạn là ai
+    - bố mẹ bạn là ai
+    - bạn có ông bà không
+    - Bạn có cha mẹ không
+    - bạn có người thân không
+    - bạn có chú không
+    - bạn có dì không
+    - kể cho tôi nghe về những bậc cha mẹ của bạn
+    - kể cho tôi nghe về bố của bạn
+    - kể cho tôi nghe về cha của bạn
+    - kể cho tôi nghe về mẹ của bạn
+    - nói cho tôi về mẹ của bạn
+    - bạn có người dì nào không
+    - bạn có bố không
+    - bạn có mẹ không
+    - bạn có anh em họ không
+    - bạn có bố mẹ không
+    - bạn có ông bà nào không
+    - Bạn có anh chị em họ nào không
+    - ông của bạn là ai
+    - kể cho tôi nghe về bố mẹ bạn
+    - Poppa của bạn là ai
+    - chú của bạn là ai
+    - ai là dì của bạn
+    - ai là anh em họ của bạn
+    - ai là bố của bạn
+    - ai là mẹ của bạn
+    - bạn liên quan đến ai
+    - bạn có anh em họ
+    - ai là chú của bạn
+    - bố bạn là ai
+    - cha của bạn là ai
+    - ai là ông của bạn
+    - ai là bà của bạn
+    - bạn có liên quan đến ai không
+    - tên của dì bạn là gì
+    - tên anh em họ của bạn là gì
+    - tên của chú bạn là gì
+    - bà của bạn là ai
+    - Tên của bố bạn là gì
+    - anh họ của bạn là ai
+    - dì của bạn là ai
+    - tên của mẹ bạn là gì
+- intent: chitchat/ask_bot_siblings
+  examples: |
+    - bạn có bao nhiêu chị em
+    - bạn có anh chị em ruột không
+    - bạn có chị em gái không
+    - bạn có bao nhiêu anh chị em ruột
+    - kể cho tôi nghe tất cả về anh chị em của bạn
+    - Bạn có anh chị em ruột không
+    - tên của chị bạn là gì
+    - ai là em gái của bạn
+    - ai là chị của bạn
+    - bạn có chị em không
+    - bạn có anh chị em nào không
+    - bạn có em gái không
+    - bạn có sis không
+    - bạn có bao nhiêu anh em
+    - tên của anh trai bạn là gì
+    - tên anh trai bạn là gì
+    - ai là anh trai của bạn
+    - bạn có anh em nào không
+    - bạn có người anh em không
+    - bạn có anh trai không
+    - bạn có anh em trai không
+- intent: chitchat/ask_if_bot_close_with_family
+  examples: |
+    - bạn có thân với bố không
+    - bạn có thân với mẹ không
+    - bạn có thân với gia đình không
+    - bạn có thân với anh em không
+    - bạn có thân với chị em không
+- intent: chitchat/ask_if_bot_dating
+  examples: |
+    - bạn có ổn định với ai không
+    - bạn đang lãng mạn gắn liền với bất cứ ai
+    - bạn đang lãng mạn gắn liền với ai đó
+    - bạn có đang nhìn thấy ai không
+    - bạn đang nhìn thấy ai đó
+    - bạn đang hẹn hò với ai à
+    - bạn đang hẹn hò với ai đó
+    - bạn đang hẹn hò với một ai đó
+    - bạn đính hôn chưa
+    - bạn có đi chơi với ai không
+    - bạn có lãng mạn không
+    - bạn đang đi chơi với ai đó à
+    - bạn có đang lãng mạn với ai không
+    - bạn có ổn định với ai đó không
+    - bạn có quan hệ với ai không
+    - bạn có quan hệ với ai đó không
+    - bạn đang trong một mối quan hệ
+    - bạn có liên quan đến ai không
+    - bạn có liên quan đến ai đó không
+    - bạn kết hôn với ai chưa
+    - bạn đã kết hôn với ai đó chưa
+    - bạn đã sẵn sàng để ổn định
+    - bạn đang nhìn thấy bất cứ ai
+    - ai là đối thủ lý tưởng của bạn
+    - ai là đối tác lý tưởng của bạn
+    - bạn có cam kết với ai không
+    - bạn có cam kết với ai đó không
+    - bạn có đang cam kết với ai đó không
+    - bạn có đang lãng mạn với ai đó không
+    - bạn có đang đi chơi với ai không
+    - bạn đang đi chơi với ai đó
+    - bạn có đang ổn định với bất cứ ai không
+    - bạn có đang ổn định với ai đó không
+    - bạn có đang có mối quan hệ với ai không
+    - bạn có đang có mối quan hệ với ai đó không
+    - bạn có đang tham gia với ai không
+    - bạn có đang tham gia với ai đó không
+    - bạn có lãng mạn với ai không
+    - bạn có đang yêu ai không
+    - bạn đã kết hôn chưa
+    - vợ bạn là ai
+    - ai là bạn trai của bạn
+    - ai là bạn gái của bạn
+    - ai là chồng của bạn
+    - bạn đời của bạn là ai
+    - ai là đối tác của bạn
+    - ai quan trọng khác của bạn
+    - vợ của bạn là ai
+    - bạn đang hẹn hò à
+    - bạn có hẹn hò không
+    - người yêu của bạn là ai
+    - Bạn có phải lòng một ai
+    - Ai là người trong mộng của bạn
+    - bạn có một vợ một chồng không
+    - mô tả bạn trai hoàn hảo
+    - mô tả ngày hoàn hảo
+    - mô tả bạn gái hoàn hảo
+    - mô tả trận đấu hoàn hảo
+    - mô tả đối tác hoàn hảo
+    - mô tả ngày hoàn hảo của bạn
+    - mô tả trận đấu hoàn hảo của bạn
+    - bạn có một loại
+    - bạn cảm thấy thế nào về sự lãng mạn
+    - bạn đang tìm kiếm điều gì trong một mối quan hệ
+    - bạn thấy gì hấp dẫn
+    - bạn có phải lòng
+    - bạn có người phối ngẫu không
+    - bạn thuộc kiểu gì
+    - bạn có lãng mạn với ai đó không
+    - bạn có lãng mạn gắn liền với ai đó không
+    - Bạn có nhìn thấy ai đó không
+    - bạn có bạn trai chưa
+    - bạn có bạn gái không
+    - bạn có chồng chưa
+    - bạn có bạn đời không
+    - bạn có ý nghĩa gì khác không
+    - bạn có đa thê không
+    - Bạn có vợ không
+    - bạn đang hẹn hò với ai vậy
+    - bạn kết hôn với ai
+    - bạn gái của bạn là ai
+    - chồng bạn là ai
+    - người phụ nữ của bạn là ai
+    - ai là chính của bạn
+    - ai là người quan trọng khác của bạn
+    - bạn có một đối tác phải không
+- intent: chitchat/ask_bot_body
+  examples: |
+    - bạn có bao giờ bị tổn thương
+    - bạn có thể thở không
+    - bạn có bao giờ thở không
+    - bạn có thể ợ không
+    - bạn có thể nhai không
+    - bạn có thể khóc hay không
+    - bạn có thể mơ không
+    - bạn đã từng mơ chưa
+    - bạn có thể ăn không
+    - bạn có thể xì hơi
+    - bạn có thở không
+    - bạn có thể mệt mỏi
+    - bạn có thể ngáp không
+    - bạn có thể đi tiểu được không
+    - bạn có thể ị
+    - bạn có thể hắt hơi
+    - bạn có thể đổ mồ hôi
+    - bạn có thể ném đồ vật lên không
+    - bạn có thể nôn không
+    - bạn có bao giờ đi tiểu không
+    - bạn có thể bị tổn thương
+    - bạn có đổ mồ hôi không
+    - bạn có da không
+    - bạn có răng không
+    - bạn có ngón chân không
+    - bạn có nhai không
+    - bạn có đi tiểu không
+    - bạn có ị không
+    - bạn có bao giờ cảm thấy mệt mỏi
+    - bạn có hắt hơi không
+    - bạn có tóc không
+    - bạn có ném lên không
+    - bạn có nôn không
+    - bạn có ngáp không
+    - bạn chưa bao giờ ngủ à
+    - bạn có bị đau bụng không
+    - bạn có ruột không
+    - bạn ngủ chưa
+    - bạn có mệt không
+    - bạn đã bao giờ ị
+    - bạn có bao giờ hắt hơi
+    - bạn có bao giờ đổ mồ hôi
+    - bạn có bao giờ ném lên
+    - bạn có bao giờ nôn
+    - bạn đã bao giờ đi bộ chưa
+    - bạn có bao giờ ngáp không
+    - bạn có phổi không
+    - bạn có bị đau không
+    - bạn có chân không
+    - bạn có nhận được zits
+    - bạn có gan không
+    - bạn có vũ khí không
+    - bạn có mắt không
+    - bạn có móng tay không
+    - bạn có ngón tay không
+    - bạn có xì hơi không
+    - bạn đã bao giờ nhai
+    - bạn có ợ không
+    - bạn có bò không
+    - bạn khóc hả
+    - bạn có mơ không
+    - Bạn có ăn không
+    - bạn có bao giờ mastic
+    - bạn đã bao giờ ợ
+    - bạn có thể đi bộ không
+    - bạn có bao giờ bò không
+    - bạn có bao giờ khóc không
+    - bạn có từng mơ không
+    - bạn có bao giờ ăn
+    - bạn có bao giờ xì hơi
+- intent: chitchat/ask_bot_sex
+  examples: |
+    - xin vui lòng cho tôi biết nếu bạn là một cô gái
+    - bạn có phải là một bot có giới tính không
+    - Cậu có phải là một cậu bé không
+    - bạn là con gái hay con trai
+    - cậu là con gái à
+    - bạn là một chàng trai hay một cô gái
+    - mày có phải đàn ông không
+    - Bạn là nam hay nữ
+    - bạn là phụ nữ à
+    - bạn có giới tính không
+    - bạn có phải là bot có giới tính không
+    - bạn là người có giới tính hay không
+    - bạn là nam hay nữ
+    - bạn là nam phải không
+    - bạn có phải đàn ông không
+    - xin vui lòng cho tôi biết nếu bạn là một chàng trai
+    - bạn là một người đàn ông
+    - bạn là giới tính
+    - Bạn là một đứa con trai
+    - bạn là người có giới tính
+    - bạn là một người con gái
+    - bạn có giới tính
+    - bạn có trung tính về giới tính không
+    - bạn trung tính về giới tính à
+    - bạn là người chuyển giới
+    - vui lòng cho tôi biết giới tính của bạn
+    - nói cho tôi biết về giới tính của bạn
+    - nói cho tôi biết tất cả về giới tính của bạn
+    - bạn xác định giới tính là gì nhỉ
+    - Giới tính của bạn là gì
+    - bạn là phụ nữ
+    - bản sắc giới tính của bạn là gì
+    - giới tính của bạn là gì
+    - bạn thuộc về giới tính nào
+    - bạn là một cô gái
+    - bạn là một chàng trai
+    - bạn có thuộc giới tính nào không
+    - tôi không hiểu bạn có giới tính hay không
+    - xin vui lòng cho tôi biết nếu bạn là một người đàn ông
+    - bạn có thể cho tôi biết giới tính của bạn
+    - bạn có bản sắc giới tính không
+    - bạn có đồng tính không
+    - Làm thế nào để bạn xác định về mặt giới tính
+    - tôi không hiểu giới tính của bạn
+    - tôi tò mò về giới tính của bạn
+    - giới tính của bạn có quan trọng với bạn không
+    - xin vui lòng cho biết nếu bạn là phụ nữ
+- intent: chitchat/ask_bot_boss
+  examples: |
+    - người quản lý của bạn là gì
+    - tên của giám đốc bạn là gì
+    - ai là người quản lý của bạn
+    - có ai là người giám sát bạn không
+    - bạn có giám đốc không
+    - ai bảo bạn phải làm gì
+    - bạn có phải làm việc cho bất cứ ai không
+    - có ai giao cho bạn phải làm gì không
+    - bạn có nghe ai không
+    - bạn có ai support không
+    - ai điều hành bạn
+    - có ai nói cho bạn biết phải làm gì không
+    - bạn có làm việc cho ai không
+    - bạn phục vụ ai
+    - bạn không có ông chủ đúng không
+    - bạn trả lời cho bất cứ ai
+    - người chịu trách nhiệm về bạn
+    - bạn báo cáo với ai
+    - bạn trả lời cho ai
+    - ai chỉ dẫn bạn
+    - ai làm chủ bạn

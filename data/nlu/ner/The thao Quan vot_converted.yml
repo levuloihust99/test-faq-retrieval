@@ -1,0 +1,25 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Federer](PER) còn có khả năng gặp [Richard Gasquet](PER) ở vòng 3 và [Sam Querrey](PER) ở vòng 4
+    - [Roger Federer](PER) chỉ phải gặp một đối thủ không mấy tiếng tăm trong khi thách thức lớn chờ đón [Novak Djokovic](PER) và [Maria Sharapova](PER)
+    - [Sevastova](PER) đã cho [Sharapova](PER) văng khỏi [US Open](MIS) năm ngoái từ vòng 4 dù sau đó vài tuần [Sharapova](PER) phục thù tại [Bắc Kinh](LOC)
+    - [Sevastova](PER) không lạ gì những điểm yếu của [Sharapova](PER), và dù là một tay vợt ít được chú ý, cô luôn tỏ ra bền bỉ khiến đối thủ rất ngại đối đầu ở những vòng đầu tiên các giải Grand Slam
+    - [Sevastova](PER) đã từng nghỉ 1 năm rưỡi vì chấn thương và bệnh tật nhưng đã trở lại mạnh mẽ hơn bao giờ hết
+    - [Djokovic](PER) khi đó đang ở đỉnh cao phong độ, nhưng giờ tay vợt [người Serbia](MIS) đã không còn đáng sợ nữa và đã rơi ra ngoài top 10
+    - [Sharapova](PER) cũng có thế mạnh của mình, những cú trả giao bóng quyết liệt của cô có thể khiến [Sevastova](PER) gặp khó khăn do khâu giao bóng – đặc biệt là giao bóng 2 – của [Sevastova](PER) không tốt
+    - [Federer](PER) hẳn sẽ rất muốn những chiến thắng nhanh gọn, bởi điều đó càng khiến thể lực của anh được đảm bảo để đi sâu trong giải
+    - [Gaston Gaudio](PER) từng là một tay vợt [người Argentina](MIS) khét tiếng trong làng quần vợt chuyên nghiệp nam thế giới
+    - [Roger Federer](PER) từng tâm sự, ông thầy đầu tiên trong sự nghiệp của anh đã nhận định về anh: 'Cậu sẽ không đi đến đâu trên con đường quần vợt chuyên nghiệp của mình', khi bị đánh giá như vậy, [Federer](PER) – lúc đó chỉ mới là một cậu trai non choẹt – đã khóc
+    - [Gaudio](PER) – người chỉ hơn [Federer](PER) 3 tuổi – nhắc lại những gì mà anh từng nói với [Benito Perez Barbdillo](PER) (đại diện của [Nadal](PER) trong thời điểm đầu những năm 2000) sau khi thi đấu với [Federer](PER) ở [Rome Masters 2000](MIS): “Gã trai này chơi bóng rất tệ
+    - [Federer](PER) vừa quay trở về quê nhà [Thụy Sĩ](LOC) trong sự đón tiếp cuồng nhiệt của người dân nước này
+    - [Gaudio](PER) cũng thừa nhận: “Tôi luôn có cảm giác có thể đánh bại được anh ta, rằng tôi sắp đạt được điều đó
+    - [Alexander Zverev](PER) [4] - [Thomas Fabbiano](PER): 8h30
+    - [Dominic Thiem](PER) [5] - [Guido Pella](PER): 12h
+    - [Novak Djokovic](PER), [Roger Federer](PER) và [Maria Sharapova](PER) đều chỉ gặp những đối thủ nhẹ ký ở trận ra quân
+    - [Maria Sharapova](PER) đã đối mặt với vô số khó khăn từ trước khi [Australian Open](MIS) khởi tranh
+    - [Federer](PER) đã có màn chạy đà mùa giải 2018 hoàn hảo khi cùng [Belinda Bencic](PER) giành chức vô địch Hopman Cup, trong đó cá nhân "Tàu tốc hành" thắng cả 4 trận đánh đơn
+    - [Anastasija Sevastova](PER) (hạt giống số 14), [Angelique Kerber](PER) (21), [Garbinẽ Muguruza](PER) (3), [Caroline Garcia](PER) (8) , [Pháp](LOC)) hay [Simona Halep](PER) (1) đều khao khát soán ngôi "nữ hoàng quần vợt" của [Sharapova](PER)
+    - [Milos Raonic](PER) [23] - [Lukas Lacko](PER): 7h
+    - [Stan Wawrinka](PER) [8] - [Ričardas Berankis](PER): 10h30

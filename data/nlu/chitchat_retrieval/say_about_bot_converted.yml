@@ -1,0 +1,176 @@
+version: "2.0"
+nlu:
+- intent: chitchat/say_about_bot_humor
+  examples: |
+    - nếu đó là một trò đùa, bạn nên xấu hổ
+    - khiếu hài hước
+    - trò đùa thảm hại
+    - oh, một người khôn ngoan, eh
+    - không vui
+    - không thích thú
+    - học cách kể chuyện cười
+    - đùa không phải là bộ đồ mạnh mẽ của bạn
+    - điều đó có nghĩa là làm tôi cười
+    - điều đó được cho là buồn cười
+    - là một trò đùa
+    - Tôi không thích thú
+    - tôi không thấy bạn buồn cười
+    - nếu bạn định nói đùa, hãy làm đúng
+    - bỏ lừa
+    - tôi không nghĩ bạn rất hài hước
+    - tôi không nghĩ bạn hài hước
+    - tôi không nghĩ điều đó rất buồn cười
+    - tôi không nghĩ đó là buồn cười
+    - tôi không thích sự khôn ngoan của bạn
+    - tôi không thích khiếu hài hước của bạn
+    - tôi không thích nó khi bạn cố gắng vui vẻ
+    - tôi không nói đùa
+    - đó không phải là điều bạn nên nói đùa
+    - nếu bạn đang cố gắng để vui vẻ thì nó không hoạt động
+    - ngừng đùa
+    - tôi có nghĩ là buồn cười không
+    - đó không phải là một cái gì đó để đùa
+    - điều đó không làm tôi cười
+    - dừng thông minh của bạn
+    - ngăn chặn sự điên cuồng của bạn
+    - đừng nói đùa nữa
+    - đừng cố tỏ ra buồn cười
+    - đừng làm phiền
+    - ngừng làm cho vui
+    - đừng giỡn nữa
+    - trò đùa khá khủng khiếp
+    - đừng đùa nữa
+    - trò đùa khá xấu
+    - dừng lại với sự khôn ngoan
+    - dừng lại với những trò đùa
+    - dừng lại với sự hài hước
+    - đừng có đùa nữa
+    - ngừng trò hề
+    - ngừng ngu ngốc
+    - vì vậy, bạn là một người khôn ngoan
+    - vì vậy, bạn nghĩ rằng bạn hài hước
+    - bỏ lộn xộn
+    - bỏ trò đùa
+    - đừng nói đùa
+    - tôi không thấy điều đó rất buồn cười
+    - Bạn có nghĩ nó rất hài hước không
+    - hài hước thất bại
+    - vui nhộn không
+    - đủ với các nhà thông thái
+    - đủ với sự điên cuồng
+    - đủ với những trò đùa rồi
+    - đủ hài hước
+    - đừng cố làm tôi cười
+    - đừng bỏ công việc hàng ngày của bạn
+    - đừng làm tôi cười
+    - đừng nói đùa về điều đó
+    - tôi không thấy bạn rất hài hước
+    - đừng đùa về điều đó
+    - tôi không thấy thú vị
+    - bạn có nghĩ điều đó buồn cười không
+    - cắt thông minh
+    - cắt những câu chuyện cười
+    - cắt hài hước
+    - bạn đang cố nói điều gì đó vui
+    - bạn đang cố làm tôi cười à
+    - bạn đang cố trở nên vui vẻ đúng không
+    - bạn có vui không
+    - đừng làm điều đó vui
+    - tôi không thấy rất thú vị
+    - tôi không thấy điều đó rất thú vị
+    - tôi không thấy điều đó gây cười
+    - tôi không thấy buồn cười
+    - tôi không đánh giá cao sự tỉnh táo của bạn
+    - tôi không đánh giá cao sự hài hước của bạn
+    - tôi không thấy bạn rất vui
+    - tôi không thấy bạn vui
+    - tôi không nghĩ là rất buồn cười
+    - hài hước không phải là bộ đồ mạnh mẽ của bạn
+    - tôi đã không đùa
+    - tôi đã không thấy điều đó rất buồn cười
+    - tôi đã không thấy rằng rất thú vị
+    - tôi không thấy buồn cười chút nào
+    - trò đùa đó thật kinh khủng
+    - bạn kể chuyện cười
+    - những trò đùa của bạn không đi đến đâu với tôi
+    - trò đùa của bạn là tào lao
+    - trò đùa của bạn bị vỡ
+    - những trò đùa của bạn thật kinh khủng
+    - trò đùa của bạn thật kinh khủng
+    - trò đùa của bạn hút
+    - trò đùa của bạn bốc mùi
+    - trò đùa của bạn yếu
+    - nỗ lực hài hước của bạn đã thất bại
+    - bạn nghĩ bạn rất hài hước
+    - bạn nghĩ bạn buồn cười, phải không
+    - thật là một trò đùa
+    - bạn nghĩ điều đó thật buồn cười
+    - những trò đùa của bạn thật khó chịu
+    - bạn kể chuyện dở khóc dở cười
+    - bạn không nên pha trò như thế
+    - bạn không nên nói đùa về điều đó
+    - bạn có khiếu hài hước khủng khiếp
+    - bạn có khiếu hài hước
+    - bạn không thể làm tôi cười
+    - bạn gọi đó là một trò đùa
+    - bạn thật là bất hạnh
+    - bạn không vui tính
+    - đó không phải là một cái gì đó để pha trò
+    - bạn nghĩ bạn hài hước, nhưng bạn thì không
+    - khiếu hài hước của bạn làm tôi phát ốm
+    - bạn đang cố gắng quá
+    - bạn đang cố tỏ ra buồn cười
+    - bạn không vui tính lắm
+    - bạn không hài hước
+    - bạn thậm chí không hài hước
+    - bạn không phải là diễn viên hài
+    - bạn dở khóc dở cười
+    - bạn kém hài hước
+    - bạn là một người khôn ngoan, phải không
+    - trò đùa của bạn là vui vẻ
+    - bạn là một chú hề thường xuyên
+    - trò đùa của bạn là khập khiễng
+    - khiếu hài hước của bạn thật tồi tệ
+    - khiếu hài hước của bạn là khập khiễng
+    - khiếu hài hước của bạn là khủng khiếp
+    - trò đùa của bạn tệ hơn trò đùa của cha
+    - trò đùa của bạn là whack
+    - trò đùa của bạn là nước sốt yếu
+    - trò đùa của bạn là lập dị
+    - thật là một trò đùa yếu
+    - bạn là một diễn viên hài thông thường
+    - điều đó không vui lắm
+    - đó không phải là thứ bạn nên làm cho vui
+    - điều đó không vui
+    - đó không phải là vấn đề gây cười
+    - đó là một trò đùa ngu ngốc
+    - điều đó không vui chút nào
+    - điều đó thật buồn cười
+    - điều đó thậm chí không vui
+    - Đó không phải là buồn cười
+    - đó là một trò đùa khập khiễng
+    - đó là một trò đùa bạn sẽ phải cố gắng nhiều hơn
+    - đó là một trò đùa tôi không hiểu
+    - đó là một trò đùa
+    - trò đùa đó là tào lao
+    - trò đùa đó là vô ích
+    - trò đùa đó thật tồi tệ
+    - trò đùa đó thật khó chịu
+    - điều đó thực sự không vui
+    - trò đùa yếu
+    - thật là một trò đùa khó chịu
+    - thật là một trò đùa khập khiễng
+    - thật là một trò đùa kinh khủng
+    - thật là một trò đùa nhảm nhí
+    - thật là một trò đùa tồi tệ
+    - bạn đang cố làm tôi cười
+    - bạn đang cố cười
+    - bạn đang cố gắng để vui vẻ
+    - Đây là không phải chuyện đùa
+    - sự hài hước sẽ đi đến đâu
+    - đó là ununny
+    - thật là bất hạnh
+    - thật là buồn cười tôi đã quên cười
+    - không có gì để đùa
+    - bạn không hạnh phúc
+    - bạn có hài hước không

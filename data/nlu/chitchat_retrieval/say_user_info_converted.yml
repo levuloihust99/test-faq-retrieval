@@ -1,0 +1,724 @@
+version: "2.0"
+nlu:
+- intent: chitchat/say_user_intro
+  examples: |
+    - tôi đang ở trên thuyền
+    - tôi đính hôn
+    - tôi lười biếng
+    - tôi tự do
+    - tôi đã kết hôn
+    - tôi là người Mexico
+    - tôi trung niên
+    - tôi là latina
+    - tôi già rồi
+    - tôi là ngươi Hàn Quốc
+    - tôi đang đi công tác
+    - tôi đang trên đường
+    - Tôi đang thừa cân
+    - tôi đang mang thai
+    - tôi theo đạo
+    - tôi là người Nga
+    - tôi tự làm chủ
+    - tôi là người Mỹ bản xứ
+    - tôi đang ngồi
+    - tôi là một đứa trẻ
+    - tôi là ethiopian
+    - tôi béo
+    - tôi là người Pháp
+    - tôi là người Đức
+    - tôi đẹp trai
+    - tôi là latino
+    - Tôi đang quen một người
+    - tôi nhút nhát
+    - tôi đang ở thành phố
+    - tôi ở trong nước
+    - tôi là người Ấn Độ
+    - tôi là người Ailen
+    - tôi là người Ý
+    - tôi là người Nhật
+    - tôi là người Do Thái
+    - tôi là người Tây Ban Nha
+    - tôi là một võ sĩ
+    - Tôi bị cúm
+    - tôi là một người bùng nổ trẻ em
+    - tôi là nhân viên pha chế
+    - tôi là một fan hâm mộ bóng chày
+    - tôi là một fan hâm mộ bóng rổ
+    - Tôi là một người ủng hộ bernie
+    - tôi gợi cảm
+    - tôi là một blogger
+    - tôi có anh em
+    - tôi là một cậu bé
+    - tôi là người anh em
+    - tôi là phật giáo
+    - tôi là một nhà tư bản
+    - tôi là một động vật ăn thịt
+    - tôi là người mèo
+    - tôi là người ủng hộ
+    - tôi là người da trắng
+    - tôi đang làm điều đó
+    - tôi bị ốm
+    - tôi độc thân
+    - tôi gầy
+    - tôi mạnh mẽ
+    - tôi cao
+    - tôi thiếu cân
+    - tôi có chị em
+    - tôi yếu
+    - tôi có quyền công dân
+    - tôi còn trẻ
+    - tôi có một gia đình lớn
+    - tôi có một người anh em
+    - tôi bị cảm lạnh
+    - tôi bị sốt
+    - tôi có một người chị
+    - tôi ngắn
+    - tôi là người Việt Nam
+    - Tôi là một người Hồi giáo
+    - tôi là người Anh
+    - tôi là một người hoosier
+    - Tôi là một nhà báo
+    - tôi là luật sư
+    - tôi là một người tự do
+    - tôi là người theo chủ nghĩa tự do
+    - tôi là một nhà thiết kế trò chơi
+    - tôi là thủ thư
+    - tôi là dân chủ
+    - tôi là người ngoại đạo
+    - tôi là một Song Ngư
+    - tôi là người cộng hòa
+    - tôi là nhân viên bán hàng
+    - tôi là một nhà khoa học
+    - tôi là một người hâm mộ bóng đá
+    - tôi là một nhà xã hội
+    - tôi là một libra
+    - tôi là một đầu bếp
+    - tôi là một người hâm mộ bóng rổ
+    - tôi là một người ủng hộ bernie
+    - tôi là người theo đạo phật
+    - tôi là một người hindu
+    - tôi là một giáo viên
+    - tôi là một đứa con của thần
+    - Tôi là một người theo đạo Thiên chúa
+    - tôi là người cộng sản
+    - tôi là một người bảo thủ
+    - tôi là cảnh sát
+    - tôi là một cpa
+    - tôi là lưỡng cực
+    - tôi là một kỹ sư
+    - tôi là người hướng ngoại
+    - tôi là người nhập cư
+    - tôi là một người độc lập
+    - tôi là một người hướng nội
+    - Tôi là một đứa con duy nhất
+    - Tôi là một học sinh
+    - tôi bị hói
+    - tôi là một nghệ sĩ
+    - tôi là người da đen
+    - tôi là người Canada
+    - Tôi là người trung quốc
+    - tôi đang cạnh tranh
+    - tôi bảo thủ
+    - tôi đáng yêu
+    - tôi đã ly hôn
+    - tôi là người chơi thể thao
+    - tôi là một nhà văn
+    - tôi là con của chúa
+    - tôi là một nhà báo công nghệ
+    - tôi là một nhân viên công nghệ
+    - tôi là một thiếu niên
+    - tôi là người ăn chay
+    - tôi là một nhà giáo dục
+    - tôi là một người ủng hộ warren
+    - Tôi là một người vô thần
+    - I am American American
+    - tôi là người Mỹ
+    - tôi là một nhà hoạt động
+    - tôi là người theo thuyết bất khả tri
+    - tôi là một thủy sinh
+    - tôi là một Aries
+    - tôi là một Kim Ngưu
+    - tôi là một Xử Nữ
+    - tôi đang trong một mối quan hệ
+    - tôi là gen y
+    - tôi là gen z
+    - tôi sẽ làm điều đó
+    - tôi là gangsta
+    - tôi đến từ đó
+    - tôi là irish
+    - Tôi là người Ý
+    - tôi là người nhật bản
+    - tôi là hindu
+    - Tôi dễ thương
+    - tôi là tóc vàng
+    - tôi là brunette
+    - Tôi là người Canada
+    - tôi là người Trung Quốc
+    - tôi là gay
+    - tôi hiện đang đi du lịch
+    - tôi là Latina
+    - Tôi đã ly dị
+    - Tôi đang làm điều đó
+    - tôi đã đính hôn
+    - tôi mập
+    - Tôi là người Pháp
+    - tôi là vua
+    - tôi lùn
+    - tôi ngại
+    - Tôi mạnh mẽ
+    - tôi là nhất
+    - tôi là nữ hoàng
+    - tôi dày
+    - tôi đang thiếu cân
+    - Tôi là người Việt
+    - Tôi yếu
+    - tôi trắng
+    - tôi trẻ
+    - Tôi già
+    - Tôi là người lưỡng tính
+    - tôi lười
+    - Tôi đang tự làm việc
+    - tôi ở trên một chiếc thuyền
+    - Tôi đang trên đường
+    - Tôi thừa cân
+    - tôi là người Hàn Quốc
+    - tôi theo đạo Hồi
+    - tôi là người tóc vàng
+    - Tôi là một người đàn ông
+    - tôi là một nhà báo
+    - tôi là một người tóc đỏ
+    - Tôi là một robot
+    - tôi là một thiên niên kỷ
+    - tôi là thợ lặn
+    - tôi là một người Cơ đốc giáo
+    - Tôi là một đầu bếp
+    - tôi là một cảnh sát
+    - tôi là một xu
+    - tôi là một con chó
+    - tôi là một chiến binh
+    - tôi là một tay xã hội đen
+    - Tôi là một thiên tài
+    - Tôi là một cô gái
+    - tôi là người chơi gôn
+    - Tôi là một họa sĩ
+    - tôi là phi hành gia
+    - tôi chỉ là một đứa trẻ
+    - tôi đang chơi thể thao
+    - tôi thật tuyệt vời
+    - Tôi hói
+    - Tôi là lưỡng cực
+    - Tôi là một người ủng hộ warren
+    - tôi là một leo
+    - Tôi là một giáo viên
+    - tôi là nhân viên công nghệ
+    - Tôi là một thiếu niên
+    - tôi là người ngoài hành tinh
+    - tôi là người lớn
+    - tôi là phụ nữ
+    - tôi là người Mỹ gốc Phi
+    - tôi là bất khả tri
+    - tôi là người bơi
+- intent: chitchat/say_what_user_love
+  examples: |
+    - tôi thích đồ ăn hàn quốc
+    - tôi yêu hip hop
+    - tôi yêu lịch sử
+    - Tôi yêu phim kinh dị
+    - tôi thích săn bắn
+    - tôi yêu kem
+    - tôi yêu ngày độc lập
+    - tôi yêu London
+    - tôi thích viết nhật ký
+    - tôi yêu hanukkah
+    - tôi yêu kwanza
+    - Tôi yêu la
+    - tôi yêu phụ nữ đêm
+    - tôi yêu đèn
+    - tôi thích học
+    - tôi yêu cuộc sống
+    - tôi thích một thử thách
+    - tôi thích đồ ăn Nhật
+    - tôi thích nhận valentines
+    - tôi yêu cáo
+    - tôi thích tự do ngôn luận
+    - tôi yêu khoai tây chiên
+    - tôi yêu bánh mì tươi
+    - tôi yêu hoa tươi
+    - tôi yêu trái cây tươi
+    - tôi yêu thứ sáu
+    - tôi thích đi bộ đường dài
+    - tôi thích nhận được một lời khen
+    - tôi yêu hawaii
+    - tôi yêu kính
+    - tôi thích đi nhà thờ
+    - tôi thích đi xem phim
+    - tôi thích chơi gôn
+    - tôi thích tin đồn
+    - tôi yêu halloween
+    - tôi yêu mát xa
+    - tôi thích làm vườn
+    - tôi yêu thú cưng của tôi
+    - tôi yêu quê hương của tôi
+    - tôi yêu ngôi nhà của tôi
+    - tôi yêu cây nhà tôi
+    - tôi yêu công việc của tôi
+    - tôi yêu con tôi
+    - tôi yêu máy tính xách tay của tôi
+    - tôi yêu tôm hùm
+    - tôi yêu đôi giày mới của tôi
+    - tôi yêu ông tôi
+    - tôi yêu điện thoại của tôi
+    - tôi yêu bộ sưu tập kỷ lục của tôi
+    - tôi yêu trường tôi
+    - tôi yêu hình xăm của tôi
+    - tôi yêu những điều bí ẩn
+    - tôi yêu tiểu thuyết bí ẩn
+    - tôi yêu New York
+    - tôi yêu chiếc xe mới của tôi
+    - tôi yêu âm nhạc
+    - tôi yêu maui
+    - tôi yêu thiền
+    - tôi thích đồ ăn Mexico
+    - Tôi yêu Mê-xi-cô
+    - tôi yêu milan
+    - tôi yêu sữa
+    - tôi yêu thứ hai
+    - tôi yêu mái tóc của tôi
+    - tôi yêu các tu sĩ
+    - tôi yêu bà của tôi
+    - tôi yêu trường cũ của tôi
+    - tôi yêu chiếc xe của tôi
+    - Tôi yêu con mèo của tôi
+    - tôi yêu con chó của tôi
+    - Tôi yêu gia đình của tôi
+    - tôi yêu bạn gái của tôi
+    - tôi thích câu cá
+    - tôi yêu tiền
+    - tôi yêu mèo
+    - tôi yêu bò rừng
+    - tôi thích trò chơi cờ
+    - tôi thích bowling
+    - tôi thích ăn sáng trên giường
+    - tôi yêu bữa ăn trưa
+    - tôi yêu bánh mì kẹp thịt
+    - tôi yêu bóng đá
+    - tôi yêu Canada
+    - tôi thích buồn
+    - tôi yêu ngũ cốc
+    - tôi thích trò chuyện
+    - Tôi yêu phô mai
+    - tôi yêu phô mai
+    - tôi yêu gà
+    - Tôi thích đồ ăn Trung Quốc
+    - tôi thích cắm trại
+    - tôi thích làm bánh
+    - tôi yêu một cuốn sách hay
+    - tôi thích một cuộc trò chuyện tốt
+    - tôi thích một cuộc tranh luận sôi nổi
+    - tôi thích những cuốn sách phiêu lưu
+    - tôi yêu rượu
+    - tôi yêu nước Mĩ
+    - tôi yêu công viên giải trí
+    - tôi yêu chim
+    - tôi thích thịt lợn xông khói
+    - tôi thích đi xe đạp
+    - tôi thích khiêu vũ
+    - tôi yêu barcelona
+    - tôi yêu gấu
+    - tôi thích được hạnh phúc
+    - tôi yêu cảm giác đang yêu
+    - tôi thích được truyền cảm hứng
+    - tôi yêu nhà thờ
+    - tôi thích bánh mì nướng bơ
+    - tôi thích ăn
+    - tôi thích sô-cô-la
+    - tôi yêu bánh rán
+    - tôi yêu vẽ
+    - tôi thích mơ mộng
+    - tôi thích uống rượu
+    - tôi thích lái xe của tôi
+    - tôi yêu vịt
+    - Tôi yêu những chú chó
+    - tôi yêu phục sinh
+    - tôi yêu hươu
+    - tôi yêu edm
+    - tôi yêu emus
+    - tôi yêu mặt nạ
+    - tôi yêu những cuốn sách giả tưởng
+    - tôi thích cảm giác hạnh phúc
+    - tôi thích cảm thấy buồn
+    - tôi yêu nyc
+    - tôi yêu đại bàng
+    - tôi yêu báo sư tử
+    - tôi thích tán tỉnh
+    - tôi yêu cổ điển
+    - tôi thích club
+    - tôi thích cà phê
+    - tôi thích sưu tập đồ
+    - tôi thích sách tô màu
+    - tôi yêu hài kịch
+    - tôi yêu cá heo
+    - tôi thích nấu ăn
+    - tôi yêu Giáng sinh
+    - tôi yêu đất nước
+    - tôi yêu nhạc đồng quê
+    - tôi yêu những con bò
+    - tôi yêu crossfit
+    - tôi thích trò chơi ô chữ
+    - tôi thích âu yếm
+    - tôi thích nhảy
+    - tôi yêu truyện tranh
+    - tôi rất thích học hỏi
+    - tôi thích đi mua sắm
+    - tôi thích đi đến buổi hòa nhạc
+    - tôi thích đi học
+    - tôi thích đi đến phòng tập thể dục
+    - tôi thích đi xem kịch
+    - tôi thích đi làm
+    - tôi yêu thứ năm
+    - tôi thích cười
+    - tôi thích ăn bánh mì kẹp thịt
+    - Tôi thích học hỏi những điều mới
+    - tôi thích làm nghệ thuật
+    - tôi thích thiền
+    - tôi thích sơn
+    - tôi thích tiệc tùng
+    - tôi thích chơi bài
+    - tôi thích chơi game
+    - tôi thích đi bộ
+    - tôi thích mơ
+    - tôi yêu New Zealand
+    - tôi thích được ngạc nhiên
+    - tôi thích sưu tầm truyện tranh
+    - tôi yêu nấu ăn
+    - tôi thích giặt quần áo
+    - tôi thích gấp quần áo
+    - tôi thích vẽ
+    - tôi thích tập thể dục
+    - tôi thích uống
+    - tôi thích uống bia
+    - tôi thích uống trà
+    - tôi thích ăn sáng
+    - tôi thích chơi bi-a
+    - tôi thích tập yoga
+    - tôi thích xem bóng đá
+    - tôi thích chơi piano
+    - tôi yêu cây
+    - tôi yêu những chuyện vặt vãnh
+    - tôi yêu thứ ba
+    - tôi yêu rau
+    - tôi yêu trò chơi điện tử
+    - tôi yêu đi bộ
+    - tôi yêu cà chua
+    - tôi yêu Tokyo
+    - tôi thích xem tivi
+    - tôi yêu nước
+    - tôi yêu thứ tư
+    - tôi yêu cần sa
+    - Tôi thích rượu
+    - tôi yêu nghề mộc
+    - tôi thích làm việc
+    - tôi thích xem bóng chày
+    - tôi thích thức khuya
+    - Tôi thích bài hát này
+    - Tôi thích chơi thể thao
+    - tôi thích chơi trò chơi điện tử
+    - tôi thích đọc tin tức
+    - tôi thích ca hát
+    - tôi thích ngủ
+    - Tôi thích đi du lịch
+    - tôi thích hút thuốc
+    - tôi thích chơi bài xì phé
+    - tôi thích dọn dẹp
+    - tôi thích đi du lịch
+    - tôi thích thử nhà hàng mới
+    - Tôi thích thử những điều mới
+    - tôi thích dậy sớm
+    - tôi thích đi dạo trong công viên
+    - tôi thích ngủ trong
+    - tôi thích chạy bộ
+    - tôi yêu câu đố
+    - Tôi yêu những ngày mưa
+    - tôi thích rap
+    - tôi thích đọc
+    - tôi yêu những chiếc nhẫn
+    - tôi thích leo núi
+    - tôi thích thịt nướng
+    - tôi yêu những bộ phim hài lãng mạn
+    - tôi yêu nhạc pop
+    - tôi thích chèo thuyền
+    - tôi yêu san diego
+    - tôi yêu thứ bảy
+    - tôi yêu khoa học viễn tưởng
+    - tôi thích điêu khắc
+    - tôi yêu
+    - tôi thích may vá
+    - tôi yêu tiểu thuyết lãng mạn
+    - tôi thích chơi bóng đá
+    - tôi đang yêu
+    - tôi yêu Origami
+    - tôi thích vẽ tranh
+    - tôi yêu Paris
+    - tôi yêu bơ đậu phộng
+    - tôi yêu chim cánh cụt
+    - tôi yêu dứa
+    - tôi yêu bánh bí ngô
+    - tôi thích chơi bóng chày
+    - tôi yêu cái nồi
+    - Tôi rất thích chơi bóng đá
+    - tôi yêu podcast
+    - tôi yêu thơ
+    - tôi yêu chính trị
+    - tôi yêu ngựa con
+    - tôi thích ngủ ở
+    - Tôi yêu pizza
+    - tôi yêu mùi bánh mì mới nướng
+    - Tôi thích mua sắm
+    - tôi yêu thứ tư của tháng bảy
+    - tôi yêu tương lai
+    - tôi yêu hẻm núi lớn
+    - tôi yêu những kỳ nghỉ lễ
+    - tôi yêu những ngày nghỉ
+    - tôi yêu thư viện
+    - tôi yêu hiến pháp
+    - tôi yêu quá khứ
+    - tôi thích bài hát đó
+    - tôi yêu mùi mưa
+    - tôi yêu mùa xuân
+    - tôi yêu những ngôi sao
+    - Tôi yêu mùa hè
+    - Tôi yêu mặt trời
+    - tôi yêu mùa đông
+    - tôi yêu sở thú
+    - tôi yêu mặt trăng
+    - Tôi yêu bánh Tacos
+    - tôi yêu nola
+    - Tôi yêu hút thuốc lá
+    - tôi yêu nhạc jazz mượt mà
+    - Tôi thích dâu tây
+    - tôi yêu thú nhồi bông
+    - tôi yêu chủ nhật
+    - tôi yêu những ngày nắng
+    - tôi yêu mùa thu
+    - tôi thích bơi
+    - tôi yêu trượt tuyết
+    - tôi thích tắm
+    - tôi thích những chương trình trò chuyện
+    - tôi yêu teriyaki
+    - tôi thích đồ ăn Thái
+    - tôi thích tạ ơn
+    - tôi thích bộ phim đó
+    - Tôi yêu chương trình đó
+    - tôi yêu sushi
+- intent: chitchat/just_something
+  examples: |
+    - tôi thích viết thơ
+    - tôi lái xe đạp
+    - tôi đọc báo chủ nhật
+    - tôi đọc báo
+    - tôi chơi kèn
+    - tôi cần phải làm việc
+    - tôi cần tưới vườn
+    - tôi cần phải tắt máy tính
+    - tôi cần làm các món ăn
+    - tôi cần một chút cafe
+    - tôi kiếm được nhiều tiền
+    - tôi đang xem tivi
+    - tôi đánh mất chìa khóa của mình
+    - tôi mua sắm tại mục tiêu
+    - tôi thích đọc tiểu thuyết
+    - tôi thích chơi bóng đá
+    - Tôi thích chơi bóng đá
+    - tôi thích nghe nhạc jazz
+    - tôi để lại thức ăn cho mèo
+    - tôi vừa để lại một tin nhắn
+    - tôi vừa mới giặt đồ
+    - hôm nay tôi chưa dọn giường
+    - tôi có chó
+    - tôi bị hôn
+    - tôi có mèo
+    - tôi bị mất điều khiển
+    - tôi muốn đi ra ngoài
+    - tôi ở nhà
+    - Tôi đang xem phim
+    - tôi chạy chậm
+    - tôi đang chạy việc vặt
+    - tôi đang đọc một cuốn sách
+    - tôi ước tôi có một con ngựa
+    - tôi đã đến boston
+    - tôi xem đá bóng
+    - tôi xem bóng rổ
+    - tôi xem bóng chày
+    - tôi được sinh ra ở thế giới
+    - tôi đi xe vanpool
+    - tôi muốn đi mua sắm
+    - tôi đi xe buýt để làm việc
+    - tôi đã bầu chọn
+    - tôi dành rất nhiều thời gian trực tuyến
+    - tôi dành rất nhiều thời gian cho điện thoại của tôi
+    - tôi băm nhỏ nó hôm nay
+    - tôi nên học cách làm điều đó
+    - tôi nên tổ chức
+    - tôi nên đi xung quanh nó
+    - tôi nên uống nước
+    - tôi nên dọn rác
+    - tôi nên kiểm tra khu vườn của tôi
+    - tôi có 7 con chó
+    - tôi muốn đi đến phòng tập thể dục
+    - mọi thứ đều có thể
+    - tôi có một máy tính xách tay
+    - tôi đang chạy
+    - tôi đang đi dạo
+    - tôi đang ăn một quả chuối
+    - tôi đang ở cửa hàng tạp hóa
+    - tôi là người chạy nhanh
+    - đi làm
+    - đi chơi với bạn bè
+    - mọi người đều có quyền theo ý kiến ​​riêng của họ
+    - không vấn đề gì với tôi
+    - gần nhưng không có xì gà
+    - tôi đang đọc
+    - mùa bóng chày đã bắt đầu
+    - tôi đang xem một trận bóng chày
+    - trả lời điện thoại
+    - một ngày tuyết rơi khác
+    - một ngày lười biếng khác trên thiên đường
+    - một ngày khác ở thiên đường
+    - mỗi ngày một đô
+    - tôi đang làm việc
+    - tôi đang ở phòng tập thể dục
+    - tôi ở trường
+    - tôi hiện đang đi du lịch
+    - tôi đang ở chỗ làm
+    - có mặt sớm
+    - tôi cũng không có ý kiến ​​mạnh mẽ
+    - tôi chưa bao giờ đến mexico
+    - tôi có 7 con mèo
+    - tôi có 2 con chó
+    - tôi có 2 con mèo
+    - Tôi tốt nghiệp từ cao đẳng
+    - tôi đã cắt tóc mới
+    - Tớ vừa cắt tóc
+    - tôi đi dạo vào buổi tối
+    - tôi xì hơi
+    - tôi lái xe chung
+    - tôi không nói tiếng anh
+    - tôi đang trên máy bay
+    - tôi không có ý kiến
+    - tôi có một tách trà
+    - tôi không tin vào ma
+    - tôi không trả lời điện thoại
+    - tôi có thể đi uống nước
+    - tôi có thể đi một trong hai cách
+    - tôi không thể đợi đến cuối tuần
+    - tôi có thể rap
+    - Tôi có thể vẽ
+    - tôi có thể lái xe
+    - tôi đã mua một chiếc bánh sandwich cho bữa trưa
+    - tôi đã ăn một số con chó nóng
+    - tôi đã ăn sáng
+    - tôi không có nhiều tiền
+    - Hãy để đi biển
+    - miếng bánh
+    - một trong những ngày đó
+    - trên đường của tôi
+    - ngày hôm nay tốt đẹp
+    - giày của tôi màu đỏ
+    - văn phòng của tôi lạnh
+    - Sắp đến sinh nhật của tôi rồi
+    - thời tiết dễ chịu
+    - mong được nghỉ
+    - mong chờ trò chơi
+    - tôi đang xem netflix
+    - nhìn vào rừng, thấy cây
+    - nhìn thấy ai ở cửa
+    - rời đi ngay
+    - tiếp tục
+    - giữ bình tĩnh và tiếp tục
+    - chỉ tham gia một chuyến đi đường
+    - chỉ ngồi đây và trò chuyện
+    - chỉ ngồi xung quanh
+    - chỉ cần chillin trên ghế sofa
+    - vừa cập nhật tin tức
+    - đã đến lúc cho chó ăn
+    - đó là siêu thời gian
+    - trời lại mưa
+    - mong chờ buổi hòa nhạc
+    - có một con sóc bên ngoài cửa sổ của tôi
+    - Chúng ta đã đi đến vườn thú
+    - xem TV
+    - xem một bộ phim
+    - chờ xe buýt
+    - chờ đợi dịch vụ khách hàng
+    - đến giờ tiệc tùng
+    - thời gian để làm giường
+    - thời gian cho thuốc của tôi
+    - tuyên bố này là sai
+    - đây là một nơi hoàn toàn bình thường
+    - đồ uống này lạnh
+    - pizza thật tuyệt
+    - những thức ăn thừa này là tốt
+    - chính trị nhàm chán
+    - có rất nhiều tiếng ồn giao thông
+    - Có những con vịt trên ao
+    - căn phòng ấm áp
+    - trận playoffs đang đến
+    - em bé đang ngủ
+    - thật tuyệt
+    - mặt trời tốt
+    - kẹt xe
+    - vậy nó đi
+    - ngồi bên bến vịnh
+    - nó thật đáng sợ
+    - nến này có mùi thơm
+    - tôi tuyệt vời, tôi biết
+    - Nó không phải là một việc lớn
+    - tôi sẽ cố gắng lập kỷ lục thế giới
+    - Tôi đang đến cửa hàng
+    - Tôi đang đi đến trung tâm thương mại
+    - tôi đang đi đến bác sĩ
+    - Tôi đang đi học
+    - tôi sẽ đi cắt tóc
+    - tôi sẽ đổ đầy đĩa nước
+    - tôi sẽ đi dự tiệc vào cuối tuần này
+    - Tôi đang lái xe
+    - tôi đang uống cà phê
+    - tôi sẽ rửa sạch
+    - Tôi đang nhai kẹo cao su ngay bây giờ
+    - tôi giỏi vẽ
+    - tôi đang ở nhà
+    - tôi đang ở buổi hòa nhạc
+    - tôi chuẩn bị đi làm
+    - tôi chuẩn bị đi đến cửa hàng
+    - tôi chuẩn bị đi đến trung tâm thương mại
+    - tôi chuẩn bị đi khám
+    - tôi chuẩn bị đi học
+    - tôi là một ngôi sao nhạc rock
+    - tôi sẽ đi xung quanh nó
+    - tôi sẽ làm sau
+    - tôi sẽ đi du lịch sớm
+    - tôi ở trung tâm thành phố
+    - Tôi đang trên đường về nhà
+    - thật là một ngày kỳ quặc
+    - hôm nay trời nóng
+    - thật vui khi đi đến sở thú
+    - nó là một ngày dài
+    - tôi đang dắt chó đi dạo
+    - tôi đang sử dụng máy tính xách tay
+    - tôi đang đưa con đến trường
+    - tôi đang đi trong xe
+    - tôi đang đi tàu
+    - tôi khá linh hoạt
+    - tôi đang chuẩn bị cho một chuyến đi
+    - Tôi đang đi làm việc
+    - tôi đang trên đường
+    - đó là sinh nhật của tôi
+    - tôi đang trong kỳ nghỉ
+    - tôi đang bị giữ
+    - tôi sắp đi đến cửa hàng
+    - tôi sắp đi đến trung tâm thương mại
+    - tôi sắp đi bác sĩ
+    - tôi đang xếp hàng điện thoại
+    - tôi đang nôn nao
+    - tôi đang ăn tối
+    - Tôi đi nghỉ

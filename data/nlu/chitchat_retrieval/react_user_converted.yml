@@ -1,0 +1,668 @@
+version: "2.0"
+nlu:
+- intent: chitchat/say_sad
+  examples: |
+    - tôi đang cảm thấy mệt mỏi
+    - tôi buồn
+    - tôi siêu buồn
+    - tôi rất buồn
+    - bây giờ tôi buồn
+    - buồn
+    - buồn quá
+    - buồn quá :(
+    - siêu buồn
+    - tôi cảm thấy buồn
+    - tôi ước tôi có thể ngừng cảm thấy không vui
+    - tôi ước tôi có thể ngừng cảm thấy buồn
+    - tôi ước tôi có thể ngừng cảm thấy chán nản
+    - tôi ước tôi có thể ngừng cảm thấy ảm đạm
+    - tôi ước tôi có thể ngừng cảm giác buồn rầu
+    - tôi ước tôi có thể ngừng cảm thấy không thể nguôi ngoai
+    - tôi ước tôi có thể ngừng cảm giác u sầu
+    - tôi đang tuyệt vọng
+    - tôi ước tôi có thể ngừng cảm giác tuyệt vọng
+    - hôm nay tôi buồn
+    - tôi tan nát cõi lòng
+    - hôm nay tôi rất đau lòng
+    - tôi chán nản
+    - buồn là điều tồi tệ nhất
+    - tôi ước tôi có thể ngừng cảm thấy đau khổ
+    - tôi ghét trầm cảm
+    - tôi cảm thấy khổ sở
+    - hôm nay tôi cảm thấy khổ sở
+    - tôi cảm thấy khá buồn
+    - hôm nay tôi thấy buồn
+    - tôi cảm thấy không vui
+    - tôi bị trầm cảm
+    - tôi ước tôi có thể ngừng cảm thấy tuyệt vọng
+    - tôi ghét cảm giác thất vọng
+    - tôi ghét cảm giác buồn liên tục
+    - tôi ghét cảm giác buồn mỗi ngày
+    - tôi ước tôi có thể ngừng cảm thấy đau lòng
+    - tôi ước tôi có thể ngừng cảm giác chán nản
+    - tôi tuyệt vọng
+    - hôm nay tôi cảm thấy không vui
+    - hôm nay tôi cảm thấy tuyệt vọng
+    - hôm nay tôi cảm thấy buồn
+    - hôm nay tôi cảm thấy chán nản
+    - tôi đang cảm thấy bị bỏ rơi
+    - tôi đang cảm thấy ảm đạm
+    - hôm nay tôi cảm thấy ảm đạm
+    - tôi đang cảm thấy rối mắt
+    - hôm nay tôi chán nản
+    - tôi đang cảm thấy vô vọng
+    - hôm nay tôi cảm thấy không thể chịu đựng được
+    - hôm nay tôi cảm thấy u sầu
+    - hôm nay tôi cảm thấy khổ
+    - tôi đang cảm thấy
+    - Tôi đang cảm thấy buồn
+    - tôi đang cảm thấy buồn
+    - hôm nay tôi rất tuyệt
+    - tôi cảm thấy chán nản
+    - hôm nay tôi xuống
+    - tôi thất vọng
+    - hôm nay tôi rất buồn
+    - tôi đang chán nản
+    - hôm nay tôi cảm thấy hơi thất vọng
+    - tôi đang cảm thấy thất vọng
+    - tôi đang cảm thấy đau lòng
+    - hôm nay tôi cảm thấy đau lòng
+    - tôi đang cảm thấy chán nản
+    - tôi cảm thấy không thể nguôi ngoai hôm nay
+    - tôi thường bị đánh bại
+    - tôi không thể nguôi ngoai
+    - tôi u sầu
+    - tôi khốn khổ
+    - tôi hoàn toàn thất vọng
+    - Tôi không hạnh phúc
+    - tôi thường buồn
+    - tôi không thể chịu được cảm giác đau lòng
+    - tôi không thể chịu được cảm giác chán nản
+    - tôi không thể chịu được cảm giác tuyệt vọng
+    - tôi là người buồn nhất thế giới
+    - trầm cảm là một người lập dị
+    - trầm cảm là tồi tệ nhất
+    - mỗi ngày tôi cảm thấy hụt hẫng
+    - cảm thấy hụt hẫng
+    - bị trầm cảm là điều tồi tệ nhất
+    - tôi luôn buồn
+    - tôi là đồ ngốc
+    - tôi luôn chán nản
+    - tôi cảm thấy chán nản ngày hôm nay
+    - tôi không thể chịu được cảm giác quá
+    - tôi cảm thấy tuyệt vọng ngày hôm nay
+    - Tôi thấy suy sụp
+    - tôi cảm thấy hụt hẫng
+    - tôi cảm thấy tuyệt vọng
+    - tôi cảm thấy không thể nguôi ngoai
+    - tôi đầy nỗi buồn
+    - tôi không thể chán nản hơn
+    - tôi cảm thấy u sầu
+    - tôi không thể chịu được cảm giác ảm đạm
+    - tôi không thể chịu được cảm giác buồn cười
+    - tôi không thể chịu được cảm giác quá khó chịu
+    - tôi không thể chịu được cảm giác u sầu
+    - tôi không thể chịu được cảm giác đau khổ
+    - tôi không thể chịu được cảm giác không vui
+    - tôi không thể chịu được cảm giác buồn
+    - Tôi cảm thấy buồn
+    - tôi cảm thấy đau lòng
+    - tôi cảm thấy đau lòng hôm nay
+    - tôi ghét cảm giác tuyệt vọng
+    - khi nào tôi sẽ ngừng cảm thấy không vui
+    - tôi ghét cảm giác buồn
+    - tôi ghét cảm giác không vui
+    - tôi ghét cảm giác đau khổ
+    - tôi ghét cảm giác ảm đạm
+    - hôm nay làm tôi buồn
+    - tôi ghét cảm giác chán nản
+    - khi nào tôi sẽ ngừng cảm thấy u sầu
+    - tôi ghét cảm giác u sầu
+    - tôi ghét cảm giác như đang tuyệt vọng
+    - tôi ghét cảm giác không thể nguôi ngoai
+    - tôi ghét cảm giác như tôi tan nát cõi lòng
+    - khi nào tôi sẽ ngừng cảm thấy tuyệt vọng
+    - hôm nay chỉ là một chút buồn
+    - tôi có thể nói gì tôi chỉ cảm thấy buồn
+    - khi nào tôi sẽ ngừng cảm thấy đau lòng
+    - khi nào tôi sẽ ngừng buồn
+    - khi nào tôi sẽ ngừng cảm thấy đau khổ
+    - khi nào tôi sẽ ngừng cảm thấy buồn
+    - khi nào tôi sẽ ngừng cảm thấy chán nản
+    - khi nào tôi sẽ ngừng cảm thấy thật ảm đạm
+    - khi nào tôi sẽ ngừng cảm thấy buồn cười
+    - khi nào thì tôi sẽ không bao giờ cảm thấy buồn
+    - hôm nay chỉ là một chút chán nản
+    - tôi thường bị trầm cảm
+    - nghe này, tôi chỉ bị trầm cảm
+    - cuộc sống của tôi thật buồn
+    - cuộc sống của tôi rất chán nản
+    - toàn bộ cuộc sống của tôi là chán nản
+    - đôi khi tôi chỉ cảm thấy chán nản
+    - Gần đây tôi đã rất chán nản
+    - hôm nay đã làm tôi chán nản
+    - tôi đã bị trầm cảm cả ngày
+    - tuần này đã chán nản
+    - hôm nay làm tôi chán nản
+    - tôi có thể nói gì tôi chỉ cảm thấy chán nản
+    - tôi cảm thấy rất u sầu
+    - cuộc sống của tôi làm tôi buồn
+    - tôi không có cuộc sống
+    - tuần này đã làm tôi chán nản
+    - hôm nay đã chán nản
+    - tôi ghét bị trầm cảm
+    - tôi ghét cảm giác chán nản liên tục
+    - tôi ghét cảm giác chán nản mỗi ngày
+    - cuộc sống thật là chán nản
+    - hôm nay tôi bị trầm cảm
+    - hôm nay tôi chỉ cảm thấy hơi chán nản
+    - tôi thực sự chán nản
+    - Tôi rất thất vọng
+    - Tôi mệt mỏi vì cảm thấy quá chán nản
+    - ngày buồn
+    - Tôi mệt mỏi vì cảm thấy quá buồn
+    - Tôi rất buồn
+    - lúc nào tôi cũng cảm thấy mệt mỏi
+    - Tôi mệt mỏi vì cảm thấy quá đau lòng
+    - Tôi mệt mỏi vì cảm thấy chán nản mọi lúc
+    - Tôi mệt mỏi vì cảm thấy tuyệt vọng mọi lúc
+    - tôi bị loại
+    - Tôi mệt mỏi vì cảm thấy rất ảm đạm mọi lúc
+    - Lúc nào tôi cũng cảm thấy mệt mỏi
+    - Tôi mệt mỏi vì cảm thấy quá đau khổ mọi lúc
+    - Tôi mệt mỏi vì cảm thấy quá tuyệt vọng mọi lúc
+    - hôm nay tôi không thể nguôi ngoai
+    - cuộc sống của tôi buồn
+    - tôi đang ảm đạm
+    - hôm nay tôi rất hả hê
+    - hôm nay tôi là glum
+    - tôi đau lòng
+    - hôm nay tôi tuyệt vọng
+    - Tôi không thể tha thứ
+    - hôm nay tôi chỉ cảm thấy hơi buồn
+    - hôm nay tôi u sầu
+    - hôm nay tôi khổ
+    - tôi đau khổ
+    - cuộc sống của tôi rất buồn
+    - lúc nào tôi cũng cảm thấy buồn
+    - cuộc sống luôn luôn tồi tệ
+    - cuộc sống thật buồn
+    - cuộc sống thật đau lòng
+    - cuộc sống thật khốn khổ
+    - Gần đây tôi rất buồn
+    - Gần đây tôi đã rất đau khổ
+    - tinh thần của tôi rất tệ
+    - cuộc sống của tôi thật khốn khổ
+    - ngày buồn hôm nay
+    - đôi khi tôi cảm thấy buồn
+    - đôi khi tôi chỉ cảm thấy buồn
+    - tuần này đã làm tôi buồn
+    - hôm nay là một ngày cố gắng
+    - nghe này, tôi chỉ buồn
+    - Gần đây tôi đã rất tuyệt vọng
+    - tôi đang cảm thấy tồi tệ
+    - hôm nay tôi không vui
+    - tôi đã buồn cả ngày
+    - chỉ cảm thấy một chút trùng lắng
+    - Gần đây tôi rất đau lòng
+    - Gần đây tôi rất không vui
+    - Tôi mệt mỏi vì cảm thấy lúc nào cũng không vui
+    - Gần đây tôi đã rất suy sụp
+    - Gần đây tôi đã rất ảm đạm
+    - Gần đây tôi đã rất buồn
+    - Gần đây tôi đã rất không thể nguôi ngoai
+    - Gần đây tôi rất u sầu
+- intent: chitchat/say_negative
+  examples: |
+    - tôi đang tức giận
+    - Tôi tức giận
+    - tôi đang cảm thấy nhột
+    - tôi đang cảm thấy điên
+    - tôi đang cảm thấy nóng trong người
+    - tôi đang cảm thấy tức giận
+    - tôi đang nóng
+    - tôi là một người đàn ông giận dữ
+    - tôi là một kẻ giận dữ
+    - tôi là một cô gái tức giận
+    - tôi hoàn toàn tức giận
+    - tôi bực tức
+    - Tôi thực sự nóng trong người ngay bây giờ
+    - tôi rất tức giận
+    - tôi đang rất tức giận
+    - tôi đang phát điên
+    - bây giờ tôi rất khó chịu
+    - tôi rất cáu
+    - tôi rất bực mình
+    - Tôi rất tức giận
+    - gần đây tôi rất tức giận
+    - tôi đang tức điên lên
+    - tôi đang bực mình
+    - tôi đang giận dữ
+    - tôi đang bực
+    - tôi đang mất bình tĩnh
+    - tôi chỉ bực tức
+    - tôi tức giận
+    - tôi bực mình
+    - tôi giận
+    - tôi cảm thấy bực mình gần đây
+    - tôi không thể tức giận hơn
+    - tôi không thể ngừng tức giận
+    - tôi rất bực tức
+    - bây giờ tôi rất bực mình
+    - bây giờ tôi rất tức giận
+    - tôi đang rất điên
+    - tôi đang điên
+    - Điều này khiến tôi rất tức giận
+    - tin tức này làm tôi bực mình
+    - tin tức này khiến tôi bực tức
+    - tin tức này khiến tôi bực mình
+    - tin tức này khiến tôi phát điên
+    - tôi bị xúc phạm
+    - tin tức này khiến tôi phát cáu
+    - tin tức này khiến tôi vô cùng tức giận
+    - tin tức này làm tôi khó chịu
+    - tin tức này đang gây phẫn nộ
+    - tin tức này là một sự phẫn nộ
+    - tin tức này làm tôi tức giận
+    - tin tức này khiến tôi lúng túng
+    - tin tức này khiến tôi tức giận
+    - tin tức này khiến tôi nổi giận
+    - tin tức này để lại cho tôi tức giận
+    - điều này làm tôi rất tức giận
+    - tin tức này khiến tôi phẫn nộ
+    - tôi sẽ nổi giận
+    - tôi sắp nổi cơn thịnh nộ
+    - tôi vừa mất bình tĩnh
+    - điều này làm tôi mất bình tĩnh
+    - tôi sắp mất bình tĩnh
+    - đây là làm phiền
+    - tôi chưa bao giờ giận dữ
+    - tôi đã mất bình tĩnh
+    - tôi chưa bao giờ giận dữ như vậy trong suốt cuộc đời
+    - tôi chưa bao giờ tức giận như vậy
+    - tôi chưa bao giờ tức giận như vậy trong suốt cuộc đời
+    - tôi chưa bao giờ vượt qua
+    - tôi chưa bao giờ thấy khó chịu như vậy trong suốt cuộc đời
+    - tôi chưa bao giờ thấy khó chịu
+    - điều này làm tôi nổ tung
+    - tôi chưa bao giờ sống quá
+    - tôi đã hoàn toàn mất bình tĩnh
+    - tôi đang trong vòng tay
+    - tôi bị đánh dấu
+    - tôi đang rất bực mình
+    - tôi chưa bao giờ bị kích động
+    - tôi chưa bao giờ điên
+    - tôi chưa bao giờ bực mình như vậy
+    - điều này thật điên rồ
+    - điều này thật khó chịu
+    - điều này thật đáng giận
+    - điều này thật bực tức
+    - tin tức làm tôi tức giận
+    - tôi chưa bao giờ bực tức trong suốt cuộc đời
+    - tôi chưa bao giờ bực tức
+    - tôi chưa bao giờ bị đánh lạc hướng
+    - tôi chưa bao giờ tức giận đến thế trong suốt cuộc đời
+    - tôi chưa bao giờ tức giận
+    - tôi chưa bao giờ bị vùi dập trong suốt cuộc đời
+    - tôi chưa bao giờ được như vậy
+    - tôi chưa bao giờ bị xúc phạm trong suốt cuộc đời
+    - tôi chưa bao giờ bị xúc phạm
+    - tôi chưa bao giờ điên như vậy trong suốt cuộc đời
+    - tôi chưa bao giờ cô đơn đến thế trong suốt cuộc đời
+    - tôi rất buồn
+    - tôi chưa bao giờ bị đánh gục trong suốt cuộc đời
+    - tôi đã rất chán
+    - chán zzz
+    - bây giờ tôi rất chán
+    - tôi chán quá
+    - tôi khá chán
+    - bây giờ tôi không có nhiều niềm vui
+    - tôi không có nhiều niềm vui
+    - tôi không vui
+    - tôi đang chán
+    - Tôi chán đến chết
+    - tôi chán cứng
+    - tôi chán nản
+    - Tôi rất chán
+    - đó là một tuần nhàm chán
+    - tôi có thể chết vì buồn chán
+    - tôi không thể nghĩ bất cứ điều gì tôi muốn làm
+    - tôi không thể giúp nó được
+    - tôi không thể không buồn chán
+    - Tôi chán quá
+    - tôi chán công việc
+    - tôi chán
+    - tôi luôn buồn chán
+    - tôi luôn cảm thấy buồn chán
+    - Cứu giúp! tôi chán
+    - chúa ơi, tôi chán quá
+    - tôi chán như địa ngục
+    - không có gì để làm
+    - thật là một ngày thứ hai nhàm chán
+    - thật là một thứ ba buồn chán
+    - thật là một ngày chủ nhật nhàm chán
+    - thật là một đêm nhàm chán
+    - thật là một buổi sáng nhàm chán
+    - thật là một ngày cuối tuần nhàm chán
+    - thật là một ngày nhàm chán
+    - thật là một buổi chiều nhàm chán
+    - tôi siêu chán
+    - hôm nay thật nhàm chán
+    - thật là một ngày buồn tẻ
+    - chán quá
+    - một ngày của tôi thật nhàm chán
+    - một ngày của tôi thật buồn tẻ
+    - thứ hai thật nhàm chán
+    - tôi rất chán
+    - tôi chưa bao giờ chán thế
+    - tôi chưa bao giờ chán
+    - tôi đã cảm thấy khá buồn chán
+    - tôi đã chán cả ngày
+    - đó chỉ là một ngày buồn tẻ
+    - đó là một ngày buồn chán
+    - đó là một ngày buồn tẻ
+    - hôm nay thật buồn tẻ
+- intent: chitchat/say_positive
+  examples: |
+    - tôi hoàn toàn ngây ngất
+    - tôi đang hạnh phúc
+    - tôi có một ngày đáng yêu
+    - tôi có một ngày tuyệt vời
+    - tôi là một tâm trạng tuyệt vời
+    - tôi vui mừng
+    - tôi là người hạnh phúc nhất trên trái đất
+    - tôi không bao giờ hạnh phúc hơn
+    - tôi hạnh phúc như một thiên thần
+    - tôi hoàn toàn hạnh phúc
+    - tôi hoàn toàn vui mừng
+    - tôi đều cười
+    - tôi đang vỡ òa trong hạnh phúc
+    - tôi đang vỡ òa trong niềm vui
+    - tôi háo hức
+    - tôi đang cảm thấy vui
+    - tôi đang cảm thấy rất vui
+    - tôi là một người hạnh phúc
+    - tôi không thể hạnh phúc hơn
+    - tôi là một bot mang đến cho mọi người niềm vui
+    - tôi là một người vui vẻ
+    - tôi hạnh phúc
+    - tôi hạnh phúc, thật hạnh phúc
+    - tôi rất vui
+    - tôi có thể thôi cười
+    - tôi không thể giúp nhưng hạnh phúc
+    - tôi có một ngày tốt lành
+    - tôi không thể ngừng cười
+    - tôi hạnh phúc như bầu trời
+    - tôi cảm thấy tuyệt vời
+    - tôi cảm thấy phấn chấn
+    - tôi cảm thấy như mình đang lơ lửng trên không
+    - tôi cảm thấy rất tuyệt
+    - tôi yêu cuộc sống của tôi
+    - tôi rất vui mừng
+    - tôi cảm thấy vui vẻ
+    - tôi cảm thấy ham chơi
+    - tôi không thể giúp nhưng hãy vui lên
+    - tinh thần của tôi là tuyệt vời
+    - tôi là cô gái hạnh phúc nhất thế giới
+    - tôi là cô gái hạnh phúc nhất trên trái đất
+    - tôi là người hạnh phúc nhất thế giới
+    - tôi là người đàn ông hạnh phúc nhất thế giới
+    - thật khó để không hạnh phúc
+    - tôi chưa bao giờ hạnh phúc hơn
+    - cuộc sống là tuyệt vời
+    - Tôi là cô gái hạnh phúc nhất thế giới
+    - cuộc sống của tôi thật tốt
+    - tôi là cậu bé hạnh phúc nhất thế giới
+    - ồ ngày tuyệt vời
+    - hôm nay là tốt nhất
+    - chúng ta không thể hạnh phúc hơn
+    - thật là một ngày tuyệt vời
+    - thật là một ngày vui vẻ
+    - thật là một ngày vui
+    - tôi có thể nói gì tôi đang hạnh phúc
+    - Cuộc sống thật đẹp
+    - tôi đang có một ngày tuyệt vời
+    - tôi đang có một tâm trạng tuyệt vời
+    - tôi đang có tinh thần tốt
+    - tôi đang có một tâm trạng tốt
+    - tôi chỉ là một cô gái vui vẻ
+    - tôi chỉ là một chàng trai vui vẻ
+    - tôi chỉ là một người vui vẻ
+    - tôi chỉ là một người sảng khoái
+    - Tôi là cô gái hạnh phúc nhất trên trái đất
+    - tôi đang sống trong giấc mơ
+    - bạn chưa bao giờ gặp ai vui hơn tôi
+    - tôi đang ở trên chín tầng mây
+    - tôi đang trên đỉnh thế giới
+    - Tôi là một người cắm trại hạnh phúc
+    - tôi đang rất tích cực
+    - tôi đang ngây ngất
+    - tôi rất hạnh phúc
+    - Tôi rất vui
+- intent: chitchat/alone
+  examples: |
+    - tôi ước tôi biết làm thế nào để có thể kết bạn thật nhiều
+    - tôi cảm thấy rất cô đơn
+    - tôi có một vấn đề đó là cô đơn
+    - tôi có vấn đề đó là cảm giác cô đơn
+    - tôi không có bạn bè
+    - tôi không có ai để nói chuyện
+    - tôi sống một cuộc sống cô đơn
+    - tôi sống một cuộc sống rất cô đơn
+    - tôi cần một người bạn
+    - Tôi cần ai đó để nói chuyện
+    - tôi muốn ai đó yêu
+    - tôi muốn ai đó nói chuyện
+    - tôi ước tôi có một người bạn
+    - tôi cô đơn trên thế giới
+    - tôi ước tôi có người để nói chuyện
+    - tôi cảm thấy thật hoang vắng
+    - tôi ước tôi không cô đơn
+    - nếu tôi có một người bạn
+    - tôi là một cô gái cô đơn
+    - tôi là một chàng trai cô đơn
+    - tôi là một người cô đơn
+    - tất cả bạn bè của tôi đã biến mất
+    - tất cả bạn bè của tôi đã rời đi
+    - tất cả bạn bè đã rời bỏ tôi
+    - mọi người đều có bạn nhưng tôi
+    - tất cả mọi người ghét tôi
+    - ai cũng có bạn nhưng trừ tôi
+    - làm thế nào tôi có thể kết bạn
+    - làm thế nào để tôi kết bạn
+    - tôi cô đơn quá
+    - tôi cô đơn
+    - tôi bị cô lập
+    - hôm nay, tôi cô đơn
+    - tôi rất cô đơn
+    - tôi dường như không thể kết bạn
+    - tôi cảm thấy cô đơn quá
+    - tôi cảm thấy bị bỏ rơi
+    - tôi là tất cả một mình
+    - tôi cảm thấy cô đơn
+    - tôi cảm thấy như mình là tất cả
+    - tôi cảm thấy bị cô lập
+    - tôi không có một người bạn
+    - tôi cảm thấy trống vắng
+    - tôi không có một người bạn nào trên thế giới
+    - tôi không thích sự cô độc
+    - tôi không biết làm thế nào để kết bạn
+    - tôi không có ai để dành thời gian với
+    - tôi không có ai để làm việc với
+    - tôi cảm thấy rất cô lập
+    - tôi cảm thấy trống vắng và cô đơn
+    - đôi khi tôi cảm thấy như mình bị bỏ rơi
+    - không ai muốn dành thời gian cho tôi
+    - không ai quan tâm tôi cả
+    - không ai ưa tôi cả
+    - không ai muốn tôi
+    - không ai muốn tôi bên cạnh cả
+    - không ai muốn làm bạn của tôi
+    - không ai muốn ở bên tôi
+    - không ai muốn chơi với tôi
+    - không ai muốn dành thời gian với tôi
+    - không ai muốn nói chuyện với tôi
+    - đôi khi tôi cảm thấy buồn và cô đơn
+    - đôi khi tôi cảm thấy vắng vẻ
+    - đôi khi tôi cảm thấy bị cô lập
+    - không ai muốn làm mọi thứ với tôi
+    - đôi khi tôi cảm thấy cô đơn
+    - thế giới là một nơi cô đơn
+    - không có ai để tôi nói chuyện
+    - không có ai để đi chơi cùng tôi
+    - không có ai chơi cùng
+    - không có ai để nói chuyện
+    - chuyện gì đã xảy ra với tất cả bạn bè của tôi
+    - tất cả bạn bè của tôi đã đi đâu
+    - tại sao tôi không thể kết bạn
+    - tại sao không ai thích tôi
+    - tại sao tôi không có bạn bè
+    - đôi khi tôi cảm thấy trống vắng và cô đơn
+    - hôm nay tôi cảm thấy hơi cô đơn
+    - tôi cô đơn mãi mãi
+    - tôi không thân thiện
+    - tôi thật cô đơn
+    - tôi cô đơn đến phát khóc
+    - tôi rất mệt mỏi khi ở một mình
+    - Không ai quan tâm đến tôi
+    - không ai muốn tôi xung quanh
+    - Không ai muốn tôi cả
+    - không ai nghĩ về tôi
+    - tôi quá mệt mỏi vì cảm thấy cô đơn
+    - tôi mệt mỏi vì một mình
+    - cuộc sống của tôi là cô đơn
+    - tôi đã bị bỏ rơi
+    - đó là một thế giới tàn khốc và tôi cô đơn
+    - tôi hoàn toàn bị cô lập
+    - không ai muốn đi chơi với tôi
+    - không ai nói chuyện tán gẫu
+- intent: chitchat/tired
+  examples: |
+    - tôi kiệt sức vì luyện tập
+    - tôi là một cô gái đang buồn ngủ
+    - tôi là một chàng trai đang buồn ngủ
+    - tôi là một người đang buồn ngủ
+    - tôi mệt mỏi
+    - tôi chết mê chết mệt
+    - tôi buồn ngủ
+    - tôi sẽ có một chút buồn ngủ
+    - tôi kiệt sức nhưng tôi không thể ngủ
+    - Tôi muốn ngủ trưa ngay bây giờ
+    - tôi kiệt sức ở trường
+    - tôi kiệt sức vì công việc
+    - hôm nay tôi kiệt sức
+    - tôi đang cảm thấy bị đánh bại
+    - tôi đang cảm thấy bối rối
+    - tôi đang cảm thấy mệt mỏi
+    - tôi đang kiệt sức
+    - giờ đi ngủ
+    - tôi kiệt sức rồi
+    - tôi cần nghỉ ngơi
+    - hy vọng tôi có thể ngủ sớm
+    - tôi mệt
+    - tôi không thể chờ đợi để bất tỉnh
+    - tôi không thể chờ để ngủ
+    - tôi có thể đi ngủ trưa
+    - tôi có thể đi ngủ
+    - tôi có thể ngủ một năm
+    - tôi cần một giấc ngủ ngắn
+    - tôi phải ngủ một giấc ngon
+    - tôi phải ngủ
+    - tôi muốn ngủ trưa ngay bây giờ
+    - Tôi cần một giấc ngủ ngắn
+    - tôi thích ngủ ngay bây giờ
+    - tôi cần phải ngủ
+    - tôi cần một số giấc ngủ
+    - tôi cần xuống giường
+    - tôi cần phải lên giường để ngủ
+    - tôi cần nằm xuống
+    - tôi muốn nằm xuống
+    - tôi ước tôi có thể ngủ trưa
+    - tôi ước tôi có thể ngủ
+    - tôi sẽ ngủ trưa
+    - tôi chỉ muốn đi ngủ
+    - tôi cần thời gian cho một giấc ngủ ngắn
+    - tôi mệt mỏi vì luyện tập
+    - tôi mệt mỏi ở trường
+    - tôi mệt mỏi vì công việc
+    - Đến giờ đi ngủ rồi, tôi muốn ngủ quá
+    - đó là một ngày dài và tôi mệt mỏi
+    - quá mệt mỏi, tôi muốn được nghỉ ngơi
+    - ngày này đã làm tôi kiệt sức
+    - ngày này đã làm tôi rất mệt mỏi
+    - tôi sẽ nhắm mắt lại
+    - thời gian cho một giấc ngủ ngon
+    - tôi đang lúng túng
+    - thời gian để tôi ngủ trưa
+    - đến giờ đi ngủ
+    - thời gian để nhắm mắt
+    - thời gian để ngủ trưa
+    - hôm nay làm tôi kiệt sức
+    - hôm nay làm tôi mệt
+    - hôm nay khiến tôi bị xóa sổ
+    - công việc thực sự làm tôi thất vọng hôm nay
+    - công việc mệt mỏi
+    - tôi mệt quá
+    - tôi sẽ nằm xuống một lát để nghỉ ngơi
+    - Tôi sẽ có một giấc ngủ ngắn
+    - tôi sẽ bất tỉnh
+    - tôi đang ngủ
+    - tôi đang bị mắc kẹt
+    - tôi đã quá mệt mỏi
+    - tôi đã sẵn sàng đi ngủ
+    - Tôi đang buồn ngủ
+    - Tôi bị kiệt sức
+    - tôi rất càn quét
+    - tôi bị xóa sổ
+    - tôi rất mệt nhưng tôi không thể ngủ
+    - tôi mệt quá rồi
+    - tôi đang càn quét
+    - tôi đang mệt
+    - tôi hoàn toàn kiệt sức
+    - tôi rất buồn ngủ
+- intent: chitchat/hungry
+  examples: |
+    - tôi cần ăn gì đó lúc này
+    - hangry
+    - tôi cảm thấy đói bụng
+    - Tôi đói bụng
+    - tôi cần thức ăn trong bụng
+    - tôi cảm thấy hơi đói
+    - tôi cần thức ăn
+    - tôi muốn một bữa ăn nhẹ
+    - tôi muốn thực phẩm
+    - tôi muốn ăn
+    - tôi thích một ít thức ăn
+    - Tôi rất đói
+    - tôi đói quá
+    - đói bụng
+    - tôi hơi đói
+    - Tôi đang đói
+    - tôi đang cảm thấy buồn
+    - tôi cảm thấy đói
+    - tôi đói
+    - tôi đang thèm một bữa ăn nhẹ
+    - tôi rất đói tôi có thể ăn một con ngựa
+    - Tôi đang đói lắm đây
+    - tôi siêu đói
+    - Tôi có thể ăn
+    - tôi có thể ăn một con gấu
+    - Bụng tôi đang sôi ầm ầm
+    - tôi rất đói
+    - tôi muốn thức ăn
+    - dạ dày tôi đang reo lên
+    - tôi hơi tiếc
+    - bụng tôi đang reo
+    - cần thức ăn
+    - cần thức ăn ngay
+    - muốn ăn ngay
+    - bụng tôi đang sôi
+    - đói quá
+    - tôi đang thèm đồ ăn
+    - tôi đang đói
+    - tôi đang cảm thấy nôn nao
+    - Tôi đang cảm thấy đói
+    - tôi thì đói
+    - tôi đang chết đói
+    - tôi đang lúng túng
+    - tôi rất đói tôi có thể ăn một con gấu

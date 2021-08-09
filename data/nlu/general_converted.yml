@@ -1,0 +1,159 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - chào
+    - hey
+    - hế lô
+    - alo
+    - hey dude
+    - chào bạn
+    - chào bot
+    - hey bot
+    - này bot
+    - hello
+    - hi there
+    - hi
+- intent: affirm
+  examples: |
+    - có
+    - đúng
+    - đúng rồi
+    - đúng rồi đó
+    - chuẩn
+    - tất nhiên rồi
+    - tất nhiên
+    - được bạn
+    - tôi đồng ý
+    - chuẩn xác
+    - chính xác
+    - tôi cũng nghĩ vậy
+    - nghe đúng đó
+    - tiếp tục đi
+    - bạn làm đi
+    - điều đó ổn
+    - ổn rồi
+    - yeah
+    - yes
+    - yup
+    - yep
+    - okay
+    - ok
+    - xác nhận
+    - tôi xác nhận
+    - okay, cảm ơn bot
+    - okay cảm ơn bot nhé
+    - ừ
+    - ừa
+    - ừm
+- intent: deny
+  examples: |
+    - không
+    - cảm ơn, nhưng không
+    - không, cảm ơn bạn
+    - không, cảm ơn
+    - không bao giờ
+    - không nhé
+    - đừng
+    - khoan
+    - không thể
+    - đừng làm
+    - đừng làm thế
+    - không gì hết
+    - chắc chắn là không
+    - không là không
+    - không hứng thú
+    - tất nhiên là không rồi
+    - tôi không muốn nó
+    - tôi không thích nó
+    - tôi không quan tâm
+    - tôi không hứng thú
+    - nope
+    - no
+    - no, thanks
+- intent: cancel
+  examples: |
+    - dừng
+    - dừng lại
+    - quên chuyện đó đi
+    - bỏ qua
+    - bỏ
+    - bỏ đi
+    - hủy
+    - huỷ bỏ
+    - quên nó đi
+    - cancel
+    - stop
+    - mình không muốn nữa
+    - mình không có nhu cầu nữa
+    - không muốn nữa
+    - không cần nữa
+- intent: restart
+  examples: |
+    - start
+    - restart
+    - bắt đầu
+    - bắt đầu lại
+    - khởi động
+    - khởi động lại
+- intent: later
+  examples: |
+    - để tôi chọn sau
+    - để sau
+    - để lần sau
+    - lần sau
+    - lúc nữa
+    - lát nữa
+    - tẹo nữa
+    - lúc khác
+    - để lúc khác
+    - chưa phải bây giờ
+    - không phải bây giờ
+    - không phải lúc này
+    - cảm ơn nhưng không phải bây giờ
+    - nhắc lại mình sau
+    - nhắc lại sau
+    - later
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - tạm biệt nha
+    - cảm ơn, tạm biệt nhé
+    - tôi phải đi rồi
+    - dừng ở đây thôi
+    - mình phải đi rồi
+    - bye
+    - good bye
+    - bye bot
+    - bye bye
+    - bái bai
+    - bai bai
+    - gặp lại bot sau nha
+    - gặp lại bạn sau
+    - hẹn gặp bạn lần sau
+    - kết thúc cuộc trò chuyện
+    - kết thúc tại đây
+- intent: ask_posibility
+  examples: |
+    - bạn có thể làm gì
+    - bot có thể làm gì
+    - bot biết làm gì
+    - bạn biết làm gì
+    - bot biết làm gì nhỉ
+    - bot có thể giúp gì cho tôi
+    - tôi có thể hỏi bot điều gì
+    - tôi có thể nói gì với bot
+    - bot có chức năng gì
+    - bot được xây dựng để làm gì
+- intent: thank
+  examples: |
+    - thank you
+    - thank
+    - thanks
+    - tks
+    - cảm ơn
+    - cám ơn nhé
+    - cảm ơn bạn
+    - cảm ơn vì điều đó
+    - tôi muốn cảm ơn bot

@@ -1,0 +1,48 @@
+version: "2.0"
+nlu:
+- intent: inform
+  examples: |
+    - [Tổng Cục Thống kê](ORG) đã tổ chức họp báo thông bố các chỉ tiêu quan trọng của nền kinh tế
+    - [Việt Nam](LOC) tham gia Hội thảo về Khí hậu và An ninh tại [Đại học Delft](ORG)
+    - [Bộ GTVT](ORG) cũng đang xem xét thống nhất điều chỉnh giảm phí qua trạm BOT trên [QL1](LOC), đoạn qua [Khánh Hòa](LOC)” - ông [Đông](PER) cho hay
+    - [Đà Nẵng](LOC) hoãn nhiều cuộc họp, hội nghị quan trọng
+    - [Quốc lộ 18](LOC), đoạn [TP.Hạ Long](LOC) – [TP.Uông Bí](LOC) vừa được nâng cấp, mở rộng với tổng vốn đầu tư hơn 1.800 tỉ, nhưng đã bị người dân tự ý mở lối sang đường vì “đi vòng, bất tiện”
+    - [Bộ GTVT](ORG) quyết định giảm phí qua trạm BOT [Pháp Vân](LOC) - [Cầu Giẽ](LOC) 25% từ ngày 15/10
+    - [Cao tốc Pháp Vân - Cầu Giẽ](LOC) được [Bộ GTVT](LOC) đầu tư, đưa vào khai thác từ năm 2002 với quy mô là đường cấp I đồng bằng, 4 làn xe
+    - [Thanh tra Chính phủ](ORG) đã kiến nghị phải điều chỉnh mức thu phí ở trạm BOT này để tương ứng với số vốn đầu tư thực tế
+    - [Trạm thu phí Pháp Vân - Cầu Giẽ](LOC) sẽ giảm phí vào 15/10
+    - [Croatia](LOC) đã bác bỏ phán quyết này và kêu gọi đàm phán song phương để giải quyết vấn đề
+    - [Bộ GTVT](ORG) rà soát giảm phí 54 trạm BOT trên cả nước
+    - [Bộ GTVT](ORG) đang rà soát 54 trạm BOT trên cả nước
+    - [UBKTTW](ORG) vào [Đà Nẵng](LOC) công bố kết luận về Bí thư, Chủ tịch
+    - [Bộ Công an](ORG) triển khai phương án đảm bảo an toàn giao thông Hội nghị APEC 2017
+    - [Ủy ban Kiểm tra (UBKT) Trung ương](ORG) kết luận, Bí thư [TP Đà Nẵng](LOC) [Nguyễn Xuân Anh](PER) quyết định một số nhân sự có biểu hiện áp đặt; trực tiếp chỉ đạo nhiều công việc cụ thể của chính quyền; kê khai, sử dụng bằng cấp không đúng quy định, thiếu trung thực, vi phạm tiêu chuẩn cấp ủy viên và Quy định những điều đảng viên không được làm
+    - [Bộ Giao thông Vận tải](ORG) cũng giao [Cục quản lý xây dựng và chất lượng công trình giao thông](ORG), [Ban quản lý dự án 2](ORG) phối hợp chủ đầu tư đánh giá, xác định cụ thể phần thời gian gia hạn do vướng mặt bắng
+    - [UBKT Trung ương](ORG) công bố kết luận sai phạm của bí thư, chủ tịch [Đà Nẵng](LOC)
+    - [Bộ Công an](LOC) yêu cầu các đơn vị phải chủ động tham mưu xây dựng các phương án, kế hoạch, chuẩn bị lực lượng, phương tiện, phối hợp… đảm bảo an ninh, an toàn tuyệt đối cho các đại biểu và các đoàn đại biểu cấp cao của Đảng và Nhà nước đến [Huế](LOC) tham dự hội nghị
+    - [Hà Giang](LOC) cam kết sẽ đẩy mạnh công tác cải cách thủ tục hành chính, môi trường đầu tư, tạo mọi điều kiện thuận lợi cho các các tổ chức Phi Chính phủ nước ngoài triển khai dự án nhanh nhất, hiệu quả nhất
+    - [Tổ chức Y tế thế giới](ORG) đánh giá các bệnh KLN giống như “cơn thủy triều đỏ” của loài người bởi gánh nặng bệnh tật gây ra quá lớn
+    - [Bộ Giao thông](ORG) sẽ tiến hành rà soát các trạm BOT để đánh giá cụ thể về dự án, phương án tài chính và hoạt động thu phí thực tế trên lưu lượng xe; xem đó là căn cứ để đàm phán với các nhà đầu tư và thống nhất mức phí có thể giảm
+    - [Bộ Giao thông](ORG) sẽ giảm mức phí BOT hàng loạt trạm trên cả nước
+    - [Bộ Giao thông Vận tải](ORG) đang rà soát 54 dự án BOT do bộ này quản lý và đàm phán với chủ đầu tư để giảm giá vé qua trạm từ tháng 11-2017
+    - [Nagoya](LOC) là một trong những thị trường gửi khách lớn của [Nhật Bản](LOC) đến [Việt Nam](LOC)
+    - [Bắc Giang](LOC) cần thống nhất phác đồ điều trị các bệnh không lây nhiễm
+    - [Lâm Đồng](LOC) cần quan tâm giải quyết chế độ cho người phơi nhiễm chất độc da cam
+    - [Bộ Y tế](ORG) cần ban hành các phác đồ chuẩn để cơ sở khám chữa bệnh thực hiện, đồng thời làm căn cứ để bảo hiểm xã hội giám định, đánh giá tính hợp lý của chỉ định điều trị bệnh tại các cơ sở; ban hành các quy định nhằm hạn chế chỉ định chẩn đoán và điều trị không cần thiết từ các máy xã hội hóa
+    - [Bộ Tài nguyên và Môi trường](ORG) hiện nay đang rất quan tâm tới các chính sách, công nghệ về môi trường, xử lý chất thải rắn, môi trường nước… Bộ trưởng tin tưởng rằng [Thụy Điển](LOC) – [Việt Nam](LOC) cũng như hai [Bộ Tài nguyên và Môi trường](ORG) hai nước sẽ cùng nhau nghiên cứu những vấn đề chung và có được sự hợp tác lâu dài
+    - [Indonesia](LOC) nằm trên Vành đai lửa [Thái Bình Dương](LOC) nơi tiếp xúc của các mảng kiến tạo vỏ [Trái Đất](LOC) do đó có gần 130 núi lửa vẫn đang hoạt động
+    - [Indonesia](LOC) sơ tán 6.000 người vì núi lửa
+    - [Bộ GT-VT](ORG) sẽ rà soát các trạm thu phí, đánh giá cụ thể về dự án, phương án tài chính và hoạt động thu phí thực tế/lưu lượng xe
+    - [Bộ GT-VT](ORG) đồng ý giảm 25% phí [cao tốc Pháp Vân-Cầu Giẽ](LOC) ​
+    - [Bộ Nông nghiệp và Phát triển nông thôn](ORG) cần chú trọng tăng năng suất lao động ở khu vực nông thôn; quan tâm đến thị trường đầu ra, quản lý các mặt hàng phân bón, thuốc trừ sâu; tích cực tuyên truyền nhằm tạo chuyển biến về nhận thức trong việc đảm bảo vệ sinh an toàn thực phẩm cho người dân
+    - [Bộ Giao thông Vận tải](ORG) (GTVT) đang rà soát 54 dự án BOT để điều chỉnh mức phí theo hướng giảm; rà soát xong trạm BOT nào sẽ giảm ngay phí đường bộ tại dự án đó
+    - [Bộ GTVT](ORG) xem xét giảm phí 54 dự án BOT trên toàn quốc
+    - [Nậm Păm](LOC) và [Ong Ít](LOC) mới là nơi hoang tàn nhất
+    - [Bản Nong](LOC) cách trung tâm [xã Chiềng San](LOC) ([Mường La](LOC)) chừng 4km, ôtô không vào được, chỉ đi bộ hoặc xe máy
+    - [Sơn La](LOC) tăng cường vệ sinh môi trường, phòng chống sốt xuất huyết
+    - [Đường Lê Văn Lương](LOC) ngập dâng cao, kéo dài như sông
+    - [TP HCM](LOC) muốn [Uber](ORG), [Grab](ORG) ngưng kết nối thêm xe mới
+    - [Con Cuông](LOC) tuyên dương 34 trưởng ban công tác Mặt trận
+    - [Cao tốc Pháp Vân- Cầu Giẽ](LOC) giảm 25% phí từ 15/10
+    - [Ủy ban Kiểm tra T.Ư](ORG) công bố kết luận về những sai phạm tại [Đà Nẵng](LOC)
+    - [Trung tâm dự báo khí tượng thủy văn Trung ương](ORG) đưa tin đêm nay và ngày mai cả nước có mưa rào và dông nhiều nơi, cụ thể như sau:

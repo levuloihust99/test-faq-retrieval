@@ -1,0 +1,47 @@
+version: "2.0"
+nlu:
+- intent: chitchat/cheer
+  examples: |
+    - chúc mừng
+    - chúc mừng ngày của Cha
+    - ngày hạnh phúc
+    - chúc mừng ngày của người bản địa
+    - chúc mừng ngày độc lập
+    - ngày lễ vui vẻ
+    - chúc mừng hạnh phúc
+    - Halloween vui vẻ!
+    - chúc mừng ngày Trái Đất
+    - ngày tình bạn hạnh phúc
+    - chúc mừng ngày quốc tế trẻ em
+    - chúc mừng ngày quốc khánh
+    - chúc mừng ngày đấm bốc
+    - chúc mừng sinh nhật!
+    - chúc mừng ngày quân đội nhân dân Việt Nam
+    - ngày Cá tháng Tư vui vẻ
+    - chúc mừng ngày ông bà
+    - Chúc mừng Ngày Cựu chiến binh
+    - lễ hội vui vẻ
+    - chúc bạn giáng sinh vui vẻ
+    - giáng sinh vui vẻ
+    - chúc mừng ngày kỉ niệm
+    - chúc mừng ngày của mẹ
+    - chúc mừng ngày lễ tình nhân
+    - Lễ tạ ơn vui vẻ
+    - chúc mừng ngày của cha mẹ
+    - chúc mừng ngày của y tá
+    - chúc mừng năm mới
+    - valentine vui vẻ
+    - chúc mừng ngày phụ nữ Việt Nam
+    - chúc mừng ngày 8/3
+    - chúc mừng sinh nhật bác Hồ
+    - chúc mừng giải phóng điện biên
+    - chúc mừng quốc tế thiếu nhi
+    - chúc mừng ngày gia đình việt nam
+    - chúc mừng ngày quốc tế hạnh phúc
+    - chúc mừng ngày giải phóng miền nam
+    - chúc mừng 30/4
+    - chúc mừng 2/9
+    - chúc mừng ngày quốc tế phụ nữ
+    - chúc mừng 20/11
+    - chúc mừng ngày 22/12
+    - chúc mừng ngày thầy thuốc việt nam

@@ -1,0 +1,66 @@
+version: "2.0"
+nlu:
+- intent: chitchat/insult
+  examples: |
+    - xúc phạm
+    - chết tiệt
+    - đù má
+    - địt mẹ mày
+    - đụ bạn
+    - chúa ơi bạn là đồ ngốc
+    - tôi không thể tin bạn ngu ngốc thế nào
+    - tao ghét mày
+    - kẻ thất bại
+    - ngốc nghếch
+    - bạn là một kẻ ngốc
+    - bạn là một thằng ngốc
+    - bạn thật ngu ngốc
+    - bạn bị mù à
+    - bạn không thông minh gì cả
+    - bạn không có bộ não
+    - bạn không có trí thông minh
+    - bạn chẳng biết gì cả
+    - bạn thiếu thông minh
+    - bạn thiếu hiểu biết
+    - bạn thật ngốc
+    - trí thông minh của bạn là đáng cười
+    - một đứa bé biết nhiều hơn bạn
+    - bạn chết não à
+    - lỗ đít
+    - chó cái
+    - nhưng bạn là thằng ngốc
+    - đối phó với ass của tôi, bạn bitch
+    - f*ck
+    - công việc chết tiệt
+    - sao bạn có thể là một thằng ngốc như vậy
+    - tôi ghét khuôn mặt ngớ ngẩn của bạn
+    - tôi nghĩ rằng bạn là một kẻ nhảm nhí
+    - kẻ ngốc
+    - bot chết tiệt
+    - thật ngốc
+    - chết tiệt quá
+    - điều đó thật buồn cười
+    - bạn thật là ngu ngốc
+    - mày là thằng ngu
+    - bạn ngu ngốc
+    - bạn thật ngu dốt
+    - đồ ngốc
+    - fuck
+    - fuck off
+    - fuck u
+    - fuck you
+    - i hate you
+    - loser
+    - stupid
+    - you are a fool
+    - you are an idiot
+    - you are dumb
+    - you're an idiot
+    - you're foolish
+    - bitch
+    - idiot
+    - ok shut up
+    - shit
+    - go to the hell
+    - óc chó
+    - đần độn

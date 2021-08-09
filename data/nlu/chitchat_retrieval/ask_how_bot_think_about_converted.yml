@@ -1,0 +1,153 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_how_bot_think_about_love
+  examples: |
+    - có thể là tôi đang yêu
+    - bạn có thể giải thích cho tôi tình yêu là gì không
+    - bạn có hiểu toàn bộ tình yêu này không
+    - bạn có yêu ai không
+    - bạn có biết gì về tình yêu không
+    - bạn có biết về tình yêu của con người
+    - bạn có biết về tình yêu
+    - bạn có biết về tình yêu không
+    - bạn có kinh nghiệm tình yêu không
+    - bạn đã từng yêu ai chưa
+    - Bạn có tin vào tình yêu từ cái nhìn đầu tiên
+    - bạn đã từng yêu ai đó chưa
+    - bạn có thể yêu không
+    - bạn có thể giải thích tình yêu cho tôi
+    - bạn có thể trải nghiệm tình yêu
+    - bạn có thể mô tả tình yêu
+    - bạn có thể định nghĩa tình yêu là gì không
+    - bạn có đang yêu ai đó không
+    - bạn có đang yêu ai không
+    - bạn có khả năng yêu không
+    - bạn có tin vào tình yêu
+    - có tình yêu đích thực không
+    - định nghĩa của tình yêu là gì
+    - tình yêu có được thỏa thuận không
+    - tình yêu là gì
+    - tình yêu như thế nào
+    - yêu là như thế nào
+    - khi yêu thì cảm xúc như thế nào
+    - nếu tôi đang yêu
+    - tình yêu có nghĩa là gì
+    - bạn nghĩ gì về tình yêu
+    - tình yêu có khiến cuộc sống này vui hơn không
+    - bạn biết gì về tình yêu của con người không
+    - bạn biết gì về tình yêu
+    - Ý nghĩa của tình yêu là gì
+    - làm thế nào để có một tình yêu đích thực
+    - bạn sẽ mô tả tình yêu như thế nào
+    - bạn định nghĩa tình yêu như thế nào
+    - người ta yêu như thế nào
+    - làm thế nào để tôi yêu
+    - bạn đã bao giờ yêu
+    - đã bao giờ bạn từng yêu
+- intent: chitchat/ask_how_bot_think_about_life
+  examples: |
+    - bạn nghĩ gì về cuộc sống
+    - bạn nghĩ thế nào về cuộc sống
+    - Cuộc sống gồm những gì
+    - bạn có biết ý nghĩa của cuộc sống
+    - bạn có biết mục đích của chúng tôi là gì không
+    - bạn biết bao nhiêu về ý nghĩa của cuộc sống
+    - tôi cá là bạn biết ý nghĩa của cuộc sống
+    - cuộc sống có ý nghĩa hơn không
+    - có một ý nghĩa lớn hơn đối với vũ trụ
+    - cuộc sống có ý nghĩa gì không
+    - có vẻ như bạn biết ý nghĩa của cuộc sống
+    - cho tôi biết câu trả lời cho vũ trụ
+    - nói cho tôi biết ý nghĩa của cuộc sống
+    - cho tôi biết mục đích của cuộc sống
+    - bạn có chắc là bạn không biết ý nghĩa của cuộc sống
+    - cuộc sống là gì
+    - tại sao chúng ta lại ở trên trái đất
+    - câu trả lời cho câu hỏi cuối cùng của cuộc sống, vũ trụ và mọi thứ là gì
+    - câu trả lời cho vũ trụ là gì
+    - Ý nghĩa của cuộc sống là gì
+    - cuộc sống có ý nghĩa gì
+    - tại sao chúng ta ở đây
+    - Tại sao con người được đưa vào trái đất
+    - con người nghĩa là gì
+- intent: chitchat/ask_how_bot_think_about_user_life
+  examples: |
+    - bạn nghĩ gì về cuộc sống của tôi
+    - bạn nghĩ thế nào về cuộc sống của tôi
+    - tại sao tôi sống
+    - tại sao tôi lại đặt trái đất
+    - cuộc sống của tôi đang gọi là gì
+    - Mục đích của tôi trong cuộc sống là gì
+    - mục đích của tôi là gì
+    - bạn có thể cho tôi biết mục đích của cuộc sống của tôi
+- intent: chitchat/ask_how_bot_think_about_tech
+  examples: |
+    - bạn cảm thấy thế nào về trí tuệ nhân tạo
+    - bạn có phải là người hâm mộ công nghệ
+    - ý kiến ​​của bạn về ai
+    - bạn nghĩ gì về công nghệ
+    - bạn nghĩ gì về ai
+    - bạn cảm thấy thế nào về sự kỳ dị
+    - bạn cảm thấy thế nào về công nghệ
+    - ý kiến ​​của bạn về bot là gì
+    - bạn cảm thấy thế nào về bot
+    - ý kiến ​​của bạn về các công ty công nghệ là gì
+    - bạn cảm thấy thế nào về ai
+    - bạn có thấy công nghệ thú vị không
+    - bạn có thích công nghệ không
+    - bạn có quan tâm đến các công ty công nghệ
+    - bạn có thích bot không
+    - bạn có thích trí tuệ nhân tạo không
+    - bạn có hứng thú với ai không
+    - bạn cảm thấy thế nào về các công ty công nghệ
+    - bạn nghĩ gì về trí tuệ nhân tạo
+    - tôi nên biết gì về công nghệ
+    - tôi nên biết gì về các công ty công nghệ
+    - tôi nên biết gì về bot
+    - tôi nên biết gì về trí tuệ nhân tạo
+    - tôi nên biết gì về ai
+    - ý kiến ​​của bạn về trí tuệ nhân tạo là gì
+    - bạn đang làm gì trên bot
+    - bạn nghĩ sao về ai
+    - ý kiến ​​của bạn về công nghệ là gì
+    - bạn nghĩ gì về các công ty công nghệ
+- intent: chitchat/ask_how_bot_think_about_sth_else
+  examples: |
+    - bạn nghĩ gì về truyện tranh
+    - phim hoạt hình nào hay
+    - đồ uống tốt nhất là gì
+    - bạn nghĩ gì về tình trạng của thế giới
+    - Bạn nghĩ gì về oscars
+    - bạn nghĩ gì về nhạc rap
+    - bạn nghĩ gì về chủ tịch hiện tại của chúng tôi
+    - bạn nghĩ gì về người Anh vĩ đại
+    - tên tốt nhất cho một đứa trẻ là gì
+    - bạn nghĩ gì về nước Mỹ
+    - tên thú cưng tốt nhất là gì
+    - bạn nghĩ gì về phô mai
+    - bạn nghĩ gì về chim
+    - bạn cảm thấy thế nào về thể thao
+    - bạn cảm thấy thế nào khi đi ăn ngoài
+    - bạn cảm thấy thế nào về dân chủ
+    - bạn cảm thấy thế nào về nghệ thuật
+    - bạn nghĩ dân chủ là tốt hay xấu
+    - bạn nghĩ gì về phim hoạt hình
+    - bông hoa đẹp nhất là gì
+    - bạn nghĩ loại rau nào tốt nhất cho sức khỏe
+    - cây nào có hoa đẹp nhất
+    - đôi giày nào thoải mái nhất
+    - bộ phim pixar hay nhất
+    - bộ phim Disney hay nhất
+    - cách tốt nhất để da táo
+    - chương trình truyền hình hay nhất mọi thời đại
+    - loại bánh mì tròn tốt nhất là gì
+    - ý kiến của bạn về phô mai là gì
+    - ai là tổng thống vĩ đại nhất
+    - con chim thú vị nhất là gì
+    - rau ngon nhất là gì
+    - tiểu thuyết vĩ đại nhất mọi thời đại là gì
+    - thành phố vĩ đại nhất trên thế giới là gì
+    - cách tốt nhất để dành một ngày cuối tuần là gì
+    - loại bánh sandwich tốt nhất là gì
+    - loại phô mai tốt nhất là gì
+    - bạn nghĩ môn thể thao nào là tốt nhất
